@@ -10,7 +10,7 @@ If you wish to add a new language to Jotoba, you can follow these steps:
 - Translate every field within the file
 - Done! -> You can now create a pull request
 
-## Updatable languages
+## Known issues
 These languages are currently known to be out-of-date:
 \[None!\]
 <br/><br/>
