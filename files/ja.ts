@@ -1,7 +1,7 @@
 import { LanguageCode } from "@/JotoKit/ts/common";
 import { Translation } from "@/JotoKit/ts/translations";
 
-export const TRANSLATIONS_DE: Translation = {
+export const TRANSLATIONS_JA: Translation = {
     lang_value: LanguageCode.German,
     lang_names: {
         "en-US": "英語",
@@ -86,7 +86,7 @@ export const TRANSLATIONS_DE: Translation = {
             show_numbers: "数字で順序を表示",
         },
         display: {
-            title_theme: "テーマ", 
+            title_theme: "テーマ",
             checkbox_useDarkmode: "ダークモードを使用",
             checkbox_systemTheme: "システムのテーマを使用",
             title_itemsPerPage: "ページあたりの項目数",
@@ -109,7 +109,7 @@ export const TRANSLATIONS_DE: Translation = {
             title_privacy: "プライバシー",
             allow_cookie: "ユーザーデータの取得を許可する",
             explanation:
-            "Jotobaのサービス改善のため、ウェブサイトの利用に関するデータを取得しています。データは完全に匿名化されています。データの取得はいつでも停止できます。",
+                "Jotobaのサービス改善のため、ウェブサイトの利用に関するデータを取得しています。データは完全に匿名化されています。データの取得はいつでも停止できます。",
         },
     },
     pages: {
@@ -204,7 +204,7 @@ export const TRANSLATIONS_DE: Translation = {
                         Tsu: "四段活用 (〜つ)",
                         U: "四段活用 (〜う)",
                         Yu: "四段活用 (〜ゆ)",
-                        Zu: "四段活用 (〜ず)"
+                        Zu: "四段活用 (〜ず)",
                     },
                     Godan: {
                         Bu: "五段活用 (〜ぶ)",
@@ -242,11 +242,11 @@ export const TRANSLATIONS_DE: Translation = {
                 Numeric: "数詞",
                 Adverb: "副詞",
                 AdverbTo: "副詞 (〜と)",
-                Auxiliary: "助動詞",
-                AuxiliaryAdj: "補助形容詞",
-                AuxiliaryVerb: "補助動詞",
+                Auxilary: "助動詞",
+                AuxilaryAdj: "補助形容詞",
+                AuxilaryVerb: "補助動詞",
                 Conjunction: "接続詞",
-                Unclassified: "未分類"
+                Unclassified: "未分類",
             },
             word_class: {
                 "Pre-noun": "前置詞",
@@ -476,8 +476,7 @@ export const TRANSLATIONS_DE: Translation = {
                 "Jotobaは、複数言語に対応したオンライン日本語辞書です。単語・人名。漢字の翻訳に加えて、例文の検索もスムーズに行えます。<br/><br/>" +
                 "当ウェブサイトの最新の取り組みや今後追加予定の機能にご興味をお持ちの場合は、当ウェブサイトの<trello>Trello</trello>をご覧ください。",
             title_jotoKun: "Jotoくん",
-            content_jotoKun:
-                "Jotoくんのデザインは、管理人の友人が作成してくれました。",
+            content_jotoKun: "Jotoくんのデザインは、管理人の友人が作成してくれました。",
             title_wkn: "単語／漢字／名前",
             content_wkn:
                 "このウェブサイトの単語・漢字・および名前のすべてのデータは、<edrdg>EDRDG</edrdg>から取得され、<ccsa>CC BY-SA 3.0</ccsa>ライセンスの下で利用可能です。<br/><br/>" +
@@ -501,7 +500,73 @@ export const TRANSLATIONS_DE: Translation = {
             title_pitch: "トーンアクセント",
             content_pitch: "トーンアクセントのデータは、<unidic>UniDic</unidic>から抽出されています。",
             title_furigana: "ふりがな",
-            content_furigana: "単語や名前のふりがなは、<jmdictfurigana>JmdictFurigana</jmdictfurigana>プロジェクトから提供されています。"
+            content_furigana:
+                "単語や名前のふりがなは、<jmdictfurigana>JmdictFurigana</jmdictfurigana>プロジェクトから提供されています。",
+        },
+        info: {
+            shortcuts: {
+                title: "Shortcuts",
+                description: "These shortcuts can be used anywhere when the input is not in focus.",
+                shortcuts: {
+                    global: {
+                        title: "Global",
+                        wsnk: "Change search category to words | sentences | names | kanji",
+                        slash: "Focus the search bar",
+                    },
+                    words: {
+                        title: "Words",
+                        p: "Play the first audio on the page",
+                    },
+                },
+            },
+            searchbarShortcuts: {
+                title: "Searchbar Shortcuts",
+                description: "These shortcuts can be used anywhere when the input is in focus.",
+                shortcuts: {
+                    arrowsUpDown: "Iterate suggestions up | down",
+                    tab: "Iterate a single suggestion down",
+                    enter: "Search for the current suggestion if selected, search for query otherwise",
+                },
+            },
+            radicalSearch: {
+                title: "Radical Search",
+                description: "Use Kanji, Kana or Romaji to search for radicals.",
+                explanations: {
+                    kanji: {
+                        title: "Kanji",
+                        description: "Results in all radicals used to build given kanji characters",
+                    },
+                    kana: {
+                        title: "Kana",
+                        description: "Searches in words for the given query and returns in result-matching radicals",
+                    },
+                    romaji: {
+                        title: "Romaji",
+                        description:
+                            "Tries to find the given query in radicals names, otherwise does a word search and returns the result's kanji",
+                    },
+                },
+            },
+            hashtags: {
+                title: "Hashtags",
+                description: "Hashtags can be used to filter the search results.",
+                headers: {
+                    hashtag: "Hashtag",
+                    description: "Description",
+                    types: "Supported search types",
+                },
+                explanations: {
+                    word: "Search in the [words] category",
+                    sentence: "Search in the [sentences] category",
+                    name: "Search in the [names] category",
+                    kanji: "Search in the [kanji] category",
+                    jlpt: "Search for the [jlpt] proficiency of the given level",
+                    katakana: "Only search for [katakana] words",
+                    hidden: "Hide translations of results",
+                    default: "Restrict search to the given category",
+                },
+                allTypes: "All types",
+            },
         },
     },
     footer: {
@@ -533,9 +598,9 @@ export const TRANSLATIONS_DE: Translation = {
             highlight: "インターネットに接続し、もう一度お試しください。",
         },
         "404": {
-        code: "404",
-        reason: "ページが見つかりませんでした。",
-        hint: "問題が発生した場合は、GitHubでIssueを作成してください。",
+            code: "404",
+            reason: "ページが見つかりませんでした。",
+            hint: "問題が発生した場合は、GitHubでIssueを作成してください。",
         },
     },
 };

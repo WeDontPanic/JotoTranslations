@@ -501,7 +501,73 @@ export const TRANSLATIONS_DE: Translation = {
             title_pitch: "Tonhöhen-Akzente",
             content_pitch: "Tonhöhen-Akzent-Daten wurden aus dem <unidic>UniDic</unidic> extrahiert.",
             title_furigana: "Furigana",
-            content_furigana: "Furigana für Wörter und Namen werden vom <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt."
+            content_furigana:
+                "Furigana für Wörter und Namen werden vom <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt.",
+        },
+        info: {
+            shortcuts: {
+                title: "Shortcuts",
+                description: "Diese Shortcuts können überall benutzt werden, wenn kein Input-Feld im Fokus liegt.",
+                shortcuts: {
+                    global: {
+                        title: "Global",
+                        wsnk: "Setze die Suchkategorie auf Wörter | Sätze | Namen | Kanji",
+                        slash: "Fokusiere die Suchleiste",
+                    },
+                    words: {
+                        title: "Wörter",
+                        p: "Spiele die erste Audio auf dieser Seite ab",
+                    },
+                },
+            },
+            searchbarShortcuts: {
+                title: "Suchleisten-Shortcuts",
+                description: "Diese Shortcuts können benutzt werden, wenn die Suchleiste im Fokus liegt.",
+                shortcuts: {
+                    arrowsUpDown: "Wechsle einen Vorschlag herauf | runter",
+                    tab: "Welche einen Vorschlag nach unten",
+                    enter: "Suche für den aktuellen Vorschlag, wenn einer ausgewählt wurde. Ansonsten suche nach dem aktuellen Input",
+                },
+            },
+            radicalSearch: {
+                title: "Radikal-Search",
+                description: "Verwende Kanji, Kana oder Romaji, um nach Radikalen zu suchen.",
+                explanations: {
+                    kanji: {
+                        title: "Kanji",
+                        description: "Zeigt alle Radikale, aus denen sich das gegebene Kanji zusammensetzt",
+                    },
+                    kana: {
+                        title: "Kana",
+                        description: "Zeigt alle Radikale, welche in passenden Wörtern enthalten sind",
+                    },
+                    romaji: {
+                        title: "Romaji",
+                        description:
+                            "Versucht Radikale mit dem gegebenen Namen zu finden. Ansonsten wird versucht, passende Wörter zu finden.",
+                    },
+                },
+            },
+            hashtags: {
+                title: "Hashtags",
+                description: "Hashtags können benutzt werden um Suchergebnisse zu filtern.",
+                headers: {
+                    hashtag: "Hashtag",
+                    description: "Beschreibung",
+                    types: "Unterstützte Kategorien",
+                },
+                explanations: {
+                    word: "Suche in der [Wörter]-Kategorie",
+                    sentence: "Suche in der [Sätze]-Kategorie",
+                    name: "Suche in der [Namen]-Kategorie",
+                    kanji: "Suche in der [Kanji]-Kategorie",
+                    jlpt: "Suche nach Ergebnissen mit dem gegebenen [JLPT]-Level",
+                    katakana: "Suche nur nach [Katakana]-Wörtern",
+                    hidden: "Verstecke alle Übersetzungen",
+                    default: "Suche nur nach dieser Kategorie",
+                },
+                allTypes: "Alle Kateogrien",
+            },
         },
     },
     footer: {
