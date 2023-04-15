@@ -7,6 +7,7 @@ If you wish to add a new language to Jotoba, you can follow these steps:
 - Choose a language from the table below
 - Copy en.ts
 - Rename the file to your language code
+- Within the file, rename the constant' name to your language code
 - Translate every field within the file
 - Done! -> You can now create a pull request
 
@@ -19,13 +20,13 @@ If you find any errors, feel free to correct them and create a pull request!
 ## Language codes
 | Language  | File name |
 |-----------|-----------|
-| English   | en-US     |
-| German    | de-DE     |
-| Spanish   | es-ES     |
-| French    | fr-FR     |
-| Dutch     | nl-NL     |
-| Swedish   | sv-SE     |
+| English   | en        |
+| German    | de        |
+| Spanish   | es        |
+| French    | fr        |
+| Dutch     | nl        |
+| Swedish   | sv        |
 | Russian   | ru        |
 | Hungarian | hu        |
-| Slovenian | sl-SI     |
-| Japanese  | ja-JP     |
+| Slovenian | sl        |
+| Japanese  | ja        |
