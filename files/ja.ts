@@ -37,7 +37,7 @@ export const TRANSLATIONS_JA: Translation = {
         categories: {
             words: "単語",
             kanji: "漢字",
-            sentences: "文",
+            sentences: "例文",
             names: "名前",
         },
     },
