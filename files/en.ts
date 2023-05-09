@@ -87,8 +87,9 @@ export const TRANSLATIONS_EN: Translation = {
         },
         display: {
             title_theme: "Color Scheme",
-            checkbox_useDarkmode: "Use darkmode",
-            checkbox_systemTheme: "Use system theme",
+            option_auto: "Automatic",
+            option_dark: "Dark",
+            option_light: "Light",
             title_itemsPerPage: "Page entries",
             words_per_page: "Words per Page",
             kanji_per_page: "Kanji per Page",
@@ -99,8 +100,8 @@ export const TRANSLATIONS_EN: Translation = {
             title_search: "Searchbar",
             checkbox_search_anim: "Enable input examples",
             checkbox_index_keyboard: "Close app along the index-keyboard",
-            checkbox_focusOnLoad: "Focus searchbar on load",
-            checkbox_selectInputOnLoad: "Select input on load",
+            checkbox_focusAfterSearch: "Focus searchbar after search",
+            checkbox_focusInputAfterSearch: "Select input after search",
             title_other: "Other",
             checkbox_use_japanese_fonts: "Use Jotoba's font choice",
             checkbox_enable_furi_copy: "Enable Furigana copy",
@@ -425,6 +426,15 @@ export const TRANSLATIONS_EN: Translation = {
             sex: "Sex",
             origin: "Name origin",
         },
+        sentences: {
+            source_kevin: "Kevin goes to Japan",
+            source_tatoeba: "Tatoeba",
+            three_dot: {
+                sentence_search: "Sentence search",
+                tatoeba_search: "Open in Tatoeba",
+                direct_reference: "Direct reference",
+            },
+        },
         details: {
             common: {
                 share: "Share",
@@ -485,12 +495,12 @@ export const TRANSLATIONS_EN: Translation = {
                 "Additionally, the RADKFILE by Jin Breen is used to link Radicals to Kanji.",
             title_audio: "Audio Files",
             content_audio:
-                "The audio files were provided by two sources.<br/><br/>" +
                 "Audio files with the label 'Tofugu' were provided by <wanikani>Wanikani & Tofugu</wanikani> which can be found <audio>here</audio> and are licensed under <license>CC BY 4.0</license><br/><br/>" +
                 "Audio files with the label 'Kanjialive' were provided by the <kanjialive>Kanji alive project</kanjialive> and have the same license.",
             title_sentences: "Sentences",
             content_sentences:
-                "Sentences are provided by <tatoeba>Tatoeba</tatoeba> under the Creative Commons CC 1.0 and 2.0 licenses.",
+                "Sentences with the tag 'T' are provided by <tatoeba>Tatoeba</tatoeba> and are licensed under the Creative Commons CC 1.0 and 2.0 licenses<br/><br/>" +
+                "Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin goes to Japan</kevin>",
             title_anim: "Kanji Animations",
             content_anim:
                 "The raw data used for kanji animations is publicly provided by <anim>KanjiVG</anim>, a project by Ulrich Apel.",
@@ -551,7 +561,7 @@ export const TRANSLATIONS_EN: Translation = {
             },
             hashtags: {
                 title: "Hashtags",
-                description: "Hashtags can be used to filter the search results.",
+                description: "Hashtags with a direct effect on the website.",
                 headers: {
                     hashtag: "Hashtag",
                     description: "Description",
@@ -562,17 +572,28 @@ export const TRANSLATIONS_EN: Translation = {
                     sentence: "Search in the [sentences] category",
                     name: "Search in the [names] category",
                     kanji: "Search in the [kanji] category",
-                    jlpt: "Search for the [jlpt] proficiency of the given level",
-                    katakana: "Only search for [katakana] words",
                     hidden: "Hide translations of results",
-                    default: "Restrict search to the given category",
                 },
                 allTypes: "All types",
-            }, 
+            },
+            filterHashtags: {
+                title: "Filter hashtags",
+                description: "Filter the results of a search.",
+            },
         },
     },
+    paginator: {
+        first: "First",
+        last: "Last",
+    },
+    notifications: {
+        title: "Notifications",
+        no_notifications: "No new notifications",
+        show: "Show all",
+        close: "Close",
+    },
     footer: {
-        text: `Jotoba wouldn't be able to exist without the help of many open-source data sources.<br/>Check out the <a href="/about">About Page</a> for a list of all contributors in this project.`,
+        text: `Jotoba wouldn't be able to exist without the help of many open-source data sources.<br/>Check out the <a href="/about" aria-label="about us">About Page</a> for a list of all contributors in this project.`,
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
@@ -581,7 +602,6 @@ export const TRANSLATIONS_EN: Translation = {
     toast: {
         direct_reference_copied: "Direct reference copied to clipboard",
         furigana_copy: "Furigana copied to clipboard",
-        furigana_copy_full: "<div><b>Full</b> Furigana copied to clipboard</div>",
         url_copied: "URL copied to clipboard",
     },
     message_pages: {
@@ -603,6 +623,12 @@ export const TRANSLATIONS_EN: Translation = {
             code: "404",
             reason: "The page was not found",
             hint: "If you believe this is an error, create an issue on our GitHub page",
+        },
+        jotoba: {
+            header: "Gotcha!",
+            highlight: "We knew you'd be curious about our name!",
+            message:
+                '<jotoba>Jotoba</jotoba> is not a real word. It is derived from <kotoba /> where the "K" was replaced by a "J" which stands for "Japanese".',
         },
     },
 };

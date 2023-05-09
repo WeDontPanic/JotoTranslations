@@ -87,8 +87,9 @@ export const TRANSLATIONS_JA: Translation = {
         },
         display: {
             title_theme: "テーマ",
-            checkbox_useDarkmode: "ダークモードを使用",
-            checkbox_systemTheme: "システムのテーマを使用",
+            option_auto: "Automatic",
+            option_dark: "Dark",
+            option_light: "Light",
             title_itemsPerPage: "ページあたりの項目数",
             words_per_page: "ページあたりの単語数",
             kanji_per_page: "ページあたりの漢字数",
@@ -99,8 +100,8 @@ export const TRANSLATIONS_JA: Translation = {
             title_search: "検索バー",
             checkbox_search_anim: "入力例を表示",
             checkbox_index_keyboard: "キーボードを閉じてアプリを終了",
-            checkbox_focusOnLoad: "検索後も検索バーにカーソルを残す",
-            checkbox_selectInputOnLoad: "検索後に入力全体を選択",
+            checkbox_focusAfterSearch: "検索後も検索バーにカーソルを残す",
+            checkbox_focusInputAfterSearch: "検索後に入力全体を選択",
             title_other: "その他",
             checkbox_use_japanese_fonts: "選択した日本語フォントを使用",
             checkbox_enable_furi_copy: "ふりがなコピーを有効にする",
@@ -425,6 +426,15 @@ export const TRANSLATIONS_JA: Translation = {
             sex: "性別",
             origin: "姓名",
         },
+        sentences: {
+            source_kevin: "Kevin goes to Japan",
+            source_tatoeba: "Tatoeba",
+            three_dot: {
+                sentence_search: "文を検索",
+                tatoeba_search: "Open in Tatoeba",
+                direct_reference: "詳細を見る",
+            },
+        },
         details: {
             common: {
                 share: "共有する",
@@ -488,7 +498,8 @@ export const TRANSLATIONS_JA: Translation = {
                 "「kanjialive」というラベルの付いたオーディオファイルは、<kanjialive>Kanji alive</kanjialive>から提供されています。",
             title_sentences: "例文",
             content_sentences:
-                "例文は、<tatoeba>Tatoeba</tatoeba>から提供され、クリエイティブ・コモンズCC 1.0＆2.0のライセンスの下で利用可能です。",
+                "Sentences with the tag 'T' are provided by <tatoeba>Tatoeba</tatoeba> and are licensed under the Creative Commons CC 1.0 and 2.0 licenses<br/><br/>" +
+                "Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin goes to Japan</kevin>",
             title_anim: "漢字アニメーション",
             content_anim:
                 "漢字アニメーションの基礎となるデータは、Ulrich Apel氏のプロジェクト<anim>KanjiVG</anim>で公開されています。",
@@ -549,7 +560,7 @@ export const TRANSLATIONS_JA: Translation = {
             },
             hashtags: {
                 title: "Hashtags",
-                description: "Hashtags can be used to filter the search results.",
+                description: "Hashtags with a direct effect on the website.",
                 headers: {
                     hashtag: "Hashtag",
                     description: "Description",
@@ -560,17 +571,28 @@ export const TRANSLATIONS_JA: Translation = {
                     sentence: "Search in the [sentences] category",
                     name: "Search in the [names] category",
                     kanji: "Search in the [kanji] category",
-                    jlpt: "Search for the [jlpt] proficiency of the given level",
-                    katakana: "Only search for [katakana] words",
                     hidden: "Hide translations of results",
-                    default: "Restrict search to the given category",
                 },
                 allTypes: "All types",
             },
+            filterHashtags: {
+                title: "Filter hashtags",
+                description: "Filter the results of a search.",
+            },
         },
     },
+    paginator: {
+        first: "First",
+        last: "Last",
+    },
+    notifications: {
+        title: "Notifications",
+        no_notifications: "No new notifications",
+        show: "Show all",
+        close: "Close",
+    },
     footer: {
-        text: 'Jotobaは多くのオープンソースの支援なしでは存在できません。<br/>このプロジェクトに貢献してくださったすべての方々のリストは、<a href="/about">「Jotobaについて」</a>のページに掲載しています。',
+        text: 'Jotobaは多くのオープンソースの支援なしでは存在できません。<br/>このプロジェクトに貢献してくださったすべての方々のリストは、<a href="/about" aria-label="about us">「Jotobaについて」</a>のページに掲載しています。',
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
@@ -579,7 +601,6 @@ export const TRANSLATIONS_JA: Translation = {
     toast: {
         direct_reference_copied: "ダイレクトリンクがコピーされました",
         furigana_copy: "ふりがながコピーされました",
-        furigana_copy_full: "<div><b>全文の</b>ふりがながコピーされました</div>",
         url_copied: "リンクがコピーされました",
     },
     message_pages: {
@@ -601,6 +622,12 @@ export const TRANSLATIONS_JA: Translation = {
             code: "404",
             reason: "ページが見つかりませんでした。",
             hint: "問題が発生した場合は、GitHubでIssueを作成してください。",
+        },
+        jotoba: {
+            header: "Gotcha!",
+            highlight: "We knew you'd be curious about our name!",
+            message:
+                '<jotoba>Jotoba</jotoba> is not a real word. It is derived from <kotoba /> where the "K" was replaced by a "J" which stands for "Japanese".',
         },
     },
 };

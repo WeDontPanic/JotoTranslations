@@ -87,8 +87,9 @@ export const TRANSLATIONS_DE: Translation = {
         },
         display: {
             title_theme: "Farbschema",
-            checkbox_useDarkmode: "Darkmode aktivieren",
-            checkbox_systemTheme: "System-Farbmodus verwenden",
+            option_auto: "Automatisch",
+            option_dark: "Dunkel",
+            option_light: "Hell",
             title_itemsPerPage: "Seiteneinträge",
             words_per_page: "Wörter pro Seite",
             kanji_per_page: "Kanji pro Seite",
@@ -99,8 +100,8 @@ export const TRANSLATIONS_DE: Translation = {
             title_search: "Suchleiste",
             checkbox_search_anim: "Zeige Inputbeispiele",
             checkbox_index_keyboard: "Beende die App beim schließen des Index-Keyboards",
-            checkbox_focusOnLoad: "Fokussiere Suchleiste beim Laden",
-            checkbox_selectInputOnLoad: "Markiere Input beim Laden",
+            checkbox_focusAfterSearch: "Fokussiere Suchleiste nach einer Suche",
+            checkbox_focusInputAfterSearch: "Markiere Input nach einer Suche",
             title_other: "Sonstiges",
             checkbox_use_japanese_fonts: "Verwende ausgewählte japanische Schriftarten",
             checkbox_enable_furi_copy: "Aktiviere Furigana-Copy",
@@ -425,6 +426,15 @@ export const TRANSLATIONS_DE: Translation = {
             sex: "Geschlecht",
             origin: "Herkunft",
         },
+        sentences: {
+            source_kevin: "Kevin goes to Japan",
+            source_tatoeba: "Tatoeba",
+            three_dot: {
+                sentence_search: "Satz-Suche",
+                tatoeba_search: "Tatoeba-Suche",
+                direct_reference: "Detailansicht",
+            },
+        },
         details: {
             common: {
                 share: "Teilen",
@@ -489,7 +499,8 @@ export const TRANSLATIONS_DE: Translation = {
                 "Die Audio Dateien mit dem Label 'kanjialive' werden vom <kanjialive>Kanji alive Projekt</kanjialive> bereitgestellt.",
             title_sentences: "Sätze",
             content_sentences:
-                "Beispielsätze wurden von <tatoeba>Tatoeba</tatoeba> bereigestellt und stehen unter den Lizenzen Creative Commons CC 1.0 & 2.0.",
+                "Sätze mit dem Tag 'T' wurden von <tatoeba>Tatoeba</tatoeba> bereigestellt und stehen unter den Lizenzen Creative Commons CC 1.0 & 2.0.<br/><br/>" +
+                "Sätze mit dem Tag 'K' wurden direkt vom Autor von <kevin>Kevin goes to Japan</kevin> bereitgestellt.",
             title_anim: "Kanji Animationen",
             content_anim:
                 "Die zugrunde liegenden Daten für Kanji Animationen wurden von <anim>KanjiVG</anim> veröffentlicht - Einem Projekt von Ulrich Apel.",
@@ -550,7 +561,7 @@ export const TRANSLATIONS_DE: Translation = {
             },
             hashtags: {
                 title: "Hashtags",
-                description: "Hashtags können benutzt werden um Suchergebnisse zu filtern.",
+                description: "Diese Hashtags haben einen direkten Einfluss auf die Webseite.",
                 headers: {
                     hashtag: "Hashtag",
                     description: "Beschreibung",
@@ -561,17 +572,28 @@ export const TRANSLATIONS_DE: Translation = {
                     sentence: "Suche in der [Sätze]-Kategorie",
                     name: "Suche in der [Namen]-Kategorie",
                     kanji: "Suche in der [Kanji]-Kategorie",
-                    jlpt: "Suche nach Ergebnissen mit dem gegebenen [JLPT]-Level",
-                    katakana: "Suche nur nach [Katakana]-Wörtern",
                     hidden: "Verstecke alle Übersetzungen",
-                    default: "Suche nur nach dieser Kategorie",
                 },
                 allTypes: "Alle Kateogrien",
             },
+            filterHashtags: {
+                title: "Filter-Hashtags",
+                description: "Diese Hashtags filtern die Ergebnisse.",
+            },
         },
     },
+    paginator: {
+        first: "Anfang",
+        last: "Ende",
+    },
+    notifications: {
+        title: "Informationen",
+        no_notifications: "Keine neuen Benachrichtigungen",
+        show: "Mehr Infos",
+        close: "Schließen",
+    },
     footer: {
-        text: 'Jotoba würde ohne die Hilfe von vielen Open-Source Quellen nicht existieren.<br/>Besuche unsere <a href="/about">"Über Uns" - Seite</a> für eine Liste aller Mitwirkenden an diesem Projekt.',
+        text: 'Jotoba würde ohne die Hilfe von vielen Open-Source Quellen nicht existieren.<br/>Besuche unsere <a href="/about" aria-label="about us">"Über Uns" - Seite</a> für eine Liste aller Mitwirkenden an diesem Projekt.',
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
@@ -580,7 +602,6 @@ export const TRANSLATIONS_DE: Translation = {
     toast: {
         direct_reference_copied: "Direkter Link in die Zwischenablage kopiert",
         furigana_copy: "Furigana kopiert",
-        furigana_copy_full: "<div>Furigana <b>vollständig</b> kopiert</div>",
         url_copied: "Link kopiert",
     },
     message_pages: {
@@ -602,6 +623,12 @@ export const TRANSLATIONS_DE: Translation = {
             code: "404",
             reason: "Die Seite wurde nicht gefunden.",
             hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+        },
+        jotoba: {
+            header: "Gotcha!",
+            highlight: "We knew you'd be curious about our name!",
+            message:
+                '<jotoba>Jotoba</jotoba> is not a real word. It is derived from <kotoba /> where the "K" was replaced by a "J" which stands for "Japanese".',
         },
     },
 };
