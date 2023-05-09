@@ -7,7 +7,7 @@ If you wish to add a new language to Jotoba, you can follow these steps:
 - Choose a language from the table below
 - Copy en.ts
 - Rename the file to your language code
-- Within the file, rename the constant' name to your language code
+- Within the file, rename the constant's name to your language code
 - Translate every field within the file
 - Done! -> You can now create a pull request
 
