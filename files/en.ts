@@ -427,7 +427,7 @@ export const TRANSLATIONS_EN: Translation = {
             origin: "Name origin",
         },
         sentences: {
-            source_kevin: "Kevin goes to Japan",
+            source_kevin: "Kevin Goes to Japan",
             source_tatoeba: "Tatoeba",
             three_dot: {
                 sentence_search: "Sentence search",
@@ -500,7 +500,7 @@ export const TRANSLATIONS_EN: Translation = {
             title_sentences: "Sentences",
             content_sentences:
                 "Sentences with the tag 'T' are provided by <tatoeba>Tatoeba</tatoeba> and are licensed under the Creative Commons CC 1.0 and 2.0 licenses<br/><br/>" +
-                "Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin goes to Japan</kevin>",
+                "Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>",
             title_anim: "Kanji Animations",
             content_anim:
                 "The raw data used for kanji animations is publicly provided by <anim>KanjiVG</anim>, a project by Ulrich Apel.",

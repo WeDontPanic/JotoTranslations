@@ -427,7 +427,7 @@ export const TRANSLATIONS_DE: Translation = {
             origin: "Herkunft",
         },
         sentences: {
-            source_kevin: "Kevin goes to Japan",
+            source_kevin: "Kevin Goes to Japan",
             source_tatoeba: "Tatoeba",
             three_dot: {
                 sentence_search: "Satz-Suche",
@@ -500,7 +500,7 @@ export const TRANSLATIONS_DE: Translation = {
             title_sentences: "Sätze",
             content_sentences:
                 "Sätze mit dem Tag 'T' wurden von <tatoeba>Tatoeba</tatoeba> bereigestellt und stehen unter den Lizenzen Creative Commons CC 1.0 & 2.0.<br/><br/>" +
-                "Sätze mit dem Tag 'K' wurden direkt vom Autor von <kevin>Kevin goes to Japan</kevin> bereitgestellt.",
+                "Sätze mit dem Tag 'K' wurden direkt vom Autor von <kevin>Kevin Goes to Japan</kevin> bereitgestellt.",
             title_anim: "Kanji Animationen",
             content_anim:
                 "Die zugrunde liegenden Daten für Kanji Animationen wurden von <anim>KanjiVG</anim> veröffentlicht - Einem Projekt von Ulrich Apel.",
