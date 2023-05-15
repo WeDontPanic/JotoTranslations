@@ -147,6 +147,7 @@ export const TRANSLATIONS_DE: Translation = {
             inflections: "{{query}} könnte eine Flexion von {{word}} sein. Mögliche Formen:",
             sentence_show: "Zeige langen Beispielsatz",
             sentence_hide: "Verstecke Beispielsatz",
+            garaigo: "Wasei, {{language}} -> {{word}}",
             pitches: "Tonhöhenakzente",
             other_forms: "Andere Formen",
             three_dot: {

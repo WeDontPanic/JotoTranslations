@@ -147,6 +147,7 @@ export const TRANSLATIONS_JA: Translation = {
             inflections: "{{query}}は{{word}}の活用形の可能性があります。候補としては以下のものがあります。",
             sentence_show: "長い例文を表示",
             sentence_hide: "例文をたたむ",
+            garaigo: "Wasei, {{language}} -> {{word}}",
             pitches: "ピッチアクセント",
             other_forms: "他の書き方・読み方",
             three_dot: {

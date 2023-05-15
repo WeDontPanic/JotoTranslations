@@ -147,6 +147,7 @@ export const TRANSLATIONS_EN: Translation = {
             inflections: "{{query}} could be an inflection of <word>{{word}}</word> with these forms:",
             sentence_show: "Show long example sentence",
             sentence_hide: "Hide example sentence",
+            garaigo: "Wasei, {{language}} -> {{word}}",
             pitches: "Pitches",
             other_forms: "Other forms",
             three_dot: {
