@@ -615,9 +615,25 @@ export const TRANSLATIONS_JA: Translation = {
             message: "接続が切断されました。",
             highlight: "インターネットに接続し、もう一度お試しください。",
         },
+        "303": {
+            reason: "See Other",
+            hint: "If you believe this is an error, create an issue on our GitHub page",
+        },
+        "400": {
+            reason: "Bad Request",
+            hint: "If you believe this is an error, create an issue on our GitHub page",
+        },
+        "401": {
+            reason: "Unauthorized",
+            hint: "If you believe this is an error, create an issue on our GitHub page",
+        },
         "404": {
             reason: "ページが見つかりませんでした。",
             hint: "問題が発生した場合は、GitHubでIssueを作成してください。",
+        },
+        "408": {
+            reason: "Request Timeout",
+            hint: "If you believe this is an error, create an issue on our GitHub page",
         },
         unknownCode: {
             reason: "An error occurred",

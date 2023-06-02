@@ -616,8 +616,24 @@ export const TRANSLATIONS_EN: Translation = {
             message: "Disconnected",
             highlight: "Internet connection has been lost. <br/> Connect and try again!",
         },
+        "303": {
+            reason: "See Other",
+            hint: "If you believe this is an error, create an issue on our GitHub page",
+        },
+        "400": {
+            reason: "Bad Request",
+            hint: "If you believe this is an error, create an issue on our GitHub page",
+        },
+        "401": {
+            reason: "Unauthorized",
+            hint: "If you believe this is an error, create an issue on our GitHub page",
+        },
         "404": {
             reason: "The page was not found",
+            hint: "If you believe this is an error, create an issue on our GitHub page",
+        },
+        "408": {
+            reason: "Request Timeout",
             hint: "If you believe this is an error, create an issue on our GitHub page",
         },
         unknownCode: {

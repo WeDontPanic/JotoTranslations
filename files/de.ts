@@ -619,13 +619,29 @@ export const TRANSLATIONS_DE: Translation = {
             message: "Verbindung getrennt",
             highlight: "Verbinde dich mit dem Internet und versuche es erneut.",
         },
+        "303": {
+            reason: "See Other",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+        },
+        "400": {
+            reason: "Bad Request",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+        },
+        "401": {
+            reason: "Nicht Autorisiert",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+        },
         "404": {
             reason: "Die Seite wurde nicht gefunden.",
             hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
         },
+        "408": {
+            reason: "Request Timeout",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+        },
         unknownCode: {
-            reason: "An error occurred",
-            hint: "If the error persists, create an issue on our GitHub page",
+            reason: "Ein Fehler ist aufgetreten",
+            hint: "Sollte dieser bestehen bleiben, erstelle ein Issue auf unserem GitHub",
         },
         jotoba: {
             header: "Gotcha!",
