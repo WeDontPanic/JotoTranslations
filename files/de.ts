@@ -609,7 +609,6 @@ export const TRANSLATIONS_DE: Translation = {
         default_error: {
             message: "Joto scheint gerade schwer am Arbeiten zu sein.",
             highlight: "Versuche es später nochmal!",
-            retry: "Versuch #{{count}}",
         },
         no_result: {
             message: "Deine Suche hat leider keine Ergebnisse ergeben.",
@@ -621,9 +620,12 @@ export const TRANSLATIONS_DE: Translation = {
             highlight: "Verbinde dich mit dem Internet und versuche es erneut.",
         },
         "404": {
-            code: "404",
             reason: "Die Seite wurde nicht gefunden.",
             hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+        },
+        unknownCode: {
+            reason: "An error occurred",
+            hint: "If the error persists, create an issue on our GitHub page",
         },
         jotoba: {
             header: "Gotcha!",

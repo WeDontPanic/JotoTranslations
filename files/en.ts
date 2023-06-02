@@ -487,8 +487,7 @@ export const TRANSLATIONS_EN: Translation = {
                 "Jotoba is a multilingual Japanese dictionary. It is easy to find translations for words or kanji, see example sentences and the way names can be written. <br/><br/>" +
                 "Check out our <trello>Trello Board</trello> if you are interested in upcoming features and what we are currently working on!",
             title_jotoKun: "Joto-kun",
-            content_jotoKun:
-                "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
+            content_jotoKun: "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
             title_wkn: "Words & Kanji & Names",
             content_wkn:
                 "Words, Kanji and Names available on this site are publicly provided and maintained by <edrdg>EDRDG</edrdg> " +
@@ -503,8 +502,7 @@ export const TRANSLATIONS_EN: Translation = {
                 "Sentences with the tag 'T' are provided by <tatoeba>Tatoeba</tatoeba> and are licensed under the Creative Commons CC 1.0 and 2.0 licenses<br/><br/>" +
                 "Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>",
             title_anim: "Kanji Animations",
-            content_anim:
-                "The raw data used for kanji animations is publicly provided by <anim>KanjiVG</anim>, a project by Ulrich Apel.",
+            content_anim: "The raw data used for kanji animations is publicly provided by <anim>KanjiVG</anim>, a project by Ulrich Apel.",
             title_jlpt: "JLPT Data",
             content_jlpt: "Data about <jlpt>JLPT proficiencies</jlpt> are by provided by Jonathan Waller.",
             title_token: "Word tokenization",
@@ -513,8 +511,7 @@ export const TRANSLATIONS_EN: Translation = {
             title_pitch: "Pitch Accents",
             content_pitch: "Data about Pitch Accents are extracted from <unidic>UniDic</unidic>",
             title_furigana: "Furigana",
-            content_furigana:
-                "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project.",
+            content_furigana: "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project.",
         },
         info: {
             shortcuts: {
@@ -609,7 +606,6 @@ export const TRANSLATIONS_EN: Translation = {
         default_error: {
             message: "It looks like Joto is hard at work right now.",
             highlight: "Please try again later!",
-            retry: "Retry #{{count}}",
         },
         no_result: {
             message: "We couldn't find what you were looking for.",
@@ -621,9 +617,12 @@ export const TRANSLATIONS_EN: Translation = {
             highlight: "Internet connection has been lost. <br/> Connect and try again!",
         },
         "404": {
-            code: "404",
             reason: "The page was not found",
             hint: "If you believe this is an error, create an issue on our GitHub page",
+        },
+        unknownCode: {
+            reason: "An error occurred",
+            hint: "If the error persists, create an issue on our GitHub page",
         },
         jotoba: {
             header: "Gotcha!",

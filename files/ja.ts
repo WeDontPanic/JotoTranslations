@@ -478,8 +478,7 @@ export const TRANSLATIONS_JA: Translation = {
         },
         bookmarks: {
             undo: "ブックマークに戻す",
-            no_content:
-                "<b>まだブックマークがありません。</b><br/><br/>単語を検索してクリックし、上部左隅のアイコンから追加できます。",
+            no_content: "<b>まだブックマークがありません。</b><br/><br/>単語を検索してクリックし、上部左隅のアイコンから追加できます。",
         },
         about: {
             title_about: "Jotobaについて",
@@ -502,8 +501,7 @@ export const TRANSLATIONS_JA: Translation = {
                 "Sentences with the tag 'T' are provided by <tatoeba>Tatoeba</tatoeba> and are licensed under the Creative Commons CC 1.0 and 2.0 licenses<br/><br/>" +
                 "Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>",
             title_anim: "漢字アニメーション",
-            content_anim:
-                "漢字アニメーションの基礎となるデータは、Ulrich Apel氏のプロジェクト<anim>KanjiVG</anim>で公開されています。",
+            content_anim: "漢字アニメーションの基礎となるデータは、Ulrich Apel氏のプロジェクト<anim>KanjiVG</anim>で公開されています。",
             title_jlpt: "日本語能力試験情報",
             content_jlpt: "日本語能力試験の情報は、Jonathan Waller氏によって提供されています。",
             title_token: "単語トークン化",
@@ -512,8 +510,7 @@ export const TRANSLATIONS_JA: Translation = {
             title_pitch: "トーンアクセント",
             content_pitch: "トーンアクセントのデータは、<unidic>UniDic</unidic>から抽出されています。",
             title_furigana: "ふりがな",
-            content_furigana:
-                "単語や名前のふりがなは、<jmdictfurigana>JmdictFurigana</jmdictfurigana>プロジェクトから提供されています。",
+            content_furigana: "単語や名前のふりがなは、<jmdictfurigana>JmdictFurigana</jmdictfurigana>プロジェクトから提供されています。",
         },
         info: {
             shortcuts: {
@@ -608,7 +605,6 @@ export const TRANSLATIONS_JA: Translation = {
         default_error: {
             message: "Jotoくんは現在頑張っています。",
             highlight: "しばらくしてからもう一度お試しください。",
-            retry: "試行#{{count}}回目",
         },
         no_result: {
             message: "検索に一致する結果がありませんでした。",
@@ -620,9 +616,12 @@ export const TRANSLATIONS_JA: Translation = {
             highlight: "インターネットに接続し、もう一度お試しください。",
         },
         "404": {
-            code: "404",
             reason: "ページが見つかりませんでした。",
             hint: "問題が発生した場合は、GitHubでIssueを作成してください。",
+        },
+        unknownCode: {
+            reason: "An error occurred",
+            hint: "If the error persists, create an issue on our GitHub page",
         },
         jotoba: {
             header: "Gotcha!",
