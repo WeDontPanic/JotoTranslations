@@ -79,6 +79,7 @@ export const TRANSLATIONS_EN: Translation = {
             checkbox_showExampleSentences: "Show example sentences",
             title_sentences: "Sentences",
             checkbox_showFuri: "Show furigana",
+            checkbox_hideTranslation: "Hide translation",
             title_kanji: "Kanji Page",
             show_other_langs: "Show other languages",
             show_kanji: "Show drawn Kanji on load",
@@ -431,6 +432,8 @@ export const TRANSLATIONS_EN: Translation = {
         sentences: {
             source_kevin: "Kevin Goes to Japan",
             source_tatoeba: "Tatoeba",
+            sentence_show: "[Show]",
+            sentence_hide: "[Hide]",
             three_dot: {
                 sentence_search: "Sentence search",
                 tatoeba_search: "Open in Tatoeba",
@@ -600,7 +603,8 @@ export const TRANSLATIONS_EN: Translation = {
     },
     toast: {
         direct_reference_copied: "Direct reference copied to clipboard",
-        furigana_copy: "Furigana copied to clipboard",
+        furigana_copied: "Furigana copied to clipboard",
+        audio_copied: "Audio copied to clipboard",
         url_copied: "URL copied to clipboard",
     },
     message_pages: {
