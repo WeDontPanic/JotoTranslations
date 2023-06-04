@@ -261,6 +261,7 @@ export const TRANSLATIONS_JA: Translation = {
                 Interjection: "間投詞",
                 Symbol: "記号",
                 Conjugation: "活用形",
+                Conjunction: "Conjunction",
                 Suffix: "接尾辞",
                 Prefix: "接頭辞",
                 Space: "スペース",

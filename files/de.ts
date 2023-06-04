@@ -261,6 +261,7 @@ export const TRANSLATIONS_DE: Translation = {
                 Interjection: "Zwischenruf",
                 Symbol: "Symbol",
                 Conjugation: "Konjugation",
+                Conjunction: "Verbindung",
                 Suffix: "Suffix",
                 Prefix: "Präfix",
                 Space: "Leerzeichen",

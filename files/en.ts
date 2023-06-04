@@ -261,6 +261,7 @@ export const TRANSLATIONS_EN: Translation = {
                 Interjection: "Interjection",
                 Symbol: "Symbol",
                 Conjugation: "Conjugation",
+                Conjunction: "Conjunction",
                 Suffix: "Suffix",
                 Prefix: "Prefix",
                 Space: "Space",
