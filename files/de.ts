@@ -160,6 +160,7 @@ export const TRANSLATIONS_DE: Translation = {
                 download_audio_kanjialive: "Kanjialive Audio",
                 direct_reference: "Detailansicht",
             },
+            xref: "See also <word>{{word}}</word>",
             pos: {
                 Noun: {
                     Normal: "Nomen",

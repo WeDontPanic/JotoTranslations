@@ -160,6 +160,7 @@ export const TRANSLATIONS_JA: Translation = {
                 download_audio_kanjialive: "Kanji aliveの音声",
                 direct_reference: "詳細を見る",
             },
+            xref: "See also <word>{{word}}</word>",
             pos: {
                 Noun: {
                     Normal: "名詞",
