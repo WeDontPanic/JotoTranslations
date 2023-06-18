@@ -489,8 +489,9 @@ export const TRANSLATIONS_EN: Translation = {
         about: {
             title_about: "About us",
             content_about:
-                "Jotoba is a multilingual Japanese dictionary. It is easy to find translations for words or kanji, see example sentences and the way names can be written. <br/><br/>" +
-                "Check out our <trello>Trello Board</trello> if you are interested in upcoming features and what we are currently working on!",
+                "Jotoba is a multilingual Japanese dictionary. It is easy to find translations for words or kanji, see example sentences and the way names can be written.",
+            dev_preview_backend: "Backend",
+            dev_preview_frontend: "Frontend",
             title_jotoKun: "Joto-kun",
             content_jotoKun: "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
             title_wkn: "Words & Kanji & Names",
@@ -596,7 +597,7 @@ export const TRANSLATIONS_EN: Translation = {
         close: "Close",
     },
     footer: {
-        text: `Jotoba wouldn't be able to exist without the help of many open-source data sources.<br/>Check out the <a href="/about" aria-label="about us">About Page</a> for a list of all contributors in this project.`,
+        text: `Jotoba wouldn't be able to exist without the help of many open-source data sources.<br/>Check out the <a href="/about" aria-label="about us">About Page</a> for a list of all contributors in this project.<br/>`,
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",

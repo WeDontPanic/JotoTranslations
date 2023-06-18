@@ -490,6 +490,8 @@ export const TRANSLATIONS_JA: Translation = {
             content_about:
                 "Jotobaは、複数言語に対応したオンライン日本語辞書です。単語・人名。漢字の翻訳に加えて、例文の検索もスムーズに行えます。<br/><br/>" +
                 "当ウェブサイトの最新の取り組みや今後追加予定の機能にご興味をお持ちの場合は、当ウェブサイトの<trello>Trello</trello>をご覧ください。",
+            dev_preview_backend: "Backend",
+            dev_preview_frontend: "Frontend",
             title_jotoKun: "Jotoくん",
             content_jotoKun: "Jotoくんのデザインは、管理人の友人が作成してくれました。",
             title_wkn: "単語／漢字／名前",

@@ -491,6 +491,8 @@ export const TRANSLATIONS_DE: Translation = {
             content_about:
                 "Jotoba ist ein mehrsprachiges Japanisch-Wörterbuch, mit dem es besonders einfach ist Übersetzungen zu Wörtern, Namen und Kanji zu finden und Beispielsätze zu entdecken. <br/><br/>" +
                 "Besuche unsere <trello>Trello-Seite</trello>, wenn du an zukünftigen Features und unserer aktuellen Arbeit interessiert bist!",
+            dev_preview_backend: "Backend",
+            dev_preview_frontend: "Frontend",
             title_jotoKun: "Joto-kun",
             content_jotoKun:
                 "Joto-kun wurde von einer guten Freundin erstellt, welche eine wahrere Zauberin ist, wenn es ums Designen geht!",
