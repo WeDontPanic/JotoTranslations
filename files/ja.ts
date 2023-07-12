@@ -488,34 +488,29 @@ export const TRANSLATIONS_JA: Translation = {
         about: {
             title_about: "Jotobaについて",
             content_about:
-                "Jotobaは、複数言語に対応したオンライン日本語辞書です。単語・人名。漢字の翻訳に加えて、例文の検索もスムーズに行えます。<br/><br/>" +
-                "当ウェブサイトの最新の取り組みや今後追加予定の機能にご興味をお持ちの場合は、当ウェブサイトの<trello>Trello</trello>をご覧ください。",
+                "TODO",
             title_jotoKun: "Jotoくん",
             content_jotoKun: "Jotoくんのデザインは、管理人の友人が作成してくれました。",
             title_wkn: "単語／漢字／名前",
             content_wkn:
-                "このウェブサイトの単語・漢字・および名前のすべてのデータは、<edrdg>EDRDG</edrdg>から取得され、<ccsa>CC BY-SA 3.0</ccsa>ライセンスの下で利用可能です。<br/><br/>" +
-                "また、JinBreen氏によるRADKFILEを使用して、部首を漢字にリンクさせています。",
+                "TODO",
             title_audio: "オーディオファイル",
             content_audio:
-                "当ウェブサイトのオーディオファイルは、2つのリソースから取得されており、いずれも<license>CC BY 4.0</license>ライセンスの下で提供されています。<br/><br/>" +
-                "「tofugu」というラベルの付いたオーディオファイルは、<wanikani>Wanikani＆Tofugu</wanikani>から提供されており、<audio>こちら</audio>で見つけることができます。<br/><br/>" +
-                "「kanjialive」というラベルの付いたオーディオファイルは、<kanjialive>Kanji alive</kanjialive>から提供されています。",
+                "TODO",
             title_sentences: "例文",
             content_sentences:
-                "Sentences with the tag 'T' are provided by <tatoeba>Tatoeba</tatoeba> and are licensed under the Creative Commons CC 1.0 and 2.0 licenses<br/><br/>" +
-                "Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>",
-            title_anim: "漢字アニメーション",
-            content_anim: "漢字アニメーションの基礎となるデータは、Ulrich Apel氏のプロジェクト<anim>KanjiVG</anim>で公開されています。",
+                "TODO",
+            title_anim: "漢字の書き順",
+            content_anim: "TODO",
             title_jlpt: "日本語能力試験情報",
-            content_jlpt: "日本語能力試験の情報は、Jonathan Waller氏によって提供されています。",
+            content_jlpt: "TODO",
             title_token: "単語トークン化",
             content_token:
-                "<token>単語トークナイゼーション</token>は、Hideki Yamane氏のプロジェクトを利用し、日本語形態素解析を実装することにより実現しました。",
+                "TODO",
             title_pitch: "トーンアクセント",
-            content_pitch: "トーンアクセントのデータは、<unidic>UniDic</unidic>から抽出されています。",
+            content_pitch: "TODO",
             title_furigana: "ふりがな",
-            content_furigana: "単語や名前のふりがなは、<jmdictfurigana>JmdictFurigana</jmdictfurigana>プロジェクトから提供されています。",
+            content_furigana: "TODO",
         },
         info: {
             shortcuts: {

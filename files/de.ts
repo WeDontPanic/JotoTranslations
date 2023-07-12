@@ -489,37 +489,32 @@ export const TRANSLATIONS_DE: Translation = {
         about: {
             title_about: "Über uns",
             content_about:
-                "Jotoba ist ein mehrsprachiges Japanisch-Wörterbuch, mit dem es besonders einfach ist Übersetzungen zu Wörtern, Namen und Kanji zu finden und Beispielsätze zu entdecken. <br/><br/>" +
-                "Besuche unsere <trello>Trello-Seite</trello>, wenn du an zukünftigen Features und unserer aktuellen Arbeit interessiert bist!",
+                "TODO",
             title_jotoKun: "Joto-kun",
             content_jotoKun:
                 "Joto-kun wurde von einer guten Freundin erstellt, welche eine wahrere Zauberin ist, wenn es ums Designen geht!",
             title_wkn: "Wörter & Kanji & Namen",
             content_wkn:
-                "Alle Daten über Wörter, Kanji und Namen auf dieser Webseite stammen von der <edrdg>EDRDG</edrdg> und stehen unter der <ccsa>CC BY-SA 3.0</ccsa> Lizenz.<br/><br/>" +
-                "Des Weiteren verwenden wir die RADKFILE von JinBreen verwendet, welche Radikale und Kanji verlinkt.",
+                "TODO",
             title_audio: "Audio Dateien",
             content_audio:
-                "Unsere Audio Dateien wurden von zwei Quellen zusammengefasst, welche beider unter der <license>CC BY 4.0</license> Lizenz stehen.<br/><br/>" +
-                "Die Audio Dateien mit dem Label 'tofugu' werden von <wanikani>Wanikani & Tofugu</wanikani> bereitgestellt und können <audio>hier</audio> gefunden werden.<br/><br/>" +
-                "Die Audio Dateien mit dem Label 'kanjialive' werden vom <kanjialive>Kanji alive Projekt</kanjialive> bereitgestellt.",
+                "TODO",
             title_sentences: "Sätze",
             content_sentences:
-                "Sätze mit dem Tag 'T' wurden von <tatoeba>Tatoeba</tatoeba> bereigestellt und stehen unter den Lizenzen Creative Commons CC 1.0 & 2.0.<br/><br/>" +
-                "Sätze mit dem Tag 'K' wurden direkt vom Autor von <kevin>Kevin Goes to Japan</kevin> bereitgestellt.",
-            title_anim: "Kanji Animationen",
+                "TODO",
+            title_anim: "Kanji Strichreihenfolgen",
             content_anim:
-                "Die zugrunde liegenden Daten für Kanji Animationen wurden von <anim>KanjiVG</anim> veröffentlicht - Einem Projekt von Ulrich Apel.",
+                "TODO",
             title_jlpt: "JLPT Informationen",
-            content_jlpt: "Daten über <jlpt>JLPT-Stufen</jlpt> wurden von Jonathan Waller bereitgestellt.",
+            content_jlpt: "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt.",
             title_token: "Wörter-Tokenisierung",
             content_token:
-                "Die <token>Wort-Tokenisierung</token> wurde durch ein Projekt von Hideki Yamane ermöglicht, welches der Implementierung von Japanisch-Morphologischen Analysen dient.",
+                "TODO",
             title_pitch: "Tonhöhen-Akzente",
-            content_pitch: "Tonhöhen-Akzent-Daten wurden aus dem <unidic>UniDic</unidic> extrahiert.",
+            content_pitch: "TODO",
             title_furigana: "Furigana",
             content_furigana:
-                "Furigana für Wörter und Namen werden vom <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt.",
+                "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMDict (Creative Commons Attribution-ShareAlike).",
         },
         info: {
             shortcuts: {
