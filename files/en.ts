@@ -489,35 +489,35 @@ export const TRANSLATIONS_EN: Translation = {
         about: {
             title_about: "About us",
             content_about:
-                "Jotoba is a multilingual Japanese dictionary. It is easy to find translations for words or kanji, see example sentences and the way names can be written.",
-            dev_preview_backend: "Backend",
-            dev_preview_frontend: "Frontend",
+                "Jotoba is a multilingual Japanese dictionary built upon lots of free resources from the internet. It provides a lot of handy tools to lookup words, kanji, example sentences, Japanese names and much more. "+
+                "On this page we want to say thank you to all those creating such wonderful resources that make something like Jotoba even possible.<br/><br/>" +
+                "If you're interested in the development of Jotoba itself, check out our <trello>Trello Board</trello> and see what we are currently working on and what features will come in future releases!",
             title_jotoKun: "Joto-kun",
             content_jotoKun: "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
             title_wkn: "Words & Kanji & Names",
             content_wkn:
-                "Words, Kanji and Names available on this site are publicly provided and maintained by <edrdg>EDRDG</edrdg> " +
-                "and available under the <ccsa>CC BY-SA 3.0.</ccsa> license.<br/><br/>" +
-                "Additionally, the RADKFILE by Jin Breen is used to link Radicals to Kanji.",
+                "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. "+
+                "These files are the property of the <edrdg>Electronic Dictionary Research and Development Group</edrdg>, and are used in conformance with the Group's <license>licence</license>",
             title_audio: "Audio Files",
             content_audio:
-                "Audio files with the label 'Tofugu' were provided by <wanikani>Wanikani & Tofugu</wanikani> which can be found <audio>here</audio> and are licensed under <license>CC BY 4.0</license><br/><br/>" +
-                "Audio files with the label 'Kanjialive' were provided by the <kanjialive>Kanji alive project</kanjialive> and have the same license.",
+                "Audio files with the label 'Tofugu' were provided by <tofugu>Tofugu's</tofugu> kanji and vocabulary learning site <wanikani>Wanikani</wanikani> and are licensed under <license>Creative Commons Attribution 4.0</license>. "+
+                "They can be found <audio>here</audio>.<br/><br/>" +
+                "Audio files with the label 'Kanjialive' were provided by the <kanjialive>Kanji alive project</kanjialive> and are licensed under <license>CC BY 4.0</license>.",
             title_sentences: "Sentences",
             content_sentences:
-                "Sentences with the tag 'T' are provided by <tatoeba>Tatoeba</tatoeba> and are licensed under the Creative Commons CC 1.0 and 2.0 licenses<br/><br/>" +
-                "Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>",
-            title_anim: "Kanji Animations",
-            content_anim: "The raw data used for kanji animations is publicly provided by <anim>KanjiVG</anim>, a project by Ulrich Apel.",
+                "Example sentences with the tag 'T' come from <tatoeba>Tatoeba</tatoeba>, are licensed under <license>Creative Commons 2.0<license> and are based on the Tanaka Corpus by Professor Yasuhito Tanaka.<br/><br/>" +
+                "Example Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>.",
+            title_anim: "Kanji stroke order",
+            content_anim: "Information about kanji stroke order come from <kanjivg>KanjiVG</kanjivg>, which is copyright © 2009-2023 Ulrich Apel and licensed under <license>Creative Commons Attribution-Share Alike 3.0</license>",
             title_jlpt: "JLPT Data",
-            content_jlpt: "Data about <jlpt>JLPT proficiencies</jlpt> are by provided by Jonathan Waller.",
+            content_jlpt: "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt>.",
             title_token: "Word tokenization",
             content_token:
-                "<token>Word tokenization</token> is done using a project from Hideki Yamane and used for Japanese morphological analysis implementations.",
+                "--- change me ----",
             title_pitch: "Pitch Accents",
-            content_pitch: "Data about Pitch Accents are extracted from <unidic>UniDic</unidic>",
+            content_pitch: "--- change me ---",
             title_furigana: "Furigana",
-            content_furigana: "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project.",
+            content_furigana: "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and under the same license as JMDict (Creative Commons Attribution-ShareAlike).",
         },
         info: {
             shortcuts: {
