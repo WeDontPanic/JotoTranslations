@@ -487,26 +487,23 @@ export const TRANSLATIONS_JA: Translation = {
         },
         about: {
             title_about: "Jotobaについて",
-            content_about:
-                "TODO",
+            content_about: "TODO",
+            dev_preview_frontend: "Frontend",
+            dev_preview_backend: "Backend",
             title_jotoKun: "Jotoくん",
             content_jotoKun: "Jotoくんのデザインは、管理人の友人が作成してくれました。",
             title_wkn: "単語／漢字／名前",
-            content_wkn:
-                "TODO",
+            content_wkn: "TODO",
             title_audio: "オーディオファイル",
-            content_audio:
-                "TODO",
+            content_audio: "TODO",
             title_sentences: "例文",
-            content_sentences:
-                "TODO",
+            content_sentences: "TODO",
             title_anim: "漢字の書き順",
             content_anim: "TODO",
             title_jlpt: "日本語能力試験情報",
             content_jlpt: "TODO",
             title_token: "単語トークン化",
-            content_token:
-                "TODO",
+            content_token: "TODO",
             title_pitch: "トーンアクセント",
             content_pitch: "TODO",
             title_furigana: "ふりがな",

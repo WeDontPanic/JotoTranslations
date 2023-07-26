@@ -490,6 +490,8 @@ export const TRANSLATIONS_DE: Translation = {
             title_about: "Über uns",
             content_about:
                 "TODO",
+            dev_preview_frontend: "Frontend",
+            dev_preview_backend: "Backend",
             title_jotoKun: "Joto-kun",
             content_jotoKun:
                 "Joto-kun wurde von einer guten Freundin erstellt, welche eine wahrere Zauberin ist, wenn es ums Designen geht!",

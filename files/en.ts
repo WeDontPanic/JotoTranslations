@@ -489,18 +489,20 @@ export const TRANSLATIONS_EN: Translation = {
         about: {
             title_about: "About us",
             content_about:
-                "Jotoba is a multilingual Japanese dictionary built upon lots of free resources from the internet. It provides a lot of handy tools to lookup words, kanji, example sentences, Japanese names and much more. "+
+                "Jotoba is a multilingual Japanese dictionary built upon lots of free resources from the internet. It provides a lot of handy tools to lookup words, kanji, example sentences, Japanese names and much more. " +
                 "On this page we want to say thank you to all those creating such wonderful resources that make something like Jotoba even possible.<br/><br/>" +
                 "If you're interested in the development of Jotoba itself, check out our <trello>Trello Board</trello> and see what we are currently working on and what features will come in future releases!",
+            dev_preview_frontend: "Frontend",
+            dev_preview_backend: "Backend",
             title_jotoKun: "Joto-kun",
             content_jotoKun: "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
             title_wkn: "Words & Kanji & Names",
             content_wkn:
-                "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. "+
+                "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. " +
                 "These files are the property of the <edrdg>Electronic Dictionary Research and Development Group</edrdg>, and are used in conformance with the Group's <license>licence</license>",
             title_audio: "Audio Files",
             content_audio:
-                "Audio files with the label 'Tofugu' were provided by <tofugu>Tofugu's</tofugu> kanji and vocabulary learning site <wanikani>Wanikani</wanikani> and are licensed under <license>Creative Commons Attribution 4.0</license>. "+
+                "Audio files with the label 'Tofugu' were provided by <tofugu>Tofugu's</tofugu> kanji and vocabulary learning site <wanikani>Wanikani</wanikani> and are licensed under <license>Creative Commons Attribution 4.0</license>. " +
                 "They can be found <audio>here</audio>.<br/><br/>" +
                 "Audio files with the label 'Kanjialive' were provided by the <kanjialive>Kanji alive project</kanjialive> and are licensed under <license>CC BY 4.0</license>.",
             title_sentences: "Sentences",
@@ -508,16 +510,17 @@ export const TRANSLATIONS_EN: Translation = {
                 "Example sentences with the tag 'T' come from <tatoeba>Tatoeba</tatoeba>, are licensed under <license>Creative Commons 2.0<license> and are based on the Tanaka Corpus by Professor Yasuhito Tanaka.<br/><br/>" +
                 "Example Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>.",
             title_anim: "Kanji stroke order",
-            content_anim: "Information about kanji stroke order come from <kanjivg>KanjiVG</kanjivg>, which is copyright © 2009-2023 Ulrich Apel and licensed under <license>Creative Commons Attribution-Share Alike 3.0</license>",
+            content_anim:
+                "Information about kanji stroke order come from <kanjivg>KanjiVG</kanjivg>, which is copyright © 2009-2023 Ulrich Apel and licensed under <license>Creative Commons Attribution-Share Alike 3.0</license>",
             title_jlpt: "JLPT Data",
             content_jlpt: "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt>.",
             title_token: "Word tokenization",
-            content_token:
-                "--- change me ----",
+            content_token: "--- change me ----",
             title_pitch: "Pitch Accents",
             content_pitch: "--- change me ---",
             title_furigana: "Furigana",
-            content_furigana: "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and under the same license as JMDict (Creative Commons Attribution-ShareAlike).",
+            content_furigana:
+                "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and under the same license as JMDict (Creative Commons Attribution-ShareAlike).",
         },
         info: {
             shortcuts: {
