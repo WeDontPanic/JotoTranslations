@@ -253,6 +253,7 @@ export const TRANSLATIONS_DE: Translation = {
                 Unclassified: "Nicht klassifiziert",
             },
             word_class: {
+                PreNoun: "Vornomen",
                 Noun: "Nomen",
                 Pronoun: "Pronomen",
                 Adjective: "Adjektiv",

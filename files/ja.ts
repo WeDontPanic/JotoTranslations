@@ -253,6 +253,7 @@ export const TRANSLATIONS_JA: Translation = {
                 Unclassified: "未分類",
             },
             word_class: {
+                PreNoun: "連体詞",
                 Noun: "名詞",
                 Pronoun: "代名詞",
                 Adjective: "形容詞",
