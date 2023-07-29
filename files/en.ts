@@ -253,7 +253,6 @@ export const TRANSLATIONS_EN: Translation = {
                 Unclassified: "Unclassified",
             },
             word_class: {
-                "Pre-noun": "Pre-noun",
                 Noun: "Noun",
                 Pronoun: "Pronoun",
                 Adjective: "Adjective",
@@ -262,11 +261,11 @@ export const TRANSLATIONS_EN: Translation = {
                 Particle: "Particle",
                 Interjection: "Interjection",
                 Symbol: "Symbol",
-                Conjugation: "Conjugation",
                 Conjunction: "Conjunction",
                 Suffix: "Suffix",
                 Prefix: "Prefix",
                 Space: "Space",
+                Expr: "Expression",
             },
             field: {
                 term: "term",

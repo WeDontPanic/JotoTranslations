@@ -253,7 +253,6 @@ export const TRANSLATIONS_DE: Translation = {
                 Unclassified: "Nicht klassifiziert",
             },
             word_class: {
-                "Pre-noun": "Vornomen",
                 Noun: "Nomen",
                 Pronoun: "Pronomen",
                 Adjective: "Adjektiv",
@@ -262,11 +261,11 @@ export const TRANSLATIONS_DE: Translation = {
                 Particle: "Partikel",
                 Interjection: "Zwischenruf",
                 Symbol: "Symbol",
-                Conjugation: "Konjugation",
                 Conjunction: "Verbindung",
                 Suffix: "Suffix",
                 Prefix: "Präfix",
                 Space: "Leerzeichen",
+                Expr: "Ausdruck",
             },
             field: {
                 term: "Begriff",

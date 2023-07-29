@@ -253,7 +253,6 @@ export const TRANSLATIONS_JA: Translation = {
                 Unclassified: "未分類",
             },
             word_class: {
-                "Pre-noun": "前置詞",
                 Noun: "名詞",
                 Pronoun: "代名詞",
                 Adjective: "形容詞",
@@ -262,11 +261,11 @@ export const TRANSLATIONS_JA: Translation = {
                 Particle: "助詞",
                 Interjection: "間投詞",
                 Symbol: "記号",
-                Conjugation: "活用形",
-                Conjunction: "Conjunction",
+                Conjunction: "接続詞",
                 Suffix: "接尾辞",
                 Prefix: "接頭辞",
                 Space: "スペース",
+                Expr: "表現",
             },
             field: {
                 term: "用語",
