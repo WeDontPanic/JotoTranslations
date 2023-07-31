@@ -77,6 +77,8 @@ export const TRANSLATIONS_JA: Translation = {
         search: {
             title_words: "単語",
             checkbox_showExampleSentences: "例文を表示",
+            checkbox_showKanjiBubbles: "漢字を表示",
+            checkbox_showKanjiTranslation: "漢字の意味を表示",
             title_sentences: "文",
             checkbox_showFuri: "ふりがなを表示",
             checkbox_hideTranslation: "翻訳を隠す",
@@ -146,7 +148,7 @@ export const TRANSLATIONS_JA: Translation = {
             number: "{{query}}は{{number}}です",
             inflection: "{{query}}は{{word}}の活用形の可能性があります。候補としては以下のものがあります。",
             inflections: "{{query}}は{{word}}の活用形の可能性があります。候補としては以下のものがあります。",
-            sentence_show: "長い例文を表示",
+            sentence_show: "例文を表示",
             sentence_hide: "例文をたたむ",
             garaigo: "Wasei, {{language}} -> {{word}}",
             pitches: "ピッチアクセント",

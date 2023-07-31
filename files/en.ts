@@ -77,6 +77,8 @@ export const TRANSLATIONS_EN: Translation = {
         search: {
             title_words: "Words",
             checkbox_showExampleSentences: "Show example sentences",
+            checkbox_showKanjiBubbles: "Show kanji bubbles",
+            checkbox_showKanjiTranslation: "Show kanji translation",
             title_sentences: "Sentences",
             checkbox_showFuri: "Show furigana",
             checkbox_hideTranslation: "Hide translation",
@@ -146,7 +148,7 @@ export const TRANSLATIONS_EN: Translation = {
             number: "{{query}} is {{number}}",
             inflection: "{{query}} could be an inflection of <word>{{word}}</word> with this form:",
             inflections: "{{query}} could be an inflection of <word>{{word}}</word> with these forms:",
-            sentence_show: "Show long example sentence",
+            sentence_show: "Show example sentence",
             sentence_hide: "Hide example sentence",
             garaigo: "Wasei, {{language}} -> {{word}}",
             pitches: "Pitches",

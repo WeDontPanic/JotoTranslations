@@ -77,6 +77,8 @@ export const TRANSLATIONS_DE: Translation = {
         search: {
             title_words: "Wörter",
             checkbox_showExampleSentences: "Zeige Beispielsätze",
+            checkbox_showKanjiBubbles: "Zeige Kanji",
+            checkbox_showKanjiTranslation: "Zeige Kanji-Übersetzung",
             title_sentences: "Sätze",
             checkbox_showFuri: "Zeige Furigana",
             checkbox_hideTranslation: "Verstecke Übersetzung",
@@ -146,7 +148,7 @@ export const TRANSLATIONS_DE: Translation = {
             number: "{{query}} is {{number}}",
             inflection: "{{query}} könnte eine Flexion von {{word}} sein. Mögliche Form:",
             inflections: "{{query}} könnte eine Flexion von {{word}} sein. Mögliche Formen:",
-            sentence_show: "Zeige langen Beispielsatz",
+            sentence_show: "Zeige Beispielsatz",
             sentence_hide: "Verstecke Beispielsatz",
             garaigo: "Wasei, {{language}} -> {{word}}",
             pitches: "Tonhöhenakzente",
