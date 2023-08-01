@@ -500,7 +500,7 @@ export const TRANSLATIONS_EN: Translation = {
             content_jotoKun: "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
             title_wkn: "Words & Kanji & Names",
             content_wkn:
-                "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. " +
+                "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. " +
                 "These files are the property of the <edrdg>Electronic Dictionary Research and Development Group</edrdg>, and are used in conformance with the Group's <license>licence</license>",
             title_audio: "Audio Files",
             content_audio:
