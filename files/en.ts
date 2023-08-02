@@ -162,7 +162,7 @@ export const TRANSLATIONS_EN: Translation = {
                 download_audio_kanjialive: "Kanjialive audio",
                 direct_reference: "Direct reference",
             },
-            xref: "See also <word>{{word}}</word>",
+            xref: "See also <word/>",
             pos: {
                 Noun: {
                     Normal: "Noun",
@@ -600,11 +600,13 @@ export const TRANSLATIONS_EN: Translation = {
         close: "Close",
     },
     footer: {
-        text: `Jotoba wouldn't be able to exist without the help of many open-source data sources.<br/>Check out the <a href="/about" aria-label="about us">About Page</a> for a list of all contributors in this project.<br/>`,
+        socials: "Socials",
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
+        support_us: "Support us",
         donations: "PayPal <ex>donations will be shared between the developers!</ex>",
+        credits: "Jotoba uses data sources like the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>,  <kradfile>RADKFILE/KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>. Check out our <about>About Page</about> for a list of all contributors.",
     },
     toast: {
         direct_reference_copied: "Direct reference copied to clipboard",

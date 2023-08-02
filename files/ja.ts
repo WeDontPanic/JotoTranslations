@@ -162,7 +162,7 @@ export const TRANSLATIONS_JA: Translation = {
                 download_audio_kanjialive: "Kanji aliveの音声",
                 direct_reference: "詳細を見る",
             },
-            xref: "See also <word>{{word}}</word>",
+            xref: "See also <word/>",
             pos: {
                 Noun: {
                     Normal: "名詞",
@@ -589,11 +589,13 @@ export const TRANSLATIONS_JA: Translation = {
         close: "Close",
     },
     footer: {
-        text: 'Jotobaは多くのオープンソースの支援なしでは存在できません。<br/>このプロジェクトに貢献してくださったすべての方々のリストは、<a href="/about" aria-label="about us">「Jotobaについて」</a>のページに掲載しています。',
+        socials: "Socials",
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
+        support_us: "Support us",
         donations: "PayPal <ex>皆様からの寄付はすべての開発者間で分配されます。</ex>",
+        credits: "Jotoba uses data sources like the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>,  <kradfile>RADKFILE/KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>. Check out our <about>About Page</about> for a list of all contributors.",
     },
     toast: {
         direct_reference_copied: "ダイレクトリンクがコピーされました",

@@ -162,7 +162,7 @@ export const TRANSLATIONS_DE: Translation = {
                 download_audio_kanjialive: "Kanjialive Audio",
                 direct_reference: "Detailansicht",
             },
-            xref: "See also <word>{{word}}</word>",
+            xref: "Siehe auch <word/>",
             pos: {
                 Noun: {
                     Normal: "Nomen",
@@ -490,30 +490,24 @@ export const TRANSLATIONS_DE: Translation = {
         },
         about: {
             title_about: "Über uns",
-            content_about:
-                "TODO",
+            content_about: "TODO",
             dev_preview_frontend: "Frontend",
             dev_preview_backend: "Backend",
             title_jotoKun: "Joto-kun",
             content_jotoKun:
                 "Joto-kun wurde von einer guten Freundin erstellt, welche eine wahrere Zauberin ist, wenn es ums Designen geht!",
             title_wkn: "Wörter & Kanji & Namen",
-            content_wkn:
-                "TODO",
+            content_wkn: "TODO",
             title_audio: "Audio Dateien",
-            content_audio:
-                "TODO",
+            content_audio: "TODO",
             title_sentences: "Sätze",
-            content_sentences:
-                "TODO",
+            content_sentences: "TODO",
             title_anim: "Kanji Strichreihenfolgen",
-            content_anim:
-                "TODO",
+            content_anim: "TODO",
             title_jlpt: "JLPT Informationen",
             content_jlpt: "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt.",
             title_token: "Wörter-Tokenisierung",
-            content_token:
-                "TODO",
+            content_token: "TODO",
             title_pitch: "Tonhöhen-Akzente",
             content_pitch: "TODO",
             title_furigana: "Furigana",
@@ -598,11 +592,14 @@ export const TRANSLATIONS_DE: Translation = {
         close: "Schließen",
     },
     footer: {
-        text: 'Jotoba würde ohne die Hilfe von vielen Open-Source Quellen nicht existieren.<br/>Besuche unsere <a href="/about" aria-label="about us">"Über Uns" - Seite</a> für eine Liste aller Mitwirkenden an diesem Projekt.',
+        socials: "Socials",
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
+        support_us: "Unterstütze uns",
         donations: "PayPal <ex>Donations werden immer zwischen allen Entwicklern aufgeteilt!</ex>",
+        credits:
+            'Jotoba verwendet Daten aus Quellen wie <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer Lizenz verwendet werden. Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller Mitwirkenden an diesem Projekt.',
     },
     toast: {
         direct_reference_copied: "Direkter Link in die Zwischenablage kopiert",
