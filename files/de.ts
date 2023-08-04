@@ -417,6 +417,7 @@ export const TRANSLATIONS_DE: Translation = {
             on: "On:",
             title_kun: "Kunyomi",
             title_on: "Onyomi",
+            tooltip_jouyou: "Jouyou Kanji",
             tooltip_stroke: "Anzahl der Striche",
             tooltip_grade: "Beigebracht in dieser Klasse",
             tooltip_jlpt: "JLPT-Level",
