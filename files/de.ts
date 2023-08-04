@@ -491,26 +491,34 @@ export const TRANSLATIONS_DE: Translation = {
         },
         about: {
             title_about: "Über uns",
-            content_about: "TODO",
+            content_about:
+                "Jotoba ist ein mehrsprachiges japanisches Wörterbuch, das auf zahlreichen kostenlosen Ressourcen aus dem Internet aufbaut. Es bietet viele praktische Tools zum Nachschlagen von Wörtern, Kanji, Beispielsätzen, japanischen Namen und vielem mehr. " +
+                "Auf dieser Seite möchten wir allen danken, die solch wunderbare Ressourcen erstellen und etwas wie Jotoba überhaupt möglich machen.<br/><br/>" +
+                "Wenn du dich für die Entwicklung von Jotoba interessierst, schauen doch einmal unser <trello>Trello Board</trello>. Dort zeigen wir, woran wir derzeit arbeiten und welche Funktionen in zukünftigen Versionen kommen werden!",
             dev_preview_frontend: "Frontend",
             dev_preview_backend: "Backend",
             title_jotoKun: "Joto-kun",
             content_jotoKun:
                 "Joto-kun wurde von einer guten Freundin erstellt, welche eine wahrere Zauberin ist, wenn es ums Designen geht!",
             title_wkn: "Wörter & Kanji & Namen",
-            content_wkn: "TODO",
+            content_wkn:
+                "Diese Website verwendet die Wörterbuchdateien <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>. " +
+                "Diese Dateien sind Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> und werden gemäß ihrer <license>Lizenz</license> verwendet.",
             title_audio: "Audio Dateien",
-            content_audio: "TODO",
+            content_audio:
+                "Audiodateien mit dem Label 'Tofugu' wurden von <tofugu>Tofugus</tofugu> Kanji- und Vokabellernwebsite <wanikani>Wanikani</wanikani> bereitgestellt und stehen unter der Lizenz <license>Creative Commons Attribution 4.0</license>. " +
+                "Sie können <audio>hier</audio> gefunden werden.<br/><br/>" +
+                "Audiodateien mit dem Label 'Kanjialive' wurden vom <kanjialive>Kanji Alive Projekt</kanjialive> bereitgestellt und stehen unter der Lizenz <license>Creative Commons CC BY 4.0</license>.",
             title_sentences: "Sätze",
-            content_sentences: "TODO",
-            title_anim: "Kanji Strichreihenfolgen",
-            content_anim: "TODO",
+            content_sentences:
+                "Beispielsätze mit dem Tag 'T' stammen von <tatoeba>Tatoeba</tatoeba> und sind lizenziert unter <license>Creative Commons CC BY 2.0 FR</license>. Sie basieren auf dem Tanaka-Korpus von Professor Yasuhito Tanaka. " +
+                "Beispielsätze in der Wort-Suche stammen ebenfalls aus dem Tanaka-Korpus." +
+                "<br/><br/>" +
+                "Beispielsätze mit dem Tag 'K' wurden direkt vom Autor von <kevin>Kevin Goes to Japan</kevin> bereitgestellt.",
+            title_anim: "Kanji-Strichreihenfolgen",
+            content_anim: "Informationen zur Strichreihenfolge von Kanji stammen von <anim>KanjiVG</anim>, das urheberrechtlich (© 2009-2023 Ulrich Apel) geschützt und unter <license>Creative Commons Attribution-Share Alike 3.0</license> lizenziert ist.",
             title_jlpt: "JLPT Informationen",
             content_jlpt: "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt.",
-            title_token: "Wörter-Tokenisierung",
-            content_token: "TODO",
-            title_pitch: "Tonhöhen-Akzente",
-            content_pitch: "TODO",
             title_furigana: "Furigana",
             content_furigana:
                 "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMDict (Creative Commons Attribution-ShareAlike).",

@@ -518,8 +518,8 @@ export const TRANSLATIONS_EN: Translation = {
             content_anim:
                 "Information about kanji stroke order come from <anim>KanjiVG</anim>, which is copyright © 2009-2023 Ulrich Apel and licensed under <license>Creative Commons Attribution-Share Alike 3.0</license>",
             title_jlpt: "JLPT Data",
-            title_furigana: "Furigana",
             content_jlpt: "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt>.",
+            title_furigana: "Furigana",
             content_furigana:
                 "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and under the same license as JMDict (<license>Creative Commons Attribution-ShareAlike</license>).",
         },
