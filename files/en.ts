@@ -516,7 +516,9 @@ export const TRANSLATIONS_EN: Translation = {
                 "Example Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>.",
             title_anim: "Kanji stroke order",
             content_anim:
-                "Information about kanji stroke order come from <anim>KanjiVG</anim>, which is copyright © 2009-2023 Ulrich Apel and licensed under <license>Creative Commons Attribution-Share Alike 3.0</license>",
+                "Information about kanji stroke order come from <anim>KanjiVG</anim>, which is copyright © 2009-2023 Ulrich Apel and licensed under <license>Creative Commons Attribution-Share Alike 3.0</license>." +
+                "<br/><br/>" +
+                "To convert this data into SVGs, we used the <kanjivgsvg>kanjivg2svg</kanjivgsvg> project by <kimtaro>Kimtaro</kimtaro>. This tool is licenced under the <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> license.",
             title_jlpt: "JLPT Data",
             content_jlpt: "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt>.",
             title_furigana: "Furigana",
