@@ -612,7 +612,7 @@ export const TRANSLATIONS_DE: Translation = {
         support_us: "Unterstütze uns",
         donations: "PayPal <ex>Donations werden immer zwischen allen Entwicklern aufgeteilt!</ex>",
         credits:
-            "Jotoba verwendet viele verschiedene freie Daten. Ein Paar davon sind <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer Lizenz verwendet werden.",
+            "Jotoba verwendet viele verschiedene freie Daten. Ein Paar davon sind <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer <license>Lizenz</license> verwendet werden.",
         credits_about: 'Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller verwendeten Datenquellen in diesem Projekt.',
     },
     toast: {
