@@ -519,7 +519,7 @@ export const TRANSLATIONS_DE: Translation = {
             content_anim:
                 "Informationen zur Strichreihenfolge von Kanji stammen von <anim>KanjiVG</anim>, das urheberrechtlich (© 2009-2023 Ulrich Apel) geschützt und unter <license>Creative Commons Attribution-Share Alike 3.0</license> lizenziert ist." +
                 "<br/><br/>" +
-                "Um diese Daten in SVGs umzuwandeln, haben wir eine von uns <alt_version>veränderte Version</alt_version> von dem <kanjivgsvg>kanjivg2svg</kanjivgsvg>-Projekt von Kim Ahlström verwendet. Das Projekt ist unter <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> lizenziert.",
+                "Um diese Daten in SVGs umzuwandeln, haben wir eine von uns <altversion>veränderte Version</altversion> von dem <kanjivgsvg>kanjivg2svg</kanjivgsvg>-Projekt von Kim Ahlström verwendet, welches unter der <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> Lizenz lizenziert ist.",
             title_jlpt: "JLPT Informationen",
             content_jlpt: "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt.",
             title_furigana: "Furigana",
