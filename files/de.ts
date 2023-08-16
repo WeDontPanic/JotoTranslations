@@ -492,7 +492,7 @@ export const TRANSLATIONS_DE: Translation = {
         about: {
             title_about: "Über uns",
             content_about:
-                "Jotoba ist ein mehrsprachiges japanisches Wörterbuch, das auf zahlreichen kostenlosen Ressourcen aus dem Internet aufbaut. Es bietet viele praktische Tools zum Nachschlagen von Wörtern, Kanji, Beispielsätzen, japanischen Namen und vielem mehr. " +
+                "Jotoba ist ein mehrsprachiges Japanisch-Wörterbuch, das auf zahlreichen kostenlosen Ressourcen aus dem Internet aufbaut. Es bietet viele praktische Tools zum Nachschlagen von Wörtern, Kanji, Beispielsätzen, japanischen Namen und vielem mehr. " +
                 "Auf dieser Seite möchten wir allen danken, die solch wunderbare Ressourcen erstellen und etwas wie Jotoba überhaupt möglich machen.<br/><br/>" +
                 "Wenn du dich für die Entwicklung von Jotoba interessierst, schauen doch einmal unser <trello>Trello Board</trello>. Dort zeigen wir, woran wir derzeit arbeiten und welche Funktionen in zukünftigen Versionen kommen werden!",
             dev_preview_frontend: "Frontend",
@@ -525,7 +525,7 @@ export const TRANSLATIONS_DE: Translation = {
                 "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt welche der Creative Commons CC BY Lizenz unterliegen.",
             title_furigana: "Furigana",
             content_furigana:
-                "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMDict (Creative Commons Attribution-ShareAlike).",
+                "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMDict (<license>Creative Commons Attribution-ShareAlike</license>).",
         },
         info: {
             shortcuts: {
