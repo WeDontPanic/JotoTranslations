@@ -520,7 +520,7 @@ export const TRANSLATIONS_EN: Translation = {
                 "<br/><br/>" +
                 "To convert this data into SVGs, we <altversion>alternated</altversion> and used the <kanjivgsvg>kanjivg2svg</kanjivgsvg> project by <kimtaro>Kimtaro</kimtaro> which is licenced under the <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> license.",
             title_jlpt: "JLPT Data",
-            content_jlpt: "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt>.",
+            content_jlpt: "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt> and licensed under Creative Commons CC BY.",
             title_furigana: "Furigana",
             content_furigana:
                 "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and under the same license as JMDict (<license>Creative Commons Attribution-ShareAlike</license>).",

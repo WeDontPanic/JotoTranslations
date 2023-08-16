@@ -521,7 +521,7 @@ export const TRANSLATIONS_DE: Translation = {
                 "<br/><br/>" +
                 "Um diese Daten in SVGs umzuwandeln, haben wir eine von uns <altversion>veränderte Version</altversion> von dem <kanjivgsvg>kanjivg2svg</kanjivgsvg>-Projekt von Kim Ahlström verwendet, welches unter der <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> Lizenz lizenziert ist.",
             title_jlpt: "JLPT Informationen",
-            content_jlpt: "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt.",
+            content_jlpt: "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt welche der Creative Commons CC BY Lizenz unterliegen.",
             title_furigana: "Furigana",
             content_furigana:
                 "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMDict (Creative Commons Attribution-ShareAlike).",
