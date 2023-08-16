@@ -510,7 +510,7 @@ export const TRANSLATIONS_EN: Translation = {
                 "Audio files with the label 'Kanjialive' were provided by the <kanjialive>Kanji alive project</kanjialive> and are licensed under <license>Creative Commons CC BY 4.0</license>.",
             title_sentences: "Sentences",
             content_sentences:
-                "Example sentences with the tag 'T' come from <tatoeba>Tatoeba</tatoeba>, are licensed under <license>Creative Commons CC BY 2.0 FR</license> and are based on the Tanaka Corpus by Professor Yasuhito Tanaka. "+
+                "Example sentences with the tag 'T' come from <tatoeba>Tatoeba</tatoeba>, are licensed under <license>Creative Commons CC BY 2.0 FR</license> and are based on the Tanaka Corpus by Professor Yasuhito Tanaka. " +
                 "Example sentences in word search also come from Tanaka corpus." +
                 "<br/><br/>" +
                 "Example Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>.",
@@ -520,7 +520,8 @@ export const TRANSLATIONS_EN: Translation = {
                 "<br/><br/>" +
                 "To convert this data into SVGs, we <altversion>alternated</altversion> and used the <kanjivgsvg>kanjivg2svg</kanjivgsvg> project by <kimtaro>Kimtaro</kimtaro> which is licenced under the <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> license.",
             title_jlpt: "JLPT Data",
-            content_jlpt: "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt> and licensed under Creative Commons CC BY.",
+            content_jlpt:
+                "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt> and licensed under Creative Commons CC BY.",
             title_furigana: "Furigana",
             content_furigana:
                 "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and under the same license as JMDict (<license>Creative Commons Attribution-ShareAlike</license>).",
@@ -609,7 +610,9 @@ export const TRANSLATIONS_EN: Translation = {
         instagram: "Instagram",
         support_us: "Support us",
         donations: "PayPal <ex>donations will be shared between the developers!</ex>",
-        credits: "Jotoba uses a lot of free data sources. Some of them are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>.<br/>Check out our <about>About Page</about> for a list of all contributors.",
+        credits:
+            "Jotoba uses a lot of free data sources. Some of them are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>.",
+        credits_about: "Check out our <about>About Page</about> for a list of all contributors.",
     },
     toast: {
         direct_reference_copied: "Direct reference copied to clipboard",

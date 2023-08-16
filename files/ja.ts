@@ -592,7 +592,8 @@ export const TRANSLATIONS_JA: Translation = {
         instagram: "Instagram",
         support_us: "Support us",
         donations: "PayPal <ex>皆様からの寄付はすべての開発者間で分配されます。</ex>",
-        credits: "Jotoba uses a lot of free data sources. Some of them are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>.<br/>Check out our <about>About Page</about> for a list of all contributors.",
+        credits: "Jotoba uses a lot of free data sources. Some of them are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>.",
+        credits_about: "Check out our <about>About Page</about> for a list of all contributors.",
     },
     toast: {
         direct_reference_copied: "ダイレクトリンクがコピーされました",

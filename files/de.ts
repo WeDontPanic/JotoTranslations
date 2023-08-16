@@ -521,7 +521,8 @@ export const TRANSLATIONS_DE: Translation = {
                 "<br/><br/>" +
                 "Um diese Daten in SVGs umzuwandeln, haben wir eine von uns <altversion>veränderte Version</altversion> von dem <kanjivgsvg>kanjivg2svg</kanjivgsvg>-Projekt von Kim Ahlström verwendet, welches unter der <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> Lizenz lizenziert ist.",
             title_jlpt: "JLPT Informationen",
-            content_jlpt: "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt welche der Creative Commons CC BY Lizenz unterliegen.",
+            content_jlpt:
+                "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt welche der Creative Commons CC BY Lizenz unterliegen.",
             title_furigana: "Furigana",
             content_furigana:
                 "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMDict (Creative Commons Attribution-ShareAlike).",
@@ -611,7 +612,8 @@ export const TRANSLATIONS_DE: Translation = {
         support_us: "Unterstütze uns",
         donations: "PayPal <ex>Donations werden immer zwischen allen Entwicklern aufgeteilt!</ex>",
         credits:
-            'Jotoba verwendet viele verschiedene freie Daten. Ein Paar davon sind <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer Lizenz verwendet werden.<br/>Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller verwendeten Datenquellen in diesem Projekt.',
+            "Jotoba verwendet viele verschiedene freie Daten. Ein Paar davon sind <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer Lizenz verwendet werden.",
+        credits_about: 'Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller verwendeten Datenquellen in diesem Projekt.',
     },
     toast: {
         direct_reference_copied: "Direkter Link in die Zwischenablage kopiert",
