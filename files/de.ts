@@ -519,7 +519,7 @@ export const TRANSLATIONS_DE: Translation = {
             content_anim:
                 "Informationen zur Strichreihenfolge von Kanji stammen von <anim>KanjiVG</anim>, das urheberrechtlich (© 2009-2023 Ulrich Apel) geschützt und unter <license>Creative Commons Attribution-Share Alike 3.0</license> lizenziert ist." +
                 "<br/><br/>" +
-                "Um diese Daten in SVGs umzuwandeln, haben wir das <kanjivgsvg>kanjivg2svg</kanjivgsvg>-Projekt von Kim Ahlström verwendet. Das Projekt unterliegt der <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> Lizenz.",
+                "Um diese Daten in SVGs umzuwandeln, haben wir eine von uns <alt_version>veränderte Version</alt_version> von dem <kanjivgsvg>kanjivg2svg</kanjivgsvg>-Projekt von Kim Ahlström verwendet. Das Projekt ist unter <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> lizenziert.",
             title_jlpt: "JLPT Informationen",
             content_jlpt: "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt.",
             title_furigana: "Furigana",
@@ -611,7 +611,7 @@ export const TRANSLATIONS_DE: Translation = {
         support_us: "Unterstütze uns",
         donations: "PayPal <ex>Donations werden immer zwischen allen Entwicklern aufgeteilt!</ex>",
         credits:
-            'Jotoba verwendet Daten aus Quellen wie <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer Lizenz verwendet werden.<br/>Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller Mitwirkenden an diesem Projekt.',
+            'Jotoba verwendet viele verschiedene freie Daten. Ein Paar davon sind <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer Lizenz verwendet werden.<br/>Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller verwendeten Datenquellen in diesem Projekt.',
     },
     toast: {
         direct_reference_copied: "Direkter Link in die Zwischenablage kopiert",
