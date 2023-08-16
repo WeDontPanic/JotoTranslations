@@ -72,7 +72,7 @@ export const TRANSLATIONS_EN: Translation = {
             select_page: "UI language",
             title_ordering: "Language ordering",
             checkbox_alwaysEnglish: "Always show english results",
-            checkbox_englishOnTop: "Show english results on top",
+            checkbox_englishOnTop: "Show english first",
         },
         search: {
             title_words: "Words",
