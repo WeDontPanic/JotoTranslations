@@ -157,7 +157,7 @@ export const TRANSLATIONS_JA: Translation = {
                 show_collocations: "コロケーションを表示",
                 show_conjugations: "活用を表示",
                 suffix_transitivity: "単語",
-                sentence_search: "文を検索",
+                sentence_search: "例文を検索",
                 download_audio_tofugu: "Tofuguの音声",
                 download_audio_kanjialive: "Kanji aliveの音声",
                 direct_reference: "詳細を見る",
@@ -440,7 +440,7 @@ export const TRANSLATIONS_JA: Translation = {
             sentence_show: "[Show]",
             sentence_hide: "[Hide]",
             three_dot: {
-                sentence_search: "文を検索",
+                sentence_search: "単語を検索",
                 tatoeba_search: "Open in Tatoeba",
                 direct_reference: "詳細を見る",
             },

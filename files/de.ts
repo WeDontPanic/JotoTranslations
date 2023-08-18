@@ -440,8 +440,8 @@ export const TRANSLATIONS_DE: Translation = {
             sentence_show: "[Zeigen]",
             sentence_hide: "[Verstecken]",
             three_dot: {
-                sentence_search: "Satz-Suche",
-                tatoeba_search: "Tatoeba-Suche",
+                sentence_search: "Wortsuche",
+                tatoeba_search: "In Tatoeba anzeigen",
                 direct_reference: "Detailansicht",
             },
         },

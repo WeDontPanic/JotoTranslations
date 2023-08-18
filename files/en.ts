@@ -440,7 +440,7 @@ export const TRANSLATIONS_EN: Translation = {
             sentence_show: "[Show]",
             sentence_hide: "[Hide]",
             three_dot: {
-                sentence_search: "Sentence search",
+                sentence_search: "Word search",
                 tatoeba_search: "Open in Tatoeba",
                 direct_reference: "Direct reference",
             },
