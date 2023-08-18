@@ -519,13 +519,13 @@ export const TRANSLATIONS_EN: Translation = {
             content_anim:
                 "Information about kanji stroke order come from <anim>KanjiVG</anim>, which is copyright © 2009-2023 Ulrich Apel and licensed under <license>Creative Commons Attribution-Share Alike 3.0</license>." +
                 "<br/><br/>" +
-                "To convert this data into SVGs, we <altversion>alternated</altversion> and used the <kanjivgsvg>kanjivg2svg</kanjivgsvg> project by <kimtaro>Kim Ahlström</kimtaro> which is licensed under the <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> license.",
+                "To convert this data into SVGs, we <altversion>alternated</altversion> and used the <kanjivgsvg>kanjivg2svg</kanjivgsvg> project by Kim Ahlström which is licensed under the <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> license.",
             title_jlpt: "JLPT Data",
             content_jlpt:
-                "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt> and licensed under Creative Commons CC BY.",
+                "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt> and licensed under <license>Creative Commons CC BY.</license>",
             title_furigana: "Furigana",
             content_furigana:
-                "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and under the same license as JMDict (<license>Creative Commons Attribution-ShareAlike</license>).",
+                "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and are under the same license as JMDict (<license>Creative Commons Attribution-ShareAlike</license>).",
         },
         info: {
             shortcuts: {
