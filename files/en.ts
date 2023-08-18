@@ -611,7 +611,7 @@ export const TRANSLATIONS_EN: Translation = {
         support_us: "Support us",
         donations: "PayPal <ex>donations will be shared between the developers!</ex>",
         credits:
-            "Jotoba uses a lot of free data sources. Some of them are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>.",
+            "Jotoba uses a lot of free data sources. Some of the major ones are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>.",
         credits_about: "Check out our <about>About Page</about> for a list of all contributors.",
         about: "About Page",
         privacy: "Privacy Policy",
