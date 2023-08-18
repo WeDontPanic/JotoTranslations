@@ -418,6 +418,7 @@ export const TRANSLATIONS_JA: Translation = {
             title_kun: "訓読み",
             title_on: "音読み",
             tooltip_jouyou: "常用漢字",
+            tooltip_kokuji: "和製漢字",
             tooltip_stroke: "画数",
             tooltip_grade: "習う学年",
             tooltip_jlpt: "日本語能力試験のレベル",

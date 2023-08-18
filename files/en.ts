@@ -418,6 +418,7 @@ export const TRANSLATIONS_EN: Translation = {
             title_kun: "Kun readings",
             title_on: "On readings",
             tooltip_jouyou: "Jouyou kanji",
+            tooltip_kokuji: "Kokuji kanji",
             tooltip_stroke: "Stroke count",
             tooltip_grade: "Taught in this grade",
             tooltip_jlpt: "JLPT level",
