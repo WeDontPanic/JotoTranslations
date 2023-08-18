@@ -440,7 +440,7 @@ export const TRANSLATIONS_JA: Translation = {
             sentence_show: "[Show]",
             sentence_hide: "[Hide]",
             three_dot: {
-                sentence_search: "単語を検索",
+                sentence_search: "文を検索",
                 tatoeba_search: "Open in Tatoeba",
                 direct_reference: "詳細を見る",
             },

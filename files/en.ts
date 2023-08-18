@@ -506,9 +506,9 @@ export const TRANSLATIONS_EN: Translation = {
                 "These files are the property of the <edrdg>Electronic Dictionary Research and Development Group</edrdg>, and are used in conformance with the Group's <license>licence</license>",
             title_audio: "Audio Files",
             content_audio:
-                "Audio files with the label 'Tofugu' were provided by <tofugu>Tofugu's</tofugu> kanji and vocabulary learning site <wanikani>Wanikani</wanikani> and are licensed under <license>Creative Commons Attribution 4.0</license>. " +
+                "Audio files with the label 'Tofugu' were provided by <tofugu>Tofugu's</tofugu> kanji and vocabulary learning site <wanikani>Wanikani</wanikani> and are licensed under <license>Creative Commons Attribution Share Alike 4.0</license>. " +
                 "They can be found <audio>here</audio>.<br/><br/>" +
-                "Audio files with the label 'Kanjialive' were provided by the <kanjialive>Kanji alive project</kanjialive> and are licensed under <license>Creative Commons CC BY 4.0</license>.",
+                "Audio files with the label 'Kanjialive' were provided by the <kanjialive>Kanji alive project</kanjialive> and are licensed under <kalicense>Creative Commons CC BY 4.0</kalicense> and can be found <kasource>here</kasource>.",
             title_sentences: "Sentences",
             content_sentences:
                 "Example sentences with the tag 'T' come from <tatoeba>Tatoeba</tatoeba>, are licensed under <license>Creative Commons CC BY 2.0 FR</license> and are based on the Tanaka Corpus by Professor Yasuhito Tanaka. " +
@@ -519,7 +519,7 @@ export const TRANSLATIONS_EN: Translation = {
             content_anim:
                 "Information about kanji stroke order come from <anim>KanjiVG</anim>, which is copyright © 2009-2023 Ulrich Apel and licensed under <license>Creative Commons Attribution-Share Alike 3.0</license>." +
                 "<br/><br/>" +
-                "To convert this data into SVGs, we <altversion>alternated</altversion> and used the <kanjivgsvg>kanjivg2svg</kanjivgsvg> project by <kimtaro>Kimtaro</kimtaro> which is licenced under the <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> license.",
+                "To convert this data into SVGs, we <altversion>alternated</altversion> and used the <kanjivgsvg>kanjivg2svg</kanjivgsvg> project by <kimtaro>Kim Ahlström</kimtaro> which is licensed under the <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> license.",
             title_jlpt: "JLPT Data",
             content_jlpt:
                 "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt> and licensed under Creative Commons CC BY.",
