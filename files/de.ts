@@ -495,7 +495,7 @@ export const TRANSLATIONS_DE: Translation = {
             content_about:
                 "Jotoba ist ein mehrsprachiges Japanisch-Wörterbuch, das auf zahlreichen kostenlosen Ressourcen aus dem Internet aufbaut. Es bietet viele praktische Tools zum Nachschlagen von Wörtern, Kanji, Beispielsätzen, japanischen Namen und vielem mehr. " +
                 "Auf dieser Seite möchten wir allen danken, die solch wunderbare Ressourcen erstellen und etwas wie Jotoba überhaupt möglich machen.<br/><br/>" +
-                "Wenn du dich für die Entwicklung von Jotoba interessierst, schauen doch einmal unser <trello>Trello Board</trello>. Dort zeigen wir, woran wir derzeit arbeiten und welche Funktionen in zukünftigen Versionen kommen werden!",
+                "Wenn du dich für die Entwicklung von Jotoba interessierst, schau doch einmal auf unserem <trello>Trello Board</trello> vorbei. Dort kannst du sehen, woran wir derzeit arbeiten und welche Funktionen in zukünftigen Versionen kommen werden!",
             dev_preview_frontend: "Frontend",
             dev_preview_backend: "Backend",
             title_jotoKun: "Joto-kun",
@@ -507,23 +507,23 @@ export const TRANSLATIONS_DE: Translation = {
                 "Diese Dateien sind Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> und werden gemäß ihrer <license>Lizenz</license> verwendet.",
             title_audio: "Audio Dateien",
             content_audio:
-                "Audiodateien mit dem Label 'Tofugu' wurden von <tofugu>Tofugus</tofugu> Kanji- und Vokabellernwebsite <wanikani>Wanikani</wanikani> bereitgestellt und stehen unter der Lizenz <license>Creative Commons Attribution Share Alike 4.0</license>. " +
+                "Audiodateien mit dem Label 'Tofugu' werden von <tofugu>Tofugus</tofugu> Kanji- und Vokabellernwebsite <wanikani>WaniKani</wanikani> zur Verfügung gestellt und stehen unter der Lizenz <license>Creative Commons Attribution Share Alike 4.0</license>. " +
                 "Sie können <audio>hier</audio> gefunden werden.<br/><br/>" +
-                "Audiodateien mit dem Label 'Kanjialive' wurden vom <kanjialive>Kanji Alive Projekt</kanjialive> bereitgestellt und stehen unter der Lizenz <kalicense>Creative Commons CC BY 4.0</kalicense>. Sie können <kasource>hier</kasource> gefunden werden.",
+                "Audiodateien mit dem Label 'Kanjialive' werden vom <kanjialive>Kanji Alive Projekt</kanjialive> zur Verfügung gestellt und stehen unter der Lizenz <kalicense>Creative Commons CC BY 4.0</kalicense>. Sie können <kasource>hier</kasource> gefunden werden.",
             title_sentences: "Sätze",
             content_sentences:
                 "Beispielsätze mit dem Tag 'T' stammen von <tatoeba>Tatoeba</tatoeba> und sind lizenziert unter <license>Creative Commons CC BY 2.0 FR</license>. Sie basieren auf dem Tanaka-Korpus von Professor Yasuhito Tanaka. " +
                 "Beispielsätze in der Wort-Suche stammen ebenfalls aus dem Tanaka-Korpus." +
                 "<br/><br/>" +
-                "Beispielsätze mit dem Tag 'K' wurden direkt vom Autor von <kevin>Kevin Goes to Japan</kevin> bereitgestellt.",
+                "Beispielsätze mit dem Tag 'K' werden direkt vom Autor von <kevin>Kevin Goes to Japan</kevin> bereitgestellt.",
             title_anim: "Kanji-Strichreihenfolgen",
             content_anim:
-                "Informationen zur Strichreihenfolge von Kanji stammen von <anim>KanjiVG</anim>, das urheberrechtlich (© 2009-2023 Ulrich Apel) geschützt und unter <license>Creative Commons Attribution-Share Alike 3.0</license> lizenziert ist." +
+                "Informationen zur Strichreihenfolge der Kanjis stammen von <anim>KanjiVG</anim>, das urheberrechtlich © 2009-2023 Ulrich Apel geschützt und unter <license>Creative Commons Attribution-Share Alike 3.0</license> lizenziert ist." +
                 "<br/><br/>" +
                 "Um diese Daten in SVGs umzuwandeln, haben wir eine von uns <altversion>veränderte Version</altversion> von dem <kanjivgsvg>kanjivg2svg</kanjivgsvg>-Projekt von Kim Ahlström verwendet, welches unter der <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> Lizenz lizenziert ist.",
             title_jlpt: "JLPT Informationen",
             content_jlpt:
-                "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt welche der <license>Creative Commons CC BY</license> Lizenz unterliegen.",
+                "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt, welche der <license>Creative Commons CC BY</license> Lizenz unterliegen.",
             title_furigana: "Furigana",
             content_furigana:
                 "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMDict (<license>Creative Commons Attribution-ShareAlike</license>).",

@@ -506,9 +506,9 @@ export const TRANSLATIONS_EN: Translation = {
                 "These files are the property of the <edrdg>Electronic Dictionary Research and Development Group</edrdg>, and are used in conformance with the Group's <license>licence</license>",
             title_audio: "Audio Files",
             content_audio:
-                "Audio files with the label 'Tofugu' were provided by <tofugu>Tofugu's</tofugu> kanji and vocabulary learning site <wanikani>Wanikani</wanikani> and are licensed under <license>Creative Commons Attribution Share Alike 4.0</license>. " +
+                "Audio files with the label 'Tofugu' are provided by <tofugu>Tofugu's</tofugu> kanji and vocabulary learning site <wanikani>WaniKani</wanikani> and are licensed under <license>Creative Commons Attribution Share Alike 4.0</license>. " +
                 "They can be found <audio>here</audio>.<br/><br/>" +
-                "Audio files with the label 'Kanjialive' were provided by the <kanjialive>Kanji alive project</kanjialive> and are licensed under <kalicense>Creative Commons CC BY 4.0</kalicense> and can be found <kasource>here</kasource>.",
+                "Audio files with the label 'Kanjialive' are provided by the <kanjialive>Kanji alive project</kanjialive> and are licensed under <kalicense>Creative Commons CC BY 4.0</kalicense> and can be found <kasource>here</kasource>.",
             title_sentences: "Sentences",
             content_sentences:
                 "Example sentences with the tag 'T' come from <tatoeba>Tatoeba</tatoeba>, are licensed under <license>Creative Commons CC BY 2.0 FR</license> and are based on the Tanaka Corpus by Professor Yasuhito Tanaka. " +
