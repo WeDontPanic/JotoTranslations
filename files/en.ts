@@ -502,7 +502,7 @@ export const TRANSLATIONS_EN: Translation = {
             content_jotoKun: "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
             title_wkn: "Words & Kanji & Names",
             content_wkn:
-                "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. " +
+                "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. " +
                 "These files are the property of the <edrdg>Electronic Dictionary Research and Development Group</edrdg>, and are used in conformance with the Group's <license>licence</license>",
             title_audio: "Audio Files",
             content_audio:
@@ -522,10 +522,10 @@ export const TRANSLATIONS_EN: Translation = {
                 "To convert this data into SVGs, we <altversion>alternated</altversion> and used the <kanjivgsvg>kanjivg2svg</kanjivgsvg> project by Kim Ahlström which is licensed under the <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> license.",
             title_jlpt: "JLPT Data",
             content_jlpt:
-                "Data about JLPT proficiencies are by provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt> and licensed under <license>Creative Commons CC BY.</license>",
+                "Data about JLPT proficiencies are provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt> and licensed under <license>Creative Commons CC BY.</license>",
             title_furigana: "Furigana",
             content_furigana:
-                "Furigana for words and names were provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and are under the same license as JMDict (<license>Creative Commons Attribution-ShareAlike</license>).",
+                "Furigana for words and names are provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and are under the same license as JMdict (<license>Creative Commons Attribution-ShareAlike</license>).",
         },
         info: {
             shortcuts: {
@@ -612,7 +612,7 @@ export const TRANSLATIONS_EN: Translation = {
         support_us: "Support us",
         donations: "PayPal <ex>donations will be shared between the developers!</ex>",
         credits:
-            "Jotoba uses a lot of free data sources. Some of the major ones are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>.",
+            "Jotoba uses a lot of free data sources. Some of the major ones are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are the property of the <edrdg>Electronic Dictionary Research and Development Group</edrdg>, and are used in conformance with the Group's <license>licence</license>.",
         credits_about: "Check out our <about>About Page</about> for a list of all contributors.",
         about: "About Page",
         privacy: "Privacy Policy",

@@ -503,7 +503,7 @@ export const TRANSLATIONS_DE: Translation = {
                 "Joto-kun wurde von einer guten Freundin erstellt, welche eine wahrere Zauberin ist, wenn es ums Designen geht!",
             title_wkn: "Wörter & Kanji & Namen",
             content_wkn:
-                "Diese Website verwendet die Wörterbuchdateien <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>. " +
+                "Diese Website verwendet die Wörterbuchdateien <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>. " +
                 "Diese Dateien sind Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> und werden gemäß ihrer <license>Lizenz</license> verwendet.",
             title_audio: "Audio Dateien",
             content_audio:
@@ -515,7 +515,7 @@ export const TRANSLATIONS_DE: Translation = {
                 "Beispielsätze mit dem Tag 'T' stammen von <tatoeba>Tatoeba</tatoeba> und sind lizenziert unter <license>Creative Commons CC BY 2.0 FR</license>. Sie basieren auf dem Tanaka-Korpus von Professor Yasuhito Tanaka. " +
                 "Beispielsätze in der Wort-Suche stammen ebenfalls aus dem Tanaka-Korpus." +
                 "<br/><br/>" +
-                "Beispielsätze mit dem Tag 'K' werden direkt vom Autor von <kevin>Kevin Goes to Japan</kevin> bereitgestellt.",
+                "Beispielsätze mit dem Tag 'K' werden direkt von der Autorin von <kevin>Kevin Goes to Japan</kevin> bereitgestellt.",
             title_anim: "Kanji-Strichreihenfolgen",
             content_anim:
                 "Informationen zur Strichreihenfolge der Kanjis stammen von <anim>KanjiVG</anim>, das urheberrechtlich © 2009-2023 Ulrich Apel geschützt und unter <license>Creative Commons Attribution-Share Alike 3.0</license> lizenziert ist." +
@@ -526,7 +526,7 @@ export const TRANSLATIONS_DE: Translation = {
                 "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt, welche der <license>Creative Commons CC BY</license> Lizenz unterliegen.",
             title_furigana: "Furigana",
             content_furigana:
-                "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMDict (<license>Creative Commons Attribution-ShareAlike</license>).",
+                "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMdict (<license>Creative Commons Attribution-ShareAlike</license>).",
         },
         info: {
             shortcuts: {
