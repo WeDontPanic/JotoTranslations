@@ -251,7 +251,7 @@ export const TRANSLATIONS_EN: Translation = {
                 Auxilary: "Auxiliary",
                 AuxilaryAdj: "Auxiliary adjective",
                 AuxilaryVerb: "Auxiliary verb",
-                Conjunction: "Verbindung",
+                Conjunction: "Conjunction",
                 Unclassified: "Unclassified",
             },
             word_class: {
