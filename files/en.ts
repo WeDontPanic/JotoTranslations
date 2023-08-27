@@ -71,8 +71,8 @@ export const TRANSLATIONS_EN: Translation = {
             select_search: "Search language",
             select_page: "UI language",
             title_ordering: "Language ordering",
-            checkbox_alwaysEnglish: "Always show english results",
-            checkbox_englishOnTop: "Show english first",
+            checkbox_alwaysEnglish: "Always show English results",
+            checkbox_englishOnTop: "Show English first",
         },
         search: {
             title_words: "Words",
