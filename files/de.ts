@@ -160,7 +160,7 @@ export const TRANSLATIONS_DE: Translation = {
                 sentence_search: "Satz-Suche",
                 download_audio_tofugu: "Tofugu Audio",
                 download_audio_kanjialive: "Kanjialive Audio",
-                direct_reference: "Detailansicht",
+                direct_reference: "Details",
             },
             xref: "Siehe auch <word/>",
             pos: {
@@ -442,7 +442,7 @@ export const TRANSLATIONS_DE: Translation = {
             three_dot: {
                 sentence_search: "Wortsuche",
                 tatoeba_search: "In Tatoeba anzeigen",
-                direct_reference: "Detailansicht",
+                direct_reference: "Details",
             },
         },
         details: {
