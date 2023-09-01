@@ -640,27 +640,27 @@ export const TRANSLATIONS_DE: Translation = {
         },
         "303": {
             reason: "See Other",
-            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
         },
         "400": {
             reason: "Bad Request",
-            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
         },
         "401": {
             reason: "Nicht Autorisiert",
-            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
         },
         "404": {
             reason: "Die Seite wurde nicht gefunden.",
-            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
         },
         "408": {
             reason: "Request Timeout",
-            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
         },
         unknownCode: {
             reason: "Ein Fehler ist aufgetreten",
-            hint: "Sollte dieser bestehen bleiben, erstelle ein Issue auf unserem GitHub",
+            hint: "Sollte dieser bestehen bleiben, melde ihn auf unserem Discord",
         },
         jotoba: {
             header: "Gotcha!",

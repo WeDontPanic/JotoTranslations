@@ -639,27 +639,27 @@ export const TRANSLATIONS_EN: Translation = {
         },
         "303": {
             reason: "See Other",
-            hint: "If you believe this is an error, create an issue on our GitHub page",
+            hint: "If you believe this is an error, message us on discord!",
         },
         "400": {
             reason: "Bad Request",
-            hint: "If you believe this is an error, create an issue on our GitHub page",
+            hint: "If you believe this is an error, message us on discord!",
         },
         "401": {
             reason: "Unauthorized",
-            hint: "If you believe this is an error, create an issue on our GitHub page",
+            hint: "If you believe this is an error, message us on discord!",
         },
         "404": {
             reason: "The page was not found",
-            hint: "If you believe this is an error, create an issue on our GitHub page",
+            hint: "If you believe this is an error, message us on discord!",
         },
         "408": {
             reason: "Request Timeout",
-            hint: "If you believe this is an error, create an issue on our GitHub page",
+            hint: "If you believe this is an error, message us on discord!",
         },
         unknownCode: {
             reason: "An error occurred",
-            hint: "If the error persists, create an issue on our GitHub page",
+            hint: "If the error persists, message us on discord!",
         },
         jotoba: {
             header: "Gotcha!",
