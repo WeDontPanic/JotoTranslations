@@ -473,6 +473,9 @@ export const TRANSLATIONS_EN: Translation = {
                     causative: "Causative",
                     causative_passive: "Causative passive",
                     imperative: "Imperative",
+                    ba: "Ba",
+                    tara: "Tara",
+                    zu: "Zu",
                 },
                 audio: {
                     tofugu: "Tofugu",
