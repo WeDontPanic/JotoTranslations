@@ -460,6 +460,10 @@ export const TRANSLATIONS_DE: Translation = {
                 conjugations: "Konjugationen",
                 more: "Mehr",
             },
+            sentences: {
+                source_kevin: "Kevin Goes to Japan",
+                source_tatoeba: "Tatoeba",
+            },
             words: {
                 conjugations: {
                     affirmative: "Positiv",

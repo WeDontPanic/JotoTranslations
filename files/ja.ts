@@ -460,6 +460,10 @@ export const TRANSLATIONS_JA: Translation = {
                 conjugations: "活用形",
                 more: "その他",
             },
+            sentences: {
+                source_kevin: "Kevin Goes to Japan",
+                source_tatoeba: "Tatoeba",
+            },
             words: {
                 conjugations: {
                     affirmative: "肯定形",
