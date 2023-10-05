@@ -454,7 +454,7 @@ export const TRANSLATIONS_EN: Translation = {
                 word: "Word",
                 words: "Words",
                 kanji: "Kanji",
-                sentence: "Sentence",
+                sentenceTl: "Translation",
                 sentences: "Sentences",
                 collocations: "Collocations",
                 conjugations: "Conjugations",
@@ -463,6 +463,7 @@ export const TRANSLATIONS_EN: Translation = {
             sentences: {
                 source_kevin: "Kevin Goes to Japan",
                 source_tatoeba: "Tatoeba",
+                edit: "Edit in Tatoeba",
             },
             words: {
                 conjugations: {
@@ -491,6 +492,7 @@ export const TRANSLATIONS_EN: Translation = {
                 Intransitive: "Intransitive",
                 jlpt: "JLPT",
                 frequency: "Frequency",
+                edit: "Edit in JMDict",
             },
         },
         bookmarks: {
