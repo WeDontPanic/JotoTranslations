@@ -160,6 +160,7 @@ export const TRANSLATIONS_JA: Translation = {
                 sentence_search: "例文を検索",
                 download_audio_tofugu: "Tofuguの音声",
                 download_audio_kanjialive: "Kanji aliveの音声",
+                edit: "Edit in JMDict",
                 direct_reference: "詳細を見る",
             },
             xref: "See also <word/>",
@@ -473,6 +474,9 @@ export const TRANSLATIONS_JA: Translation = {
                     causative: "使役形",
                     causative_passive: "使役受身形",
                     imperative: "命令形",
+                    ba: "Ba",
+                    tara: "Tara",
+                    zu: "Zu",
                 },
                 audio: {
                     tofugu: "Tofugu",

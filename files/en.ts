@@ -160,6 +160,7 @@ export const TRANSLATIONS_EN: Translation = {
                 sentence_search: "Sentence search",
                 download_audio_tofugu: "Tofugu audio",
                 download_audio_kanjialive: "Kanjialive audio",
+                edit: "Edit in JMDict",
                 direct_reference: "Details",
             },
             xref: "See also <word/>",

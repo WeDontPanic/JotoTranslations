@@ -160,6 +160,7 @@ export const TRANSLATIONS_DE: Translation = {
                 sentence_search: "Satz-Suche",
                 download_audio_tofugu: "Tofugu Audio",
                 download_audio_kanjialive: "Kanjialive Audio",
+                edit: "Bearbeiten",
                 direct_reference: "Details",
             },
             xref: "Siehe auch <word/>",
@@ -473,6 +474,9 @@ export const TRANSLATIONS_DE: Translation = {
                     causative: "Kausativ",
                     causative_passive: "Kausativ (Passiv)",
                     imperative: "Imperativ",
+                    ba: "Ba",
+                    tara: "Tara",
+                    zu: "Zu",
                 },
                 audio: {
                     tofugu: "Tofugu",
