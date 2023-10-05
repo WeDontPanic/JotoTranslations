@@ -463,7 +463,6 @@ export const TRANSLATIONS_DE: Translation = {
             sentences: {
                 source_kevin: "Kevin Goes to Japan",
                 source_tatoeba: "Tatoeba",
-                edit: "Bearbeiten",                
             },
             words: {
                 conjugations: {
