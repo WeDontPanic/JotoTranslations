@@ -658,4 +658,7 @@ export const TRANSLATIONS_JA: Translation = {
                 '<jotoba>Jotoba</jotoba> is not a real word. It is derived from <kotoba /> where the "K" was replaced by a "J" which stands for "Japanese".',
         },
     },
+    share: {
+        title: "Share this page",
+    }
 };
