@@ -137,6 +137,7 @@ export const TRANSLATIONS_EN: Translation = {
         index: {
             search: "Search",
             radicals: "Radicals",
+            tourtext: "What is this? <link>Take a quick tour</link>",
         },
         words: {
             common: "common word",
