@@ -498,17 +498,21 @@ export const TRANSLATIONS_JA: Translation = {
         tour: {
             title_dropdown: "Advanced Search",
             description_dropdown: "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>drop down menu</g> next to the search bar.<br/>You can also <g>switch</g> between <g>search targets</g> by <g>hitting w/k/s or n</g> on your <g>keyboard</g>.",
+            description_dropdown_mobile: "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>arrow up</g> in the search bar and <g>choosing</g> your desired <g>search target</g>.",
             title_multilang: "Multi language",
             description_multilang: "Add a <g>second language</g> for translations in the <g>settings</g> to see translations in <g>another language</g>.",
             title_sentencereader: "Sentence reader",
             description_sentencereader: "Search for a <g>whole Japanese sentence</g> to break it down into <g>single words</g> with <g>inflections</g>.<br/>Using the <g>pen icon</g> allows you to <g>customize</g> the <g>splitted words</g> by clicking the <g>spaces</g> or <g>between characters</g>.",
             title_3dot: "3-dot Menu",
-            description_3dot: "Select the <g>3-dot menu</g> on a search result to get access to <g>more features</g> like it's <g>direct link</g>, <g>in/transitive version</g>, <g>sentence search</g> and much more.",
+            title_3dot_mobile: "Details page",
+            description_3dot: "Select the <g>3-dot menu</g> on a search result to get access to <g>more features</g> like its <g>direct link</g>, <g>in/transitive version</g>, <g>sentence search</g> and much more.",
+            description_3dot_mobile: "<g>Click</g> on a Word in a search result to get access to <g>more information</g> like its <g>in/transitive version</g>, used <g>kanji</g>, <g>example sentences</g> and much more.",
             title_kanjigraphs: "Kanji decomposition graph",
             description_kanjigraphs: "Click on the <g>literal</g> of a kanji on the <g>kanji page</g> to see how its made.<br/>Using the <g>button</g> on the <g>bottom right</g> switches between <g>detailed</g> and <g>default view</g>.",
             action_next: "Next",
             action_get_started: "Get started",
             action_previous: "Previous",
+
         },
         bookmarks: {
             undo: "ブックマークに戻す",
