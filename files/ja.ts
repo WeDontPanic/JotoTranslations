@@ -620,6 +620,7 @@ export const TRANSLATIONS_JA: Translation = {
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
+        reddit: "Reddit",
         support_us: "Support us",
         donations: "PayPal <ex>皆様からの寄付はすべての開発者間で分配されます。</ex>",
         credits: "Jotoba uses a lot of free data sources. Some of the major ones are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are properties of the <edrdg>Electronic Dictionary Research and Development Group</edrdg> and are used in conformance with the Group's <license>licence</license>.",

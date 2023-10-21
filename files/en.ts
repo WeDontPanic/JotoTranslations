@@ -637,6 +637,7 @@ export const TRANSLATIONS_EN: Translation = {
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
+        reddit: "Reddit",
         support_us: "Support us",
         donations: "PayPal <ex>donations will be shared between the developers!</ex>",
         credits:

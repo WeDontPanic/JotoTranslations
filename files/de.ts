@@ -638,6 +638,7 @@ export const TRANSLATIONS_DE: Translation = {
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
+        reddit: "Reddit",
         support_us: "Unterstütze uns",
         donations: "PayPal <ex>Donations werden immer zwischen allen Entwicklern aufgeteilt!</ex>",
         credits:
