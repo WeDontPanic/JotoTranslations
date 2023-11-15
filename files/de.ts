@@ -497,18 +497,25 @@ export const TRANSLATIONS_DE: Translation = {
         },
         tour: {
             title_dropdown: "Fortgeschrittene Suche",
-            description_dropdown: "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du das <g>drop down Men&uuml;</g> neben der Suchbar betätigst.<br/>Du kannst jedoch auch <g>w/k/s</g> und <g>n</g> auf deiner <g>Tastatur</g> dafür benutzen.",
-            description_dropdown_mobile: "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du den <g>Pfeil nach Oben</g> in der Suchbar drückst.",
+            description_dropdown:
+                "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du das <g>drop down Men&uuml;</g> neben der Suchbar betätigst.<br/>Du kannst jedoch auch <g>w/k/s</g> und <g>n</g> auf deiner <g>Tastatur</g> dafür benutzen.",
+            description_dropdown_mobile:
+                "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du den <g>Pfeil nach Oben</g> in der Suchbar drückst.",
             title_multilang: "Mehrsprachige Suche",
-            description_multilang: "Du kannst eine <g>weitere Sprache</g>, z.B Deutsch, in den <g>Einstellungen</g> hinzufügen um <g>&Uuml;bersetzungen auf Deutsch</g> zu sehen.",
+            description_multilang:
+                "Du kannst eine <g>weitere Sprache</g>, z.B Deutsch, in den <g>Einstellungen</g> hinzufügen um <g>&Uuml;bersetzungen auf Deutsch</g> zu sehen.",
             title_sentencereader: "Japanische Lesehilfe",
-            description_sentencereader: "Du kannst einen <g>ganzen Japanischen Satz</g> eingeben um ihn in seine <g>einzelnen Wörter</g> aufteilen zu lassen.<br/>Mit dem <g>grünen Stift</g> kannst du dir die Aufteilungen <g>anpassen</g> indem du auf die <g>Leerzeichen</g> oder <g>Spalten</g> zwischen den <g>Buchstaben</g> klickst.",
+            description_sentencereader:
+                "Du kannst einen <g>ganzen Japanischen Satz</g> eingeben um ihn in seine <g>einzelnen Wörter</g> aufteilen zu lassen.<br/>Mit dem <g>grünen Stift</g> kannst du dir die Aufteilungen <g>anpassen</g> indem du auf die <g>Leerzeichen</g> oder <g>Spalten</g> zwischen den <g>Buchstaben</g> klickst.",
             title_3dot: "3-dot Menü",
             title_3dot_mobile: "Details Seite",
-            description_3dot: "W&auml;hle das <g>3-dot Men&uuml;</g> auf einer Such-seite aus um Zugriff zu <g>weiteren Features</g> zu bekommen, wie <g>direkte Links</g>, <g>in/transitive Versionen</g>, <g>Satz-suche</g> und viel mehr.",
-            description_3dot_mobile: "<g>Klicke</g> auf ein Wort in den <g>Suchergebnissen</g> um mehr <g>Informationen</g> zu sehen, wie z.B die <g>in/transitive Version</g>, <g>Kanjis</g>, <g>Beispiels&auml;tze</g> und viel mehr.",
+            description_3dot:
+                "W&auml;hle das <g>3-dot Men&uuml;</g> auf einer Such-seite aus um Zugriff zu <g>weiteren Features</g> zu bekommen, wie <g>direkte Links</g>, <g>in/transitive Versionen</g>, <g>Satz-suche</g> und viel mehr.",
+            description_3dot_mobile:
+                "<g>Klicke</g> auf ein Wort in den <g>Suchergebnissen</g> um mehr <g>Informationen</g> zu sehen, wie z.B die <g>in/transitive Version</g>, <g>Kanjis</g>, <g>Beispiels&auml;tze</g> und viel mehr.",
             title_kanjigraphs: "Kanji Aufteilungen",
-            description_kanjigraphs: "Klicke auf ein <g>Kanji Literal</g> auf der Kanji Such Seite um zu sehen, wie es <g>aufgebaut</g> wird.<br/>Mit dem Knopf <g>unten rechts</g> kannst du zwischen der <g>detaillierten</g> und der <g>standart Ansicht</g> wechseln.",
+            description_kanjigraphs:
+                "Klicke auf ein <g>Kanji Literal</g> auf der Kanji Such Seite um zu sehen, wie es <g>aufgebaut</g> wird.<br/>Mit dem Knopf <g>unten rechts</g> kannst du zwischen der <g>detaillierten</g> und der <g>standart Ansicht</g> wechseln.",
             action_next: "Weiter",
             action_get_started: "Los geht's",
             action_previous: "Zurück",
@@ -627,6 +634,21 @@ export const TRANSLATIONS_DE: Translation = {
         first: "Anfang",
         last: "Ende",
     },
+    login: {
+        email: "E-Mail",
+        username: "Nutzername",
+        password: "Passwort",
+        login: "Login",
+        register: "Register",
+        logout: "Logout",
+        not_registered: "Noch nicht registriert?",
+        already_registered: "Bereits registered?",
+        sign_in: "Login",
+        create_account: "Account erstellen",
+        login_success: "Login erfolgreich",
+        register_success: "Registrierung erfolgreich",
+        logout_success: "Abgemeldet",
+    },
     notifications: {
         title: "Informationen",
         no_notifications: "Keine neuen Benachrichtigungen",
@@ -700,5 +722,5 @@ export const TRANSLATIONS_DE: Translation = {
     },
     share: {
         title: "Diese Seite teilen",
-    }
+    },
 };
