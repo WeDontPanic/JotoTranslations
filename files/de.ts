@@ -137,7 +137,10 @@ export const TRANSLATIONS_DE: Translation = {
         index: {
             search: "Suchen",
             radicals: "Radikale",
-            tourtext: "Was ist das? <link>Kleine Einf&uuml;hrung</link>",
+            misc_links: {
+                tour_text: "Neu hier? Mach doch eine kleine Tour!",
+                tour_link: "Tour starten",
+            },
         },
         words: {
             common: "Häufiges Wort",

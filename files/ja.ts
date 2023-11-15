@@ -137,7 +137,10 @@ export const TRANSLATIONS_JA: Translation = {
         index: {
             search: "検索",
             radicals: "部首",
-            tourtext: "What is this? <link>Take a quick tour</link>",
+            misc_links: {
+                tour_text: "New here? Get started by",
+                tour_link: "taking a quick tour",
+            },
         },
         words: {
             common: "一般的な単語",
