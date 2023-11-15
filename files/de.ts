@@ -501,7 +501,7 @@ export const TRANSLATIONS_DE: Translation = {
         tour: {
             title_dropdown: "Fortgeschrittene Suche",
             description_dropdown:
-                "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du das <g>drop down Men&uuml;</g> neben der Suchbar betätigst.<br/>Du kannst jedoch auch <g>w/k/s</g> und <g>n</g> auf deiner <g>Tastatur</g> dafür benutzen.",
+                "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du das <g>drop down Men&uuml;</g> neben der Suchbar betätigst.<br/>Du kannst jedoch auch <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> und <kbd>n</kbd> auf deiner <g>Tastatur</g> dafür benutzen.",
             description_dropdown_mobile:
                 "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du den <g>Pfeil nach Oben</g> in der Suchbar drückst.",
             title_multilang: "Mehrsprachige Suche",

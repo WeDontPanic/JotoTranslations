@@ -501,7 +501,7 @@ export const TRANSLATIONS_EN: Translation = {
         tour: {
             title_dropdown: "Advanced Search",
             description_dropdown:
-                "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>drop down menu</g> next to the search bar.<br/>You can also <g>switch</g> between <g>search targets</g> by <g>hitting w/k/s or n</g> on your <g>keyboard</g>.",
+                "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>drop down menu</g> next to the search bar.<br/>You can also <g>switch</g> between <g>search targets</g> by hitting <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> or <kbd>n</kbd> on your <g>keyboard</g>.",
             description_dropdown_mobile:
                 "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>arrow up</g> in the search bar and <g>choosing</g> your desired <g>search target</g>.",
             title_multilang: "Multi language",
