@@ -19,7 +19,7 @@ export const TRANSLATIONS_EN: Translation = {
         placeholder: "Search...",
         rad_picker: {
             select_kanji: "Select Kanji",
-            search_placeholder: "Search by Kanji...",
+            search_placeholder: "Search for radicals...",
             select_kanji_placeholder: "Pick a radical to start searching for kanji",
         },
         image_overlay: {
@@ -566,6 +566,10 @@ export const TRANSLATIONS_EN: Translation = {
                 "Furigana for words and names are provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and are under the same license as JMdict (<license>Creative Commons Attribution-ShareAlike</license>).",
         },
         info: {
+            tour: {
+                title: "Tour",
+                description: "-> <link>Take a quick tour</link> to get to know about the most relevant features of Jotoba",
+            },
             shortcuts: {
                 title: "Shortcuts",
                 description: "These shortcuts can be used anywhere when the input is not in focus.",

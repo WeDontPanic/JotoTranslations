@@ -19,8 +19,8 @@ export const TRANSLATIONS_DE: Translation = {
         placeholder: "Suchen...",
         rad_picker: {
             select_kanji: "Kanji wählen",
-            search_placeholder: "Kanji eingeben...",
-            select_kanji_placeholder: "Wähle ein Radikal zum starten der Kanji-Suche",
+            search_placeholder: "Suche nach Radikalen...",
+            select_kanji_placeholder: "Wähle ein Radikal die Kanji-Suche zu beginnen",
         },
         image_overlay: {
             select: "Wähle ein Bild",
@@ -567,6 +567,10 @@ export const TRANSLATIONS_DE: Translation = {
                 "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMdict (<license>Creative Commons Attribution-ShareAlike</license>).",
         },
         info: {
+            tour: {
+                title: "Tour",
+                description: "-> <link>Mach ne kleine tour</link> um die wichtigsten Features von Jotoba kennenzulernen",
+            },
             shortcuts: {
                 title: "Shortcuts",
                 description: "Diese Shortcuts können überall benutzt werden, wenn kein Input-Feld im Fokus liegt.",
