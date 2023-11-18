@@ -501,7 +501,7 @@ export const TRANSLATIONS_EN: Translation = {
         tour: {
             title_dropdown: "Advanced Search",
             description_dropdown:
-                "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>drop down menu</g> next to the search bar.<br/>You can also <g>switch</g> between <g>search targets</g> by hitting <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> or <kbd>n</kbd> on your <g>keyboard</g>.",
+                "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>drop down menu</g> next to the search bar.<br/><br/>You can also <g>switch</g> between <g>search targets</g> by hitting <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> or <kbd>n</kbd> on your <g>keyboard</g>.",
             description_dropdown_mobile:
                 "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>arrow up</g> in the search bar and <g>choosing</g> your desired <g>search target</g>.",
             title_multilang: "Multi language",
@@ -509,7 +509,7 @@ export const TRANSLATIONS_EN: Translation = {
                 "Add a <g>second language</g> for translations in the <g>settings</g> to see translations in <g>another language</g>.",
             title_sentencereader: "Sentence reader",
             description_sentencereader:
-                "Search for a <g>whole Japanese sentence</g> to break it down into <g>single words</g> with <g>inflections</g>.<br/>Using the <g>pen icon</g> allows you to <g>customize</g> the <g>splitted words</g> by clicking the <g>spaces</g> or <g>between characters</g>.",
+                "Search for a <g>whole Japanese sentence</g> to break it down into <g>single words</g> with <g>inflections</g>.<br/><br/>Using the <g>pen icon</g> allows you to <g>customize</g> the <g>splitted words</g> by clicking the <g>spaces</g> or <g>between characters</g>.",
             title_3dot: "3-dot Menu",
             title_3dot_mobile: "Details page",
             description_3dot:
@@ -518,7 +518,7 @@ export const TRANSLATIONS_EN: Translation = {
                 "<g>Click</g> on a Word in a search result to get access to <g>more information</g> like its <g>in/transitive version</g>, used <g>kanji</g>, <g>example sentences</g> and much more.",
             title_kanjigraphs: "Kanji decomposition graph",
             description_kanjigraphs:
-                "Click on the <g>literal</g> of a kanji on the <g>kanji page</g> to see how its made.<br/>Using the <g>button</g> on the <g>bottom right</g> switches between <g>detailed</g> and <g>default view</g>.",
+                "Click on the <g>literal</g> of a kanji on the <g>kanji page</g> to see how its made.<br/><br/>Using the <g>button</g> on the <g>bottom right</g> switches between <g>detailed</g> and <g>default view</g>.",
             action_next: "Next",
             action_get_started: "Get started",
             action_previous: "Previous",

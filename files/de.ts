@@ -501,7 +501,7 @@ export const TRANSLATIONS_DE: Translation = {
         tour: {
             title_dropdown: "Fortgeschrittene Suche",
             description_dropdown:
-                "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du das <g>drop down Men&uuml;</g> neben der Suchbar betätigst.<br/>Du kannst jedoch auch <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> und <kbd>n</kbd> auf deiner <g>Tastatur</g> dafür benutzen.",
+                "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du das <g>drop down Men&uuml;</g> neben der Suchbar betätigst.<br/><br/>Du kannst jedoch auch <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> und <kbd>n</kbd> auf deiner <g>Tastatur</g> dafür benutzen.",
             description_dropdown_mobile:
                 "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du den <g>Pfeil nach Oben</g> in der Suchbar drückst.",
             title_multilang: "Mehrsprachige Suche",
@@ -509,7 +509,7 @@ export const TRANSLATIONS_DE: Translation = {
                 "Du kannst eine <g>weitere Sprache</g>, z.B Deutsch, in den <g>Einstellungen</g> hinzufügen um <g>&Uuml;bersetzungen auf Deutsch</g> zu sehen.",
             title_sentencereader: "Japanische Lesehilfe",
             description_sentencereader:
-                "Du kannst einen <g>ganzen Japanischen Satz</g> eingeben um ihn in seine <g>einzelnen Wörter</g> aufteilen zu lassen.<br/>Mit dem <g>grünen Stift</g> kannst du dir die Aufteilungen <g>anpassen</g> indem du auf die <g>Leerzeichen</g> oder <g>Spalten</g> zwischen den <g>Buchstaben</g> klickst.",
+                "Du kannst einen <g>ganzen Japanischen Satz</g> eingeben um ihn in seine <g>einzelnen Wörter</g> aufteilen zu lassen.<br/><br/>Mit dem <g>grünen Stift</g> kannst du dir die Aufteilungen <g>anpassen</g> indem du auf die <g>Leerzeichen</g> oder <g>Spalten</g> zwischen den <g>Buchstaben</g> klickst.",
             title_3dot: "3-dot Menü",
             title_3dot_mobile: "Details Seite",
             description_3dot:
@@ -518,7 +518,7 @@ export const TRANSLATIONS_DE: Translation = {
                 "<g>Klicke</g> auf ein Wort in den <g>Suchergebnissen</g> um mehr <g>Informationen</g> zu sehen, wie z.B die <g>in/transitive Version</g>, <g>Kanjis</g>, <g>Beispiels&auml;tze</g> und viel mehr.",
             title_kanjigraphs: "Kanji Aufteilungen",
             description_kanjigraphs:
-                "Klicke auf ein <g>Kanji Literal</g> auf der Kanji Such Seite um zu sehen, wie es <g>aufgebaut</g> wird.<br/>Mit dem Knopf <g>unten rechts</g> kannst du zwischen der <g>detaillierten</g> und der <g>standart Ansicht</g> wechseln.",
+                "Klicke auf ein <g>Kanji Literal</g> auf der Kanji Such Seite um zu sehen, wie es <g>aufgebaut</g> wird.<br/><br/>Mit dem Knopf <g>unten rechts</g> kannst du zwischen der <g>detaillierten</g> und der <g>standart Ansicht</g> wechseln.",
             action_next: "Weiter",
             action_get_started: "Los geht's",
             action_previous: "Zurück",
