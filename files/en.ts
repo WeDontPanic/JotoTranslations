@@ -503,13 +503,13 @@ export const TRANSLATIONS_EN: Translation = {
             description_dropdown:
                 "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>drop down menu</g> next to the search bar.<br/><br/>You can also <g>switch</g> between <g>search targets</g> by hitting <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> or <kbd>n</kbd> on your <g>keyboard</g>.",
             description_dropdown_mobile:
-                "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by selecting the <g>arrow up</g> in the search bar and <g>choosing</g> your desired <g>search target</g>.",
+                "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by tapping the <g>up arrow</g> in the search bar and <g>choosing</g> your desired <g>search target</g>.",
             title_multilang: "Multi language",
             description_multilang:
-                "Add a <g>second language</g> for translations in the <g>settings</g> to see translations in <g>another language</g>.",
+                "You can add a <g>second translation language</g> in the <g>settings</g>.",
             title_sentencereader: "Sentence reader",
             description_sentencereader:
-                "Search for a <g>whole Japanese sentence</g> to break it down into <g>single words</g> with <g>inflections</g>.<br/><br/>Using the <g>pen icon</g> allows you to <g>customize</g> the <g>splitted words</g> by clicking the <g>spaces</g> or <g>between characters</g>.",
+                "Search for a <g>whole Japanese sentence</g> to break it down into <g>single words</g> with <g>inflections</g>.<br/><br/>Using the <g>pen icon</g> allows you to <g>customize</g> the <g>split words</g> by clicking the <g>spaces</g> or <g>between characters</g>.",
             title_3dot: "3-dot Menu",
             title_3dot_mobile: "Details page",
             description_3dot:
