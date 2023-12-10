@@ -57,6 +57,7 @@ export const TRANSLATIONS_DE: Translation = {
             discord: "Discord",
             instagram: "Instagram",
             about: "Über uns",
+            help: "Hilfe"
         },
         nav_button: {
             home: "Hauptmenü",
