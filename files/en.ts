@@ -121,7 +121,7 @@ export const TRANSLATIONS_EN: Translation = {
             0: "Counting words",
             1: "Drawing kanji",
             2: "Counting to infinity",
-            3: "Planing new features",
+            3: "Planning new features",
             4: "Why don't you order a sandwich?",
             5: "Just count to 10",
             6: "Finding the Wifi cable",
