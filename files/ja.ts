@@ -57,6 +57,7 @@ export const TRANSLATIONS_JA: Translation = {
             discord: "Discord",
             instagram: "Instagram",
             about: "Jotobaについて",
+            help: "Help"
         },
         nav_button: {
             home: "ホーム",
