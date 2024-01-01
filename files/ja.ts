@@ -37,7 +37,7 @@ export const TRANSLATIONS_JA: Translation = {
         categories: {
             words: "単語",
             kanji: "漢字",
-            sentences: "例文",
+            sentences: "文",
             names: "名前",
         },
     },
@@ -52,11 +52,12 @@ export const TRANSLATIONS_JA: Translation = {
             display: "表示",
             qol: "操作",
             privacy: "プライバシー",
-            github: "Github",
+            github: "ギットハブ",
             donation: "寄付",
-            discord: "Discord",
-            instagram: "Instagram",
+            discord: "ディスコード",
+            instagram: "インスタグラム",
             about: "Jotobaについて",
+            help: "Help"
         },
         nav_button: {
             home: "ホーム",
@@ -77,8 +78,11 @@ export const TRANSLATIONS_JA: Translation = {
         search: {
             title_words: "単語",
             checkbox_showExampleSentences: "例文を表示",
+            checkbox_showKanjiBubbles: "漢字を表示",
+            checkbox_showKanjiTranslation: "漢字の意味を表示",
             title_sentences: "文",
             checkbox_showFuri: "ふりがなを表示",
+            checkbox_hideTranslation: "翻訳を隠す",
             title_kanji: "漢字検索",
             anim_speed: "アニメーションの速度",
             show_other_langs: "他の言語を表示",
@@ -87,8 +91,9 @@ export const TRANSLATIONS_JA: Translation = {
         },
         display: {
             title_theme: "テーマ",
-            checkbox_useDarkmode: "ダークモードを使用",
-            checkbox_systemTheme: "システムのテーマを使用",
+            option_auto: "自動",
+            option_dark: "ダークモード",
+            option_light: "ライトモード",
             title_itemsPerPage: "ページあたりの項目数",
             words_per_page: "ページあたりの単語数",
             kanji_per_page: "ページあたりの漢字数",
@@ -99,8 +104,8 @@ export const TRANSLATIONS_JA: Translation = {
             title_search: "検索バー",
             checkbox_search_anim: "入力例を表示",
             checkbox_index_keyboard: "キーボードを閉じてアプリを終了",
-            checkbox_focusOnLoad: "検索後も検索バーにカーソルを残す",
-            checkbox_selectInputOnLoad: "検索後に入力全体を選択",
+            checkbox_focusAfterSearch: "検索後も検索バーにカーソルを残す",
+            checkbox_focusInputAfterSearch: "検索後に入力全体を選択",
             title_other: "その他",
             checkbox_use_japanese_fonts: "選択した日本語フォントを使用",
             checkbox_enable_furi_copy: "ふりがなコピーを有効にする",
@@ -133,6 +138,10 @@ export const TRANSLATIONS_JA: Translation = {
         index: {
             search: "検索",
             radicals: "部首",
+            misc_links: {
+                tour_text: "初めてですか?",
+                tour_link: "使い方を簡単に見る",
+            },
         },
         words: {
             common: "一般的な単語",
@@ -142,21 +151,23 @@ export const TRANSLATIONS_JA: Translation = {
                 kanjialive: "Kanji alive",
             },
             number: "{{query}}は{{number}}です",
-            inflection: "{{query}}は{{word}}の活用形の可能性があります。候補としては以下のものがあります。",
-            inflections: "{{query}}は{{word}}の活用形の可能性があります。候補としては以下のものがあります。",
-            sentence_show: "長い例文を表示",
+            inflection: "We have detected the following inflection for {{query}} (<word>{{word}}</word>)",
+            sentence_show: "例文を表示",
             sentence_hide: "例文をたたむ",
+            garaigo: "和製, {{language}} -> {{word}}",
             pitches: "ピッチアクセント",
             other_forms: "他の書き方・読み方",
             three_dot: {
                 show_collocations: "コロケーションを表示",
                 show_conjugations: "活用を表示",
                 suffix_transitivity: "単語",
-                sentence_search: "文を検索",
+                sentence_search: "例文を検索",
                 download_audio_tofugu: "Tofuguの音声",
                 download_audio_kanjialive: "Kanji aliveの音声",
+                edit: "JMDictで編集する",
                 direct_reference: "詳細を見る",
             },
+            xref: "See also <word/>",
             pos: {
                 Noun: {
                     Normal: "名詞",
@@ -249,7 +260,7 @@ export const TRANSLATIONS_JA: Translation = {
                 Unclassified: "未分類",
             },
             word_class: {
-                "Pre-noun": "前置詞",
+                PreNoun: "連体詞",
                 Noun: "名詞",
                 Pronoun: "代名詞",
                 Adjective: "形容詞",
@@ -258,10 +269,11 @@ export const TRANSLATIONS_JA: Translation = {
                 Particle: "助詞",
                 Interjection: "間投詞",
                 Symbol: "記号",
-                Conjugation: "活用形",
+                Conjunction: "接続詞",
                 Suffix: "接尾辞",
                 Prefix: "接頭辞",
                 Space: "スペース",
+                Expr: "表現",
             },
             field: {
                 term: "用語",
@@ -410,6 +422,8 @@ export const TRANSLATIONS_JA: Translation = {
             on: "音読み：",
             title_kun: "訓読み",
             title_on: "音読み",
+            tooltip_jouyou: "常用漢字",
+            tooltip_kokuji: "和製漢字",
             tooltip_stroke: "画数",
             tooltip_grade: "習う学年",
             tooltip_jlpt: "日本語能力試験のレベル",
@@ -425,6 +439,17 @@ export const TRANSLATIONS_JA: Translation = {
             sex: "性別",
             origin: "姓名",
         },
+        sentences: {
+            source_kevin: "Kevin Goes to Japan",
+            source_tatoeba: "Tatoeba",
+            sentence_show: "[Show]",
+            sentence_hide: "[Hide]",
+            three_dot: {
+                sentence_search: "文を検索",
+                tatoeba_search: "Tatoebaで開く",
+                direct_reference: "詳細を見る",
+            },
+        },
         details: {
             common: {
                 share: "共有する",
@@ -433,11 +458,15 @@ export const TRANSLATIONS_JA: Translation = {
                 word: "単語",
                 words: "単語",
                 kanji: "漢字",
-                sentence: "文",
+                sentenceTl: "訳",
                 sentences: "文",
                 collocations: "コロケーション",
                 conjugations: "活用形",
                 more: "その他",
+            },
+            sentences: {
+                source_kevin: "Kevin Goes to Japan",
+                source_tatoeba: "Tatoeba",
             },
             words: {
                 conjugations: {
@@ -453,6 +482,9 @@ export const TRANSLATIONS_JA: Translation = {
                     causative: "使役形",
                     causative_passive: "使役受身形",
                     imperative: "命令形",
+                    ba: "Ba",
+                    tara: "Tara",
+                    zu: "Zu",
                 },
                 audio: {
                     tofugu: "Tofugu",
@@ -463,130 +495,178 @@ export const TRANSLATIONS_JA: Translation = {
                 Intransitive: "自動詞",
                 jlpt: "日本語能力試験レベル",
                 frequency: "使用頻度",
+                edit: "JMDictで編集する",
             },
+        },
+        tour: {
+            title_dropdown: "絞り込み検索",
+            description_dropdown:
+                "検索バー横の<g>下矢印</g>から選択して<g>単語、漢字、文章、名前</g> を検索します。<br/><br/>また、 <g>キーボード</g> の <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> <kbd>n</kbd> を押して <g>検索対象</g> を <g>変更</g> することも可能です。",
+            description_dropdown_mobile:
+                "検索バー横の<g>上矢印</g>を押して、 <g>単語、漢字、文章、名前</g> から検索したいものを<g>選択します</g>。",
+            title_multilang: "多言語",
+            description_multilang:
+                "<g>他の言語</g>の翻訳を表示するには、<g>設定</g>で翻訳用の<g>第二言語</g>を追加します。",
+            title_sentencereader: "文章解析ツール",
+            description_sentencereader:
+                "<g>日本語の文章全体</g>を検索し、抑揚のある<g>1つの単語</g>ごとに分解します。また、<g>ペンアイコン</g>を使って、<g>スペース</g>や<g>文字間</g>をクリックすることで、<g>分割された単語</g>を<g>カスタマイズ</g>することができます。",
+            title_3dot: "3ドットメニュー",
+            title_3dot_mobile: "詳細ページ",
+            description_3dot:
+                "検索結果の<g>3ドットメニュー</g>を選択すると、<g>直接そのリンク</g>や、<g>自動詞/他動詞</g>、<g>文章検索</g>など、<g>より多くの機能</g>にアクセスできます。",
+            description_3dot_mobile:
+                "検索結果の単語をクリックすると、自動詞/他動詞、使用漢字、例文などの詳細情報にアクセスできます。",
+            title_kanjigraphs: "漢字構成要素",
+            description_kanjigraphs:
+                "漢字ページの漢字をクリックすると、その漢字の成り立ちを見ることができます。右下のボタンで詳細表示とデフォルト表示が切り替わります。",
+            action_next: "次へ",
+            action_get_started: "始める",
+            action_previous: "前へ",
         },
         bookmarks: {
             undo: "ブックマークに戻す",
-            no_content:
-                "<b>まだブックマークがありません。</b><br/><br/>単語を検索してクリックし、上部左隅のアイコンから追加できます。",
+            no_content: "<b>まだブックマークがありません。</b><br/><br/>単語を検索してクリックし、上部左隅のアイコンから追加できます。",
         },
         about: {
             title_about: "Jotobaについて",
-            content_about:
-                "Jotobaは、複数言語に対応したオンライン日本語辞書です。単語・人名。漢字の翻訳に加えて、例文の検索もスムーズに行えます。<br/><br/>" +
-                "当ウェブサイトの最新の取り組みや今後追加予定の機能にご興味をお持ちの場合は、当ウェブサイトの<trello>Trello</trello>をご覧ください。",
+            content_about: "TODO",
+            dev_preview_frontend: "Frontend",
+            dev_preview_backend: "Backend",
             title_jotoKun: "Jotoくん",
             content_jotoKun: "Jotoくんのデザインは、管理人の友人が作成してくれました。",
             title_wkn: "単語／漢字／名前",
-            content_wkn:
-                "このウェブサイトの単語・漢字・および名前のすべてのデータは、<edrdg>EDRDG</edrdg>から取得され、<ccsa>CC BY-SA 3.0</ccsa>ライセンスの下で利用可能です。<br/><br/>" +
-                "また、JinBreen氏によるRADKFILEを使用して、部首を漢字にリンクさせています。",
+            content_wkn: "TODO",
             title_audio: "オーディオファイル",
-            content_audio:
-                "当ウェブサイトのオーディオファイルは、2つのリソースから取得されており、いずれも<license>CC BY 4.0</license>ライセンスの下で提供されています。<br/><br/>" +
-                "「tofugu」というラベルの付いたオーディオファイルは、<wanikani>Wanikani＆Tofugu</wanikani>から提供されており、<audio>こちら</audio>で見つけることができます。<br/><br/>" +
-                "「kanjialive」というラベルの付いたオーディオファイルは、<kanjialive>Kanji alive</kanjialive>から提供されています。",
+            content_audio: "TODO",
             title_sentences: "例文",
-            content_sentences:
-                "例文は、<tatoeba>Tatoeba</tatoeba>から提供され、クリエイティブ・コモンズCC 1.0＆2.0のライセンスの下で利用可能です。",
-            title_anim: "漢字アニメーション",
-            content_anim:
-                "漢字アニメーションの基礎となるデータは、Ulrich Apel氏のプロジェクト<anim>KanjiVG</anim>で公開されています。",
+            content_sentences: "TODO",
+            title_anim: "漢字の書き順",
+            content_anim: "TODO",
             title_jlpt: "日本語能力試験情報",
-            content_jlpt: "日本語能力試験の情報は、Jonathan Waller氏によって提供されています。",
-            title_token: "単語トークン化",
-            content_token:
-                "<token>単語トークナイゼーション</token>は、Hideki Yamane氏のプロジェクトを利用し、日本語形態素解析を実装することにより実現しました。",
-            title_pitch: "トーンアクセント",
-            content_pitch: "トーンアクセントのデータは、<unidic>UniDic</unidic>から抽出されています。",
+            content_jlpt: "TODO",
             title_furigana: "ふりがな",
-            content_furigana:
-                "単語や名前のふりがなは、<jmdictfurigana>JmdictFurigana</jmdictfurigana>プロジェクトから提供されています。",
+            content_furigana: "TODO",
         },
         info: {
+            tour: {
+                title: "使い方",
+                description: "-> Jotobaの重要な機能を知るために<link>使い方を簡単に見る</link> ",
+            },
             shortcuts: {
-                title: "Shortcuts",
-                description: "These shortcuts can be used anywhere when the input is not in focus.",
+                title: "ショートカット",
+                description: "これらのショートカットは、入力にフォーカスが当たっていないときならどこでも使えます",
                 shortcuts: {
                     global: {
-                        title: "Global",
-                        wsnk: "Change search category to words | sentences | names | kanji",
-                        slash: "Focus the search bar",
+                        title: "サイト全体",
+                        wsnk: "単語 | 文章 | 名前 | 漢字　の検索カテゴリーを変える",
+                        slash: "検索バーにフォーカスする",
                     },
                     words: {
-                        title: "Words",
-                        p: "Play the first audio on the page",
+                        title: "単語ページ",
+                        p: "ページ上の最初の単語を再生する",
                     },
                 },
             },
             searchbarShortcuts: {
-                title: "Searchbar Shortcuts",
-                description: "These shortcuts can be used anywhere when the input is in focus.",
+                title: "検索バーのショートカット",
+                description: "これらのショートカットは、入力にフォーカスが当たっていればどこでも使えます",
                 shortcuts: {
-                    arrowsUpDown: "Iterate suggestions up | down",
-                    tab: "Iterate a single suggestion down",
-                    enter: "Search for the current suggestion if selected, search for query otherwise",
+                    arrowsUpDown: "上 | 下　の検索予測",
+                    tab: "1つ下の検索予測",
+                    enter: "選択したものを検索する",
                 },
             },
             radicalSearch: {
-                title: "Radical Search",
-                description: "Use Kanji, Kana or Romaji to search for radicals.",
+                title: "部首検索",
+                description: "漢字、かな、ローマ字を使って検索する",
                 explanations: {
                     kanji: {
-                        title: "Kanji",
-                        description: "Results in all radicals used to build given kanji characters",
+                        title: "漢字",
+                        description: "入力した漢字を構成するすべての部首結果が見れます",
                     },
                     kana: {
-                        title: "Kana",
-                        description: "Searches in words for the given query and returns in result-matching radicals",
+                        title: "かな",
+                        description: "単語で検索し、その漢字の部首を示します",
                     },
                     romaji: {
-                        title: "Romaji",
+                        title: "ローマ字",
                         description:
-                            "Tries to find the given query in radicals names, otherwise does a word search and returns the result's kanji",
+                            "部首名か単語で検索し、その漢字を示します",
                     },
                 },
             },
             hashtags: {
-                title: "Hashtags",
-                description: "Hashtags can be used to filter the search results.",
+                title: "ハッシュタグ",
+                description: "ハッシュタグを使って直接検索できます",
                 headers: {
-                    hashtag: "Hashtag",
-                    description: "Description",
-                    types: "Supported search types",
+                    hashtag: "ハッシュタグ",
+                    description: "説明",
+                    types: "対応する検索タイプ",
                 },
                 explanations: {
-                    word: "Search in the [words] category",
-                    sentence: "Search in the [sentences] category",
-                    name: "Search in the [names] category",
-                    kanji: "Search in the [kanji] category",
-                    jlpt: "Search for the [jlpt] proficiency of the given level",
-                    katakana: "Only search for [katakana] words",
-                    hidden: "Hide translations of results",
-                    default: "Restrict search to the given category",
+                    word: "「単語」カテゴリーを検索する",
+                    sentence: "「文章」カテゴリーを検索する",
+                    name: "「名前」カテゴリーを検索する",
+                    kanji: "「漢字」カテゴリーを検索する",
+                    hidden: "翻訳を隠す",
                 },
-                allTypes: "All types",
+                allTypes: "全て",
+            },
+            filterHashtags: {
+                title: "ハッシュタグフィルター",
+                description: "検索結果にフィルターをかける",
             },
         },
     },
+    paginator: {
+        first: "最初",
+        last: "最後",
+    },
+    login: {
+        email: "Eメール",
+        username: "ユーザーネーム",
+        password: "パスワード",
+        login: "ログイン",
+        register: "アカウント登録",
+        logout: "ログアウト",
+        not_registered: "まだアカウント登録されてませんか?",
+        already_registered: "すでにアカウントをお持ちですか?",
+        sign_in: "サインイン",
+        create_account: "新しいアカウントを作る",
+        login_success: "ログインしました",
+        register_success: "アカウント登録が完了しました",
+        logout_success: "ログアウトしました",
+    },
+    notifications: {
+        title: "通知",
+        no_notifications: "新しい通知はありません",
+        show: "全て見る",
+        close: "閉じる",
+    },
     footer: {
-        text: 'Jotobaは多くのオープンソースの支援なしでは存在できません。<br/>このプロジェクトに貢献してくださったすべての方々のリストは、<a href="/about">「Jotobaについて」</a>のページに掲載しています。',
+        socials: "SNS",
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
+        reddit: "Reddit",
+        support_us: "支援する",
         donations: "PayPal <ex>皆様からの寄付はすべての開発者間で分配されます。</ex>",
+        credits:
+            "Jotobaは多くのフリーデータソースを使用しています。主なものとして、<jmdict>JMdict</license>、<jmdict>KANJIDIC2</license>、<jmdict>KRADFILE</license>、<jmdict>JMnedict</license>がありますが、これらは<jmdict>the Electronic Dictionary Research and Development Group</license>のものであり、グループの<jmdict>ライセンス</license>に従って使用されています。",
+        credits_about: "Check out our <about>About Page</about> for a list of all contributors.",
+        about: "Jotobaについて",
+        privacy: "プライバシーポリシー",
     },
     toast: {
         direct_reference_copied: "ダイレクトリンクがコピーされました",
-        furigana_copy: "ふりがながコピーされました",
-        furigana_copy_full: "<div><b>全文の</b>ふりがながコピーされました</div>",
+        furigana_copied: "ふりがながコピーされました",
+        audio_copied: "音声コピーされました",
         url_copied: "リンクがコピーされました",
     },
     message_pages: {
         default_error: {
             message: "Jotoくんは現在頑張っています。",
             highlight: "しばらくしてからもう一度お試しください。",
-            retry: "試行#{{count}}回目",
         },
         no_result: {
             message: "検索に一致する結果がありませんでした。",
@@ -597,10 +677,38 @@ export const TRANSLATIONS_JA: Translation = {
             message: "接続が切断されました。",
             highlight: "インターネットに接続し、もう一度お試しください。",
         },
-        "404": {
-            code: "404",
-            reason: "ページが見つかりませんでした。",
-            hint: "問題が発生した場合は、GitHubでIssueを作成してください。",
+        "303": {
+            reason: "See Other",
+            hint: "If you believe this is an error, message us on discord!",
         },
+        "400": {
+            reason: "Bad Request",
+            hint: "If you believe this is an error, message us on discord!",
+        },
+        "401": {
+            reason: "Unauthorized",
+            hint: "If you believe this is an error, message us on discord!",
+        },
+        "404": {
+            reason: "ページが見つかりませんでした。",
+            hint: "もし間違いだと思われる場合は、Discordでお知らせください。",
+        },
+        "408": {
+            reason: "Request Timeout",
+            hint: "If you believe this is an error, message us on discord!",
+        },
+        unknownCode: {
+            reason: "An error occurred",
+            hint: "If the error persists, message us on discord!",
+        },
+        jotoba: {
+            header: "わかってたよ!",
+            highlight: "私たちの名前が気になるだろうことは分かっていたよ！",
+            message:
+                '<jotoba>Jotoba</jotoba> は日本語の単語ではありません。 <kotoba /> の「K」が「Japanese」の「J」に置き換わったものです。',
+        },
+    },
+    share: {
+        title: "このページをシェアする",
     },
 };
