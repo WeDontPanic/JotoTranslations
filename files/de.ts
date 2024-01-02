@@ -19,8 +19,8 @@ export const TRANSLATIONS_DE: Translation = {
         placeholder: "Suchen...",
         rad_picker: {
             select_kanji: "Kanji wählen",
-            search_placeholder: "Kanji eingeben...",
-            select_kanji_placeholder: "Wähle ein Radikal zum starten der Kanji-Suche",
+            search_placeholder: "Suche nach Radikalen...",
+            select_kanji_placeholder: "Wähle ein Radikal die Kanji-Suche zu beginnen",
         },
         image_overlay: {
             select: "Wähle ein Bild",
@@ -57,6 +57,7 @@ export const TRANSLATIONS_DE: Translation = {
             discord: "Discord",
             instagram: "Instagram",
             about: "Über uns",
+            help: "Hilfe"
         },
         nav_button: {
             home: "Hauptmenü",
@@ -77,8 +78,11 @@ export const TRANSLATIONS_DE: Translation = {
         search: {
             title_words: "Wörter",
             checkbox_showExampleSentences: "Zeige Beispielsätze",
+            checkbox_showKanjiBubbles: "Zeige Kanji",
+            checkbox_showKanjiTranslation: "Zeige Kanji-Übersetzung",
             title_sentences: "Sätze",
             checkbox_showFuri: "Zeige Furigana",
+            checkbox_hideTranslation: "Verstecke Übersetzung",
             title_kanji: "Kanji-Suche",
             anim_speed: "Animationsgeschwindigkeit",
             show_other_langs: "zeige weitere Sprachen",
@@ -87,8 +91,9 @@ export const TRANSLATIONS_DE: Translation = {
         },
         display: {
             title_theme: "Farbschema",
-            checkbox_useDarkmode: "Darkmode aktivieren",
-            checkbox_systemTheme: "System-Farbmodus verwenden",
+            option_auto: "Automatisch",
+            option_dark: "Dunkel",
+            option_light: "Hell",
             title_itemsPerPage: "Seiteneinträge",
             words_per_page: "Wörter pro Seite",
             kanji_per_page: "Kanji pro Seite",
@@ -99,8 +104,8 @@ export const TRANSLATIONS_DE: Translation = {
             title_search: "Suchleiste",
             checkbox_search_anim: "Zeige Inputbeispiele",
             checkbox_index_keyboard: "Beende die App beim schließen des Index-Keyboards",
-            checkbox_focusOnLoad: "Fokussiere Suchleiste beim Laden",
-            checkbox_selectInputOnLoad: "Markiere Input beim Laden",
+            checkbox_focusAfterSearch: "Fokussiere Suchleiste nach einer Suche",
+            checkbox_focusInputAfterSearch: "Markiere Input nach einer Suche",
             title_other: "Sonstiges",
             checkbox_use_japanese_fonts: "Verwende ausgewählte japanische Schriftarten",
             checkbox_enable_furi_copy: "Aktiviere Furigana-Copy",
@@ -133,6 +138,10 @@ export const TRANSLATIONS_DE: Translation = {
         index: {
             search: "Suchen",
             radicals: "Radikale",
+            misc_links: {
+                tour_text: "Neu hier? Mach doch eine kleine Tour!",
+                tour_link: "Tour starten",
+            },
         },
         words: {
             common: "Häufiges Wort",
@@ -142,10 +151,11 @@ export const TRANSLATIONS_DE: Translation = {
                 kanjialive: "Kanji alive",
             },
             number: "{{query}} is {{number}}",
-            inflection: "{{query}} könnte eine Flexion von {{word}} sein. Mögliche Form:",
-            inflections: "{{query}} könnte eine Flexion von {{word}} sein. Mögliche Formen:",
-            sentence_show: "Zeige langen Beispielsatz",
+            inflection: "Wir haben die folgende Flexion für {{query}} (<word>{{word}}</word>) erkannt:",
+            inflections: "Wir haben die folgenden Flexionen für {{query}} (<word>{{word}}</word>) erkannt:",
+            sentence_show: "Zeige Beispielsatz",
             sentence_hide: "Verstecke Beispielsatz",
+            garaigo: "Wasei, {{language}} -> {{word}}",
             pitches: "Tonhöhenakzente",
             other_forms: "Andere Formen",
             three_dot: {
@@ -155,8 +165,10 @@ export const TRANSLATIONS_DE: Translation = {
                 sentence_search: "Satz-Suche",
                 download_audio_tofugu: "Tofugu Audio",
                 download_audio_kanjialive: "Kanjialive Audio",
-                direct_reference: "Detailansicht",
+                edit: "Bearbeiten",
+                direct_reference: "Details",
             },
+            xref: "Siehe auch <word/>",
             pos: {
                 Noun: {
                     Normal: "Nomen",
@@ -192,40 +204,40 @@ export const TRANSLATIONS_DE: Translation = {
                         },
                     },
                     Yodan: {
-                        Bu: "Yodan Bu-Verb",
-                        Dzu: "Yodan Dzu-Verb",
-                        Gu: "Yodan Gu-Verb",
-                        Hu: "Yodan Hu-Verb",
-                        Ku: "Yodan Ku-Verb",
-                        Mu: "Yodan Mu-Verb",
-                        Nu: "Yodan Nu-Verb",
-                        Ru: "Yodan Ru-Verb",
-                        Su: "Yodan Su-Verb",
-                        Tsu: "Yodan Tsu-Verb",
-                        U: "Yodan U-Verb",
-                        Yu: "Yodan Yu-Verb",
-                        Zu: "Yodan Zu-Verb",
+                        Bu: "Yodan Verb",
+                        Dzu: "Yodan Verb",
+                        Gu: "Yodan Verb",
+                        Hu: "Yodan Verb",
+                        Ku: "Yodan Verb",
+                        Mu: "Yodan Verb",
+                        Nu: "Yodan Verb",
+                        Ru: "Yodan Verb",
+                        Su: "Yodan Verb",
+                        Tsu: "Yodan TVerb",
+                        U: "Yodan Verb",
+                        Yu: "Yodan Verb",
+                        Zu: "Yodan Verb",
                     },
                     Godan: {
-                        Bu: "Godan Bu-Verb",
-                        Gu: "Godan Gu-Verb",
-                        Ku: "Godan Ku-Verb",
-                        Mu: "Godan Mu-Verb",
-                        Nu: "Godan Nu-Verb",
-                        Ru: "Godan Ru-Verb",
-                        Su: "Godan Su-Verb",
-                        Tsu: "Godan Tsu-Verb",
-                        U: "Godan U-Verb",
-                        Aru: "Godan Aru-Verb",
-                        USpecial: "Godan U-Verb (Speziell)",
-                        Uru: "Godan U-Verb",
-                        RuIrreg: "Godan Ru-Verb (ungregelmäßig)",
-                        IkuYuku: "Godan Iku-Verb",
+                        Bu: "Godan Verb",
+                        Gu: "Godan Verb",
+                        Ku: "Godan Verb",
+                        Mu: "Godan Verb",
+                        Nu: "Godan Verb",
+                        Ru: "Godan Verb",
+                        Su: "Godan Verb",
+                        Tsu: "Godan Verb",
+                        U: "Godan Verb",
+                        Aru: "Godan Verb",
+                        USpecial: "Godan Verb (Speziell)",
+                        Uru: "Godan Verb",
+                        RuIrreg: "Godan Verb (ungregelmäßig)",
+                        IkuYuku: "Godan Verb",
                     },
                     Irregular: {
-                        Nu: "Unregelmäßiges Verb, das auf nu endet",
-                        Ru: "Unregelmäßiges Verb, das auf ru endet",
-                        Su: "Unregelmäßiges Verb, das auf su endet",
+                        Nu: "Unregelmäßiges Verb",
+                        Ru: "Unregelmäßiges Verb",
+                        Su: "Unregelmäßiges Verb",
                         NounOrAuxSuru: 'Substantiv mit "suru"',
                         Suru: "Suru-Verb",
                         SuruSpecial: "Speziales Suru",
@@ -249,7 +261,7 @@ export const TRANSLATIONS_DE: Translation = {
                 Unclassified: "Nicht klassifiziert",
             },
             word_class: {
-                "Pre-noun": "Vornomen",
+                PreNoun: "Vornomen",
                 Noun: "Nomen",
                 Pronoun: "Pronomen",
                 Adjective: "Adjektiv",
@@ -258,10 +270,11 @@ export const TRANSLATIONS_DE: Translation = {
                 Particle: "Partikel",
                 Interjection: "Zwischenruf",
                 Symbol: "Symbol",
-                Conjugation: "Konjugation",
+                Conjunction: "Verbindung",
                 Suffix: "Suffix",
                 Prefix: "Präfix",
                 Space: "Leerzeichen",
+                Expr: "Ausdruck",
             },
             field: {
                 term: "Begriff",
@@ -410,6 +423,8 @@ export const TRANSLATIONS_DE: Translation = {
             on: "On:",
             title_kun: "Kunyomi",
             title_on: "Onyomi",
+            tooltip_jouyou: "Jouyou Kanji",
+            tooltip_kokuji: "Kokuji Kanji",
             tooltip_stroke: "Anzahl der Striche",
             tooltip_grade: "Beigebracht in dieser Klasse",
             tooltip_jlpt: "JLPT-Level",
@@ -425,6 +440,17 @@ export const TRANSLATIONS_DE: Translation = {
             sex: "Geschlecht",
             origin: "Herkunft",
         },
+        sentences: {
+            source_kevin: "Kevin Goes to Japan",
+            source_tatoeba: "Tatoeba",
+            sentence_show: "[Zeigen]",
+            sentence_hide: "[Verstecken]",
+            three_dot: {
+                sentence_search: "Wortsuche",
+                tatoeba_search: "In Tatoeba anzeigen",
+                direct_reference: "Details",
+            },
+        },
         details: {
             common: {
                 share: "Teilen",
@@ -433,11 +459,15 @@ export const TRANSLATIONS_DE: Translation = {
                 word: "Wort",
                 words: "Wörter",
                 kanji: "Kanji",
-                sentence: "Satz",
+                sentenceTl: "Übersetzung",
                 sentences: "Sätze",
                 collocations: "Kollokationen",
                 conjugations: "Konjugationen",
                 more: "Mehr",
+            },
+            sentences: {
+                source_kevin: "Kevin Goes to Japan",
+                source_tatoeba: "Tatoeba",
             },
             words: {
                 conjugations: {
@@ -453,6 +483,9 @@ export const TRANSLATIONS_DE: Translation = {
                     causative: "Kausativ",
                     causative_passive: "Kausativ (Passiv)",
                     imperative: "Imperativ",
+                    ba: "Ba",
+                    tara: "Tara",
+                    zu: "Zu",
                 },
                 audio: {
                     tofugu: "Tofugu",
@@ -463,7 +496,33 @@ export const TRANSLATIONS_DE: Translation = {
                 Intransitive: "Intransitiv",
                 jlpt: "JLPT-Level",
                 frequency: "Häufigkeit",
+                edit: "Bearbeiten",
             },
+        },
+        tour: {
+            title_dropdown: "Fortgeschrittene Suche",
+            description_dropdown:
+                "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du das <g>drop down Men&uuml;</g> neben der Suchbar betätigst.<br/><br/>Du kannst jedoch auch <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> und <kbd>n</kbd> auf deiner <g>Tastatur</g> dafür benutzen.",
+            description_dropdown_mobile:
+                "Suche nach <g>Wörtern, Kanjis, Sätzen</g> oder <g>Namen</g> indem du den <g>Pfeil nach Oben</g> in der Suchbar drückst.",
+            title_multilang: "Mehrsprachige Suche",
+            description_multilang:
+                "Du kannst eine <g>weitere Sprache</g>, z.B Deutsch, in den <g>Einstellungen</g> hinzufügen um <g>&Uuml;bersetzungen auf Deutsch</g> zu sehen.",
+            title_sentencereader: "Japanische Lesehilfe",
+            description_sentencereader:
+                "Du kannst einen <g>ganzen Japanischen Satz</g> eingeben um ihn in seine <g>einzelnen Wörter</g> aufteilen zu lassen.<br/><br/>Mit dem <g>grünen Stift</g> kannst du dir die Aufteilungen <g>anpassen</g> indem du auf die <g>Leerzeichen</g> oder <g>Spalten</g> zwischen den <g>Buchstaben</g> klickst.",
+            title_3dot: "3-dot Menü",
+            title_3dot_mobile: "Details Seite",
+            description_3dot:
+                "W&auml;hle das <g>3-dot Men&uuml;</g> auf einer Such-seite aus um Zugriff zu <g>weiteren Features</g> zu bekommen, wie <g>direkte Links</g>, <g>in/transitive Versionen</g>, <g>Satz-suche</g> und viel mehr.",
+            description_3dot_mobile:
+                "<g>Klicke</g> auf ein Wort in den <g>Suchergebnissen</g> um mehr <g>Informationen</g> zu sehen, wie z.B die <g>in/transitive Version</g>, <g>Kanjis</g>, <g>Beispiels&auml;tze</g> und viel mehr.",
+            title_kanjigraphs: "Kanji Aufteilungen",
+            description_kanjigraphs:
+                "Klicke auf ein <g>Kanji Literal</g> auf der Kanji Such Seite um zu sehen, wie es <g>aufgebaut</g> wird.<br/><br/>Mit dem Knopf <g>unten rechts</g> kannst du zwischen der <g>detaillierten</g> und der <g>standart Ansicht</g> wechseln.",
+            action_next: "Weiter",
+            action_get_started: "Los geht's",
+            action_previous: "Zurück",
         },
         bookmarks: {
             undo: "Rückgängig",
@@ -473,38 +532,46 @@ export const TRANSLATIONS_DE: Translation = {
         about: {
             title_about: "Über uns",
             content_about:
-                "Jotoba ist ein mehrsprachiges Japanisch-Wörterbuch, mit dem es besonders einfach ist Übersetzungen zu Wörtern, Namen und Kanji zu finden und Beispielsätze zu entdecken. <br/><br/>" +
-                "Besuche unsere <trello>Trello-Seite</trello>, wenn du an zukünftigen Features und unserer aktuellen Arbeit interessiert bist!",
+                "Jotoba ist ein mehrsprachiges Japanisch-Wörterbuch, das auf zahlreichen kostenlosen Ressourcen aus dem Internet aufbaut. Es bietet viele praktische Tools zum Nachschlagen von Wörtern, Kanji, Beispielsätzen, japanischen Namen und vielem mehr. " +
+                "Auf dieser Seite möchten wir allen danken, die solch wunderbare Ressourcen erstellen und etwas wie Jotoba überhaupt möglich machen.<br/><br/>" +
+                "Wenn du dich für die Entwicklung von Jotoba interessierst, schau doch einmal auf unserem <trello>Trello Board</trello> vorbei. Dort kannst du sehen, woran wir derzeit arbeiten und welche Funktionen in zukünftigen Versionen kommen werden!",
+            dev_preview_frontend: "Frontend",
+            dev_preview_backend: "Backend",
             title_jotoKun: "Joto-kun",
             content_jotoKun:
                 "Joto-kun wurde von einer guten Freundin erstellt, welche eine wahrere Zauberin ist, wenn es ums Designen geht!",
             title_wkn: "Wörter & Kanji & Namen",
             content_wkn:
-                "Alle Daten über Wörter, Kanji und Namen auf dieser Webseite stammen von der <edrdg>EDRDG</edrdg> und stehen unter der <ccsa>CC BY-SA 3.0</ccsa> Lizenz.<br/><br/>" +
-                "Des Weiteren verwenden wir die RADKFILE von JinBreen verwendet, welche Radikale und Kanji verlinkt.",
+                "Diese Website verwendet die Wörterbuchdateien <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>. " +
+                "Diese Dateien sind Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> und werden gemäß ihrer <license>Lizenz</license> verwendet.",
             title_audio: "Audio Dateien",
             content_audio:
-                "Unsere Audio Dateien wurden von zwei Quellen zusammengefasst, welche beider unter der <license>CC BY 4.0</license> Lizenz stehen.<br/><br/>" +
-                "Die Audio Dateien mit dem Label 'tofugu' werden von <wanikani>Wanikani & Tofugu</wanikani> bereitgestellt und können <audio>hier</audio> gefunden werden.<br/><br/>" +
-                "Die Audio Dateien mit dem Label 'kanjialive' werden vom <kanjialive>Kanji alive Projekt</kanjialive> bereitgestellt.",
+                "Audiodateien mit dem Label 'Tofugu' werden von <tofugu>Tofugus</tofugu> Kanji- und Vokabellernwebsite <wanikani>WaniKani</wanikani> zur Verfügung gestellt und stehen unter der Lizenz <license>Creative Commons Attribution Share Alike 4.0</license>. " +
+                "Sie können <audio>hier</audio> gefunden werden.<br/><br/>" +
+                "Audiodateien mit dem Label 'Kanjialive' werden vom <kanjialive>Kanji Alive Projekt</kanjialive> zur Verfügung gestellt und stehen unter der Lizenz <kalicense>Creative Commons CC BY 4.0</kalicense>. Sie können <kasource>hier</kasource> gefunden werden.",
             title_sentences: "Sätze",
             content_sentences:
-                "Beispielsätze wurden von <tatoeba>Tatoeba</tatoeba> bereigestellt und stehen unter den Lizenzen Creative Commons CC 1.0 & 2.0.",
-            title_anim: "Kanji Animationen",
+                "Beispielsätze mit dem Tag 'T' stammen von <tatoeba>Tatoeba</tatoeba> und sind lizenziert unter <license>Creative Commons CC BY 2.0 FR</license>. Sie basieren auf dem Tanaka-Korpus von Professor Yasuhito Tanaka. " +
+                "Beispielsätze in der Wort-Suche stammen ebenfalls aus dem Tanaka-Korpus." +
+                "<br/><br/>" +
+                "Beispielsätze mit dem Tag 'K' werden direkt von der Autorin von <kevin>Kevin Goes to Japan</kevin> bereitgestellt.",
+            title_anim: "Kanji-Strichreihenfolgen",
             content_anim:
-                "Die zugrunde liegenden Daten für Kanji Animationen wurden von <anim>KanjiVG</anim> veröffentlicht - Einem Projekt von Ulrich Apel.",
+                "Informationen zur Strichreihenfolge der Kanjis stammen von <anim>KanjiVG</anim>, das urheberrechtlich © 2009-2023 Ulrich Apel geschützt und unter <license>Creative Commons Attribution-Share Alike 3.0</license> lizenziert ist." +
+                "<br/><br/>" +
+                "Um diese Daten in SVGs umzuwandeln, haben wir eine von uns <altversion>veränderte Version</altversion> von dem <kanjivgsvg>kanjivg2svg</kanjivgsvg>-Projekt von Kim Ahlström verwendet, welches unter der <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> Lizenz lizenziert ist.",
             title_jlpt: "JLPT Informationen",
-            content_jlpt: "Daten über <jlpt>JLPT-Stufen</jlpt> wurden von Jonathan Waller bereitgestellt.",
-            title_token: "Wörter-Tokenisierung",
-            content_token:
-                "Die <token>Wort-Tokenisierung</token> wurde durch ein Projekt von Hideki Yamane ermöglicht, welches der Implementierung von Japanisch-Morphologischen Analysen dient.",
-            title_pitch: "Tonhöhen-Akzente",
-            content_pitch: "Tonhöhen-Akzent-Daten wurden aus dem <unidic>UniDic</unidic> extrahiert.",
+            content_jlpt:
+                "Daten über JLPT-Stufen werden von <jw>Jonathan Waller's</jw> <jlpt>Ressourcen</jlpt> bereitgestellt, welche der <license>Creative Commons CC BY</license> Lizenz unterliegen.",
             title_furigana: "Furigana",
             content_furigana:
-                "Furigana für Wörter und Namen werden vom <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt.",
+                "Furigana für Wörter und Namen werden von dem <jmdictfurigana>JmdictFurigana</jmdictfurigana> Projekt bereitgestellt und haben die gleiche Lizenz wie das JMdict (<license>Creative Commons Attribution-ShareAlike</license>).",
         },
         info: {
+            tour: {
+                title: "Tour",
+                description: "-> <link>Mach ne kleine tour</link> um die wichtigsten Features von Jotoba kennenzulernen",
+            },
             shortcuts: {
                 title: "Shortcuts",
                 description: "Diese Shortcuts können überall benutzt werden, wenn kein Input-Feld im Fokus liegt.",
@@ -550,7 +617,7 @@ export const TRANSLATIONS_DE: Translation = {
             },
             hashtags: {
                 title: "Hashtags",
-                description: "Hashtags können benutzt werden um Suchergebnisse zu filtern.",
+                description: "Diese Hashtags haben einen direkten Einfluss auf die Webseite.",
                 headers: {
                     hashtag: "Hashtag",
                     description: "Beschreibung",
@@ -561,33 +628,65 @@ export const TRANSLATIONS_DE: Translation = {
                     sentence: "Suche in der [Sätze]-Kategorie",
                     name: "Suche in der [Namen]-Kategorie",
                     kanji: "Suche in der [Kanji]-Kategorie",
-                    jlpt: "Suche nach Ergebnissen mit dem gegebenen [JLPT]-Level",
-                    katakana: "Suche nur nach [Katakana]-Wörtern",
                     hidden: "Verstecke alle Übersetzungen",
-                    default: "Suche nur nach dieser Kategorie",
                 },
                 allTypes: "Alle Kateogrien",
             },
+            filterHashtags: {
+                title: "Filter-Hashtags",
+                description: "Diese Hashtags filtern die Ergebnisse.",
+            },
         },
     },
+    paginator: {
+        first: "Anfang",
+        last: "Ende",
+    },
+    login: {
+        email: "E-Mail",
+        username: "Nutzername",
+        password: "Passwort",
+        login: "Login",
+        register: "Register",
+        logout: "Logout",
+        not_registered: "Noch nicht registriert?",
+        already_registered: "Bereits registered?",
+        sign_in: "Login",
+        create_account: "Account erstellen",
+        login_success: "Login erfolgreich",
+        register_success: "Registrierung erfolgreich",
+        logout_success: "Abgemeldet",
+    },
+    notifications: {
+        title: "Informationen",
+        no_notifications: "Keine neuen Benachrichtigungen",
+        show: "Mehr Infos",
+        close: "Schließen",
+    },
     footer: {
-        text: 'Jotoba würde ohne die Hilfe von vielen Open-Source Quellen nicht existieren.<br/>Besuche unsere <a href="/about">"Über Uns" - Seite</a> für eine Liste aller Mitwirkenden an diesem Projekt.',
+        socials: "Socials",
         trello: "Trello",
         discord: "Discord",
         instagram: "Instagram",
+        reddit: "Reddit",
+        support_us: "Unterstütze uns",
         donations: "PayPal <ex>Donations werden immer zwischen allen Entwicklern aufgeteilt!</ex>",
+        credits:
+            "Jotoba verwendet viele verschiedene freie Daten. Ein Paar der Größten davon sind <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer <license>Lizenz</license> verwendet werden.",
+        credits_about: 'Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller verwendeten Datenquellen in diesem Projekt.',
+        about: "Über uns",
+        privacy: "Datenschutz",
     },
     toast: {
         direct_reference_copied: "Direkter Link in die Zwischenablage kopiert",
-        furigana_copy: "Furigana kopiert",
-        furigana_copy_full: "<div>Furigana <b>vollständig</b> kopiert</div>",
+        furigana_copied: "Furigana kopiert",
+        audio_copied: "Audio kopiert",
         url_copied: "Link kopiert",
     },
     message_pages: {
         default_error: {
             message: "Joto scheint gerade schwer am Arbeiten zu sein.",
             highlight: "Versuche es später nochmal!",
-            retry: "Versuch #{{count}}",
         },
         no_result: {
             message: "Deine Suche hat leider keine Ergebnisse ergeben.",
@@ -598,10 +697,38 @@ export const TRANSLATIONS_DE: Translation = {
             message: "Verbindung getrennt",
             highlight: "Verbinde dich mit dem Internet und versuche es erneut.",
         },
-        "404": {
-            code: "404",
-            reason: "Die Seite wurde nicht gefunden.",
-            hint: "Sollte es sich hierbei um einen Fehler handeln, erstelle ein Issue auf unserem GitHub",
+        "303": {
+            reason: "See Other",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
         },
+        "400": {
+            reason: "Bad Request",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
+        },
+        "401": {
+            reason: "Nicht Autorisiert",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
+        },
+        "404": {
+            reason: "Die Seite wurde nicht gefunden.",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
+        },
+        "408": {
+            reason: "Request Timeout",
+            hint: "Sollte es sich hierbei um einen Fehler handeln, melde ihn auf unserem Discord",
+        },
+        unknownCode: {
+            reason: "Ein Fehler ist aufgetreten",
+            hint: "Sollte dieser bestehen bleiben, melde ihn auf unserem Discord",
+        },
+        jotoba: {
+            header: "Gotcha!",
+            highlight: "We knew you'd be curious about our name!",
+            message:
+                '<jotoba>Jotoba</jotoba> is not a real word. It is derived from <kotoba /> where the "K" was replaced by a "J" which stands for "Japanese".',
+        },
+    },
+    share: {
+        title: "Diese Seite teilen",
     },
 };
