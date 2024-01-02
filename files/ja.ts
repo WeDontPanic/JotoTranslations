@@ -37,7 +37,7 @@ export const TRANSLATIONS_JA: Translation = {
         categories: {
             words: "単語",
             kanji: "漢字",
-            sentences: "文",
+            sentences: "文章",
             names: "名前",
         },
     },
@@ -80,7 +80,7 @@ export const TRANSLATIONS_JA: Translation = {
             checkbox_showExampleSentences: "例文を表示",
             checkbox_showKanjiBubbles: "漢字を表示",
             checkbox_showKanjiTranslation: "漢字の意味を表示",
-            title_sentences: "文",
+            title_sentences: "文章",
             checkbox_showFuri: "ふりがなを表示",
             checkbox_hideTranslation: "翻訳を隠す",
             title_kanji: "漢字検索",
@@ -152,6 +152,7 @@ export const TRANSLATIONS_JA: Translation = {
             },
             number: "{{query}}は{{number}}です",
             inflection: "We have detected the following inflection for {{query}} (<word>{{word}}</word>)",
+            inflections: "We have detected the following inflection for {{query}} (<word>{{word}}</word>)",
             sentence_show: "例文を表示",
             sentence_hide: "例文をたたむ",
             garaigo: "和製, {{language}} -> {{word}}",
@@ -459,7 +460,7 @@ export const TRANSLATIONS_JA: Translation = {
                 words: "単語",
                 kanji: "漢字",
                 sentenceTl: "訳",
-                sentences: "文",
+                sentences: "例文",
                 collocations: "コロケーション",
                 conjugations: "活用形",
                 more: "その他",
@@ -501,12 +502,12 @@ export const TRANSLATIONS_JA: Translation = {
         tour: {
             title_dropdown: "絞り込み検索",
             description_dropdown:
-                "検索バー横の<g>下矢印</g>から選択して<g>単語、漢字、文章、名前</g> を検索します。<br/><br/>また、 <g>キーボード</g> の <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> <kbd>n</kbd> を押して <g>検索対象</g> を <g>変更</g> することも可能です。",
+                "検索バー横の<g>下矢印</g>から<g>単語、漢字、文章、名前</g> を選択して検索できます。<br/><br/>また、 <g>キーボード</g> の <kbd>w</kbd> <kbd>k</kbd> <kbd>s</kbd> <kbd>n</kbd> を押して <g>検索対象</g> を <g>変更</g> することも可能です。",
             description_dropdown_mobile:
                 "検索バー横の<g>上矢印</g>を押して、 <g>単語、漢字、文章、名前</g> から検索したいものを<g>選択します</g>。",
             title_multilang: "多言語",
             description_multilang:
-                "<g>他の言語</g>の翻訳を表示するには、<g>設定</g>で翻訳用の<g>第二言語</g>を追加します。",
+                "<g>他の言語</g>の翻訳も表示したい場合は、<g>設定</g>で翻訳する<g>第二言語</g>を追加できます。",
             title_sentencereader: "文章解析ツール",
             description_sentencereader:
                 "<g>日本語の文章全体</g>を検索し、抑揚のある<g>1つの単語</g>ごとに分解します。また、<g>ペンアイコン</g>を使って、<g>スペース</g>や<g>文字間</g>をクリックすることで、<g>分割された単語</g>を<g>カスタマイズ</g>することができます。",
@@ -518,7 +519,7 @@ export const TRANSLATIONS_JA: Translation = {
                 "検索結果の単語をクリックすると、自動詞/他動詞、使用漢字、例文などの詳細情報にアクセスできます。",
             title_kanjigraphs: "漢字構成要素",
             description_kanjigraphs:
-                "漢字ページの漢字をクリックすると、その漢字の成り立ちを見ることができます。右下のボタンで詳細表示とデフォルト表示が切り替わります。",
+                "漢字ページの漢字をクリックすると、その漢字の構成を見ることができます。右下のボタンで詳細表示とデフォルト表示が切り替わります。",
             action_next: "次へ",
             action_get_started: "始める",
             action_previous: "前へ",
@@ -529,28 +530,46 @@ export const TRANSLATIONS_JA: Translation = {
         },
         about: {
             title_about: "Jotobaについて",
-            content_about: "TODO",
-            dev_preview_frontend: "Frontend",
-            dev_preview_backend: "Backend",
+            content_about:
+                "Jotobaは、インターネット上のたくさんのフリーリソースを基に作られた多言語日本語辞書です。単語、漢字、例文、日本人の名前などを調べる便利な機能がたくさんあります。" +
+                "このページでは、Jotobaのような素晴らしいリソースを作っているすべての方々に心から感謝申し上げます。<br/><br/>" +
+                "Jotobaの開発に興味がある方は、<trello>Trello Board</trello>をチェックして、現在取り組んでいることや今後のリリースで追加される機能をご覧ください！",
+            dev_preview_frontend: "フロントエンド",
+            dev_preview_backend: "バックエンド",
             title_jotoKun: "Jotoくん",
-            content_jotoKun: "Jotoくんのデザインは、管理人の友人が作成してくれました。",
-            title_wkn: "単語／漢字／名前",
-            content_wkn: "TODO",
-            title_audio: "オーディオファイル",
-            content_audio: "TODO",
-            title_sentences: "例文",
-            content_sentences: "TODO",
+            content_jotoKun: "Jotoくんは私たちの友人が作ったもので、彼女は本当にデザインの魔法使いです！",
+            title_wkn: "単語 & 漢字 & 名前",
+            content_wkn:
+                "このサイトでは、<jmdict>JMdict</jmdict>、<kanjidic>KANJIDIC2</kanjidic>、<kradfile>KRADFILE</kradfile>、<jmnedict>JMnedict</jmnedict>の辞書ファイルを使用しています。" +
+                "これらのファイルは<edrdg>the Electronic Dictionary Research and Development Group</edrdg>のものであり、グループの<license>ライセンス</license>に従って使用されています。",
+            title_audio: "音声ファイル",
+            content_audio:
+                "「Tofugu」のラベルが付いた音声ファイルは、<tofugu>Tofugu</tofugu>の漢字・語彙学習サイト<wanikani>WaniKani</wanikani>から提供され、<license>Creative Commons Attribution Share Alike 4.0</license>の下でライセンスされています。" +
+                "<audio>ここから</audio>詳細が見れます。<br/><br/>" +
+                "「Kanjialive」のラベルがついた音声ファイルは<kanjialive>Kanji alive project</kanjialive>から提供され、<kalicense>Creative Commons CC BY 4.0</kalicense> の下でライセンスされています。<kasource>ここから</kasource>詳細が見れます。",
+            title_sentences: "文章",
+            content_sentences:
+                "「T」のタグがついた例文は <tatoeba>Tatoeba</tatoeba>から提供され、Yasuhito Tanaka教授によるTanaka Corpusに基づいて、<license>Creative Commons CC BY 2.0 FR</license>の下でライセンスされています。" +
+                "単語検索の例文についてもTanaka corpusから提供されています。" +
+                "<br/><br/>" +
+                "「K」のタグがついた例文は<kevin>Kevin Goes to Japan</kevin>の著者から直接提供されています。",
             title_anim: "漢字の書き順",
-            content_anim: "TODO",
-            title_jlpt: "日本語能力試験情報",
-            content_jlpt: "TODO",
+            content_anim:
+                "漢字の書き順に関する情報は、<anim>KanjiVG</anim>から提供されています。KanjiVGの著作権はUlrich Apelに帰属し、<license>Creative Commons Attribution-Share Alike 3.0</license>の下でライセンスされています（© 2009-2023）。" +
+                "<br/><br/>" +
+                "SVGへの変換には、Kim Ahlströmの<kanjivgsvg>kanjivg2svg</kanjivgsvg>プロジェクトを<altversion>交互に</altversion>使用しました。このプロジェクトは<licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim>の下でライセンスされています。",
+            title_jlpt: "JLPTデータ",
+            content_jlpt:
+                "JLPTレベルに関するデータは<jw>Jonathan Waller's</jw>の<jlpt>リソース</jlpt>から提供され、それらのデータは<license>Creative Commons CC BY</license>の下でライセンスされています。",
             title_furigana: "ふりがな",
-            content_furigana: "TODO",
+            content_furigana:
+                "単語や名前のふりがなは<jmdictfurigana>JmdictFurigana</jmdictfurigana>プロジェクトから提供され、それらはJMdictと同じライセンスの下にあります (<license>Creative Commons Attribution-ShareAlike</license>)。",
+
         },
         info: {
             tour: {
                 title: "使い方",
-                description: "-> Jotobaの重要な機能を知るために<link>使い方を簡単に見る</link> ",
+                description: "-> Jotobaの重要な機能について<link>使い方を簡単に見る</link> ",
             },
             shortcuts: {
                 title: "ショートカット",
@@ -578,7 +597,7 @@ export const TRANSLATIONS_JA: Translation = {
             },
             radicalSearch: {
                 title: "部首検索",
-                description: "漢字、かな、ローマ字を使って検索する",
+                description: "漢字、かな、ローマ字を使って検索できます",
                 explanations: {
                     kanji: {
                         title: "漢字",
@@ -653,7 +672,7 @@ export const TRANSLATIONS_JA: Translation = {
         donations: "PayPal <ex>皆様からの寄付はすべての開発者間で分配されます。</ex>",
         credits:
             "Jotobaは多くのフリーデータソースを使用しています。主なものとして、<jmdict>JMdict</license>、<jmdict>KANJIDIC2</license>、<jmdict>KRADFILE</license>、<jmdict>JMnedict</license>がありますが、これらは<jmdict>the Electronic Dictionary Research and Development Group</license>のものであり、グループの<jmdict>ライセンス</license>に従って使用されています。",
-        credits_about: "Check out our <about>About Page</about> for a list of all contributors.",
+        credits_about: " データソースについて<about>Jotobaについて</about> で見る",
         about: "Jotobaについて",
         privacy: "プライバシーポリシー",
     },
