@@ -179,10 +179,10 @@ export const TRANSLATIONS_JA: Translation = {
                 },
                 Adjective: {
                     PreNounVerb: "名詞を説明する名詞または動詞",
-                    Keiyoushi: "形容詞（〜い）",
+                    Keiyoushi: "形容詞",
                     KeiyoushiYoiIi: "形容詞（いいの活用形）",
                     Ku: "形容詞（〜く）",
-                    Na: "形容詞（〜な）",
+                    Na: "ナ形容詞",
                     Nari: "文語的な形容詞（〜な）",
                     No: "の形容詞",
                     PreNoun: "名詞の前に置く形容詞",
