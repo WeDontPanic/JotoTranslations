@@ -2,7 +2,7 @@ import { LanguageCode } from "@/JotoKit/ts/common";
 import { Translation } from "@/JotoKit/ts/translations";
 
 export const TRANSLATIONS_JA: Translation = {
-    lang_value: LanguageCode.German,
+    lang_value: LanguageCode.Japanese,
     lang_names: {
         "en-US": "英語",
         "de-DE": "ドイツ語",
@@ -84,10 +84,10 @@ export const TRANSLATIONS_JA: Translation = {
             checkbox_showFuri: "ふりがなを表示",
             checkbox_hideTranslation: "翻訳を隠す",
             title_kanji: "漢字検索",
-            anim_speed: "アニメーションの速度",
             show_other_langs: "他の言語を表示",
             show_kanji: "漢字アニメーションを描画済みの状態で表示する",
             show_numbers: "数字で順序を表示",
+            anim_speed: "アニメーションの速度",
         },
         display: {
             title_theme: "テーマ",
