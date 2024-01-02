@@ -54,8 +54,8 @@ export const TRANSLATIONS_JA: Translation = {
             privacy: "プライバシー",
             github: "ギットハブ",
             donation: "寄付",
-            discord: "ディスコード",
-            instagram: "インスタグラム",
+            discord: "Discord",
+            instagram: "Instagram",
             about: "Jotobaについて",
             help: "Help"
         },
@@ -151,8 +151,8 @@ export const TRANSLATIONS_JA: Translation = {
                 kanjialive: "Kanji alive",
             },
             number: "{{query}}は{{number}}です",
-            inflection: "We have detected the following inflection for {{query}} (<word>{{word}}</word>)",
-            inflections: "We have detected the following inflection for {{query}} (<word>{{word}}</word>)",
+            inflection: "{{query}}は{{word}}の活用形の可能性があります。候補としては以下のものがあります。",
+            inflections: "{{query}}は{{word}}の活用形の可能性があります。候補としては以下のものがあります。",
             sentence_show: "例文を表示",
             sentence_hide: "例文をたたむ",
             garaigo: "和製, {{language}} -> {{word}}",
@@ -168,7 +168,7 @@ export const TRANSLATIONS_JA: Translation = {
                 edit: "JMDictで編集する",
                 direct_reference: "詳細を見る",
             },
-            xref: "See also <word/>",
+            xref: "<word/>も見る",
             pos: {
                 Noun: {
                     Normal: "名詞",
@@ -443,8 +443,8 @@ export const TRANSLATIONS_JA: Translation = {
         sentences: {
             source_kevin: "Kevin Goes to Japan",
             source_tatoeba: "Tatoeba",
-            sentence_show: "[Show]",
-            sentence_hide: "[Hide]",
+            sentence_show: "[表示]",
+            sentence_hide: "[隠す]",
             three_dot: {
                 sentence_search: "文を検索",
                 tatoeba_search: "Tatoebaで開く",
@@ -483,9 +483,9 @@ export const TRANSLATIONS_JA: Translation = {
                     causative: "使役形",
                     causative_passive: "使役受身形",
                     imperative: "命令形",
-                    ba: "Ba",
-                    tara: "Tara",
-                    zu: "Zu",
+                    ba: "ば形",
+                    tara: "たら形",
+                    zu: "ず形",
                 },
                 audio: {
                     tofugu: "Tofugu",
@@ -722,7 +722,7 @@ export const TRANSLATIONS_JA: Translation = {
         },
         jotoba: {
             header: "わかってたよ!",
-            highlight: "私たちの名前が気になるだろうことは分かっていたよ！",
+            highlight: "私たちの名前が気になるだろうっ思ってた！",
             message:
                 '<jotoba>Jotoba</jotoba> は日本語の単語ではありません。 <kotoba /> の「K」が「Japanese」の「J」に置き換わったものです。',
         },
