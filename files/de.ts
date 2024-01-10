@@ -675,6 +675,7 @@ export const TRANSLATIONS_DE: Translation = {
             "Jotoba verwendet viele verschiedene freie Daten. Ein Paar der Größten davon sind <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer <license>Lizenz</license> verwendet werden.",
         credits_about: 'Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller verwendeten Datenquellen in diesem Projekt.',
         about: "Über uns",
+        applink: "Android App",
         privacy: "Datenschutz",
     },
     toast: {

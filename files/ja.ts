@@ -674,6 +674,7 @@ export const TRANSLATIONS_JA: Translation = {
             "Jotobaは多くのフリーデータソースを使用しています。主なものとして、<jmdict>JMdict</license>、<jmdict>KANJIDIC2</license>、<jmdict>KRADFILE</license>、<jmdict>JMnedict</license>がありますが、これらは<jmdict>the Electronic Dictionary Research and Development Group</license>のものであり、グループの<jmdict>ライセンス</license>に従って使用されています。",
         credits_about: " データソースについて<about>Jotobaについて</about> で見る",
         about: "Jotobaについて",
+        applink: "携帯アプリ",
         privacy: "プライバシーポリシー",
     },
     toast: {
