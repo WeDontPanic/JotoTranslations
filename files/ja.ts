@@ -57,7 +57,8 @@ export const TRANSLATIONS_JA: Translation = {
             discord: "Discord",
             instagram: "Instagram",
             about: "Jotobaについて",
-            help: "Help"
+            help: "Help",
+            news: "News",
         },
         nav_button: {
             home: "ホーム",
@@ -506,8 +507,7 @@ export const TRANSLATIONS_JA: Translation = {
             description_dropdown_mobile:
                 "検索バー横の<g>上矢印</g>を押して、 <g>単語、漢字、文章、名前</g> から検索したいものを<g>選択します</g>。",
             title_multilang: "多言語",
-            description_multilang:
-                "<g>他の言語</g>の翻訳も表示したい場合は、<g>設定</g>で翻訳する<g>第二言語</g>を追加できます。",
+            description_multilang: "<g>他の言語</g>の翻訳も表示したい場合は、<g>設定</g>で翻訳する<g>第二言語</g>を追加できます。",
             title_sentencereader: "文章解析ツール",
             description_sentencereader:
                 "<g>日本語の文章全体</g>を検索し、抑揚のある<g>1つの単語</g>ごとに分解します。また、<g>ペンアイコン</g>を使って、<g>スペース</g>や<g>文字間</g>をクリックすることで、<g>分割された単語</g>を<g>カスタマイズ</g>することができます。",
@@ -515,8 +515,7 @@ export const TRANSLATIONS_JA: Translation = {
             title_3dot_mobile: "詳細ページ",
             description_3dot:
                 "検索結果の<g>3ドットメニュー</g>を選択すると、<g>直接そのリンク</g>や、<g>自動詞/他動詞</g>、<g>文章検索</g>など、<g>より多くの機能</g>にアクセスできます。",
-            description_3dot_mobile:
-                "検索結果の単語をクリックすると、自動詞/他動詞、使用漢字、例文などの詳細情報にアクセスできます。",
+            description_3dot_mobile: "検索結果の単語をクリックすると、自動詞/他動詞、使用漢字、例文などの詳細情報にアクセスできます。",
             title_kanjigraphs: "漢字構成要素",
             description_kanjigraphs:
                 "漢字ページの漢字をクリックすると、その漢字の構成を見ることができます。右下のボタンで詳細表示とデフォルト表示が切り替わります。",
@@ -564,7 +563,6 @@ export const TRANSLATIONS_JA: Translation = {
             title_furigana: "ふりがな",
             content_furigana:
                 "単語や名前のふりがなは<jmdictfurigana>JmdictFurigana</jmdictfurigana>プロジェクトから提供され、それらはJMdictと同じライセンスの下にあります (<license>Creative Commons Attribution-ShareAlike</license>)。",
-
         },
         info: {
             tour: {
@@ -609,8 +607,7 @@ export const TRANSLATIONS_JA: Translation = {
                     },
                     romaji: {
                         title: "ローマ字",
-                        description:
-                            "部首名か単語で検索し、その漢字を示します",
+                        description: "部首名か単語で検索し、その漢字を示します",
                     },
                 },
             },
@@ -725,7 +722,7 @@ export const TRANSLATIONS_JA: Translation = {
             header: "わかってたよ!",
             highlight: "私たちの名前が気になるだろうっ思ってた！",
             message:
-                '<jotoba>Jotoba</jotoba> は日本語の単語ではありません。 <kotoba /> の「K」が「Japanese」の「J」に置き換わったものです。',
+                "<jotoba>Jotoba</jotoba> は日本語の単語ではありません。 <kotoba /> の「K」が「Japanese」の「J」に置き換わったものです。",
         },
     },
     share: {

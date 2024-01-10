@@ -57,7 +57,8 @@ export const TRANSLATIONS_EN: Translation = {
             discord: "Discord",
             instagram: "Instagram",
             about: "About",
-            help: "Help"
+            help: "Help",
+            news: "News",
         },
         nav_button: {
             home: "Home",
@@ -506,8 +507,7 @@ export const TRANSLATIONS_EN: Translation = {
             description_dropdown_mobile:
                 "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by tapping the <g>up arrow</g> in the search bar and <g>choosing</g> your desired <g>search target</g>.",
             title_multilang: "Multi language",
-            description_multilang:
-                "You can add a <g>second translation language</g> in the <g>settings</g>.",
+            description_multilang: "You can add a <g>second translation language</g> in the <g>settings</g>.",
             title_sentencereader: "Sentence reader",
             description_sentencereader:
                 "Search for a <g>whole Japanese sentence</g> to break it down into <g>single words</g> with <g>inflections</g>.<br/><br/>Using the <g>pen icon</g> allows you to <g>customize</g> the <g>split words</g> by clicking the <g>spaces</g> or <g>between characters</g>.",
