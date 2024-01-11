@@ -143,6 +143,11 @@ export const TRANSLATIONS_EN: Translation = {
                 tour_text: "New here? Get started by",
                 tour_link: "taking a quick tour",
             },
+            /* TODO: Remove. Temporary content */
+            popup_news: {
+                title: "Jotoba is now available for Android!",
+                content: "Check it out on Google Play",
+            },
         },
         words: {
             common: "common word",

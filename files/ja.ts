@@ -143,6 +143,11 @@ export const TRANSLATIONS_JA: Translation = {
                 tour_text: "初めてですか?",
                 tour_link: "使い方を簡単に見る",
             },
+            /* TODO: Remove. Temporary content */
+            popup_news: {
+                title: "Jotoba、Androidでご利用いただけます。",
+                content: "Google Playでご確認ください。",
+            },
         },
         words: {
             common: "一般的な単語",
