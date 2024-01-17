@@ -91,10 +91,17 @@ export const TRANSLATIONS_DE: Translation = {
             show_numbers: "Zeige Reihenfolge mit Nummern an",
         },
         display: {
+            title_user_pref: "Nutzer-Präferenzen",
             title_theme: "Farbschema",
             option_auto: "Automatisch",
             option_dark: "Dunkel",
             option_light: "Hell",
+            title_jlpt: "JLPT-Level",
+            n5: "N5",
+            n4: "N4",
+            n3: "N3",
+            n2: "N2",
+            n1: "N1",
             title_itemsPerPage: "Seiteneinträge",
             words_per_page: "Wörter pro Seite",
             kanji_per_page: "Kanji pro Seite",
@@ -147,7 +154,7 @@ export const TRANSLATIONS_DE: Translation = {
             popup_news: {
                 title: "Jotoba gibt es jetzt auch für Android!",
                 content: "Downloade sie jetzt in Google Play",
-            }
+            },
         },
         words: {
             common: "Häufiges Wort",
@@ -677,9 +684,11 @@ export const TRANSLATIONS_DE: Translation = {
         reddit: "Reddit",
         support_us: "Unterstütze uns",
         donations: "PayPal <ex>Donations werden immer zwischen allen Entwicklern aufgeteilt!</ex>",
+        credits_title: "Über uns",
         credits:
             "Jotoba verwendet viele verschiedene freie Daten. Ein Paar der Größten davon sind <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer <license>Lizenz</license> verwendet werden.",
         credits_about: 'Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller verwendeten Datenquellen in diesem Projekt.',
+        links_title: "Links",
         about: "Über uns",
         applink: "Android App",
         privacy: "Datenschutz",
