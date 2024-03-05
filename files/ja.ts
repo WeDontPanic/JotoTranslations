@@ -43,6 +43,7 @@ export const TRANSLATIONS_JA: Translation = {
     },
     navbar: {
         title: {
+            profile: "プロフィール",
             settings: "設定",
             links: "リンク",
         },
@@ -540,41 +541,41 @@ export const TRANSLATIONS_JA: Translation = {
             no_content: "<b>まだブックマークがありません。</b><br/><br/>単語を検索してクリックし、上部左隅のアイコンから追加できます。",
         },
         about: {
-            title_about: "Jotobaについて",
+            title_about: "About us",
             content_about:
-                "Jotobaは、インターネット上のたくさんのフリーリソースを基に作られた多言語日本語辞書です。単語、漢字、例文、日本人の名前などを調べる便利な機能がたくさんあります。" +
-                "このページでは、Jotobaのような素晴らしいリソースを作っているすべての方々に心から感謝申し上げます。<br/><br/>" +
-                "Jotobaの開発に興味がある方は、<trello>Trello Board</trello>をチェックして、現在取り組んでいることや今後のリリースで追加される機能をご覧ください！",
-            dev_preview_frontend: "フロントエンド",
-            dev_preview_backend: "バックエンド",
-            title_jotoKun: "Jotoくん",
-            content_jotoKun: "Jotoくんは私たちの友人が作ったもので、彼女は本当にデザインの魔法使いです！",
-            title_wkn: "単語 & 漢字 & 名前",
+                "Jotoba is a multilingual Japanese dictionary built upon lots of free resources from the internet. It provides a lot of handy tools to lookup words, kanji, example sentences, Japanese names and much more. " +
+                "On this page we want to say thank you to all those creating such wonderful resources that make something like Jotoba even possible.<br/><br/>" +
+                "If you're interested in the development of Jotoba itself, check out our <trello>Trello Board</trello> and see what we are currently working on and what features will come in future releases!",
+            dev_preview_frontend: "Frontend",
+            dev_preview_backend: "Backend",
+            title_jotoKun: "Joto-kun",
+            content_jotoKun: "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
+            title_wkn: "Words & Kanji & Names",
             content_wkn:
-                "このサイトでは、<jmdict>JMdict</jmdict>、<kanjidic>KANJIDIC2</kanjidic>、<kradfile>KRADFILE</kradfile>、<jmnedict>JMnedict</jmnedict>の辞書ファイルを使用しています。" +
-                "これらのファイルは<edrdg>the Electronic Dictionary Research and Development Group</edrdg>のものであり、グループの<license>ライセンス</license>に従って使用されています。",
-            title_audio: "音声ファイル",
+                "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. " +
+                "These files are the property of the <edrdg>Electronic Dictionary Research and Development Group</edrdg>, and are used in conformance with the Group's <license>licence</license>",
+            title_audio: "Audio Files",
             content_audio:
-                "「Tofugu」のラベルが付いた音声ファイルは、<tofugu>Tofugu</tofugu>の漢字・語彙学習サイト<wanikani>WaniKani</wanikani>から提供され、<license>Creative Commons Attribution Share Alike 4.0</license>の下でライセンスされています。" +
-                "<audio>ここから</audio>詳細が見れます。<br/><br/>" +
-                "「Kanjialive」のラベルがついた音声ファイルは<kanjialive>Kanji alive project</kanjialive>から提供され、<kalicense>Creative Commons CC BY 4.0</kalicense> の下でライセンスされています。<kasource>ここから</kasource>詳細が見れます。",
-            title_sentences: "文章",
+                "Audio files with the label 'Tofugu' are provided by <tofugu>Tofugu's</tofugu> kanji and vocabulary learning site <wanikani>WaniKani</wanikani> and are licensed under <license>Creative Commons Attribution Share Alike 4.0</license>. " +
+                "They can be found <audio>here</audio>.<br/><br/>" +
+                "Audio files with the label 'Kanjialive' are provided by the <kanjialive>Kanji alive project</kanjialive> and are licensed under <kalicense>Creative Commons CC BY 4.0</kalicense> and can be found <kasource>here</kasource>.",
+            title_sentences: "Sentences",
             content_sentences:
-                "「T」のタグがついた例文は <tatoeba>Tatoeba</tatoeba>から提供され、Yasuhito Tanaka教授によるTanaka Corpusに基づいて、<license>Creative Commons CC BY 2.0 FR</license>の下でライセンスされています。" +
-                "単語検索の例文についてもTanaka corpusから提供されています。" +
+                "Example sentences with the tag 'T' come from <tatoeba>Tatoeba</tatoeba>, are licensed under <license>Creative Commons CC BY 2.0 FR</license> and are based on the Tanaka Corpus by Professor Yasuhito Tanaka. " +
+                "Example sentences in word search also come from Tanaka corpus." +
                 "<br/><br/>" +
-                "「K」のタグがついた例文は<kevin>Kevin Goes to Japan</kevin>の著者から直接提供されています。",
-            title_anim: "漢字の書き順",
+                "Example Sentences with the tag 'K' are directly provided by the author of <kevin>Kevin Goes to Japan</kevin>.",
+            title_anim: "Kanji stroke order",
             content_anim:
-                "漢字の書き順に関する情報は、<anim>KanjiVG</anim>から提供されています。KanjiVGの著作権はUlrich Apelに帰属し、<license>Creative Commons Attribution-Share Alike 3.0</license>の下でライセンスされています（© 2009-2023）。" +
+                "Information about kanji stroke order come from <anim>KanjiVG</anim>, which is copyright © 2009-2023 Ulrich Apel and licensed under <license>Creative Commons Attribution-Share Alike 3.0</license>." +
                 "<br/><br/>" +
-                "SVGへの変換には、Kim Ahlströmの<kanjivgsvg>kanjivg2svg</kanjivgsvg>プロジェクトを<altversion>交互に</altversion>使用しました。このプロジェクトは<licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim>の下でライセンスされています。",
-            title_jlpt: "JLPTデータ",
+                "To convert this data into SVGs, we <altversion>alternated</altversion> and used the <kanjivgsvg>kanjivg2svg</kanjivgsvg> project by Kim Ahlström which is licensed under the <licenseKim>Creative Commons Attribution-Share Alike 3.0</licenseKim> license.",
+            title_jlpt: "JLPT Data",
             content_jlpt:
-                "JLPTレベルに関するデータは<jw>Jonathan Waller's</jw>の<jlpt>リソース</jlpt>から提供され、それらのデータは<license>Creative Commons CC BY</license>の下でライセンスされています。",
-            title_furigana: "ふりがな",
+                "Data about JLPT proficiencies are provided by <jw>Jonathan Waller's</jw> <jlpt>resources</jlpt> and licensed under <license>Creative Commons CC BY.</license>",
+            title_furigana: "Furigana",
             content_furigana:
-                "単語や名前のふりがなは<jmdictfurigana>JmdictFurigana</jmdictfurigana>プロジェクトから提供され、それらはJMdictと同じライセンスの下にあります (<license>Creative Commons Attribution-ShareAlike</license>)。",
+                "Furigana for words and names are provided by the <jmdictfurigana>JmdictFurigana</jmdictfurigana> project and are under the same license as JMdict (<license>Creative Commons Attribution-ShareAlike</license>).",
         },
         info: {
             tour: {
@@ -703,10 +704,6 @@ export const TRANSLATIONS_JA: Translation = {
             message: "検索に一致する結果がありませんでした。",
             message_alt: "検索に一致する結果がありませんでした。こちらを試してみてください：",
             highlight: "別の検索ワードでお試しください。",
-        },
-        no_internet: {
-            message: "接続が切断されました。",
-            highlight: "インターネットに接続し、もう一度お試しください。",
         },
         "303": {
             reason: "See Other",

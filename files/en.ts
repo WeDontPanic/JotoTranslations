@@ -43,6 +43,7 @@ export const TRANSLATIONS_EN: Translation = {
     },
     navbar: {
         title: {
+            profile: "Profile",
             settings: "Settings",
             links: "Links",
         },
@@ -657,6 +658,7 @@ export const TRANSLATIONS_EN: Translation = {
         email: "Email",
         username: "Username",
         password: "Password",
+        password_repeat: "Repeat password",
         login: "Login",
         register: "Register",
         logout: "Logout",
@@ -667,6 +669,20 @@ export const TRANSLATIONS_EN: Translation = {
         login_success: "Login successful",
         register_success: "Registration successful",
         logout_success: "Logged out!",
+        error: {
+            origin: {
+                Email: "Email",
+                Username: "Username",
+            },
+            simple: {
+                default_toast: "An error occured. Please try again later!",
+                invalid_login: "Invalid login credentials!",
+                password_repeat: "Passwords do not match!"
+            },
+            constructed: {
+                AlreadyExisting: "The {{type}} has already been used",
+            },
+        },
     },
     notifications: {
         title: "Notifications",
@@ -696,6 +712,9 @@ export const TRANSLATIONS_EN: Translation = {
         furigana_copied: "Furigana copied to clipboard",
         audio_copied: "Audio copied to clipboard",
         url_copied: "URL copied to clipboard",
+        error: {
+            default: "An unknown error occured. Please try again later",
+        }
     },
     message_pages: {
         default_error: {
@@ -706,10 +725,6 @@ export const TRANSLATIONS_EN: Translation = {
             message: "We couldn't find what you were looking for.",
             message_alt: "We couldn't find what you were looking for but there are results in different categories:",
             highlight: "Try something different!",
-        },
-        no_internet: {
-            message: "Disconnected",
-            highlight: "Internet connection has been lost. <br/> Connect and try again!",
         },
         "303": {
             reason: "See Other",

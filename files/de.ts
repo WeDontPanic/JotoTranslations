@@ -43,6 +43,7 @@ export const TRANSLATIONS_DE: Translation = {
     },
     navbar: {
         title: {
+            profile: "Profil",
             settings: "Einstellungen",
             links: "Links",
         },
@@ -708,10 +709,6 @@ export const TRANSLATIONS_DE: Translation = {
             message: "Deine Suche hat leider keine Ergebnisse ergeben.",
             message_alt: "Deine Suche hat leider keine Ergebnisse ergeben. Versuche es doch einmal hier:",
             highlight: "Versuche eine andere Eingabe!",
-        },
-        no_internet: {
-            message: "Verbindung getrennt",
-            highlight: "Verbinde dich mit dem Internet und versuche es erneut.",
         },
         "303": {
             reason: "See Other",
