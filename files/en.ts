@@ -686,7 +686,6 @@ export const TRANSLATIONS_EN: Translation = {
     },
     notifications: {
         title: "Notifications",
-        no_notifications: "No new notifications",
         show: "Show all",
         close: "Close",
     },

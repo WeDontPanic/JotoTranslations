@@ -673,7 +673,6 @@ export const TRANSLATIONS_DE: Translation = {
     },
     notifications: {
         title: "Informationen",
-        no_notifications: "Keine neuen Benachrichtigungen",
         show: "Mehr Infos",
         close: "Schließen",
     },

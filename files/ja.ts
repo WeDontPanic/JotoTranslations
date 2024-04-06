@@ -668,7 +668,6 @@ export const TRANSLATIONS_JA: Translation = {
     },
     notifications: {
         title: "通知",
-        no_notifications: "新しい通知はありません",
         show: "全て見る",
         close: "閉じる",
     },
