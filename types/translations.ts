@@ -671,6 +671,7 @@ interface NotificationsTranslation {
     title: string;
     show: string;
     close: string;
+    none_available: string;
 }
 
 interface ShareTranslation {

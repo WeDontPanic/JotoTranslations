@@ -680,6 +680,7 @@ export const TRANSLATIONS_EN: Translation = {
         title: "Notifications",
         show: "Show all",
         close: "Close",
+        none_available: "No news available",
     },
     footer: {
         socials: "Socials",

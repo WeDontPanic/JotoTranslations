@@ -682,6 +682,7 @@ export const TRANSLATIONS_DE: Translation = {
         title: "Informationen",
         show: "Mehr Infos",
         close: "Schließen",
+        none_available: "Keine News verfügbar",
     },
     footer: {
         socials: "Socials",

@@ -677,6 +677,7 @@ export const TRANSLATIONS_JA: Translation = {
         title: "通知",
         show: "全て見る",
         close: "閉じる",
+        none_available: "No news available",
     },
     footer: {
         socials: "SNS",
