@@ -1,8 +1,5 @@
-import { LanguageCode } from "@/JotoKit/ts/common";
-import { Translation } from "@/JotoKit/ts/translations";
-
 export const TRANSLATIONS_EN: Translation = {
-    lang_value: LanguageCode.English,
+    lang_value: "en-US",
     lang_names: {
         "en-US": "English",
         "de-DE": "German",
@@ -150,11 +147,6 @@ export const TRANSLATIONS_EN: Translation = {
             misc_links: {
                 tour_text: "New here? Get started by",
                 tour_link: "taking a quick tour",
-            },
-            /* TODO: Remove. Temporary content */
-            popup_news: {
-                title: "Jotoba is now available for Android!",
-                content: "Check it out on Google Play",
             },
         },
         words: {
@@ -677,7 +669,7 @@ export const TRANSLATIONS_EN: Translation = {
             simple: {
                 default_toast: "An error occured. Please try again later!",
                 invalid_login: "Invalid login credentials!",
-                password_repeat: "Passwords do not match!"
+                password_repeat: "Passwords do not match!",
             },
             constructed: {
                 AlreadyExisting: "The {{type}} has already been used",
@@ -713,7 +705,7 @@ export const TRANSLATIONS_EN: Translation = {
         url_copied: "URL copied to clipboard",
         error: {
             default: "An unknown error occured. Please try again later",
-        }
+        },
     },
     message_pages: {
         default_error: {

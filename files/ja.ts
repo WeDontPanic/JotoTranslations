@@ -1,8 +1,5 @@
-import { LanguageCode } from "@/JotoKit/ts/common";
-import { Translation } from "@/JotoKit/ts/translations";
-
 export const TRANSLATIONS_JA: Translation = {
-    lang_value: LanguageCode.Japanese,
+    lang_value: "ja-JP",
     lang_names: {
         "en-US": "英語",
         "de-DE": "ドイツ語",
@@ -150,11 +147,6 @@ export const TRANSLATIONS_JA: Translation = {
             misc_links: {
                 tour_text: "初めてですか?",
                 tour_link: "使い方を簡単に見る",
-            },
-            /* TODO: Remove. Temporary content */
-            popup_news: {
-                title: "Jotoba、Androidでご利用いただけます。",
-                content: "Google Playでご確認ください。",
             },
         },
         words: {
@@ -655,6 +647,7 @@ export const TRANSLATIONS_JA: Translation = {
         email: "Eメール",
         username: "ユーザーネーム",
         password: "パスワード",
+        password_repeat: "リピートパスワード",
         login: "ログイン",
         register: "アカウント登録",
         logout: "ログアウト",
@@ -665,6 +658,20 @@ export const TRANSLATIONS_JA: Translation = {
         login_success: "ログインしました",
         register_success: "アカウント登録が完了しました",
         logout_success: "ログアウトしました",
+        error: {
+            origin: {
+                Email: "Email",
+                Username: "Username",
+            },
+            simple: {
+                default_toast: "An error occured. Please try again later!",
+                invalid_login: "Invalid login credentials!",
+                password_repeat: "Passwords do not match!",
+            },
+            constructed: {
+                AlreadyExisting: "The {{type}} has already been used",
+            },
+        },
     },
     notifications: {
         title: "通知",
@@ -693,6 +700,9 @@ export const TRANSLATIONS_JA: Translation = {
         furigana_copied: "ふりがながコピーされました",
         audio_copied: "音声コピーされました",
         url_copied: "リンクがコピーされました",
+        error: {
+            default: "An unknown error occured. Please try again later",
+        },
     },
     message_pages: {
         default_error: {

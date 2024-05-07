@@ -1,8 +1,5 @@
-import { LanguageCode } from "@/JotoKit/ts/common";
-import { Translation } from "@/JotoKit/ts/translations";
-
 export const TRANSLATIONS_DE: Translation = {
-    lang_value: LanguageCode.German,
+    lang_value: "de-DE",
     lang_names: {
         "en-US": "Englisch",
         "de-DE": "Deutsch",
@@ -150,11 +147,6 @@ export const TRANSLATIONS_DE: Translation = {
             misc_links: {
                 tour_text: "Neu hier? Mach doch eine kleine Tour!",
                 tour_link: "Tour starten",
-            },
-            /* TODO: Remove. Temporary content */
-            popup_news: {
-                title: "Jotoba gibt es jetzt auch für Android!",
-                content: "Downloade sie jetzt in Google Play",
             },
         },
         words: {
@@ -660,6 +652,7 @@ export const TRANSLATIONS_DE: Translation = {
         email: "E-Mail",
         username: "Nutzername",
         password: "Passwort",
+        password_repeat: "Passwort wiederholen",
         login: "Login",
         register: "Register",
         logout: "Logout",
@@ -670,6 +663,20 @@ export const TRANSLATIONS_DE: Translation = {
         login_success: "Login erfolgreich",
         register_success: "Registrierung erfolgreich",
         logout_success: "Abgemeldet",
+        error: {
+            origin: {
+                Email: "E-Mail",
+                Username: "Benutzername",
+            },
+            simple: {
+                default_toast: "Ein Fehler ist aufgetreten. Bitte versuche es später erneut.",
+                invalid_login: "Ungültige Anmeldeinformationen!",
+                password_repeat: "Die Passwörter stimmen nicht überein!",
+            },
+            constructed: {
+                AlreadyExisting: "{{type}} wurde bereits verwendet.",
+            },
+        },
     },
     notifications: {
         title: "Informationen",
@@ -698,6 +705,9 @@ export const TRANSLATIONS_DE: Translation = {
         furigana_copied: "Furigana kopiert",
         audio_copied: "Audio kopiert",
         url_copied: "Link kopiert",
+        error: {
+            default: "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es später erneut.",
+        },
     },
     message_pages: {
         default_error: {
@@ -734,10 +744,10 @@ export const TRANSLATIONS_DE: Translation = {
             hint: "Sollte dieser bestehen bleiben, melde ihn auf unserem Discord",
         },
         jotoba: {
-            header: "Gotcha!",
-            highlight: "We knew you'd be curious about our name!",
+            header: "Erwicht!",
+            highlight: "Wir wussten, dass du neugierig wirst!",
             message:
-                '<jotoba>Jotoba</jotoba> is not a real word. It is derived from <kotoba /> where the "K" was replaced by a "J" which stands for "Japanese".',
+                '<jotoba>Jotoba</jotoba> ist kein echtes Wort. Es stammt vom Wort <kotoba /> ab. Wir haben das "K" mit einem "J" für "Japanisch" ersetzt!',
         },
     },
     share: {
