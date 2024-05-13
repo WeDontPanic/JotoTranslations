@@ -707,6 +707,12 @@ export const TRANSLATIONS_EN: Translation = {
         error: {
             default: "An unknown error occured. Please try again later",
         },
+        language_preview: {
+            title: "Language preview",
+            description: "You are currently seeing results in {{currentLang}}. Do you want to swap to {{userLang}}?",
+            swap: "Swap to {{userLang}}",
+            stay: "Stay on {{currentLang}}",
+        }
     },
     message_pages: {
         default_error: {

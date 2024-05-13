@@ -709,6 +709,12 @@ export const TRANSLATIONS_DE: Translation = {
         error: {
             default: "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es später erneut.",
         },
+        language_preview: {
+            title: "Sprach-Preview",
+            description: "Du siehst gerade Ergebnisse in {{currentLang}}. Möchtest du auf {{userLang}} wechseln?",
+            swap: "Auf {{userLang}} wechseln",
+            stay: "In {{currentLang}} bleiben",
+        },
     },
     message_pages: {
         default_error: {

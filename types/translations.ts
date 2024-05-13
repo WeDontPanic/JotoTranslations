@@ -617,10 +617,18 @@ interface ToastTranslations {
     audio_copied: string;
     url_copied: string;
     error: ToastErrorTranslation;
+    language_preview: LanguagePreviewTranslation;
 }
 
 interface ToastErrorTranslation {
     default: string;
+}
+
+interface LanguagePreviewTranslation {
+    title: string;
+    description: string;
+    swap: string;
+    stay: string;
 }
 
 interface PaginatorTranslation {
