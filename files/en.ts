@@ -39,7 +39,7 @@ export const TRANSLATIONS_EN: Translation = {
         },
         ai_preview: {
             beta: "(beta)",
-            message: "Try our new AI-powered search for better results (beta):",
+            message: "Try our new AI-powered search for better results:",
             enabled: "Enabled",
             disabled: "Disabled",
         },

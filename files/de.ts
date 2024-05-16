@@ -39,7 +39,7 @@ export const TRANSLATIONS_DE: Translation = {
         },
         ai_preview: {
             beta: "(beta)",
-            message: "Probier unsere neue AI betriebene Suche aus um noch bessere Ergebnisse zu erhalten (beta):",
+            message: "Noch bessere Ergebnisse? Probiere jetzt die AI-Suche aus:",
             enabled: "AI aktiv",
             disabled: "Keine AI",
         },
