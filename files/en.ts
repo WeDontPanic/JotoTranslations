@@ -157,8 +157,8 @@ export const TRANSLATIONS_EN: Translation = {
                 kanjialive: "Kanji alive",
             },
             number: "{{query}} is {{number}}",
-            inflection: "We have detected the following inflection for {{query}} (<word>{{word}}</word>)",
-            inflections: "We have detected the following inflections for {{query}} (<word>{{word}}</word>)",
+            inflection: "We have detected the following inflection for <query /> (<word />)",
+            inflections: "We have detected the following inflections for <query /> (<word />)",
             sentence_show: "Show example sentence",
             sentence_hide: "Hide example sentence",
             garaigo: "Wasei, {{language}} -> {{word}}",
@@ -712,7 +712,7 @@ export const TRANSLATIONS_EN: Translation = {
             description: "You are currently seeing results in {{currentLang}}. Do you want to swap to {{userLang}}?",
             swap: "Swap to {{userLang}}",
             stay: "Stay on {{currentLang}}",
-        }
+        },
     },
     message_pages: {
         default_error: {
