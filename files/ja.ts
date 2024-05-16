@@ -37,6 +37,12 @@ export const TRANSLATIONS_JA: Translation = {
             sentences: "文章",
             names: "名前",
         },
+        ai_preview: {
+            beta: "(beta)",
+            message: "Try our new AI-powered search for better results:",
+            enabled: "Enabled",
+            disabled: "Disabled",
+        },
     },
     navbar: {
         title: {

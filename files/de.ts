@@ -37,6 +37,12 @@ export const TRANSLATIONS_DE: Translation = {
             sentences: "Sätze",
             names: "Namen",
         },
+        ai_preview: {
+            beta: "(beta)",
+            message: "Probier unsere neue AI betriebene Suche aus um noch bessere Ergebnisse zu erhalten (beta):",
+            enabled: "AI aktiv",
+            disabled: "Keine AI",
+        },
     },
     navbar: {
         title: {

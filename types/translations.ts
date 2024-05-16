@@ -134,6 +134,14 @@ interface SearchbarTranslation {
     image_overlay: ImageOverlayTranslation;
     voice_overlay: VoiceOverlayTranslation;
     categories: CategoriesTranslation;
+    ai_preview: AiPreviewTranslation;
+}
+
+interface AiPreviewTranslation {
+    beta: string;
+    message: string;
+    enabled: string;
+    disabled: string;
 }
 
 interface LoaderMessagesTranslation {

@@ -37,6 +37,12 @@ export const TRANSLATIONS_EN: Translation = {
             sentences: "Sentences",
             names: "Names",
         },
+        ai_preview: {
+            beta: "(beta)",
+            message: "Try our new AI-powered search for better results (beta):",
+            enabled: "Enabled",
+            disabled: "Disabled",
+        },
     },
     navbar: {
         title: {
