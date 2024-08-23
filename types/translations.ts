@@ -554,6 +554,14 @@ interface InfoTranslation {
     filterHashtags: InfoCategoryTranslation;
 }
 
+interface ImprintTranslation {
+    title: string;
+    sub_title: string;
+    address: string;
+    contact: string;
+    eu_law: string;
+}
+
 interface PagesTranslation {
     loader_messages: LoaderMessagesTranslation;
     index: IndexTranslation;
@@ -566,6 +574,7 @@ interface PagesTranslation {
     tour: TourTranslation;
     about: AboutTranslation;
     info: InfoTranslation;
+    imprint: ImprintTranslation;
 }
 
 interface FooterTranslation {
@@ -583,6 +592,7 @@ interface FooterTranslation {
     about: string;
     applink: string;
     privacy: string;
+    imprint: string;
 }
 
 interface MessageNoResultTranslation {
