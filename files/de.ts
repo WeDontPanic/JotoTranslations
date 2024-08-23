@@ -653,7 +653,7 @@ export const TRANSLATIONS_DE: Translation = {
             title: "Impressum",
             sub_title: "Inhalte gemäß §5 DDG",
             address: "Nils Reußwig<br />c/o IP-Management #41863 <br />Ludwig-Erhard-Str. 18 <br />20459 Hamburg <br />",
-            contact: "<b>Kontaktdaten</b><br />E-Mail: yukaru.dev@gmail.com <br />Telefonnummer: 017635335484",
+            contact: "<b>Kontaktdaten</b><br />E-Mail: yukaru.dev@gmail.com",
             eu_law: '<b>EU-Streitschlichtung</b><br />Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <br /><a href="c.europa.eu/consumers/odr/">c.europa.eu/consumers/odr/</a>. <br />Unsere E-Mail-Adresse finden Sie oben im Impressum.',
         },
     },

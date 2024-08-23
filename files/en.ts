@@ -651,7 +651,7 @@ export const TRANSLATIONS_EN: Translation = {
             title: "Imprint",
             sub_title: "Information pursuant to §5 German Telemedia Act (TMG)",
             address: "Nils Reußwig<br />c/o IP-Management #41863 <br />Ludwig-Erhard-Str. 18 <br />20459 Hamburg <br />Germany",
-            contact: "<b>Contact Information</b><br />Email: yukaru.dev@gmail.com <br />Phone: +49 176 35335484",
+            contact: "<b>Contact Information</b><br />Email: yukaru.dev@gmail.com",
             eu_law: '<b>EU Dispute Resolution</b><br />The European Commission provides a platform for online dispute resolution (ODR): <br /><a href="https://ec.europa.eu/consumers/odr/">ec.europa.eu/consumers/odr/</a>. <br />Our email address can be found above in the imprint.',
         },
     },
