@@ -556,7 +556,6 @@ interface InfoTranslation {
 
 interface ImprintTranslation {
     title: string;
-    sub_title: string;
     address: string;
     contact: string;
     eu_law: string;
