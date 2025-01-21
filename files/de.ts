@@ -603,9 +603,20 @@ export const TRANSLATIONS_DE: Translation = {
                 title: "Suchleisten-Shortcuts",
                 description: "Diese Shortcuts können benutzt werden, wenn die Suchleiste im Fokus liegt.",
                 shortcuts: {
+                    closeSuggestions: "Vorschläge ausblenden",
+                    openSuggestions: "Vorschläge einblenden",
                     arrowsUpDown: "Wechsle einen Vorschlag herauf | runter",
                     tab: "Welche einen Vorschlag nach unten",
                     enter: "Suche für den aktuellen Vorschlag, wenn einer ausgewählt wurde. Ansonsten suche nach dem aktuellen Input",
+                },
+            },
+            searchWildcards: {
+                title: "Wildcards",
+                warning: "[Nur für Wörter]",
+                description: "Verwende Wildcards um nach unbekannten Inhalten zu suchen.",
+                wildcards: {
+                    single: "Einzelnes unbekanntes Zeichen",
+                    multi: "Mehrere unbekannte Zeichen",
                 },
             },
             radicalSearch: {

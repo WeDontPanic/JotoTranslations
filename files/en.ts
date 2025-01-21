@@ -601,9 +601,20 @@ export const TRANSLATIONS_EN: Translation = {
                 title: "Searchbar Shortcuts",
                 description: "These shortcuts can be used anywhere when the input is in focus.",
                 shortcuts: {
+                    closeSuggestions: "Close suggestions",
+                    openSuggestions: "Open suggestions",
                     arrowsUpDown: "Iterate suggestions up | down",
                     tab: "Iterate a single suggestion down",
                     enter: "Search for the current suggestion if selected, search for query otherwise",
+                },
+            },
+            searchWildcards: {
+                title: "Search Wildcards",
+                warning: "[Words only]",
+                description: "Use wildcards to improve your search results.",
+                wildcards: {
+                    single: "Single character wildcard",
+                    multi: "Multi character wildcard",
                 },
             },
             radicalSearch: {

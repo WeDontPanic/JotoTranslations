@@ -515,9 +515,21 @@ interface InfoShortcutsTranslation extends InfoCategoryTranslation {
 
 interface InfoSearchbarShortcutsTranslation extends InfoCategoryTranslation {
     shortcuts: {
+        closeSuggestions: string,
+        openSuggestions: string,
         arrowsUpDown: string;
         tab: string;
         enter: string;
+    };
+}
+
+interface InfoSearchbarWildcardsTranslation extends InfoCategoryTranslation {
+    title: string;
+    warning: string;
+    description: string;
+    wildcards: {
+        single: string;
+        multi: string;
     };
 }
 
@@ -549,6 +561,7 @@ interface InfoTranslation {
     tour: InfoTourTranslation;
     shortcuts: InfoShortcutsTranslation;
     searchbarShortcuts: InfoSearchbarShortcutsTranslation;
+    searchWildcards: InfoSearchbarWildcardsTranslation;
     radicalSearch: InfoRadicalSearchTranslation;
     hashtags: InfoPageAlteringHashtagsTranslation;
     filterHashtags: InfoCategoryTranslation;

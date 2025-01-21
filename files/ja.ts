@@ -599,9 +599,20 @@ export const TRANSLATIONS_JA: Translation = {
                 title: "検索バーのショートカット",
                 description: "これらのショートカットは、入力にフォーカスが当たっていればどこでも使えます",
                 shortcuts: {
+                    closeSuggestions: "提案を閉じる",
+                    openSuggestions: "提案を開く",
                     arrowsUpDown: "上 | 下　の検索予測",
                     tab: "1つ下の検索予測",
                     enter: "選択したものを検索する",
+                },
+            },
+            searchWildcards: {
+                title: "ワイルドカード検索",
+                warning: "言葉だけ",
+                description: "ワイルドカードを使用して検索結果を改善します。",
+                wildcards: {
+                    single: "1文字のワイルドカード",
+                    multi: "多文字ワイルドカード",
                 },
             },
             radicalSearch: {
