@@ -30,8 +30,7 @@ export const TRANSLATIONS_JA: Translation = {
             stop: "タップして終了",
             listening: "音声入力待機中",
             not_listening: "開始シグナル待機中",
-            perm_denied:
-                "マイクの権限が取得できませんでした。必要な場合は、手動で許可してください。",
+            perm_denied: "マイクの権限が取得できませんでした。必要な場合は、手動で許可してください。",
         },
         categories: {
             words: "単語",
@@ -165,10 +164,8 @@ export const TRANSLATIONS_JA: Translation = {
                 kanjialive: "Kanji alive",
             },
             number: "{{query}}は{{number}}です",
-            inflection:
-                "<query />は<word />の活用形の可能性があります。候補としては以下のものがあります。",
-            inflections:
-                "<query />は<word />の活用形の可能性があります。候補としては以下のものがあります。",
+            inflection: "<query />は<word />の活用形の可能性があります。候補としては以下のものがあります。",
+            inflections: "<query />は<word />の活用形の可能性があります。候補としては以下のものがあります。",
             sentence_show: "例文を表示",
             sentence_hide: "例文をたたむ",
             garaigo: "和製, {{language}} -> {{word}}",
@@ -522,8 +519,7 @@ export const TRANSLATIONS_JA: Translation = {
             description_dropdown_mobile:
                 "検索バー横の<g>上矢印</g>を押して、 <g>単語、漢字、文章、名前</g> から検索したいものを<g>選択します</g>。",
             title_multilang: "多言語",
-            description_multilang:
-                "<g>他の言語</g>の翻訳も表示したい場合は、<g>設定</g>で翻訳する<g>第二言語</g>を追加できます。",
+            description_multilang: "<g>他の言語</g>の翻訳も表示したい場合は、<g>設定</g>で翻訳する<g>第二言語</g>を追加できます。",
             title_sentencereader: "文章解析ツール",
             description_sentencereader:
                 "<g>日本語の文章全体</g>を検索し、抑揚のある<g>1つの単語</g>ごとに分解します。また、<g>ペンアイコン</g>を使って、<g>スペース</g>や<g>文字間</g>をクリックすることで、<g>分割された単語</g>を<g>カスタマイズ</g>することができます。",
@@ -531,8 +527,7 @@ export const TRANSLATIONS_JA: Translation = {
             title_3dot_mobile: "詳細ページ",
             description_3dot:
                 "検索結果の<g>3ドットメニュー</g>を選択すると、<g>直接そのリンク</g>や、<g>自動詞/他動詞</g>、<g>文章検索</g>など、<g>より多くの機能</g>にアクセスできます。",
-            description_3dot_mobile:
-                "検索結果の単語をクリックすると、自動詞/他動詞、使用漢字、例文などの詳細情報にアクセスできます。",
+            description_3dot_mobile: "検索結果の単語をクリックすると、自動詞/他動詞、使用漢字、例文などの詳細情報にアクセスできます。",
             title_kanjigraphs: "漢字構成要素",
             description_kanjigraphs:
                 "漢字ページの漢字をクリックすると、その漢字の構成を見ることができます。右下のボタンで詳細表示とデフォルト表示が切り替わります。",
@@ -542,8 +537,7 @@ export const TRANSLATIONS_JA: Translation = {
         },
         bookmarks: {
             undo: "ブックマークに戻す",
-            no_content:
-                "<b>まだブックマークがありません。</b><br/><br/>単語を検索してクリックし、上部左隅のアイコンから追加できます。",
+            no_content: "<b>まだブックマークがありません。</b><br/><br/>単語を検索してクリックし、上部左隅のアイコンから追加できます。",
         },
         about: {
             title_about: "About us",
@@ -554,8 +548,7 @@ export const TRANSLATIONS_JA: Translation = {
             dev_preview_frontend: "Frontend",
             dev_preview_backend: "Backend",
             title_jotoKun: "Joto-kun",
-            content_jotoKun:
-                "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
+            content_jotoKun: "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
             title_wkn: "Words & Kanji & Names",
             content_wkn:
                 "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. " +
@@ -586,13 +579,11 @@ export const TRANSLATIONS_JA: Translation = {
         info: {
             tour: {
                 title: "使い方",
-                description:
-                    "-> Jotobaの重要な機能について<link>使い方を簡単に見る</link> ",
+                description: "-> Jotobaの重要な機能について<link>使い方を簡単に見る</link> ",
             },
             shortcuts: {
                 title: "ショートカット",
-                description:
-                    "これらのショートカットは、入力にフォーカスが当たっていないときならどこでも使えます",
+                description: "これらのショートカットは、入力にフォーカスが当たっていないときならどこでも使えます",
                 shortcuts: {
                     global: {
                         title: "サイト全体",
@@ -607,8 +598,7 @@ export const TRANSLATIONS_JA: Translation = {
             },
             searchbarShortcuts: {
                 title: "検索バーのショートカット",
-                description:
-                    "これらのショートカットは、入力にフォーカスが当たっていればどこでも使えます",
+                description: "これらのショートカットは、入力にフォーカスが当たっていればどこでも使えます",
                 shortcuts: {
                     closeSuggestions: "提案を閉じる",
                     openSuggestions: "提案を開く",
@@ -632,8 +622,7 @@ export const TRANSLATIONS_JA: Translation = {
                 explanations: {
                     kanji: {
                         title: "漢字",
-                        description:
-                            "入力した漢字を構成するすべての部首結果が見れます",
+                        description: "入力した漢字を構成するすべての部首結果が見れます",
                     },
                     kana: {
                         title: "かな",
@@ -669,10 +658,8 @@ export const TRANSLATIONS_JA: Translation = {
         },
         imprint: {
             title: "Imprint",
-            address:
-                "Nils Reußwig<br />c/o IP-Management #41863 <br />Ludwig-Erhard-Str. 18 <br />20459 Hamburg <br />Germany",
-            contact:
-                "<b>Contact Information</b><br />Email: jotobadictionary@gmail.com",
+            address: "Nils Reußwig<br />c/o IP-Management #41863 <br />Ludwig-Erhard-Str. 18 <br />20459 Hamburg <br />Germany",
+            contact: "<b>Contact Information</b><br />Email: jotobadictionary@gmail.com",
             eu_law: '<b>EU Dispute Resolution</b><br />The European Commission provides a platform for online dispute resolution (ODR): <br /><a href="https://ec.europa.eu/consumers/odr/">ec.europa.eu/consumers/odr/</a>. <br />Our email address can be found above in the imprint.',
         },
     },
@@ -723,13 +710,11 @@ export const TRANSLATIONS_JA: Translation = {
         instagram: "Instagram",
         reddit: "Reddit",
         support_us: "支援する",
-        donations:
-            "PayPal <ex>皆様からの寄付はすべての開発者間で分配されます。</ex>",
+        donations: "PayPal <ex>皆様からの寄付はすべての開発者間で分配されます。</ex>",
         credits_title: "About",
         credits:
             "Jotobaは多くのフリーデータソースを使用しています。主なものとして、<jmdict>JMdict</license>、<jmdict>KANJIDIC2</license>、<jmdict>KRADFILE</license>、<jmdict>JMnedict</license>がありますが、これらは<jmdict>the Electronic Dictionary Research and Development Group</license>のものであり、グループの<jmdict>ライセンス</license>に従って使用されています。",
-        credits_about:
-            " データソースについて<about>Jotobaについて</about> で見る",
+        credits_about: " データソースについて<about>Jotobaについて</about> で見る",
         links_title: "Links",
         about: "Jotobaについて",
         applink: "携帯アプリ",
@@ -746,8 +731,7 @@ export const TRANSLATIONS_JA: Translation = {
         },
         language_preview: {
             title: "Language preview",
-            description:
-                "You are currently seeing results in {{currentLang}}. Do you want to swap to {{userLang}}?",
+            description: "You are currently seeing results in {{currentLang}}. Do you want to swap to {{userLang}}?",
             swap: "Swap to {{userLang}}",
             stay: "Stay on {{currentLang}}",
         },
@@ -759,8 +743,7 @@ export const TRANSLATIONS_JA: Translation = {
         },
         no_result: {
             message: "検索に一致する結果がありませんでした。",
-            message_alt:
-                "検索に一致する結果がありませんでした。こちらを試してみてください：",
+            message_alt: "検索に一致する結果がありませんでした。こちらを試してみてください：",
             highlight: "別の検索ワードでお試しください。",
         },
         "303": {

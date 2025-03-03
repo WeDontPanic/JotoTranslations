@@ -18,8 +18,7 @@ export const TRANSLATIONS_EN: Translation = {
         rad_picker: {
             select_kanji: "Select Kanji",
             search_placeholder: "Search for radicals...",
-            select_kanji_placeholder:
-                "Pick a radical to start searching for kanji",
+            select_kanji_placeholder: "Pick a radical to start searching for kanji",
         },
         image_overlay: {
             select: "Select an image",
@@ -31,8 +30,7 @@ export const TRANSLATIONS_EN: Translation = {
             stop: "click to stop recording",
             listening: "Speak now!",
             not_listening: "Waiting to start...",
-            perm_denied:
-                "Permission request failed! Please provide the microphone permission manually if needed.",
+            perm_denied: "Permission request failed! Please provide the microphone permission manually if needed.",
         },
         categories: {
             words: "Words",
@@ -166,10 +164,8 @@ export const TRANSLATIONS_EN: Translation = {
                 kanjialive: "Kanji alive",
             },
             number: "{{query}} is {{number}}",
-            inflection:
-                "We have detected the following inflection for <query /> (<word />)",
-            inflections:
-                "We have detected the following inflections for <query /> (<word />)",
+            inflection: "We have detected the following inflection for <query /> (<word />)",
+            inflections: "We have detected the following inflections for <query /> (<word />)",
             sentence_show: "Show example sentence",
             sentence_hide: "Hide example sentence",
             garaigo: "Wasei, {{language}} -> {{word}}",
@@ -523,8 +519,7 @@ export const TRANSLATIONS_EN: Translation = {
             description_dropdown_mobile:
                 "Search for <g>Words, Kanji, Sentences</g> or <g>Names</g> by tapping the <g>up arrow</g> in the search bar and <g>choosing</g> your desired <g>search target</g>.",
             title_multilang: "Multi language",
-            description_multilang:
-                "You can add a <g>second translation language</g> in the <g>settings</g>.",
+            description_multilang: "You can add a <g>second translation language</g> in the <g>settings</g>.",
             title_sentencereader: "Sentence reader",
             description_sentencereader:
                 "Search for a <g>whole Japanese sentence</g> to break it down into <g>single words</g> with <g>inflections</g>.<br/><br/>Using the <g>pen icon</g> allows you to <g>customize</g> the <g>split words</g> by clicking the <g>spaces</g> or <g>between characters</g>.",
@@ -555,8 +550,7 @@ export const TRANSLATIONS_EN: Translation = {
             dev_preview_frontend: "Frontend",
             dev_preview_backend: "Backend",
             title_jotoKun: "Joto-kun",
-            content_jotoKun:
-                "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
+            content_jotoKun: "Joto-kun was created by a good friend of ours who is truly a wizard when it comes down to design!",
             title_wkn: "Words & Kanji & Names",
             content_wkn:
                 "This site uses the <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> dictionary files. " +
@@ -587,13 +581,11 @@ export const TRANSLATIONS_EN: Translation = {
         info: {
             tour: {
                 title: "Tour",
-                description:
-                    "-> <link>Take a quick tour</link> to get to know about the most relevant features of Jotoba",
+                description: "-> <link>Take a quick tour</link> to get to know about the most relevant features of Jotoba",
             },
             shortcuts: {
                 title: "Shortcuts",
-                description:
-                    "These shortcuts can be used anywhere when the input is not in focus.",
+                description: "These shortcuts can be used anywhere when the input is not in focus.",
                 shortcuts: {
                     global: {
                         title: "Global",
@@ -608,8 +600,7 @@ export const TRANSLATIONS_EN: Translation = {
             },
             searchbarShortcuts: {
                 title: "Searchbar Shortcuts",
-                description:
-                    "These shortcuts can be used anywhere when the input is in focus.",
+                description: "These shortcuts can be used anywhere when the input is in focus.",
                 shortcuts: {
                     closeSuggestions: "Close suggestions",
                     openSuggestions: "Open suggestions",
@@ -629,18 +620,15 @@ export const TRANSLATIONS_EN: Translation = {
             },
             radicalSearch: {
                 title: "Radical Search",
-                description:
-                    "Use Kanji, Kana or Romaji to search for radicals.",
+                description: "Use Kanji, Kana or Romaji to search for radicals.",
                 explanations: {
                     kanji: {
                         title: "Kanji",
-                        description:
-                            "Results in all radicals used to build given kanji characters",
+                        description: "Results in all radicals used to build given kanji characters",
                     },
                     kana: {
                         title: "Kana",
-                        description:
-                            "Searches in words for the given query and returns in result-matching radicals",
+                        description: "Searches in words for the given query and returns in result-matching radicals",
                     },
                     romaji: {
                         title: "Romaji",
@@ -673,10 +661,8 @@ export const TRANSLATIONS_EN: Translation = {
         },
         imprint: {
             title: "Imprint",
-            address:
-                "Nils Reußwig<br />c/o IP-Management #41863 <br />Ludwig-Erhard-Str. 18 <br />20459 Hamburg <br />Germany",
-            contact:
-                "<b>Contact Information</b><br />Email: jotobadictionary@gmail.com",
+            address: "Nils Reußwig<br />c/o IP-Management #41863 <br />Ludwig-Erhard-Str. 18 <br />20459 Hamburg <br />Germany",
+            contact: "<b>Contact Information</b><br />Email: jotobadictionary@gmail.com",
             eu_law: '<b>EU Dispute Resolution</b><br />The European Commission provides a platform for online dispute resolution (ODR): <br /><a href="https://ec.europa.eu/consumers/odr/">ec.europa.eu/consumers/odr/</a>. <br />Our email address can be found above in the imprint.',
         },
     },
@@ -727,13 +713,11 @@ export const TRANSLATIONS_EN: Translation = {
         instagram: "Instagram",
         reddit: "Reddit",
         support_us: "Support us",
-        donations:
-            "PayPal <ex>donations will be shared between the developers!</ex>",
+        donations: "PayPal <ex>donations will be shared between the developers!</ex>",
         credits_title: "About",
         credits:
             "Jotoba uses a lot of free data sources. Some of the major ones are <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>KRADFILE</kradfile> and <jmnedict>JMnedict</jmnedict> which are the property of the <edrdg>Electronic Dictionary Research and Development Group</edrdg>, and are used in conformance with the Group's <license>licence</license>.",
-        credits_about:
-            "Check out our <about>About Page</about> for a list of all contributors.",
+        credits_about: "Check out our <about>About Page</about> for a list of all contributors.",
         links_title: "Links",
         about: "About Page",
         applink: "Android App",
@@ -750,8 +734,7 @@ export const TRANSLATIONS_EN: Translation = {
         },
         language_preview: {
             title: "Language preview",
-            description:
-                "You are currently seeing results in {{currentLang}}. Do you want to swap to {{userLang}}?",
+            description: "You are currently seeing results in {{currentLang}}. Do you want to swap to {{userLang}}?",
             swap: "Swap to {{userLang}}",
             stay: "Stay on {{currentLang}}",
         },
@@ -763,8 +746,7 @@ export const TRANSLATIONS_EN: Translation = {
         },
         no_result: {
             message: "We couldn't find what you were looking for.",
-            message_alt:
-                "We couldn't find what you were looking for but there are results in different categories:",
+            message_alt: "We couldn't find what you were looking for but there are results in different categories:",
             highlight: "Try something different!",
         },
         "303": {
