@@ -11,6 +11,7 @@ export const TRANSLATIONS_DE: Translation = {
         hu: "Ungarisch",
         "sl-SI": "Slovenisch",
         "ja-JP": "Japanisch",
+        pt: "Portugiesisch",
     },
     searchbar: {
         placeholder: "Suchen...",
