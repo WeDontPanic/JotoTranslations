@@ -11,13 +11,15 @@ export const TRANSLATIONS_DE: Translation = {
         hu: "Ungarisch",
         "sl-SI": "Slovenisch",
         "ja-JP": "Japanisch",
+        pt: "Portugiesisch",
     },
     searchbar: {
         placeholder: "Suchen...",
         rad_picker: {
             select_kanji: "Kanji wählen",
             search_placeholder: "Suche nach Radikalen...",
-            select_kanji_placeholder: "Wähle ein Radikal die Kanji-Suche zu beginnen",
+            select_kanji_placeholder:
+                "Wähle ein Radikal die Kanji-Suche zu beginnen",
         },
         image_overlay: {
             select: "Wähle ein Bild",
@@ -29,7 +31,8 @@ export const TRANSLATIONS_DE: Translation = {
             stop: "Tippe zum beenden",
             listening: "Wartet auf Sprachende",
             not_listening: "Wartet auf Startsignal",
-            perm_denied: "Mikrofon-Berechtigung konnte nicht erlangt werden. Bitte schalte sie manuell frei, wenn nötig!",
+            perm_denied:
+                "Mikrofon-Berechtigung konnte nicht erlangt werden. Bitte schalte sie manuell frei, wenn nötig!",
         },
         categories: {
             words: "Wörter",
@@ -39,7 +42,8 @@ export const TRANSLATIONS_DE: Translation = {
         },
         ai_preview: {
             beta: "(beta)",
-            message: "Noch bessere Ergebnisse? Probiere jetzt die AI-Suche aus:",
+            message:
+                "Noch bessere Ergebnisse? Probiere jetzt die AI-Suche aus:",
             enabled: "AI aktiv",
             disabled: "Keine AI",
         },
@@ -115,11 +119,13 @@ export const TRANSLATIONS_DE: Translation = {
         qol: {
             title_search: "Suchleiste",
             checkbox_search_anim: "Zeige Inputbeispiele",
-            checkbox_index_keyboard: "Beende die App beim schließen des Index-Keyboards",
+            checkbox_index_keyboard:
+                "Beende die App beim schließen des Index-Keyboards",
             checkbox_focusAfterSearch: "Fokussiere Suchleiste nach einer Suche",
             checkbox_focusInputAfterSearch: "Markiere Input nach einer Suche",
             title_other: "Sonstiges",
-            checkbox_use_japanese_fonts: "Verwende ausgewählte japanische Schriftarten",
+            checkbox_use_japanese_fonts:
+                "Verwende ausgewählte japanische Schriftarten",
             checkbox_enable_furi_copy: "Aktiviere Furigana-Copy",
         },
         privacy: {
@@ -163,8 +169,10 @@ export const TRANSLATIONS_DE: Translation = {
                 kanjialive: "Kanji alive",
             },
             number: "{{query}} is {{number}}",
-            inflection: "Wir haben die folgende Flexion für <query /> (<word />) erkannt:",
-            inflections: "Wir haben die folgenden Flexionen für <query /> (<word />) erkannt:",
+            inflection:
+                "Wir haben die folgende Flexion für <query /> (<word />) erkannt:",
+            inflections:
+                "Wir haben die folgenden Flexionen für <query /> (<word />) erkannt:",
             sentence_show: "Zeige Beispielsatz",
             sentence_hide: "Verstecke Beispielsatz",
             garaigo: "Wasei, {{language}} -> {{word}}",
@@ -190,7 +198,8 @@ export const TRANSLATIONS_DE: Translation = {
                     Temporal: "Zeitliches Substantiv",
                 },
                 Adjective: {
-                    PreNounVerb: "Substantiv oder Verb, das ein Substantiv beschreibt",
+                    PreNounVerb:
+                        "Substantiv oder Verb, das ein Substantiv beschreibt",
                     Keiyoushi: "Ich Adjektiv",
                     KeiyoushiYoiIi: "Ich Adjectiv (Als いい konjugiert)",
                     Ku: "Ku-Adjektiv",
@@ -399,7 +408,8 @@ export const TRANSLATIONS_DE: Translation = {
                 Object: "Objekt",
                 ObsoleteTerm: "Veralteter Begriff",
                 ObscureTerm: "Unbekannter Begriff",
-                OnomatopoeicOrMimeticWord: "Onomatopoetisches oder mimetisches Wort",
+                OnomatopoeicOrMimeticWord:
+                    "Onomatopoetisches oder mimetisches Wort",
                 OrganizationName: "Organisationsname",
                 Other: "Andere",
                 Personname: "Personenname",
@@ -582,11 +592,13 @@ export const TRANSLATIONS_DE: Translation = {
         info: {
             tour: {
                 title: "Tour",
-                description: "-> <link>Mach ne kleine tour</link> um die wichtigsten Features von Jotoba kennenzulernen",
+                description:
+                    "-> <link>Mach ne kleine tour</link> um die wichtigsten Features von Jotoba kennenzulernen",
             },
             shortcuts: {
                 title: "Shortcuts",
-                description: "Diese Shortcuts können überall benutzt werden, wenn kein Input-Feld im Fokus liegt.",
+                description:
+                    "Diese Shortcuts können überall benutzt werden, wenn kein Input-Feld im Fokus liegt.",
                 shortcuts: {
                     global: {
                         title: "Global",
@@ -601,7 +613,8 @@ export const TRANSLATIONS_DE: Translation = {
             },
             searchbarShortcuts: {
                 title: "Suchleisten-Shortcuts",
-                description: "Diese Shortcuts können benutzt werden, wenn die Suchleiste im Fokus liegt.",
+                description:
+                    "Diese Shortcuts können benutzt werden, wenn die Suchleiste im Fokus liegt.",
                 shortcuts: {
                     closeSuggestions: "Vorschläge ausblenden",
                     openSuggestions: "Vorschläge einblenden",
@@ -613,7 +626,8 @@ export const TRANSLATIONS_DE: Translation = {
             searchWildcards: {
                 title: "Wildcards",
                 warning: "[Nur für Wörter]",
-                description: "Verwende Wildcards um nach unbekannten Inhalten zu suchen.",
+                description:
+                    "Verwende Wildcards um nach unbekannten Inhalten zu suchen.",
                 wildcards: {
                     single: "Einzelnes unbekanntes Zeichen",
                     multi: "Mehrere unbekannte Zeichen",
@@ -621,15 +635,18 @@ export const TRANSLATIONS_DE: Translation = {
             },
             radicalSearch: {
                 title: "Radikal-Search",
-                description: "Verwende Kanji, Kana oder Romaji, um nach Radikalen zu suchen.",
+                description:
+                    "Verwende Kanji, Kana oder Romaji, um nach Radikalen zu suchen.",
                 explanations: {
                     kanji: {
                         title: "Kanji",
-                        description: "Zeigt alle Radikale, aus denen sich das gegebene Kanji zusammensetzt",
+                        description:
+                            "Zeigt alle Radikale, aus denen sich das gegebene Kanji zusammensetzt",
                     },
                     kana: {
                         title: "Kana",
-                        description: "Zeigt alle Radikale, welche in passenden Wörtern enthalten sind",
+                        description:
+                            "Zeigt alle Radikale, welche in passenden Wörtern enthalten sind",
                     },
                     romaji: {
                         title: "Romaji",
@@ -640,7 +657,8 @@ export const TRANSLATIONS_DE: Translation = {
             },
             hashtags: {
                 title: "Hashtags",
-                description: "Diese Hashtags haben einen direkten Einfluss auf die Webseite.",
+                description:
+                    "Diese Hashtags haben einen direkten Einfluss auf die Webseite.",
                 headers: {
                     hashtag: "Hashtag",
                     description: "Beschreibung",
@@ -662,8 +680,10 @@ export const TRANSLATIONS_DE: Translation = {
         },
         imprint: {
             title: "Impressum",
-            address: "Nils Reußwig<br />c/o IP-Management #41863 <br />Ludwig-Erhard-Str. 18 <br />20459 Hamburg <br />",
-            contact: "<b>Kontaktdaten</b><br />E-Mail: jotobadictionary@gmail.com",
+            address:
+                "Nils Reußwig<br />c/o IP-Management #41863 <br />Ludwig-Erhard-Str. 18 <br />20459 Hamburg <br />",
+            contact:
+                "<b>Kontaktdaten</b><br />E-Mail: jotobadictionary@gmail.com",
             eu_law: '<b>EU-Streitschlichtung</b><br />Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <br /><a href="c.europa.eu/consumers/odr/">c.europa.eu/consumers/odr/</a>. <br />Unsere E-Mail-Adresse finden Sie oben im Impressum.',
         },
     },
@@ -692,7 +712,8 @@ export const TRANSLATIONS_DE: Translation = {
                 Username: "Benutzername",
             },
             simple: {
-                default_toast: "Ein Fehler ist aufgetreten. Bitte versuche es später erneut.",
+                default_toast:
+                    "Ein Fehler ist aufgetreten. Bitte versuche es später erneut.",
                 invalid_login: "Ungültige Anmeldeinformationen!",
                 password_repeat: "Die Passwörter stimmen nicht überein!",
             },
@@ -714,11 +735,13 @@ export const TRANSLATIONS_DE: Translation = {
         instagram: "Instagram",
         reddit: "Reddit",
         support_us: "Unterstütze uns",
-        donations: "PayPal <ex>Donations werden immer zwischen allen Entwicklern aufgeteilt!</ex>",
+        donations:
+            "PayPal <ex>Donations werden immer zwischen allen Entwicklern aufgeteilt!</ex>",
         credits_title: "Über uns",
         credits:
             "Jotoba verwendet viele verschiedene freie Daten. Ein Paar der Größten davon sind <jmdict>JMdict</jmdict>, <kanjidic>KANJIDIC2</kanjidic>, <kradfile>RADKFILE/KRADFILE</kradfile> und <jmnedict>JMnedict</jmnedict>, welche Eigentum der <edrdg>Electronic Dictionary Research and Development Group</edrdg> sind und entsprechend ihrer <license>Lizenz</license> verwendet werden.",
-        credits_about: 'Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller verwendeten Datenquellen in diesem Projekt.',
+        credits_about:
+            'Besuche unsere <about>"Über Uns" - Seite</about> für eine Liste aller verwendeten Datenquellen in diesem Projekt.',
         links_title: "Links",
         about: "Über uns",
         applink: "Android App",
@@ -731,11 +754,13 @@ export const TRANSLATIONS_DE: Translation = {
         audio_copied: "Audio kopiert",
         url_copied: "Link kopiert",
         error: {
-            default: "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es später erneut.",
+            default:
+                "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es später erneut.",
         },
         language_preview: {
             title: "Sprach-Preview",
-            description: "Du siehst gerade Ergebnisse in {{currentLang}}. Möchtest du auf {{userLang}} wechseln?",
+            description:
+                "Du siehst gerade Ergebnisse in {{currentLang}}. Möchtest du auf {{userLang}} wechseln?",
             swap: "Auf {{userLang}} wechseln",
             stay: "In {{currentLang}} bleiben",
         },
@@ -747,7 +772,8 @@ export const TRANSLATIONS_DE: Translation = {
         },
         no_result: {
             message: "Deine Suche hat leider keine Ergebnisse ergeben.",
-            message_alt: "Deine Suche hat leider keine Ergebnisse ergeben. Versuche es doch einmal hier:",
+            message_alt:
+                "Deine Suche hat leider keine Ergebnisse ergeben. Versuche es doch einmal hier:",
             highlight: "Versuche eine andere Eingabe!",
         },
         "303": {
