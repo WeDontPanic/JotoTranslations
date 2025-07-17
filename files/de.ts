@@ -784,4 +784,8 @@ export const TRANSLATIONS_DE: Translation = {
     share: {
         title: "Diese Seite teilen",
     },
+    validators: {
+        required: "Pflichtfeld!",
+        maxLength: "Die Eingabe darf maximal {{length}} Zeichen lang sein!",
+    }
 };

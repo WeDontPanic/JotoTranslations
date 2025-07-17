@@ -779,4 +779,8 @@ export const TRANSLATIONS_JA: Translation = {
     share: {
         title: "このページをシェアする",
     },
+    validators: {
+        required: "必須項目です。",
+        maxLength: "{{length}}文字以内で入力してください。",
+    },
 };

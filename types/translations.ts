@@ -1,4 +1,5 @@
 /* ---  Translation files  --- */
+
 interface RadPickerTranslation {
     select_kanji: string;
     search_placeholder: string;
@@ -716,22 +717,6 @@ interface ShareTranslation {
     title: string;
 }
 
-interface Translation {
-    lang_value: LanguageCode;
-    lang_names: TranslationLangName;
-    searchbar: SearchbarTranslation;
-    navbar: NavbarTranslation;
-    settings: SettingsTranslation;
-    pages: PagesTranslation;
-    paginator: PaginatorTranslation;
-    login: LoginTranslation;
-    notifications: NotificationsTranslation;
-    footer: FooterTranslation;
-    toast: ToastTranslations;
-    message_pages: MessagePartsTranslation;
-    share: ShareTranslation;
-}
-
 type TranslationLangName = {
     [x in LanguageCode]: string;
 };
@@ -747,3 +732,30 @@ type MiscMap = {
 type PartOfSpeechMap = {
     [x in PartOfSpeech]: string;
 };
+
+// --------------------------------------------------------------------------------------------------------------
+
+interface FormValidatorOption {
+    required: string;
+    requiredList: string;
+    maxLength: string;
+}
+
+// --------------------------------------------------------------------------------------------------------------
+
+interface Translation {
+    lang_value: LanguageCode;
+    lang_names: TranslationLangName;
+    searchbar: SearchbarTranslation;
+    navbar: NavbarTranslation;
+    settings: SettingsTranslation;
+    pages: PagesTranslation;
+    paginator: PaginatorTranslation;
+    login: LoginTranslation;
+    notifications: NotificationsTranslation;
+    footer: FooterTranslation;
+    toast: ToastTranslations;
+    message_pages: MessagePartsTranslation;
+    share: ShareTranslation;
+    validators: FormValidatorOption;
+}

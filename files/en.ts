@@ -782,4 +782,8 @@ export const TRANSLATIONS_EN: Translation = {
     share: {
         title: "Share this page",
     },
+    validators: {
+        required: "Required!",
+        maxLength: "Please insert a maximum of {{length}} characters!",
+    }
 };
