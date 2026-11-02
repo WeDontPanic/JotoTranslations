@@ -2,556 +2,528 @@ import type en from "../en/settings";
 import type { PartialDict } from "../types";
 
 export default {
-  title: "Configurações",
-  description:
-    "Idioma de pesquisa, aparência e outras configurações do Jotoba.",
-  syncHint: {
-    account:
-      "As alterações são salvas automaticamente e sincronizadas com a sua conta.",
-    browser:
-      "As alterações são salvas automaticamente neste navegador. Entre na sua conta para usá-las em todos os seus aparelhos.",
-    local: "As alterações são salvas automaticamente neste navegador.",
-    localApp: "As alterações são salvas automaticamente neste aparelho.",
-  },
-  sectionNav: "Seções das configurações",
-  sections: {
-    language: { title: "Idioma" },
-    appearance: { title: "Aparência" },
-    results: { title: "Resultados" },
-    learning: { title: "Aprendizado" },
-    general: { title: "Geral" },
-    shortcuts: { title: "Atalhos de teclado" },
-    privacy: { title: "Privacidade e cookies" },
-  },
-  language: {
-    app: {
-      label: "Idioma do app",
-      subLabel: "Menus, botões e páginas de ajuda",
-      automatic: "Sistema ({{language}})",
-      changed: "Idioma do app: {{language}}",
+    title: "Configurações",
+    description: "Idioma de pesquisa, aparência e outras configurações do Jotoba.",
+    syncHint: {
+        account: "As alterações são salvas automaticamente e sincronizadas com a sua conta.",
+        browser:
+            "As alterações são salvas automaticamente neste navegador. Entre na sua conta para usá-las em todos os seus aparelhos.",
+        local: "As alterações são salvas automaticamente neste navegador.",
+        localApp: "As alterações são salvas automaticamente neste aparelho.",
     },
-    search: {
-      label: "Idioma de pesquisa",
-      subLabel: "Idioma dos significados nos seus resultados de pesquisa",
-    },
-    alwaysEnglish: {
-      label: "Sempre mostrar resultados em inglês",
-      subLabel:
-        "Mostra os significados em inglês junto com o seu idioma de pesquisa",
-    },
-    englishFirst: {
-      label: "Mostrar inglês primeiro",
-      needs: "Requer “Sempre mostrar resultados em inglês”",
-    },
-    names: {
-      "en-US": "Inglês",
-      "de-DE": "Alemão",
-      "es-ES": "Espanhol",
-      "fr-FR": "Francês",
-      "nl-NL": "Holandês",
-      "sv-SE": "Sueco",
-      ru: "Russo",
-      hu: "Húngaro",
-      "sl-SI": "Esloveno",
-    },
-  },
-  theme: {
-    label: "Tema",
-    subLabel: "Sistema segue o modo claro ou escuro do seu aparelho",
-    auto: "Sistema",
-    light: "Claro",
-    dark: "Escuro",
-  },
-  results: {
-    customize: {
-      label: "Personalizar resultados",
-      all: "Tudo é mostrado",
-      hidden: {
-        one: "{{count}} parte oculta",
-        many: "{{count}} partes ocultas",
-        other: "{{count}} partes ocultas",
-      },
-    },
-    perPage: {
-      words: "Palavras por página",
-      kanji: "Kanji por página",
-      names: "Nomes por página",
-      sentences: "Frases por página",
-    },
-    exampleSentences: {
-      label: "Mostrar frases de exemplo",
-      subLabel: "Frases de exemplo abaixo dos resultados de palavras",
-    },
-    kanjiBubbles: "Mostrar blocos de kanji",
-    kanjiTranslation: {
-      label: "Mostrar significado dos kanji",
-      needs: "Requer “Mostrar blocos de kanji”",
-    },
-    furigana: "Mostrar furigana nas frases",
-    hideTranslation: "Ocultar traduções das frases",
-  },
-  kanji: {
-    otherReadings: {
-      label: "Mostrar leituras em outros idiomas",
-      subLabel: "Leituras de um kanji em chinês, coreano e vietnamita",
-    },
-    drawnOnLoad: {
-      label: "Mostrar kanji desenhado ao carregar",
-      subLabel: "Mostra o kanji pronto em vez de uma animação de traços vazia",
-    },
-    strokeNumbers: "Mostrar números dos traços",
-    animationSpeed: {
-      label: "Velocidade da animação",
-      subLabel:
-        "Velocidade da animação da ordem dos traços, também pode ser alterada no player",
-      value: "{{speed}}×",
-    },
-  },
-  learning: {
-    retention: {
-      label: "Retenção desejada",
-      subLabel: {
-        "85": "Tranquila: menos revisões, você esquece um pouco mais.",
-        "90": "Equilibrada (recomendada): você sabe cerca de 9 de cada 10 cartões quando eles aparecem.",
-        "95": "Rigorosa: cerca do dobro de revisões, você esquece menos.",
-      },
-    },
-    fineGrades: {
-      label: "Avaliar com mais detalhes",
-      subLabel:
-        "Quatro notas (De novo · Difícil · Acertei · Fácil) em vez de De novo e Acertei. “Difícil” conta como acerto.",
-    },
-    showIntervals: {
-      label: "Mostrar intervalos",
-      subLabel: "Mostra nos botões quando o cartão volta.",
-    },
-    roundSize: {
-      label: "Cartões por rodada",
-      option: "{{count}}",
-      recommended: "{{count}} (recomendado)",
-    },
-    advanced: "Para usuários avançados",
-    maxInterval: {
-      label: "Intervalo máximo",
-      subLabel: "Os cartões voltam no máximo depois desse tempo.",
-      months: "{{count}} meses",
-      years: {
-        one: "{{count}} ano",
-        many: "{{count}} anos",
-        other: "{{count}} anos",
-      },
-      recommended: "{{value}} (recomendado)",
-    },
-    learningSteps: {
-      label: "Etapas de aprendizado",
-      subLabel:
-        "Esperas mínimas até cartões novos e esquecidos voltarem; o FSRS pode esperar mais.",
-      recommended: "{{value}} (recomendado)",
-    },
-    tricky: {
-      label: "Complicado a partir de",
-      subLabel:
-        "Cartões esquecidos tantas vezes são marcados como complicados.",
-      option: {
-        one: "esquecido {{count}} vez",
-        many: "esquecido {{count}} vezes",
-        other: "esquecido {{count}} vezes",
-      },
-      recommended: "{{value}} (recomendado)",
-    },
-    deviceOnly: "Salvo neste aparelho, para todas as listas.",
-  },
-  general: {
-    focusSearch: "Focar a barra de pesquisa depois de pesquisar",
-    furiganaCopy: {
-      label: "Copiar furigana",
-      subLabel:
-        "Clique duas vezes no furigana acima de uma palavra para copiar a leitura",
-    },
-    languageInLinks: {
-      label: "Manter o idioma nos links",
-      subLabel:
-        "Links de pesquisa compartilhados mostram os resultados no seu idioma de pesquisa",
-    },
-    reminder: {
-      label: "Lembrete diário de estudo",
-      subLabel:
-        "Uma notificação quando houver cartões pendentes, criada neste aparelho",
-      on: "Todos os dias às {{time}}, quando houver cartões pendentes",
-      time: "Horário",
-      blocked:
-        "As notificações do Jotoba estão desativadas nas configurações do Android",
-      openSettings: "Abrir configurações",
-    },
-    voiceDevice: {
-      label: "Entrada de voz no aparelho",
-      subLabel:
-        "Offline, depois de baixar o idioma abaixo; até lá, o Android reconhece online",
-      install: "Baixar japonês para uso offline",
-      installing: "O Android está baixando o japonês…",
-      installed: "O japonês está disponível offline.",
-      installFailed:
-        "Não foi possível iniciar o download. Instale nas configurações do Android (Reconhecimento de fala).",
-    },
-    speech: {
-      label: "Ler em voz alta (TTS)",
-      subLabel: "Palavras sem gravação e frases, offline",
-      noVoice: "Nenhuma voz em japonês neste aparelho",
-      install: "Instalar voz em japonês",
-    },
-    voiceOnPhones: {
-      label: "Pesquisa por voz no celular",
-      subLabel: "Mostra um microfone na barra de pesquisa",
-      unavailable: "Não disponível neste navegador",
-    },
-  },
-  shortcuts: {
-    enabled: {
-      label: "Usar atalhos de teclado",
-      subLabel: "Teclas padrão como Tab, Enter e as setas sempre funcionam",
-    },
-    change: "Alterar atalhos",
-    summary: {
-      loading: "Alterar ou remover teclas",
-      none: "Todos os atalhos usam as teclas padrão",
-      changed: {
-        one: "{{count}} atalho alterado",
-        many: "{{count}} atalhos alterados",
-        other: "{{count}} atalhos alterados",
-      },
-    },
-  },
-  resultsPage: {
-    title: "Personalizar resultados",
-    back: "Voltar para as configurações",
-    hint: "As alterações valem na hora para os resultados de pesquisa, as páginas de detalhes e os favoritos.",
+    sectionNav: "Seções das configurações",
     sections: {
-      words: "Palavras",
-      kanji: "Kanji",
-      strokeOrder: "Ordem dos traços",
-      sentences: "Frases",
+        language: { title: "Idioma" },
+        appearance: { title: "Aparência" },
+        results: { title: "Resultados" },
+        learning: { title: "Aprendizado" },
+        general: { title: "Geral" },
+        shortcuts: { title: "Atalhos de teclado" },
+        privacy: { title: "Privacidade e cookies" },
     },
-    pitchAccent: {
-      label: "Mostrar acento tonal",
-      subLabel: "Onde o tom sobe ou desce",
+    language: {
+        app: {
+            label: "Idioma do app",
+            subLabel: "Menus, botões e páginas de ajuda",
+            automatic: "Sistema ({{language}})",
+            changed: "Idioma do app: {{language}}",
+        },
+        search: {
+            label: "Idioma de pesquisa",
+            subLabel: "Idioma dos significados nos seus resultados de pesquisa",
+        },
+        alwaysEnglish: {
+            label: "Sempre mostrar resultados em inglês",
+            subLabel: "Mostra os significados em inglês junto com o seu idioma de pesquisa",
+        },
+        englishFirst: {
+            label: "Mostrar inglês primeiro",
+            needs: "Requer “Sempre mostrar resultados em inglês”",
+        },
+        names: {
+            "en-US": "Inglês",
+            "de-DE": "Alemão",
+            "es-ES": "Espanhol",
+            "fr-FR": "Francês",
+            "nl-NL": "Holandês",
+            "sv-SE": "Sueco",
+            ru: "Russo",
+            hu: "Húngaro",
+            "sl-SI": "Esloveno",
+        },
     },
-    otherForms: {
-      label: "Mostrar outras formas",
-      subLabel: "Outras grafias e leituras",
+    theme: {
+        label: "Tema",
+        subLabel: "Sistema segue o modo claro ou escuro do seu aparelho",
+        auto: "Sistema",
+        light: "Claro",
+        dark: "Escuro",
     },
-    kun: {
-      label: "Mostrar leituras kun",
-      subLabel: "Leituras japonesas, por ex. た.べる",
+    results: {
+        customize: {
+            label: "Personalizar resultados",
+            all: "Tudo é mostrado",
+            hidden: {
+                one: "{{count}} parte oculta",
+                many: "{{count}} partes ocultas",
+                other: "{{count}} partes ocultas",
+            },
+        },
+        perPage: {
+            words: "Palavras por página",
+            kanji: "Kanji por página",
+            names: "Nomes por página",
+            sentences: "Frases por página",
+        },
+        exampleSentences: {
+            label: "Mostrar frases de exemplo",
+            subLabel: "Frases de exemplo abaixo dos resultados de palavras",
+        },
+        kanjiBubbles: "Mostrar blocos de kanji",
+        kanjiTranslation: {
+            label: "Mostrar significado dos kanji",
+            needs: "Requer “Mostrar blocos de kanji”",
+        },
+        furigana: "Mostrar furigana nas frases",
+        hideTranslation: "Ocultar traduções das frases",
     },
-    on: {
-      label: "Mostrar leituras on",
-      subLabel: "Leituras vindas do chinês, por ex. ショク",
+    kanji: {
+        otherReadings: {
+            label: "Mostrar leituras em outros idiomas",
+            subLabel: "Leituras de um kanji em chinês, coreano e vietnamita",
+        },
+        drawnOnLoad: {
+            label: "Mostrar kanji desenhado ao carregar",
+            subLabel: "Mostra o kanji pronto em vez de uma animação de traços vazia",
+        },
+        strokeNumbers: "Mostrar números dos traços",
+        animationSpeed: {
+            label: "Velocidade da animação",
+            subLabel: "Velocidade da animação da ordem dos traços, também pode ser alterada no player",
+            value: "{{speed}}×",
+        },
     },
-    nanori: {
-      label: "Mostrar nanori",
-      subLabel: "Leituras usadas só em nomes",
+    learning: {
+        retention: {
+            label: "Retenção desejada",
+            subLabel: {
+                "85": "Tranquila: menos revisões, você esquece um pouco mais.",
+                "90": "Equilibrada (recomendada): você sabe cerca de 9 de cada 10 cartões quando eles aparecem.",
+                "95": "Rigorosa: cerca do dobro de revisões, você esquece menos.",
+            },
+        },
+        fineGrades: {
+            label: "Avaliar com mais detalhes",
+            subLabel:
+                "Quatro notas (De novo · Difícil · Acertei · Fácil) em vez de De novo e Acertei. “Difícil” conta como acerto.",
+        },
+        showIntervals: {
+            label: "Mostrar intervalos",
+            subLabel: "Mostra nos botões quando o cartão volta.",
+        },
+        roundSize: {
+            label: "Cartões por rodada",
+            option: "{{count}}",
+            recommended: "{{count}} (recomendado)",
+        },
+        advanced: "Para usuários avançados",
+        maxInterval: {
+            label: "Intervalo máximo",
+            subLabel: "Os cartões voltam no máximo depois desse tempo.",
+            months: "{{count}} meses",
+            years: {
+                one: "{{count}} ano",
+                many: "{{count}} anos",
+                other: "{{count}} anos",
+            },
+            recommended: "{{value}} (recomendado)",
+        },
+        learningSteps: {
+            label: "Etapas de aprendizado",
+            subLabel: "Esperas mínimas até cartões novos e esquecidos voltarem; o FSRS pode esperar mais.",
+            recommended: "{{value}} (recomendado)",
+        },
+        tricky: {
+            label: "Complicado a partir de",
+            subLabel: "Cartões esquecidos tantas vezes são marcados como complicados.",
+            option: {
+                one: "esquecido {{count}} vez",
+                many: "esquecido {{count}} vezes",
+                other: "esquecido {{count}} vezes",
+            },
+            recommended: "{{value}} (recomendado)",
+        },
+        deviceOnly: "Salvo neste aparelho, para todas as listas.",
     },
-    compounds: {
-      label: "Mostrar compostos",
-      subLabel: "Palavras com este kanji, por leitura",
-    },
-    radical: "Mostrar radical",
-    parts: "Mostrar componentes",
-    animation: {
-      label: "Mostrar animação da ordem dos traços",
-      subLabel: "Desenha os traços um por um",
-    },
-    frames: {
-      label: "Mostrar imagens da ordem dos traços",
-      subLabel: "Cada traço como uma imagem",
-    },
-    needsAnimation: "Requer “Mostrar animação da ordem dos traços”",
-    reset: {
-      label: "Mostrar tudo de novo",
-      subLabel:
-        "Ativa de novo todas as partes dos resultados; suas outras configurações continuam iguais",
-      button: "Mostrar tudo",
-      done: "Todas as partes dos resultados voltaram a ser mostradas",
-    },
-  },
-  shortcutPage: {
-    title: "Atalhos de teclado",
-    back: "Voltar para as configurações",
-    hint: "Teclas simples não funcionam enquanto você digita em um campo. Suas teclas ficam salvas só neste navegador.",
-    touchHint: "Os atalhos funcionam quando há um teclado conectado.",
-    off: "Os atalhos estão desativados. Suas teclas continuam salvas.",
-    pages: {
-      label: "Ir para a página 1–9",
-      subLabel: "Teclas numéricas nos resultados de pesquisa",
-    },
-    standard: {
-      title: "Teclas padrão",
-      show: "Mostrar teclas padrão",
-      hide: "Ocultar teclas padrão",
-      note: "Estas teclas seguem as convenções comuns de teclado, então funcionam como em outros sites e com leitores de tela. Elas não podem ser alteradas.",
-      or: "ou",
-    },
-    reset: {
-      label: "Redefinir atalhos",
-      none: "Todos os atalhos usam as teclas padrão.",
-      changed: {
-        one: "{{count}} atalho está diferente do padrão.",
-        many: "{{count}} atalhos estão diferentes do padrão.",
-        other: "{{count}} atalhos estão diferentes do padrão.",
-      },
-      button: "Redefinir",
-      done: "Os atalhos voltaram às teclas padrão.",
-      dialog: {
-        title: "Redefinir atalhos?",
-        text: "Todas as teclas voltam ao padrão neste navegador. Suas outras configurações continuam iguais.",
-        cancel: "Cancelar",
-        confirm: "Redefinir",
-      },
-    },
-    row: {
-      noKey: "Sem tecla",
-      default: "Padrão:",
-      defaultNone: "Padrão: sem tecla",
-      change: "{{label}}: {{keys}}. Alterar tecla",
-      moreOptions: "Mais opções para {{label}}",
-      remove: "Remover tecla",
-      resetTo: "Voltar ao padrão ({{keys}})",
-      quoted: "“{{label}}”",
-      separator: ", ",
-      conflict: "Também usada para {{others}}. Só uma delas funciona.",
-      spokenNone: "sem tecla",
-      announce: {
-        set: "{{label}}: {{key}}.",
-        alsoUsed: "{{text}} Também usada para {{others}}.",
-        cancelled: "Cancelado. {{label}} continua {{keys}}.",
-        removed: "{{label}} agora não tem tecla.",
-        reset: "{{label}} voltou a ser {{keys}}.",
-      },
-    },
-    recorder: {
-      placeholder: "Pressione as teclas…",
-      label: "Nova tecla para {{label}}",
-      hint: "Pressione a nova tecla. Esc cancela.",
-      hintModifier: "Pressione uma tecla com {{modifiers}}. Esc cancela.",
-      modifiers: "Ctrl ou Alt",
-      modifiersApple: "⌘, ⌃ ou ⌥",
-      cancel: "Cancelar",
-    },
-    blocked: {
-      navigation:
-        "Esta tecla é necessária para navegar pela página. Tente uma letra ou adicione {{modifiers}}.",
-      system:
-        "Esta tecla pertence ao sistema ou aos leitores de tela. Tente outra tecla.",
-      reserved:
-        "Seu navegador ou sistema reserva esta combinação para si. Tente outra.",
-      functionKey:
-        "Teclas de função precisam de {{modifiers}}. Tente outra tecla.",
-      needsModifier:
-        "Teclas simples digitariam texto aqui. Adicione {{modifiers}}.",
-      unreadable:
-        "Não foi possível ler esta tecla. Desative o método de entrada ou use um teclado físico.",
-    },
-    warnings: {
-      browser:
-        "Seu navegador também usa esta tecla, então ela pode não funcionar aqui.",
-      textEditing:
-        "Não funciona enquanto você digita, porque serve para editar texto.",
-      inputLanguage: "Pode trocar o idioma de entrada em alguns sistemas.",
-    },
-  },
-  catalog: {
-    groups: {
-      anywhere: "Em qualquer lugar",
-      results: "Resultados de pesquisa",
-      searchBar: "Barra de pesquisa",
-      study: "Flashcards",
-      standard: "Em todo lugar",
-      standardSearchBar: "Barra de pesquisa",
-      standardPicker: "Seletor de radicais",
-      standardWidgets: "Kanji, frases e notas",
-      standardStudy: "Flashcards",
+    general: {
+        focusSearch: "Focar a barra de pesquisa depois de pesquisar",
+        furiganaCopy: {
+            label: "Copiar furigana",
+            subLabel: "Clique duas vezes no furigana acima de uma palavra para copiar a leitura",
+        },
+        languageInLinks: {
+            label: "Manter o idioma nos links",
+            subLabel: "Links de pesquisa compartilhados mostram os resultados no seu idioma de pesquisa",
+        },
+        reminder: {
+            label: "Lembrete diário de estudo",
+            subLabel: "Uma notificação quando houver cartões pendentes, criada neste aparelho",
+            on: "Todos os dias às {{time}}, quando houver cartões pendentes",
+            time: "Horário",
+            blocked: "As notificações do Jotoba estão desativadas nas configurações do Android",
+            openSettings: "Abrir configurações",
+        },
+        voiceDevice: {
+            label: "Entrada de voz no aparelho",
+            subLabel: "Offline, depois de baixar o idioma abaixo; até lá, o Android reconhece online",
+            install: "Baixar japonês para uso offline",
+            installing: "O Android está baixando o japonês…",
+            installed: "O japonês está disponível offline.",
+            installFailed:
+                "Não foi possível iniciar o download. Instale nas configurações do Android (Reconhecimento de fala).",
+        },
+        speech: {
+            label: "Ler em voz alta (TTS)",
+            subLabel: "Palavras sem gravação e frases, offline",
+            noVoice: "Nenhuma voz em japonês neste aparelho",
+            install: "Instalar voz em japonês",
+        },
+        voiceOnPhones: {
+            label: "Pesquisa por voz no celular",
+            subLabel: "Mostra um microfone na barra de pesquisa",
+            unavailable: "Não disponível neste navegador",
+        },
     },
     shortcuts: {
-      app: {
-        focusSearch: "Focar a barra de pesquisa",
-      },
-      search: {
-        typeWords: "Pesquisar palavras",
-        typeKanji: "Pesquisar kanji",
-        typeSentences: "Pesquisar frases",
-        typeNames: "Pesquisar nomes",
-        playAudio: "Tocar áudio",
-        page1: "Ir para a página 1",
-        page2: "Ir para a página 2",
-        page3: "Ir para a página 3",
-        page4: "Ir para a página 4",
-        page5: "Ir para a página 5",
-        page6: "Ir para a página 6",
-        page7: "Ir para a página 7",
-        page8: "Ir para a página 8",
-        page9: "Ir para a página 9",
-      },
-      suggestions: {
-        open: "Mostrar sugestões",
-        newTab: "Abrir a pesquisa em uma nova aba",
-        move: "Navegar pelas sugestões",
-        openAlt: "Abrir sugestões",
-        close: "Fechar sugestões",
-        pick: "Pesquisar ou escolher uma sugestão",
-        remove: "Remover a pesquisa recente marcada",
-      },
-      standard: {
-        move: "Mover entre os controles",
-        close: "Fechar diálogos e menus",
-      },
-      picker: {
-        move: "Navegar pelos radicais e kanji",
-        close: "Limpar a pesquisa por radicais e depois fechar",
-      },
-      study: {
-        again: "Avaliar cartão: De novo",
-        hard: "Avaliar cartão: Difícil (com duas notas: Acertei)",
-        good: "Avaliar cartão: Acertei (com duas notas: Já sabia)",
-        easy: "Avaliar cartão: Fácil",
-        undo: "Desfazer a última avaliação",
-        playAudio: "Tocar o áudio do cartão",
-        reveal: "Mostrar resposta",
-        end: "Encerrar rodada",
-      },
-      widgets: {
-        move: "Traço, palavra ou aba anterior ou seguinte",
-        play: "Reproduzir ou pausar a ordem dos traços",
-        save: "Salvar nota ou divisão da palavra",
-        cancel: "Cancelar edição",
-      },
+        enabled: {
+            label: "Usar atalhos de teclado",
+            subLabel: "Teclas padrão como Tab, Enter e as setas sempre funcionam",
+        },
+        change: "Alterar atalhos",
+        summary: {
+            loading: "Alterar ou remover teclas",
+            none: "Todos os atalhos usam as teclas padrão",
+            changed: {
+                one: "{{count}} atalho alterado",
+                many: "{{count}} atalhos alterados",
+                other: "{{count}} atalhos alterados",
+            },
+        },
     },
-    help: {
-      playAudio: "Toca o primeiro áudio da página",
+    resultsPage: {
+        title: "Personalizar resultados",
+        back: "Voltar para as configurações",
+        hint: "As alterações valem na hora para os resultados de pesquisa, as páginas de detalhes e os favoritos.",
+        sections: {
+            words: "Palavras",
+            kanji: "Kanji",
+            strokeOrder: "Ordem dos traços",
+            sentences: "Frases",
+        },
+        pitchAccent: {
+            label: "Mostrar acento tonal",
+            subLabel: "Onde o tom sobe ou desce",
+        },
+        otherForms: {
+            label: "Mostrar outras formas",
+            subLabel: "Outras grafias e leituras",
+        },
+        kun: {
+            label: "Mostrar leituras kun",
+            subLabel: "Leituras japonesas, por ex. た.べる",
+        },
+        on: {
+            label: "Mostrar leituras on",
+            subLabel: "Leituras vindas do chinês, por ex. ショク",
+        },
+        nanori: {
+            label: "Mostrar nanori",
+            subLabel: "Leituras usadas só em nomes",
+        },
+        compounds: {
+            label: "Mostrar compostos",
+            subLabel: "Palavras com este kanji, por leitura",
+        },
+        radical: "Mostrar radical",
+        parts: "Mostrar componentes",
+        animation: {
+            label: "Mostrar animação da ordem dos traços",
+            subLabel: "Desenha os traços um por um",
+        },
+        frames: {
+            label: "Mostrar imagens da ordem dos traços",
+            subLabel: "Cada traço como uma imagem",
+        },
+        needsAnimation: "Requer “Mostrar animação da ordem dos traços”",
+        reset: {
+            label: "Mostrar tudo de novo",
+            subLabel: "Ativa de novo todas as partes dos resultados; suas outras configurações continuam iguais",
+            button: "Mostrar tudo",
+            done: "Todas as partes dos resultados voltaram a ser mostradas",
+        },
     },
-  },
-  keys: {
-    caps: {
-      Ctrl: "Ctrl",
-      Alt: "Alt",
-      Shift: "Shift",
-      Win: "Win",
-      Escape: "Esc",
-      PageUp: "Page Up",
-      PageDown: "Page Down",
-      Home: "Home",
-      End: "End",
-      Space: "Espaço",
-      Enter: "Enter",
-      Tab: "Tab",
-      Backspace: "Backspace",
-      Delete: "Del",
+    shortcutPage: {
+        title: "Atalhos de teclado",
+        back: "Voltar para as configurações",
+        hint: "Teclas simples não funcionam enquanto você digita em um campo. Suas teclas ficam salvas só neste navegador.",
+        touchHint: "Os atalhos funcionam quando há um teclado conectado.",
+        off: "Os atalhos estão desativados. Suas teclas continuam salvas.",
+        pages: {
+            label: "Ir para a página 1–9",
+            subLabel: "Teclas numéricas nos resultados de pesquisa",
+        },
+        standard: {
+            title: "Teclas padrão",
+            show: "Mostrar teclas padrão",
+            hide: "Ocultar teclas padrão",
+            note: "Estas teclas seguem as convenções comuns de teclado, então funcionam como em outros sites e com leitores de tela. Elas não podem ser alteradas.",
+            or: "ou",
+        },
+        reset: {
+            label: "Redefinir atalhos",
+            none: "Todos os atalhos usam as teclas padrão.",
+            changed: {
+                one: "{{count}} atalho está diferente do padrão.",
+                many: "{{count}} atalhos estão diferentes do padrão.",
+                other: "{{count}} atalhos estão diferentes do padrão.",
+            },
+            button: "Redefinir",
+            done: "Os atalhos voltaram às teclas padrão.",
+            dialog: {
+                title: "Redefinir atalhos?",
+                text: "Todas as teclas voltam ao padrão neste navegador. Suas outras configurações continuam iguais.",
+                cancel: "Cancelar",
+                confirm: "Redefinir",
+            },
+        },
+        row: {
+            noKey: "Sem tecla",
+            default: "Padrão:",
+            defaultNone: "Padrão: sem tecla",
+            change: "{{label}}: {{keys}}. Alterar tecla",
+            moreOptions: "Mais opções para {{label}}",
+            remove: "Remover tecla",
+            resetTo: "Voltar ao padrão ({{keys}})",
+            quoted: "“{{label}}”",
+            separator: ", ",
+            conflict: "Também usada para {{others}}. Só uma delas funciona.",
+            spokenNone: "sem tecla",
+            announce: {
+                set: "{{label}}: {{key}}.",
+                alsoUsed: "{{text}} Também usada para {{others}}.",
+                cancelled: "Cancelado. {{label}} continua {{keys}}.",
+                removed: "{{label}} agora não tem tecla.",
+                reset: "{{label}} voltou a ser {{keys}}.",
+            },
+        },
+        recorder: {
+            placeholder: "Pressione as teclas…",
+            label: "Nova tecla para {{label}}",
+            hint: "Pressione a nova tecla. Esc cancela.",
+            hintModifier: "Pressione uma tecla com {{modifiers}}. Esc cancela.",
+            modifiers: "Ctrl ou Alt",
+            modifiersApple: "⌘, ⌃ ou ⌥",
+            cancel: "Cancelar",
+        },
+        blocked: {
+            navigation: "Esta tecla é necessária para navegar pela página. Tente uma letra ou adicione {{modifiers}}.",
+            system: "Esta tecla pertence ao sistema ou aos leitores de tela. Tente outra tecla.",
+            reserved: "Seu navegador ou sistema reserva esta combinação para si. Tente outra.",
+            functionKey: "Teclas de função precisam de {{modifiers}}. Tente outra tecla.",
+            needsModifier: "Teclas simples digitariam texto aqui. Adicione {{modifiers}}.",
+            unreadable: "Não foi possível ler esta tecla. Desative o método de entrada ou use um teclado físico.",
+        },
+        warnings: {
+            browser: "Seu navegador também usa esta tecla, então ela pode não funcionar aqui.",
+            textEditing: "Não funciona enquanto você digita, porque serve para editar texto.",
+            inputLanguage: "Pode trocar o idioma de entrada em alguns sistemas.",
+        },
     },
-    names: {
-      Command: "Command",
-      Control: "Control",
-      Option: "Option",
-      Alt: "Alt",
-      Shift: "Shift",
-      Windows: "Windows",
-      ArrowUp: "Seta para cima",
-      ArrowDown: "Seta para baixo",
-      ArrowLeft: "Seta para a esquerda",
-      ArrowRight: "Seta para a direita",
-      Escape: "Escape",
-      PageUp: "Page Up",
-      PageDown: "Page Down",
-      Home: "Home",
-      End: "End",
-      Space: "Espaço",
-      Enter: "Enter",
-      Tab: "Tab",
-      Backspace: "Backspace",
-      Delete: "Delete",
-      slash: "Barra",
-      period: "Ponto",
-      comma: "Vírgula",
-      minus: "Menos",
-      plus: "Mais",
+    catalog: {
+        groups: {
+            anywhere: "Em qualquer lugar",
+            results: "Resultados de pesquisa",
+            searchBar: "Barra de pesquisa",
+            study: "Flashcards",
+            standard: "Em todo lugar",
+            standardSearchBar: "Barra de pesquisa",
+            standardPicker: "Seletor de radicais",
+            standardWidgets: "Kanji, frases e notas",
+            standardStudy: "Flashcards",
+        },
+        shortcuts: {
+            app: {
+                focusSearch: "Focar a barra de pesquisa",
+            },
+            search: {
+                typeWords: "Pesquisar palavras",
+                typeKanji: "Pesquisar kanji",
+                typeSentences: "Pesquisar frases",
+                typeNames: "Pesquisar nomes",
+                playAudio: "Tocar áudio",
+                page1: "Ir para a página 1",
+                page2: "Ir para a página 2",
+                page3: "Ir para a página 3",
+                page4: "Ir para a página 4",
+                page5: "Ir para a página 5",
+                page6: "Ir para a página 6",
+                page7: "Ir para a página 7",
+                page8: "Ir para a página 8",
+                page9: "Ir para a página 9",
+            },
+            suggestions: {
+                open: "Mostrar sugestões",
+                newTab: "Abrir a pesquisa em uma nova aba",
+                move: "Navegar pelas sugestões",
+                openAlt: "Abrir sugestões",
+                close: "Fechar sugestões",
+                pick: "Pesquisar ou escolher uma sugestão",
+                remove: "Remover a pesquisa recente marcada",
+            },
+            standard: {
+                move: "Mover entre os controles",
+                close: "Fechar diálogos e menus",
+            },
+            picker: {
+                move: "Navegar pelos radicais e kanji",
+                close: "Limpar a pesquisa por radicais e depois fechar",
+            },
+            study: {
+                again: "Avaliar cartão: De novo",
+                hard: "Avaliar cartão: Difícil (com duas notas: Acertei)",
+                good: "Avaliar cartão: Acertei (com duas notas: Já sabia)",
+                easy: "Avaliar cartão: Fácil",
+                undo: "Desfazer a última avaliação",
+                playAudio: "Tocar o áudio do cartão",
+                reveal: "Mostrar resposta",
+                end: "Encerrar rodada",
+            },
+            widgets: {
+                move: "Traço, palavra ou aba anterior ou seguinte",
+                play: "Reproduzir ou pausar a ordem dos traços",
+                save: "Salvar nota ou divisão da palavra",
+                cancel: "Cancelar edição",
+            },
+        },
+        help: {
+            playAudio: "Toca o primeiro áudio da página",
+        },
     },
-    combination: "{{keys}} mais {{key}}",
-  },
-  privacy: {
-    necessary: {
-      label: "Armazenamento necessário",
-      subLabel:
-        "Configurações, favoritos sem conta, atalhos de teclado, login e esta escolha. O Jotoba não funciona sem eles.",
-      subLabelLocal:
-        "Configurações, favoritos, atalhos de teclado e esta escolha. O Jotoba não funciona sem eles.",
-      badge: "Sempre ativo",
+    keys: {
+        caps: {
+            Ctrl: "Ctrl",
+            Alt: "Alt",
+            Shift: "Shift",
+            Win: "Win",
+            Escape: "Esc",
+            PageUp: "Page Up",
+            PageDown: "Page Down",
+            Home: "Home",
+            End: "End",
+            Space: "Espaço",
+            Enter: "Enter",
+            Tab: "Tab",
+            Backspace: "Backspace",
+            Delete: "Del",
+        },
+        names: {
+            Command: "Command",
+            Control: "Control",
+            Option: "Option",
+            Alt: "Alt",
+            Shift: "Shift",
+            Windows: "Windows",
+            ArrowUp: "Seta para cima",
+            ArrowDown: "Seta para baixo",
+            ArrowLeft: "Seta para a esquerda",
+            ArrowRight: "Seta para a direita",
+            Escape: "Escape",
+            PageUp: "Page Up",
+            PageDown: "Page Down",
+            Home: "Home",
+            End: "End",
+            Space: "Espaço",
+            Enter: "Enter",
+            Tab: "Tab",
+            Backspace: "Backspace",
+            Delete: "Delete",
+            slash: "Barra",
+            period: "Ponto",
+            comma: "Vírgula",
+            minus: "Menos",
+            plus: "Mais",
+        },
+        combination: "{{keys}} mais {{key}}",
     },
-    comfort: {
-      label: "Carregamento mais rápido",
-      subLabel:
-        "Salva os arquivos do app, as fontes e as imagens da ordem dos traços neste aparelho para o Jotoba carregar mais rápido. As sugestões de pesquisa ficam só nesta aba. Ao desativar, tudo é apagado na hora.",
+    privacy: {
+        necessary: {
+            label: "Armazenamento necessário",
+            subLabel:
+                "Configurações, favoritos sem conta, atalhos de teclado, login e esta escolha. O Jotoba não funciona sem eles.",
+            subLabelLocal: "Configurações, favoritos, atalhos de teclado e esta escolha. O Jotoba não funciona sem eles.",
+            badge: "Sempre ativo",
+        },
+        comfort: {
+            label: "Carregamento mais rápido",
+            subLabel:
+                "Salva os arquivos do app, as fontes e as imagens da ordem dos traços neste aparelho para o Jotoba carregar mais rápido. As sugestões de pesquisa ficam só nesta aba. Ao desativar, tudo é apagado na hora.",
+        },
+        history: {
+            label: "Lembrar pesquisas recentes",
+            subLabel:
+                "Mostra suas últimas pesquisas quando a barra de pesquisa está vazia. Sem conta, elas ficam neste aparelho.",
+            subLabelLocal: "Mostra suas últimas pesquisas quando a barra de pesquisa está vazia. Elas ficam neste aparelho.",
+            link: "Pesquisas recentes",
+            count: {
+                one: "{{count}} pesquisa · ver e apagar",
+                many: "{{count}} pesquisas · ver e apagar",
+                other: "{{count}} pesquisas · ver e apagar",
+            },
+            empty: "Nenhuma ainda",
+        },
+        camera: {
+            label: "Pesquisa com a câmera",
+            subLabel: "Reconhece texto neste aparelho com o Google ML Kit, que envia dados de uso anônimos ao Google.",
+            turnedOff: "Pesquisa com a câmera desativada",
+            labelBoth: "Reconhecimento de texto (câmera e escrita à mão)",
+            subLabelBoth:
+                "Reconhece texto neste aparelho com o Google ML Kit, que envia dados de uso anônimos ao Google. A escrita à mão baixa o modelo do Google uma única vez.",
+        },
+        image: {
+            label: "Texto de imagem",
+            notLoaded: "Lê textos em imagens neste aparelho. Precisa de um download único de cerca de {{size}}.",
+            stored: "{{size}} armazenados neste navegador. As imagens nunca saem do seu aparelho.",
+            downloading: "Baixando · {{percent}}",
+            download: "Baixar",
+            cancel: "Cancelar download",
+            delete: "Apagar",
+            deleted: "Reconhecimento de texto apagado. Ele será baixado de novo na próxima vez que você usar.",
+        },
+        statistics: {
+            label: "Compartilhar estatísticas de uso anônimas",
+            subLabel:
+                "Conta visualizações de página e ações no próprio servidor do Jotoba, sem cookies e sem salvar nada no seu aparelho. Isso nos ajuda a ver o que melhorar. Nada é enviado enquanto isso estiver desativado.",
+            subLabelSignal:
+                "Seu navegador pede aos sites que não rastreiem você (Global Privacy Control ou Do Not Track), então nada é enviado.",
+        },
+        policy: "Sem anúncios, sem cookies de rastreamento. Saiba mais na nossa <link>política de privacidade</link>.",
+        policyPending:
+            "Você ainda não respondeu à pergunta sobre cookies, então o “Carregamento mais rápido” está desativado. Sem anúncios, sem cookies de rastreamento. Saiba mais na nossa <link>política de privacidade</link>.",
     },
-    history: {
-      label: "Lembrar pesquisas recentes",
-      subLabel:
-        "Mostra suas últimas pesquisas quando a barra de pesquisa está vazia. Sem conta, elas ficam neste aparelho.",
-      subLabelLocal:
-        "Mostra suas últimas pesquisas quando a barra de pesquisa está vazia. Elas ficam neste aparelho.",
-      link: "Pesquisas recentes",
-      count: {
-        one: "{{count}} pesquisa · ver e apagar",
-        many: "{{count}} pesquisas · ver e apagar",
-        other: "{{count}} pesquisas · ver e apagar",
-      },
-      empty: "Nenhuma ainda",
+    reset: {
+        label: "Redefinir todas as configurações",
+        subLabel: "Restaura os valores padrão, inclusive os atalhos. Seus favoritos continuam.",
+        button: "Redefinir",
+        dialog: {
+            title: "Redefinir todas as configurações?",
+            text: "Todas as configurações voltam ao padrão, inclusive os atalhos de teclado neste navegador. Seus favoritos não são afetados.",
+            textApp:
+                "Todas as configurações voltam ao padrão, inclusive os atalhos de teclado. Seus favoritos, seu progresso de aprendizado e o dicionário offline continuam.",
+            textAccount:
+                "Todas as configurações voltam ao padrão, inclusive os atalhos de teclado neste navegador. Seus favoritos não são afetados. Isso também as altera na sua conta.",
+            cancel: "Cancelar",
+            confirm: "Redefinir",
+        },
+        done: "Todas as configurações voltaram ao padrão.",
     },
-    camera: {
-      label: "Pesquisa com a câmera",
-      subLabel:
-        "Reconhece texto neste aparelho com o Google ML Kit, que envia dados de uso anônimos ao Google.",
-      turnedOff: "Pesquisa com a câmera desativada",
-      labelBoth: "Reconhecimento de texto (câmera e escrita à mão)",
-      subLabelBoth:
-        "Reconhece texto neste aparelho com o Google ML Kit, que envia dados de uso anônimos ao Google. A escrita à mão baixa o modelo do Google uma única vez.",
-    },
-    image: {
-      label: "Texto de imagem",
-      notLoaded:
-        "Lê textos em imagens neste aparelho. Precisa de um download único de cerca de {{size}}.",
-      stored:
-        "{{size}} armazenados neste navegador. As imagens nunca saem do seu aparelho.",
-      downloading: "Baixando · {{percent}}",
-      download: "Baixar",
-      cancel: "Cancelar download",
-      delete: "Apagar",
-      deleted:
-        "Reconhecimento de texto apagado. Ele será baixado de novo na próxima vez que você usar.",
-    },
-    statistics: {
-      label: "Compartilhar estatísticas de uso anônimas",
-      subLabel:
-        "Conta visualizações de página e ações no próprio servidor do Jotoba, sem cookies e sem salvar nada no seu aparelho. Isso nos ajuda a ver o que melhorar. Nada é enviado enquanto isso estiver desativado.",
-      subLabelSignal:
-        "Seu navegador pede aos sites que não rastreiem você (Global Privacy Control ou Do Not Track), então nada é enviado.",
-    },
-    policy:
-      "Sem anúncios, sem cookies de rastreamento. Saiba mais na nossa <link>política de privacidade</link>.",
-    policyPending:
-      "Você ainda não respondeu à pergunta sobre cookies, então o “Carregamento mais rápido” está desativado. Sem anúncios, sem cookies de rastreamento. Saiba mais na nossa <link>política de privacidade</link>.",
-  },
-  reset: {
-    label: "Redefinir todas as configurações",
-    subLabel:
-      "Restaura os valores padrão, inclusive os atalhos. Seus favoritos continuam.",
-    button: "Redefinir",
-    dialog: {
-      title: "Redefinir todas as configurações?",
-      text: "Todas as configurações voltam ao padrão, inclusive os atalhos de teclado neste navegador. Seus favoritos não são afetados.",
-      textApp:
-        "Todas as configurações voltam ao padrão, inclusive os atalhos de teclado. Seus favoritos, seu progresso de aprendizado e o dicionário offline continuam.",
-      textAccount:
-        "Todas as configurações voltam ao padrão, inclusive os atalhos de teclado neste navegador. Seus favoritos não são afetados. Isso também as altera na sua conta.",
-      cancel: "Cancelar",
-      confirm: "Redefinir",
-    },
-    done: "Todas as configurações voltaram ao padrão.",
-  },
 } satisfies PartialDict<typeof en>;
