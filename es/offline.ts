@@ -7,8 +7,8 @@ export default {
         name: "Sin conexión. Ver qué funciona sin internet",
         labelDegraded: "Inaccesible",
         nameDegraded: "Inaccesible. Ver qué funciona sin internet",
-        labelAlways: "Siempre sin conexión",
-        nameAlways: "Siempre sin conexión está activado. Mostrar qué funciona y cómo permitir la red",
+        labelAlways: "Modo sin conexión",
+        nameAlways: "El modo sin conexión está activado. Mostrar qué funciona y cómo permitir la red",
     },
     announce: {
         offline: "No tienes conexión. La búsqueda de palabras funciona en este dispositivo.",
@@ -25,7 +25,7 @@ export default {
         introRemoved:
             "El diccionario sin conexión ya no está en este dispositivo. Puede pasar cuando el dispositivo libera espacio.",
         close: "Cerrar",
-        titleAlways: "Siempre sin conexión está activado",
+        titleAlways: "El modo sin conexión está activado",
         introAlways: "Solo responde el diccionario de este dispositivo. Jotoba no envía nada.",
     },
     group: {
@@ -65,7 +65,7 @@ export default {
         unreachable: "No se puede acceder a Jotoba. Los resultados siguen siendo de este dispositivo.",
         noTypos: "La búsqueda sin conexión no corrige errores ortográficos.",
         getPack: "Descargar {{language}} sin conexión",
-        lineAlways: "<title>Siempre sin conexión:</title> resultados solo de este dispositivo.",
+        lineAlways: "<title>Modo sin conexión</title>",
         openSettings: "Permitir la red en los ajustes",
     },
     msg: {
@@ -112,7 +112,7 @@ export default {
             title: "La búsqueda sin conexión ha tardado demasiado",
             text: "Inténtalo de nuevo o busca algo más corto.",
         },
-        alwaysOffline: "Siempre sin conexión está activado. Permite la red en la página sin conexión para buscar aquí.",
+        alwaysOffline: "El modo sin conexión está activado. Permite la red en la página sin conexión para buscar aquí.",
     },
     btn: {
         download: "Descargar",
@@ -240,7 +240,7 @@ export default {
     },
     mode: {
         title: "Red",
-        label: "Siempre sin conexión",
+        label: "Modo sin conexión",
         subLabel: "Solo responde el diccionario de este dispositivo. Sin estadísticas, noticias ni grabaciones. Las descargas de aquí usan la red solo cuando tú las inicias.",
         needsData: "Descarga primero el diccionario.",
     },

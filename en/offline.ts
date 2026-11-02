@@ -9,8 +9,8 @@ export default {
         // The device has a network, but Jotoba doesn't answer
         labelDegraded: "Unreachable",
         nameDegraded: "Unreachable. Show what works without internet",
-        labelAlways: "Always offline",
-        nameAlways: "Always offline is on. Show what works and how to allow the network",
+        labelAlways: "Offline mode",
+        nameAlways: "Offline mode is on. Show what works and how to allow the network",
     },
     announce: {
         offline: "You're offline. Word search works on this device.",
@@ -27,7 +27,7 @@ export default {
         introRemoved:
             "The offline dictionary is no longer on this device. This can happen when the device frees up storage.",
         close: "Close",
-        titleAlways: "Always offline is on",
+        titleAlways: "Offline mode is on",
         introAlways: "Only the dictionary on this device answers. Jotoba sends nothing.",
     },
     group: {
@@ -68,7 +68,7 @@ export default {
         unreachable: "Jotoba can't be reached. The results are still from this device.",
         noTypos: "Offline search doesn't correct spelling mistakes.",
         getPack: "Get {{language}} offline",
-        lineAlways: "<title>Always offline:</title> Results only from this device.",
+        lineAlways: "<title>Offline mode</title>",
         openSettings: "Allow the network in the settings",
     },
     msg: {
@@ -115,7 +115,7 @@ export default {
             title: "The offline search took too long",
             text: "Try again or search for something shorter.",
         },
-        alwaysOffline: "Always offline is on. Allow the network on the offline page to search here.",
+        alwaysOffline: "Offline mode is on. Allow the network on the offline page to search here.",
     },
     btn: {
         download: "Download",
@@ -243,7 +243,7 @@ export default {
     },
     mode: {
         title: "Network",
-        label: "Always offline",
+        label: "Offline mode",
         subLabel: "Only the dictionary on this device answers. No statistics, news or recordings. Downloads here use the network only when you start them.",
         needsData: "Download the dictionary first.",
     },

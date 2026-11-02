@@ -7,8 +7,8 @@ export default {
         name: "Offline. Visa vad som fungerar utan internet",
         labelDegraded: "Onåbar",
         nameDegraded: "Onåbar. Visa vad som fungerar utan internet",
-        labelAlways: "Alltid offline",
-        nameAlways: "Alltid offline är på. Visa vad som fungerar och hur du tillåter nätverket",
+        labelAlways: "Offlineläge",
+        nameAlways: "Offlineläget är på. Visa vad som fungerar och hur du tillåter nätverket",
     },
     announce: {
         offline: "Du är offline. Ordsökning fungerar på den här enheten.",
@@ -25,7 +25,7 @@ export default {
         introRemoved:
             "Offlineordboken finns inte längre på den här enheten. Det kan hända när enheten frigör lagringsutrymme.",
         close: "Stäng",
-        titleAlways: "Alltid offline är på",
+        titleAlways: "Offlineläget är på",
         introAlways: "Bara ordboken på den här enheten svarar. Jotoba skickar ingenting.",
     },
     group: {
@@ -65,7 +65,7 @@ export default {
         unreachable: "Jotoba går inte att nå. Resultaten kommer fortfarande från den här enheten.",
         noTypos: "Offlinesökningen rättar inte stavfel.",
         getPack: "Hämta {{language}} offline",
-        lineAlways: "<title>Alltid offline:</title> resultat bara från den här enheten.",
+        lineAlways: "<title>Offlineläge</title>",
         openSettings: "Tillåt nätverket i inställningarna",
     },
     msg: {
@@ -112,7 +112,7 @@ export default {
             title: "Offlinesökningen tog för lång tid",
             text: "Försök igen eller sök efter något kortare.",
         },
-        alwaysOffline: "Alltid offline är på. Tillåt nätverket på offlinesidan för att söka här.",
+        alwaysOffline: "Offlineläget är på. Tillåt nätverket på offlinesidan för att söka här.",
     },
     btn: {
         download: "Ladda ned",
@@ -240,7 +240,7 @@ export default {
     },
     mode: {
         title: "Nätverk",
-        label: "Alltid offline",
+        label: "Offlineläge",
         subLabel: "Bara ordboken på den här enheten svarar. Ingen statistik, inga nyheter eller inspelningar. Nedladdningar här använder nätverket bara när du startar dem.",
         needsData: "Ladda ner ordboken först.",
     },

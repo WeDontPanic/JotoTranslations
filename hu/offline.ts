@@ -7,8 +7,8 @@ export default {
         name: "Offline. Mutasd, mi működik internet nélkül",
         labelDegraded: "Nem elérhető",
         nameDegraded: "Nem elérhető. Mutasd, mi működik internet nélkül",
-        labelAlways: "Mindig offline",
-        nameAlways: "A Mindig offline be van kapcsolva. Mutasd, mi működik és hogyan engedélyezheted a hálózatot",
+        labelAlways: "Offline mód",
+        nameAlways: "Az offline mód be van kapcsolva. Mutasd, mi működik és hogyan engedélyezheted a hálózatot",
     },
     announce: {
         offline: "Offline vagy. A szókeresés ezen az eszközön működik.",
@@ -25,7 +25,7 @@ export default {
         introRemoved:
             "Az offline szótár már nincs ezen az eszközön. Ez akkor fordulhat elő, ha az eszköz tárhelyet szabadít fel.",
         close: "Bezárás",
-        titleAlways: "A Mindig offline be van kapcsolva",
+        titleAlways: "Az offline mód be van kapcsolva",
         introAlways: "Csak az eszközön lévő szótár válaszol. A Jotoba semmit sem küld.",
     },
     group: {
@@ -65,7 +65,7 @@ export default {
         unreachable: "A Jotoba nem érhető el. A találatok továbbra is erről az eszközről származnak.",
         noTypos: "Az offline keresés nem javítja az elírásokat.",
         getPack: "Offline letöltés: {{language}}",
-        lineAlways: "<title>Mindig offline:</title> csak az eszközről származó találatok.",
+        lineAlways: "<title>Offline mód</title>",
         openSettings: "Hálózat engedélyezése a beállításokban",
     },
     msg: {
@@ -112,7 +112,7 @@ export default {
             title: "Az offline keresés túl sokáig tartott",
             text: "Próbáld újra, vagy keress valami rövidebbre.",
         },
-        alwaysOffline: "A Mindig offline be van kapcsolva. Engedélyezd a hálózatot az offline oldalon, hogy itt kereshess.",
+        alwaysOffline: "Az offline mód be van kapcsolva. Engedélyezd a hálózatot az offline oldalon, hogy itt kereshess.",
     },
     btn: {
         download: "Letöltés",
@@ -240,7 +240,7 @@ export default {
     },
     mode: {
         title: "Hálózat",
-        label: "Mindig offline",
+        label: "Offline mód",
         subLabel: "Csak az eszközön lévő szótár válaszol. Nincs statisztika, hír és hangfelvétel. Az itteni letöltések csak akkor használják a hálózatot, ha te indítod őket.",
         needsData: "Előbb töltsd le a szótárt.",
     },

@@ -458,10 +458,10 @@ export default {
                 "A Jotoba saját szerverén számolja az oldalmegtekintéseket és a műveleteket, sütik nélkül, és semmit sem tárol az eszközödön. Így látjuk, min érdemes javítani. Amíg ki van kapcsolva, semmit sem küld.",
             subLabelSignal:
                 "A böngésződ arra kéri a webhelyeket, hogy ne kövessenek (Global Privacy Control vagy Do Not Track), ezért semmi sem kerül elküldésre.",
-            subLabelOffline: "Ki van kapcsolva, amíg a Mindig offline be van kapcsolva.",
+            subLabelOffline: "Ki van kapcsolva, amíg az offline mód be van kapcsolva.",
         },
         alwaysOffline: {
-            label: "Mindig offline",
+            label: "Offline mód",
             on: "Be",
             off: "Ki",
         },

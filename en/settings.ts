@@ -448,10 +448,10 @@ export default {
                 "Counts page views and actions on Jotoba's own server, without cookies and without storing anything on your device. Helps us see what to improve. Nothing is sent while this is off.",
             subLabelSignal:
                 "Your browser asks websites not to track you (Global Privacy Control or Do Not Track), so nothing is sent.",
-            subLabelOffline: "Off while Always offline is on.",
+            subLabelOffline: "Off while offline mode is on.",
         },
         alwaysOffline: {
-            label: "Always offline",
+            label: "Offline mode",
             on: "On",
             off: "Off",
         },

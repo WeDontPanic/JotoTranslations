@@ -7,8 +7,8 @@ export default {
         name: "Offline. Mostrar o que funciona sem internet",
         labelDegraded: "Inacessível",
         nameDegraded: "Inacessível. Mostrar o que funciona sem internet",
-        labelAlways: "Sempre offline",
-        nameAlways: "Sempre offline está ativado. Mostrar o que funciona e como permitir a rede",
+        labelAlways: "Modo offline",
+        nameAlways: "O modo offline está ativado. Mostrar o que funciona e como permitir a rede",
     },
     announce: {
         offline: "Você está offline. A pesquisa de palavras funciona neste aparelho.",
@@ -25,7 +25,7 @@ export default {
         introRemoved:
             "O dicionário offline não está mais neste aparelho. Isso pode acontecer quando o aparelho libera espaço.",
         close: "Fechar",
-        titleAlways: "Sempre offline está ativado",
+        titleAlways: "O modo offline está ativado",
         introAlways: "Só o dicionário deste aparelho responde. O Jotoba não envia nada.",
     },
     group: {
@@ -65,7 +65,7 @@ export default {
         unreachable: "Não foi possível acessar o Jotoba. Os resultados continuam vindo deste aparelho.",
         noTypos: "A pesquisa offline não corrige erros de digitação.",
         getPack: "Baixar {{language}} offline",
-        lineAlways: "<title>Sempre offline:</title> resultados só deste aparelho.",
+        lineAlways: "<title>Modo offline</title>",
         openSettings: "Permitir a rede nas configurações",
     },
     msg: {
@@ -112,7 +112,7 @@ export default {
             title: "A pesquisa offline demorou demais",
             text: "Tente de novo ou pesquise algo mais curto.",
         },
-        alwaysOffline: "Sempre offline está ativado. Permita a rede na página offline para pesquisar aqui.",
+        alwaysOffline: "O modo offline está ativado. Permita a rede na página offline para pesquisar aqui.",
     },
     btn: {
         download: "Baixar",
@@ -240,7 +240,7 @@ export default {
     },
     mode: {
         title: "Rede",
-        label: "Sempre offline",
+        label: "Modo offline",
         subLabel: "Só o dicionário deste aparelho responde. Sem estatísticas, notícias ou gravações. Os downloads aqui só usam a rede quando você os inicia.",
         needsData: "Baixe o dicionário primeiro.",
     },

@@ -7,8 +7,8 @@ export default {
         name: "Offline. Zeigen, was ohne Internet geht",
         labelDegraded: "Nicht erreichbar",
         nameDegraded: "Nicht erreichbar. Zeigen, was ohne Internet geht",
-        labelAlways: "Immer offline",
-        nameAlways: "Immer offline ist an. Zeigen, was geht und wie du das Netzwerk erlaubst",
+        labelAlways: "Offline-Modus",
+        nameAlways: "Offline-Modus ist an. Zeigen, was geht und wie du das Netzwerk erlaubst",
     },
     announce: {
         offline: "Du bist offline. Die Wortsuche funktioniert auf diesem Gerät.",
@@ -25,7 +25,7 @@ export default {
         introRemoved:
             "Das Offline-Wörterbuch ist nicht mehr auf diesem Gerät. Das kann passieren, wenn das Gerät Speicher freigibt.",
         close: "Schließen",
-        titleAlways: "Immer offline ist an",
+        titleAlways: "Offline-Modus ist an",
         introAlways: "Nur das Wörterbuch auf diesem Gerät antwortet. Jotoba sendet nichts.",
     },
     group: {
@@ -65,7 +65,7 @@ export default {
         unreachable: "Jotoba ist nicht erreichbar. Die Ergebnisse sind weiter von diesem Gerät.",
         noTypos: "Die Offline-Suche korrigiert keine Tippfehler.",
         getPack: "{{language}} offline laden",
-        lineAlways: "<title>Immer offline:</title> Ergebnisse nur von diesem Gerät.",
+        lineAlways: "<title>Offline-Modus</title>",
         openSettings: "Netzwerk in den Einstellungen erlauben",
     },
     msg: {
@@ -112,7 +112,7 @@ export default {
             title: "Die Offline-Suche hat zu lange gedauert",
             text: "Versuch es noch einmal oder suche etwas Kürzeres.",
         },
-        alwaysOffline: "Immer offline ist an. Erlaube das Netzwerk auf der Offline-Seite, um hier zu suchen.",
+        alwaysOffline: "Der Offline-Modus ist an. Erlaube das Netzwerk auf der Offline-Seite, um hier zu suchen.",
     },
     btn: {
         download: "Herunterladen",
@@ -240,7 +240,7 @@ export default {
     },
     mode: {
         title: "Netzwerk",
-        label: "Immer offline",
+        label: "Offline-Modus",
         subLabel: "Nur das Wörterbuch auf diesem Gerät antwortet. Keine Statistik, keine News, keine Aufnahmen. Downloads hier nutzen das Netzwerk nur, wenn du sie startest.",
         needsData: "Lade zuerst das Wörterbuch.",
     },
