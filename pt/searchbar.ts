@@ -1,0 +1,233 @@
+import type en from "../en/searchbar";
+import type { PartialDict } from "../types";
+
+export default {
+  search: {
+    label: "Pesquisa",
+    placeholder: "Pesquisar…",
+    submit: "Pesquisar",
+    type: "Tipo de pesquisa",
+    radicals: "Pesquisa por radicais",
+    tools: "Outras formas de pesquisar",
+    camera: "Pesquisa com a câmera",
+    image: "Texto de imagem",
+  },
+  types: {
+    words: "Palavras",
+    kanji: "Kanji",
+    sentences: "Frases",
+    names: "Nomes",
+  },
+  suggestions: {
+    label: "Sugestões de pesquisa",
+    empty: "Nenhuma sugestão",
+    count: {
+      one: "{{count}} sugestão",
+      many: "{{count}} sugestões",
+      other: "{{count}} sugestões",
+    },
+  },
+  history: {
+    label: "Pesquisas recentes",
+    count: {
+      one: "{{count}} pesquisa recente",
+      many: "{{count}} pesquisas recentes",
+      other: "{{count}} pesquisas recentes",
+    },
+    offer: "Lembrar suas pesquisas recentes neste aparelho?",
+    turnOn: "Ativar",
+    decline: "Não, obrigado",
+    turnedOn: "Pesquisas recentes ativadas",
+    clear: "Limpar",
+    confirm: "Limpar todas as pesquisas recentes?",
+    cancel: "Cancelar",
+    cleared: "Pesquisas recentes apagadas",
+    remove: "Remover",
+    removed: "“{{query}}” removida",
+    removeHint: "Shift+Delete remove uma entrada",
+    showAll: "Ver todas",
+  },
+  historyPage: {
+    title: "Pesquisas recentes",
+    description: "Suas pesquisas recentes no Jotoba.",
+    back: "Voltar para as configurações",
+    onDevice: {
+      one: "Neste aparelho · {{count}} pesquisa",
+      many: "Neste aparelho · {{count}} pesquisas",
+      other: "Neste aparelho · {{count}} pesquisas",
+    },
+    inAccount: {
+      one: "Na sua conta · {{count}} pesquisa",
+      many: "Na sua conta · {{count}} pesquisas",
+      other: "Na sua conta · {{count}} pesquisas",
+    },
+    clearAll: "Limpar tudo",
+    today: "Hoje",
+    yesterday: "Ontem",
+    earlier: "Antes",
+    remove: "Remover “{{query}}”",
+    offTitle: "As pesquisas recentes estão desativadas",
+    offText:
+      "Ative-as para encontrar suas últimas pesquisas aqui e na barra de pesquisa. Sem conta, elas ficam neste aparelho.",
+    offTextLocal:
+      "Ative-as para encontrar suas últimas pesquisas aqui e na barra de pesquisa. Elas ficam neste aparelho.",
+    emptyTitle: "Ainda não há pesquisas recentes",
+    emptyText:
+      "As pesquisas que você fizer pela barra de pesquisa aparecem aqui.",
+    loadError: "Não foi possível carregar suas pesquisas recentes.",
+    retry: "Tentar de novo",
+    dialog: {
+      title: "Limpar todas as pesquisas recentes?",
+      text: "Todas as pesquisas recentes neste aparelho serão apagadas.",
+      textAccount:
+        "Todas as pesquisas recentes na sua conta serão apagadas. Não é possível desfazer.",
+      cancel: "Cancelar",
+      confirm: "Limpar tudo",
+    },
+  },
+  radPicker: {
+    resize: {
+      label: "Redimensionar radicais e kanji",
+      value: "Radicais {{radicals}} linhas, kanji {{kanji}} linhas",
+    },
+    label: "Pesquisa por radicais",
+    strokeTabs: "Número de traços",
+    tabs: {
+      oneTwo: "1 e 2 traços",
+      three: "3 traços",
+      four: "4 traços",
+      five: "5 traços",
+      six: "6 traços",
+      seven: "7 traços",
+      eight: "8 traços",
+      nine: "9 traços",
+      ten: "10 traços",
+      elevenPlus: "11 traços ou mais",
+    },
+    tab: {
+      selected: "{{title}}, {{count}} selecionados",
+      empty: "{{title}}, nenhum disponível",
+      selectedEmpty: "{{title}}, {{count}} selecionados, nenhum disponível",
+      search: "Resultados da pesquisa por {{query}}",
+    },
+    grid: {
+      radicals: "Radicais, {{title}}",
+      results: "Resultados da pesquisa por radicais",
+    },
+    strokes: {
+      one: "{{count}} traço",
+      many: "{{count}} traços",
+      other: "{{count}} traços",
+    },
+    kanjiMarker: "Kanji",
+    selectRadicals: "{{char}}, selecionar seus radicais {{radicals}}",
+    retry: "Tentar de novo",
+    searching: "Pesquisando…",
+    keepTyping: "Continue digitando…",
+    searchFailed: "Não foi possível pesquisar os radicais",
+    noRadicals: "Nenhum radical corresponde a “{{query}}”",
+    searchBar: {
+      placeholder: "Pesquisar radicais…",
+      label: "Pesquisar radicais por significado ou kanji",
+      reset: "Redefinir o seletor de radicais",
+      close: "Fechar o seletor de radicais",
+    },
+    kanji: {
+      label: "Kanji",
+      hint: "Escolha um radical para começar a pesquisar kanji",
+      title: "Selecionar kanji",
+      removeRadical: "Remover radical {{radical}}",
+      count: {
+        one: "{{count}} kanji",
+        many: "{{count}} kanji",
+        other: "{{count}} kanji",
+      },
+      cell: {
+        one: "{{char}}, {{count}} traço, adicionar à pesquisa",
+        many: "{{char}}, {{count}} traços, adicionar à pesquisa",
+        other: "{{char}}, {{count}} traços, adicionar à pesquisa",
+      },
+      loadFailed: "Não foi possível carregar os kanji",
+      noMatch: "Nenhum kanji contém todos os radicais selecionados",
+      removeLast: "Remover o último radical",
+    },
+    announce: {
+      cleared: "Seleção limpa",
+      noKanji: "Nenhum kanji encontrado",
+      kanjiFound: {
+        one: "{{count}} kanji encontrado",
+        many: "{{count}} kanji encontrados",
+        other: "{{count}} kanji encontrados",
+      },
+      noRadicals: "Nenhum radical encontrado",
+      results: {
+        one: "{{count}} resultado",
+        many: "{{count}} resultados",
+        other: "{{count}} resultados",
+      },
+    },
+  },
+  inputs: {
+    password: {
+      label: "Mostrar senha",
+      show: "Mostrar",
+      hide: "Ocultar",
+    },
+    slider: {
+      default: "{{value}}, padrão",
+    },
+  },
+  common: {
+    share: "Compartilhar",
+    linkCopied: "Link copiado para a área de transferência",
+    shareFailed: "Não foi possível compartilhar o link",
+  },
+  content: {
+    newTab: "(abre em uma nova aba)",
+    removeLabel: "Remover etiqueta {{name}}",
+    furiganaCopied: "Furigana copiado para a área de transferência",
+    task: "Tarefa",
+    licenses: {
+      loadFailed: "Não foi possível carregar a lista de licenças.",
+      loading: "Carregando licenças…",
+      summary:
+        "{{packages}} pacotes, {{iconSets}} conjuntos de ícones e {{fonts}} fontes · em {{date}}",
+      summaryApp:
+        "{{packages}} pacotes, {{native}} componentes do Android, {{iconSets}} conjuntos de ícones e {{fonts}} fontes · em {{date}}",
+      devNote:
+        "Modo de desenvolvimento sem build anterior: a lista mostra só as dependências diretas do package.json. Execute <code>bun run build</code> para ver aqui o bundle real.",
+      search: "Pesquisar pacotes",
+      searchPlaceholder: "Nome, licença ou autor",
+      noMatch: "Nada corresponde à sua pesquisa.",
+      fonts: "Fontes",
+      icons: "Ícones",
+      packages: "Pacotes de software",
+      native: "Componentes do Android",
+      notices: "Avisos do Google ML Kit e do Google Play Services",
+      version: "Versão {{version}}",
+      standardText: "Texto padrão ({{license}})",
+      licenseText: "Texto da licença",
+      projectPage: "Página do projeto",
+      sourceCode: "Código-fonte",
+    },
+  },
+  pages: {
+    index: {
+      title: "Dicionário de japonês multilíngue",
+      description:
+        "O Jotoba é um dicionário de japonês multilíngue e gratuito para palavras, kanji, frases de exemplo e nomes.",
+      heading:
+        "<hidden>Jotoba: </hidden>Dicionário de japonês multilíngue e gratuito",
+      help: "Ajuda e dicas de pesquisa",
+    },
+    notFound: {
+      title: "Não encontrado",
+    },
+    licenses: {
+      title: "Licenças de código aberto",
+      description: "Licenças do software de código aberto usado pelo Jotoba.",
+      intro:
+        "O Jotoba é feito com software livre. Esta página lista cada pacote incluído no app, com os avisos de copyright e o texto completo da licença. A lista é gerada a cada build a partir do código que realmente vai para o bundle.",
+    },
+  },
+} satisfies PartialDict<typeof en>;

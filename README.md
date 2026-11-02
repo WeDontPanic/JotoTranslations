@@ -29,6 +29,7 @@ the files of the language and areas it is showing. A text missing in a translati
 | Russian   | `ru`   | beta | вы |
 | Hungarian | `hu`   | beta | te |
 | Slovenian | `sl`   | beta | vi |
+| Portuguese (Brazil) | `pt` | beta | você |
 
 Beta languages are marked as such in the app until a native speaker has reviewed them. Reviewed a whole language?
 Say so in your pull request.
