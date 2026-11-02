@@ -55,11 +55,12 @@ export default {
     },
     progress: "{{loaded}} of {{total}}",
     marker: {
-        title: "Offline results",
-        text: "Searched on this device. The order can differ online.",
+        // One line; the title is bold
+        line: "<title>Offline results:</title> Results may differ online.",
         english: "Meanings in English: {{language}} isn't on this device.",
         reload: "Reload online",
         reloading: "Reloading…",
+        reloadOffline: "Reload online (needs internet)",
         unreachable: "Jotoba can't be reached. The results are still from this device.",
         noTypos: "Offline search doesn't correct spelling mistakes.",
         getPack: "Get {{language}} offline",

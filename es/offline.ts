@@ -53,11 +53,11 @@ export default {
     },
     progress: "{{loaded}} de {{total}}",
     marker: {
-        title: "Resultados sin conexión",
-        text: "Buscado en este dispositivo. En línea, el orden puede ser distinto.",
+        line: "<title>Resultados sin conexión:</title> En línea pueden ser distintos.",
         english: "Significados en inglés: {{language}} no está en este dispositivo.",
         reload: "Recargar en línea",
         reloading: "Recargando…",
+        reloadOffline: "Recargar en línea (necesita internet)",
         unreachable: "No se puede acceder a Jotoba. Los resultados siguen siendo de este dispositivo.",
         noTypos: "La búsqueda sin conexión no corrige errores ortográficos.",
         getPack: "Descargar {{language}} sin conexión",

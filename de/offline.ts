@@ -53,11 +53,11 @@ export default {
     },
     progress: "{{loaded}} von {{total}}",
     marker: {
-        title: "Offline-Ergebnisse",
-        text: "Auf diesem Gerät gesucht. Online kann die Reihenfolge anders sein.",
+        line: "<title>Offline-Ergebnisse:</title> Online können sie abweichen.",
         english: "Bedeutungen auf Englisch: {{language}} ist nicht auf diesem Gerät.",
         reload: "Online neu laden",
         reloading: "Lädt neu …",
+        reloadOffline: "Online neu laden (braucht Internet)",
         unreachable: "Jotoba ist nicht erreichbar. Die Ergebnisse sind weiter von diesem Gerät.",
         noTypos: "Die Offline-Suche korrigiert keine Tippfehler.",
         getPack: "{{language}} offline laden",

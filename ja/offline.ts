@@ -52,11 +52,11 @@ export default {
     },
     progress: "{{loaded}}／{{total}}",
     marker: {
-        title: "オフライン検索結果",
-        text: "この端末で検索しました。オンラインでは順番が異なる場合があります。",
+        line: "<title>オフライン検索結果：</title>オンラインでは異なる場合があります。",
         english: "英語の意味を表示しています。{{language}}はこの端末にありません。",
         reload: "オンラインで再読み込み",
         reloading: "再読み込み中…",
+        reloadOffline: "オンラインで再読み込み（インターネットが必要）",
         unreachable: "Jotobaに接続できません。引き続きこの端末の検索結果を表示しています。",
         noTypos: "オフライン検索ではスペルミスは修正されません。",
         getPack: "{{language}}をオフラインで追加",

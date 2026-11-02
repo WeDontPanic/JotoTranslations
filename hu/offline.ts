@@ -53,11 +53,11 @@ export default {
     },
     progress: "{{loaded}} / {{total}}",
     marker: {
-        title: "Offline találatok",
-        text: "Ezen az eszközön keresve. Online más lehet a sorrend.",
+        line: "<title>Offline találatok:</title> Online eltérhetnek.",
         english: "Angol jelentések: ezen az eszközön nincsenek {{language}} nyelvű adatok.",
         reload: "Újratöltés online",
         reloading: "Újratöltés…",
+        reloadOffline: "Újratöltés online (internet kell hozzá)",
         unreachable: "A Jotoba nem érhető el. A találatok továbbra is erről az eszközről származnak.",
         noTypos: "Az offline keresés nem javítja az elírásokat.",
         getPack: "Offline letöltés: {{language}}",

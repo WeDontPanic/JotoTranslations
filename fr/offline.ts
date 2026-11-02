@@ -53,11 +53,11 @@ export default {
     },
     progress: "{{loaded}} sur {{total}}",
     marker: {
-        title: "Résultats hors ligne",
-        text: "Recherche effectuée sur cet appareil. L’ordre peut différer en ligne.",
+        line: "<title>Résultats hors ligne :</title> Ils peuvent différer en ligne.",
         english: "Sens en anglais : pas de données en {{language}} sur cet appareil.",
         reload: "Recharger en ligne",
         reloading: "Rechargement…",
+        reloadOffline: "Recharger en ligne (nécessite Internet)",
         unreachable: "Jotoba est injoignable. Les résultats proviennent toujours de cet appareil.",
         noTypos: "La recherche hors ligne ne corrige pas les fautes de frappe.",
         getPack: "Télécharger le pack : {{language}}",

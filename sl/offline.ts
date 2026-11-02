@@ -53,11 +53,11 @@ export default {
     },
     progress: "{{loaded}} od {{total}}",
     marker: {
-        title: "Rezultati brez povezave",
-        text: "Iskano v tej napravi. S povezavo je lahko vrstni red drugačen.",
+        line: "<title>Rezultati brez povezave:</title> S povezavo se lahko razlikujejo.",
         english: "Pomeni so v angleščini. Ni v tej napravi: {{language}}.",
         reload: "Znova naloži s povezavo",
         reloading: "Ponovno nalaganje …",
+        reloadOffline: "Znova naloži s povezavo (potrebuje internet)",
         unreachable: "Jotoba ni dosegljiva. Rezultati so še vedno iz te naprave.",
         noTypos: "Iskanje brez povezave ne popravlja tipkarskih napak.",
         getPack: "Prenesi za uporabo brez povezave: {{language}}",

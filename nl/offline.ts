@@ -53,11 +53,11 @@ export default {
     },
     progress: "{{loaded}} van {{total}}",
     marker: {
-        title: "Offline resultaten",
-        text: "Gezocht op dit apparaat. Online kan de volgorde anders zijn.",
+        line: "<title>Offline resultaten:</title> Online kunnen ze afwijken.",
         english: "Betekenissen in het Engels: {{language}} staat niet op dit apparaat.",
         reload: "Online opnieuw laden",
         reloading: "Opnieuw laden…",
+        reloadOffline: "Online opnieuw laden (internet nodig)",
         unreachable: "Jotoba is niet bereikbaar. De resultaten komen nog van dit apparaat.",
         noTypos: "Offline zoeken corrigeert geen spelfouten.",
         getPack: "{{language}} offline downloaden",

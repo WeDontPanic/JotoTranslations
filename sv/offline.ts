@@ -53,11 +53,11 @@ export default {
     },
     progress: "{{loaded}} av {{total}}",
     marker: {
-        title: "Offlineresultat",
-        text: "Sökt på den här enheten. Ordningen kan skilja sig online.",
+        line: "<title>Offlineresultat:</title> De kan skilja sig online.",
         english: "Betydelser på engelska: {{language}} finns inte på den här enheten.",
         reload: "Ladda om online",
         reloading: "Laddar om…",
+        reloadOffline: "Ladda om online (kräver internet)",
         unreachable: "Jotoba går inte att nå. Resultaten kommer fortfarande från den här enheten.",
         noTypos: "Offlinesökningen rättar inte stavfel.",
         getPack: "Hämta {{language}} offline",
