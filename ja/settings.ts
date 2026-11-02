@@ -449,6 +449,12 @@ export default {
                 "ページの閲覧と操作を、CookieなしでJotoba独自のサーバーで集計します。端末には何も保存しません。改善点を知るのに役立ちます。オフの間は何も送信しません。",
             subLabelSignal:
                 "ブラウザーがトラッキングしないよう求めている（Global Privacy ControlまたはDo Not Track）ため、何も送信しません。",
+            subLabelOffline: "常にオフラインがオンの間はオフです。",
+        },
+        alwaysOffline: {
+            label: "常にオフライン",
+            on: "オン",
+            off: "オフ",
         },
         policy: "広告もトラッキングCookieもありません。詳しくは<link>プライバシーポリシー</link>をご覧ください。",
         policyPending:

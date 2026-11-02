@@ -505,6 +505,12 @@ export default {
                 "Conta visualizações de página e ações no próprio servidor do Jotoba, sem cookies e sem salvar nada no seu aparelho. Isso nos ajuda a ver o que melhorar. Nada é enviado enquanto isso estiver desativado.",
             subLabelSignal:
                 "Seu navegador pede aos sites que não rastreiem você (Global Privacy Control ou Do Not Track), então nada é enviado.",
+            subLabelOffline: "Desativado enquanto Sempre offline estiver ativado.",
+        },
+        alwaysOffline: {
+            label: "Sempre offline",
+            on: "Ativado",
+            off: "Desativado",
         },
         policy: "Sem anúncios, sem cookies de rastreamento. Saiba mais na nossa <link>política de privacidade</link>.",
         policyPending:

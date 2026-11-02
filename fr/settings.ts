@@ -472,6 +472,12 @@ export default {
                 "Compte les pages vues et les actions sur le propre serveur de Jotoba, sans cookies et sans rien enregistrer sur votre appareil. Cela nous aide à voir quoi améliorer. Rien n’est envoyé tant que cette option est désactivée.",
             subLabelSignal:
                 "Votre navigateur demande aux sites de ne pas vous suivre (Global Privacy Control ou Do Not Track), donc rien n’est envoyé.",
+            subLabelOffline: "Désactivé tant que Toujours hors ligne est activé.",
+        },
+        alwaysOffline: {
+            label: "Toujours hors ligne",
+            on: "Activé",
+            off: "Désactivé",
         },
         policy: "Ni publicité ni cookies de suivi. Pour en savoir plus, consultez notre <link>politique de confidentialité</link>.",
         policyPending:

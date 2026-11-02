@@ -7,6 +7,8 @@ export default {
         name: "Offline. Tonen wat zonder internet werkt",
         labelDegraded: "Onbereikbaar",
         nameDegraded: "Onbereikbaar. Tonen wat zonder internet werkt",
+        labelAlways: "Altijd offline",
+        nameAlways: "Altijd offline staat aan. Laat zien wat werkt en hoe je het netwerk toestaat",
     },
     announce: {
         offline: "Je bent offline. Woorden zoeken werkt op dit apparaat.",
@@ -23,6 +25,8 @@ export default {
         introRemoved:
             "Het offline woordenboek staat niet meer op dit apparaat. Dat kan gebeuren als het apparaat opslagruimte vrijmaakt.",
         close: "Sluiten",
+        titleAlways: "Altijd offline staat aan",
+        introAlways: "Alleen het woordenboek op dit apparaat antwoordt. Jotoba verstuurt niets.",
     },
     group: {
         device: "Op dit apparaat",
@@ -61,6 +65,8 @@ export default {
         unreachable: "Jotoba is niet bereikbaar. De resultaten komen nog van dit apparaat.",
         noTypos: "Offline zoeken corrigeert geen spelfouten.",
         getPack: "{{language}} offline downloaden",
+        lineAlways: "<title>Altijd offline:</title> resultaten alleen van dit apparaat.",
+        openSettings: "Netwerk toestaan in de instellingen",
     },
     msg: {
         noData: {
@@ -106,6 +112,7 @@ export default {
             title: "Offline zoeken duurde te lang",
             text: "Probeer het opnieuw of zoek naar iets korters.",
         },
+        alwaysOffline: "Altijd offline staat aan. Sta het netwerk toe op de offlinepagina om hier te zoeken.",
     },
     btn: {
         download: "Downloaden",
@@ -120,6 +127,7 @@ export default {
         continue: "Doorgaan",
         delete: "Verwijderen",
         later: "Niet nu",
+        allowNetwork: "Netwerk toestaan",
     },
     update: {
         title: "Update voor het offline woordenboek",
@@ -230,5 +238,11 @@ export default {
     toast: {
         deleted: "Offline woordenboek verwijderd",
         deletedPack: "Taalpakket verwijderd",
+    },
+    mode: {
+        title: "Netwerk",
+        label: "Altijd offline",
+        subLabel: "Alleen het woordenboek op dit apparaat antwoordt. Geen statistieken, nieuws of opnames. Downloads hier gebruiken het netwerk alleen als je ze start.",
+        needsData: "Download eerst het woordenboek.",
     },
 } satisfies PartialDict<typeof en>;

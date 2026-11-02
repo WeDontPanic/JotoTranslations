@@ -477,6 +477,12 @@ export default {
                 "Šteje oglede strani in dejanja na Jotobinem lastnem strežniku, brez piškotkov in brez shranjevanja česar koli v vaši napravi. Tako vidimo, kaj izboljšati. Dokler je to izklopljeno, se ne pošlje nič.",
             subLabelSignal:
                 "Vaš brskalnik spletnim mestom sporoča, naj vam ne sledijo (Global Privacy Control ali Do Not Track), zato se ne pošlje nič.",
+            subLabelOffline: "Izklopljeno, dokler je vklopljen način Vedno brez povezave.",
+        },
+        alwaysOffline: {
+            label: "Vedno brez povezave",
+            on: "Vklopljeno",
+            off: "Izklopljeno",
         },
         policy: "Brez oglasov, brez sledilnih piškotkov. Več v naši <link>politiki zasebnosti</link>.",
         policyPending:

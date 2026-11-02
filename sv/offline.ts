@@ -7,6 +7,8 @@ export default {
         name: "Offline. Visa vad som fungerar utan internet",
         labelDegraded: "Onåbar",
         nameDegraded: "Onåbar. Visa vad som fungerar utan internet",
+        labelAlways: "Alltid offline",
+        nameAlways: "Alltid offline är på. Visa vad som fungerar och hur du tillåter nätverket",
     },
     announce: {
         offline: "Du är offline. Ordsökning fungerar på den här enheten.",
@@ -23,6 +25,8 @@ export default {
         introRemoved:
             "Offlineordboken finns inte längre på den här enheten. Det kan hända när enheten frigör lagringsutrymme.",
         close: "Stäng",
+        titleAlways: "Alltid offline är på",
+        introAlways: "Bara ordboken på den här enheten svarar. Jotoba skickar ingenting.",
     },
     group: {
         device: "På den här enheten",
@@ -61,6 +65,8 @@ export default {
         unreachable: "Jotoba går inte att nå. Resultaten kommer fortfarande från den här enheten.",
         noTypos: "Offlinesökningen rättar inte stavfel.",
         getPack: "Hämta {{language}} offline",
+        lineAlways: "<title>Alltid offline:</title> resultat bara från den här enheten.",
+        openSettings: "Tillåt nätverket i inställningarna",
     },
     msg: {
         noData: {
@@ -106,6 +112,7 @@ export default {
             title: "Offlinesökningen tog för lång tid",
             text: "Försök igen eller sök efter något kortare.",
         },
+        alwaysOffline: "Alltid offline är på. Tillåt nätverket på offlinesidan för att söka här.",
     },
     btn: {
         download: "Ladda ned",
@@ -120,6 +127,7 @@ export default {
         continue: "Fortsätt",
         delete: "Radera",
         later: "Inte nu",
+        allowNetwork: "Tillåt nätverk",
     },
     update: {
         title: "Uppdatering av offlineordboken",
@@ -229,5 +237,11 @@ export default {
     toast: {
         deleted: "Offlineordboken har raderats",
         deletedPack: "Språkpaketet har raderats",
+    },
+    mode: {
+        title: "Nätverk",
+        label: "Alltid offline",
+        subLabel: "Bara ordboken på den här enheten svarar. Ingen statistik, inga nyheter eller inspelningar. Nedladdningar här använder nätverket bara när du startar dem.",
+        needsData: "Ladda ner ordboken först.",
     },
 } satisfies PartialDict<typeof en>;

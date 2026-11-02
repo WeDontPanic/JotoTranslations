@@ -454,6 +454,12 @@ export default {
                 "Zählt Seitenaufrufe und Aktionen auf Jotobas eigenem Server, ohne Cookies und ohne etwas auf deinem Gerät zu speichern. So sehen wir, was wir verbessern können. Solange das aus ist, wird nichts gesendet.",
             subLabelSignal:
                 "Dein Browser bittet Websites, dich nicht zu verfolgen (Global Privacy Control oder Do Not Track), deshalb wird nichts gesendet.",
+            subLabelOffline: "Aus, solange Immer offline an ist.",
+        },
+        alwaysOffline: {
+            label: "Immer offline",
+            on: "An",
+            off: "Aus",
         },
         policy: "Keine Werbung, keine Tracking-Cookies. Mehr dazu in unserer <link>Datenschutzerklärung</link>.",
         policyPending:

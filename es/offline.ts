@@ -7,6 +7,8 @@ export default {
         name: "Sin conexión. Ver qué funciona sin internet",
         labelDegraded: "Inaccesible",
         nameDegraded: "Inaccesible. Ver qué funciona sin internet",
+        labelAlways: "Siempre sin conexión",
+        nameAlways: "Siempre sin conexión está activado. Mostrar qué funciona y cómo permitir la red",
     },
     announce: {
         offline: "No tienes conexión. La búsqueda de palabras funciona en este dispositivo.",
@@ -23,6 +25,8 @@ export default {
         introRemoved:
             "El diccionario sin conexión ya no está en este dispositivo. Puede pasar cuando el dispositivo libera espacio.",
         close: "Cerrar",
+        titleAlways: "Siempre sin conexión está activado",
+        introAlways: "Solo responde el diccionario de este dispositivo. Jotoba no envía nada.",
     },
     group: {
         device: "En este dispositivo",
@@ -61,6 +65,8 @@ export default {
         unreachable: "No se puede acceder a Jotoba. Los resultados siguen siendo de este dispositivo.",
         noTypos: "La búsqueda sin conexión no corrige errores ortográficos.",
         getPack: "Descargar {{language}} sin conexión",
+        lineAlways: "<title>Siempre sin conexión:</title> resultados solo de este dispositivo.",
+        openSettings: "Permitir la red en los ajustes",
     },
     msg: {
         noData: {
@@ -106,6 +112,7 @@ export default {
             title: "La búsqueda sin conexión ha tardado demasiado",
             text: "Inténtalo de nuevo o busca algo más corto.",
         },
+        alwaysOffline: "Siempre sin conexión está activado. Permite la red en la página sin conexión para buscar aquí.",
     },
     btn: {
         download: "Descargar",
@@ -120,6 +127,7 @@ export default {
         continue: "Continuar",
         delete: "Borrar",
         later: "Ahora no",
+        allowNetwork: "Permitir red",
     },
     update: {
         title: "Actualización del diccionario sin conexión",
@@ -229,5 +237,11 @@ export default {
     toast: {
         deleted: "Diccionario sin conexión borrado",
         deletedPack: "Paquete de idioma borrado",
+    },
+    mode: {
+        title: "Red",
+        label: "Siempre sin conexión",
+        subLabel: "Solo responde el diccionario de este dispositivo. Sin estadísticas, noticias ni grabaciones. Las descargas de aquí usan la red solo cuando tú las inicias.",
+        needsData: "Descarga primero el diccionario.",
     },
 } satisfies PartialDict<typeof en>;

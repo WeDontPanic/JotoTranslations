@@ -7,6 +7,8 @@ export default {
         name: "Hors ligne. Voir ce qui fonctionne sans Internet",
         labelDegraded: "Injoignable",
         nameDegraded: "Injoignable. Voir ce qui fonctionne sans Internet",
+        labelAlways: "Toujours hors ligne",
+        nameAlways: "Toujours hors ligne est activé. Afficher ce qui fonctionne et comment autoriser le réseau",
     },
     announce: {
         offline: "Vous êtes hors ligne. La recherche de mots fonctionne sur cet appareil.",
@@ -23,6 +25,8 @@ export default {
         introRemoved:
             "Le dictionnaire hors ligne n’est plus sur cet appareil. Cela peut arriver quand l’appareil libère de l’espace de stockage.",
         close: "Fermer",
+        titleAlways: "Toujours hors ligne est activé",
+        introAlways: "Seul le dictionnaire de cet appareil répond. Jotoba n'envoie rien.",
     },
     group: {
         device: "Sur cet appareil",
@@ -61,6 +65,8 @@ export default {
         unreachable: "Jotoba est injoignable. Les résultats proviennent toujours de cet appareil.",
         noTypos: "La recherche hors ligne ne corrige pas les fautes de frappe.",
         getPack: "Télécharger le pack : {{language}}",
+        lineAlways: "<title>Toujours hors ligne :</title> résultats de cet appareil uniquement.",
+        openSettings: "Autoriser le réseau dans les réglages",
     },
     msg: {
         noData: {
@@ -106,6 +112,7 @@ export default {
             title: "La recherche hors ligne a pris trop de temps",
             text: "Réessayez ou cherchez quelque chose de plus court.",
         },
+        alwaysOffline: "Toujours hors ligne est activé. Autorisez le réseau sur la page hors ligne pour chercher ici.",
     },
     btn: {
         download: "Télécharger",
@@ -120,6 +127,7 @@ export default {
         continue: "Reprendre",
         delete: "Supprimer",
         later: "Pas maintenant",
+        allowNetwork: "Autoriser le réseau",
     },
     update: {
         title: "Mise à jour du dictionnaire hors ligne",
@@ -230,5 +238,11 @@ export default {
     toast: {
         deleted: "Dictionnaire hors ligne supprimé",
         deletedPack: "Pack de langue supprimé",
+    },
+    mode: {
+        title: "Réseau",
+        label: "Toujours hors ligne",
+        subLabel: "Seul le dictionnaire de cet appareil répond. Pas de statistiques, d'actualités ni d'enregistrements. Les téléchargements de cette page n'utilisent le réseau que si vous les lancez.",
+        needsData: "Téléchargez d'abord le dictionnaire.",
     },
 } satisfies PartialDict<typeof en>;
