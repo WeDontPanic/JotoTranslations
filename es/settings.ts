@@ -470,6 +470,12 @@ export default {
                 "Cuenta las visitas a páginas y las acciones en el propio servidor de Jotoba, sin cookies y sin guardar nada en tu dispositivo. Nos ayuda a ver qué mejorar. Mientras esté desactivado, no se envía nada.",
             subLabelSignal:
                 "Tu navegador pide a los sitios web que no te rastreen (Global Privacy Control o Do Not Track), así que no se envía nada.",
+            subLabelOffline: "Desactivado mientras el modo sin conexión está activado.",
+        },
+        alwaysOffline: {
+            label: "Modo sin conexión",
+            on: "Activado",
+            off: "Desactivado",
         },
         policy: "Sin anuncios ni cookies de seguimiento. Más información en nuestra <link>política de privacidad</link>.",
         policyPending:

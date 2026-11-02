@@ -9,6 +9,8 @@ export default {
         // The device has a network, but Jotoba doesn't answer
         labelDegraded: "Unreachable",
         nameDegraded: "Unreachable. Show what works without internet",
+        labelAlways: "Offline mode",
+        nameAlways: "Offline mode is on. Show what works and how to allow the network",
     },
     announce: {
         offline: "You're offline. Word search works on this device.",
@@ -25,6 +27,8 @@ export default {
         introRemoved:
             "The offline dictionary is no longer on this device. This can happen when the device frees up storage.",
         close: "Close",
+        titleAlways: "Offline mode is on",
+        introAlways: "Only the dictionary on this device answers. Jotoba sends nothing.",
     },
     group: {
         device: "On this device",
@@ -109,6 +113,7 @@ export default {
             title: "The offline search took too long",
             text: "Try again or search for something shorter.",
         },
+        alwaysOffline: "Offline mode is on. Allow the network on the offline page to search here.",
     },
     btn: {
         download: "Download",
@@ -123,6 +128,7 @@ export default {
         continue: "Continue",
         delete: "Delete",
         later: "Not now",
+        allowNetwork: "Allow network",
     },
     update: {
         title: "Update for the offline dictionary",
@@ -232,5 +238,11 @@ export default {
     toast: {
         deleted: "Offline dictionary deleted",
         deletedPack: "Language pack deleted",
+    },
+    mode: {
+        title: "Network",
+        label: "Offline mode",
+        subLabel: "Only the dictionary on this device answers. No statistics, news or recordings. Downloads here use the network only when you start them.",
+        needsData: "Download the dictionary first.",
     },
 } as const satisfies Dict;

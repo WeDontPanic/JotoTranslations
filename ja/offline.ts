@@ -7,6 +7,8 @@ export default {
         name: "オフライン。インターネットなしで使える機能を表示",
         labelDegraded: "接続できません",
         nameDegraded: "接続できません。インターネットなしで使える機能を表示",
+        labelAlways: "オフラインモード",
+        nameAlways: "オフラインモードがオンです。使える機能とネットワークの許可方法を表示",
     },
     announce: {
         offline: "オフラインです。単語検索はこの端末で使えます。",
@@ -22,6 +24,8 @@ export default {
         introNoData: "オフライン辞書はまだこの端末にありません。",
         introRemoved: "オフライン辞書はこの端末にはもうありません。端末が空き容量を確保したときに起こることがあります。",
         close: "閉じる",
+        titleAlways: "オフラインモードがオンです",
+        introAlways: "この端末の辞書だけが答えます。Jotobaは何も送信しません。",
     },
     group: {
         device: "この端末にあり",
@@ -105,6 +109,7 @@ export default {
             title: "オフライン検索に時間がかかりすぎました",
             text: "もう一度試すか、短い語句で検索してください。",
         },
+        alwaysOffline: "オフラインモードがオンです。ここで検索するには、オフラインのページでネットワークを許可してください。",
     },
     btn: {
         download: "ダウンロード",
@@ -119,6 +124,7 @@ export default {
         continue: "再開",
         delete: "削除",
         later: "後で",
+        allowNetwork: "ネットワークを許可",
     },
     update: {
         title: "オフライン辞書の更新",
@@ -228,5 +234,11 @@ export default {
     toast: {
         deleted: "オフライン辞書を削除しました",
         deletedPack: "言語パックを削除しました",
+    },
+    mode: {
+        title: "ネットワーク",
+        label: "オフラインモード",
+        subLabel: "この端末の辞書だけが答えます。統計・ニュース・音声録音は使いません。このページのダウンロードは、開始したときだけネットワークを使います。",
+        needsData: "先に辞書をダウンロードしてください。",
     },
 } satisfies PartialDict<typeof en>;

@@ -453,6 +453,12 @@ export default {
                 "Telt paginaweergaven en acties op Jotoba’s eigen server, zonder cookies en zonder iets op je apparaat op te slaan. Zo zien we wat we kunnen verbeteren. Zolang dit uitstaat, wordt er niets verstuurd.",
             subLabelSignal:
                 "Je browser vraagt websites om je niet te volgen (Global Privacy Control of Do Not Track), dus er wordt niets verstuurd.",
+            subLabelOffline: "Uit zolang de offlinemodus aan staat.",
+        },
+        alwaysOffline: {
+            label: "Offlinemodus",
+            on: "Aan",
+            off: "Uit",
         },
         policy: "Geen advertenties, geen trackingcookies. Lees meer in onze <link>privacyverklaring</link>.",
         policyPending:

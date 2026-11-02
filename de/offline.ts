@@ -7,6 +7,8 @@ export default {
         name: "Offline. Zeigen, was ohne Internet geht",
         labelDegraded: "Nicht erreichbar",
         nameDegraded: "Nicht erreichbar. Zeigen, was ohne Internet geht",
+        labelAlways: "Offline-Modus",
+        nameAlways: "Offline-Modus ist an. Zeigen, was geht und wie du das Netzwerk erlaubst",
     },
     announce: {
         offline: "Du bist offline. Die Wortsuche funktioniert auf diesem Gerät.",
@@ -23,6 +25,8 @@ export default {
         introRemoved:
             "Das Offline-Wörterbuch ist nicht mehr auf diesem Gerät. Das kann passieren, wenn das Gerät Speicher freigibt.",
         close: "Schließen",
+        titleAlways: "Offline-Modus ist an",
+        introAlways: "Nur das Wörterbuch auf diesem Gerät antwortet. Jotoba sendet nichts.",
     },
     group: {
         device: "Auf diesem Gerät",
@@ -106,6 +110,7 @@ export default {
             title: "Die Offline-Suche hat zu lange gedauert",
             text: "Versuch es noch einmal oder suche etwas Kürzeres.",
         },
+        alwaysOffline: "Der Offline-Modus ist an. Erlaube das Netzwerk auf der Offline-Seite, um hier zu suchen.",
     },
     btn: {
         download: "Herunterladen",
@@ -120,6 +125,7 @@ export default {
         continue: "Fortsetzen",
         delete: "Löschen",
         later: "Nicht jetzt",
+        allowNetwork: "Netzwerk erlauben",
     },
     update: {
         title: "Update für das Offline-Wörterbuch",
@@ -229,5 +235,11 @@ export default {
     toast: {
         deleted: "Offline-Wörterbuch gelöscht",
         deletedPack: "Sprachpaket gelöscht",
+    },
+    mode: {
+        title: "Netzwerk",
+        label: "Offline-Modus",
+        subLabel: "Nur das Wörterbuch auf diesem Gerät antwortet. Keine Statistik, keine News, keine Aufnahmen. Downloads hier nutzen das Netzwerk nur, wenn du sie startest.",
+        needsData: "Lade zuerst das Wörterbuch.",
     },
 } satisfies PartialDict<typeof en>;

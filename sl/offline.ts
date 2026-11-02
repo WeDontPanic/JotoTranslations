@@ -7,6 +7,8 @@ export default {
         name: "Brez povezave. Prikaži, kaj deluje brez interneta",
         labelDegraded: "Nedosegljivo",
         nameDegraded: "Nedosegljivo. Prikaži, kaj deluje brez interneta",
+        labelAlways: "Način brez povezave",
+        nameAlways: "Način brez povezave je vklopljen. Pokaži, kaj deluje in kako dovolite omrežje",
     },
     announce: {
         offline: "Niste povezani. Iskanje besed deluje v tej napravi.",
@@ -23,6 +25,8 @@ export default {
         introRemoved:
             "Slovarja brez povezave ni več v tej napravi. To se lahko zgodi, ko naprava sprošča prostor za shranjevanje.",
         close: "Zapri",
+        titleAlways: "Način brez povezave je vklopljen",
+        introAlways: "Odgovarja samo slovar v tej napravi. Jotoba ne pošilja ničesar.",
     },
     group: {
         device: "V tej napravi",
@@ -106,6 +110,7 @@ export default {
             title: "Iskanje brez povezave je trajalo predolgo",
             text: "Poskusite znova ali poiščite nekaj krajšega.",
         },
+        alwaysOffline: "Način brez povezave je vklopljen. Za iskanje tukaj dovolite omrežje na strani brez povezave.",
     },
     btn: {
         download: "Prenesi",
@@ -120,6 +125,7 @@ export default {
         continue: "Nadaljuj",
         delete: "Izbriši",
         later: "Ne zdaj",
+        allowNetwork: "Dovoli omrežje",
     },
     update: {
         title: "Posodobitev slovarja brez povezave",
@@ -230,5 +236,11 @@ export default {
     toast: {
         deleted: "Slovar brez povezave je izbrisan",
         deletedPack: "Jezikovni paket je izbrisan",
+    },
+    mode: {
+        title: "Omrežje",
+        label: "Način brez povezave",
+        subLabel: "Odgovarja samo slovar v tej napravi. Brez statistike, novic in posnetkov. Prenosi tukaj uporabijo omrežje samo, ko jih zaženete.",
+        needsData: "Najprej prenesite slovar.",
     },
 } satisfies PartialDict<typeof en>;

@@ -453,6 +453,12 @@ export default {
                 "Räknar sidvisningar och åtgärder på Jotobas egen server, utan cookies och utan att något sparas på din enhet. Hjälper oss att se vad vi ska förbättra. Inget skickas så länge detta är avstängt.",
             subLabelSignal:
                 "Din webbläsare ber webbplatser att inte spåra dig (Global Privacy Control eller Do Not Track), så inget skickas.",
+            subLabelOffline: "Av så länge offlineläget är på.",
+        },
+        alwaysOffline: {
+            label: "Offlineläge",
+            on: "På",
+            off: "Av",
         },
         policy: "Inga annonser, inga spårningscookies. Läs mer i vår <link>integritetspolicy</link>.",
         policyPending:
