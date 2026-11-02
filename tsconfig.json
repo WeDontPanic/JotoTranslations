@@ -1,0 +1,13 @@
+{
+    // Checks the translations against the English source: bunx -p typescript tsc
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "lib": ["ESNext"],
+        "strict": true,
+        "noEmit": true,
+        "isolatedModules": true
+    },
+    "include": ["types.ts", "*/*.ts"]
+}

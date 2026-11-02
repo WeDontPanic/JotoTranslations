@@ -1,0 +1,51 @@
+import type { Dict } from "../types";
+
+export default {
+    burger: {
+        label: "Menu",
+        unread: "Menu ({{count}} unread news)",
+    },
+    drawer: {
+        title: "Menu",
+        mainNav: "Main",
+        aboutNav: "About Jotoba",
+        development: "Development",
+        unread: "unread",
+        offlineUpdate: "(update available)",
+        offlineOutdated: "(needs an update)",
+        offlineRemoved: "(no longer on this device)",
+    },
+    links: {
+        bookmarks: "Bookmarks",
+        settings: "Settings",
+        history: "Recent searches",
+        offline: "Offline dictionary",
+        news: "News",
+        help: "Help & tour",
+        components: "Components",
+        apiTest: "API test",
+        about: "About",
+        licenses: "Open source licenses",
+        privacy: "Privacy policy",
+        terms: "Terms of use",
+        imprint: "Imprint",
+        home: "Home",
+        quit: "Quit app",
+    },
+    news: {
+        button: "News",
+        buttonUnread: "News, {{count}} unread",
+        title: "News",
+        freshCount: "{{count}} new",
+        new: "New",
+        showAll: "Show all news",
+        close: "Close",
+        empty: "No news available",
+        error: "News can't be loaded right now.",
+        retry: "Try again",
+        status: {
+            fresh: { one: "{{count}} new entry", other: "{{count}} new entries" },
+            noneFresh: "No new entries",
+        },
+    },
+} as const satisfies Dict;
