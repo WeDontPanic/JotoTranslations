@@ -65,8 +65,6 @@ export default {
         unreachable: "A Jotoba nem érhető el. A találatok továbbra is erről az eszközről származnak.",
         noTypos: "Az offline keresés nem javítja az elírásokat.",
         getPack: "Offline letöltés: {{language}}",
-        lineAlways: "<title>Offline mód</title>",
-        openSettings: "Hálózat engedélyezése a beállításokban",
     },
     msg: {
         noData: {

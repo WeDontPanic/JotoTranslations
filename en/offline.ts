@@ -68,8 +68,6 @@ export default {
         unreachable: "Jotoba can't be reached. The results are still from this device.",
         noTypos: "Offline search doesn't correct spelling mistakes.",
         getPack: "Get {{language}} offline",
-        lineAlways: "<title>Offline mode</title>",
-        openSettings: "Allow the network in the settings",
     },
     msg: {
         noData: {

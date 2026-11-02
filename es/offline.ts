@@ -65,8 +65,6 @@ export default {
         unreachable: "No se puede acceder a Jotoba. Los resultados siguen siendo de este dispositivo.",
         noTypos: "La búsqueda sin conexión no corrige errores ortográficos.",
         getPack: "Descargar {{language}} sin conexión",
-        lineAlways: "<title>Modo sin conexión</title>",
-        openSettings: "Permitir la red en los ajustes",
     },
     msg: {
         noData: {

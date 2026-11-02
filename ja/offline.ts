@@ -64,8 +64,6 @@ export default {
         unreachable: "Jotobaに接続できません。引き続きこの端末の検索結果を表示しています。",
         noTypos: "オフライン検索ではスペルミスは修正されません。",
         getPack: "{{language}}をオフラインで追加",
-        lineAlways: "<title>オフラインモード</title>",
-        openSettings: "設定でネットワークを許可",
     },
     msg: {
         noData: {

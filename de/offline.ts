@@ -65,8 +65,6 @@ export default {
         unreachable: "Jotoba ist nicht erreichbar. Die Ergebnisse sind weiter von diesem Gerät.",
         noTypos: "Die Offline-Suche korrigiert keine Tippfehler.",
         getPack: "{{language}} offline laden",
-        lineAlways: "<title>Offline-Modus</title>",
-        openSettings: "Netzwerk in den Einstellungen erlauben",
     },
     msg: {
         noData: {

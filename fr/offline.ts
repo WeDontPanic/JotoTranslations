@@ -65,8 +65,6 @@ export default {
         unreachable: "Jotoba est injoignable. Les résultats proviennent toujours de cet appareil.",
         noTypos: "La recherche hors ligne ne corrige pas les fautes de frappe.",
         getPack: "Télécharger le pack : {{language}}",
-        lineAlways: "<title>Mode hors ligne</title>",
-        openSettings: "Autoriser le réseau dans les réglages",
     },
     msg: {
         noData: {

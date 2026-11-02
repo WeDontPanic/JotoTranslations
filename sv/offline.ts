@@ -65,8 +65,6 @@ export default {
         unreachable: "Jotoba går inte att nå. Resultaten kommer fortfarande från den här enheten.",
         noTypos: "Offlinesökningen rättar inte stavfel.",
         getPack: "Hämta {{language}} offline",
-        lineAlways: "<title>Offlineläge</title>",
-        openSettings: "Tillåt nätverket i inställningarna",
     },
     msg: {
         noData: {

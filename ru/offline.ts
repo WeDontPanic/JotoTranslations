@@ -67,8 +67,6 @@ export default {
         unreachable: "Jotoba недоступна. Результаты по-прежнему с этого устройства.",
         noTypos: "Офлайн-поиск не исправляет опечатки.",
         getPack: "Загрузить для офлайна: {{language}}",
-        lineAlways: "<title>Офлайн-режим</title>",
-        openSettings: "Разрешить сеть в настройках",
     },
     msg: {
         noData: {

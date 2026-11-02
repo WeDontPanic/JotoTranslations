@@ -65,8 +65,6 @@ export default {
         unreachable: "Jotoba is niet bereikbaar. De resultaten komen nog van dit apparaat.",
         noTypos: "Offline zoeken corrigeert geen spelfouten.",
         getPack: "{{language}} offline downloaden",
-        lineAlways: "<title>Offlinemodus</title>",
-        openSettings: "Netwerk toestaan in de instellingen",
     },
     msg: {
         noData: {

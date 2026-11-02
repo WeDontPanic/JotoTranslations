@@ -65,8 +65,6 @@ export default {
         unreachable: "Jotoba ni dosegljiva. Rezultati so še vedno iz te naprave.",
         noTypos: "Iskanje brez povezave ne popravlja tipkarskih napak.",
         getPack: "Prenesi za uporabo brez povezave: {{language}}",
-        lineAlways: "<title>Način brez povezave</title>",
-        openSettings: "Dovolite omrežje v nastavitvah",
     },
     msg: {
         noData: {

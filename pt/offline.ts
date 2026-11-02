@@ -65,8 +65,6 @@ export default {
         unreachable: "Não foi possível acessar o Jotoba. Os resultados continuam vindo deste aparelho.",
         noTypos: "A pesquisa offline não corrige erros de digitação.",
         getPack: "Baixar {{language}} offline",
-        lineAlways: "<title>Modo offline</title>",
-        openSettings: "Permitir a rede nas configurações",
     },
     msg: {
         noData: {
