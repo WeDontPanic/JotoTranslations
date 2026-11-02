@@ -52,9 +52,17 @@ Keep labels on buttons, tabs and chips about as short as the English: the phone 
 
 ## Adding a language
 
-Copy `en/` to a folder named after the language code, change the first lines of each file like in `de/`
-(`PartialDict<typeof en>` instead of `Dict`), translate and run the check. The app needs a small change to offer
-the language; mention it in your pull request and we take care of it.
+The app's language doesn't have to be one of the search languages: you can bring in any language you would like to
+see Jotoba in.
+
+1. Open an issue first and say which language you want to add. A new language also needs changes to the app itself
+   (the language list, the language settings, the mobile app's language options) and a release, which takes time
+   from the Jotoba developers. Agreeing first makes sure your work gets used.
+2. Copy `en/` to a folder named after the language code (`it/`, `pl/`, `pt/`, …).
+3. In each file replace the first lines like in `de/`: import `en` and use `PartialDict<typeof en>` instead of `Dict`.
+4. Translate. Missing texts show up in English, so you can also open a pull request for a part of the app first.
+5. Run the check and open a pull request. The language goes live once the app supports it, and stays marked as
+   beta until someone else who speaks it has reviewed it.
 
 ## License
 
