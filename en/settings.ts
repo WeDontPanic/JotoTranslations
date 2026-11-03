@@ -135,6 +135,14 @@ export default {
     },
     general: {
         focusSearch: "Focus search bar after search",
+        focusOnStart: {
+            label: "Focus search bar on start",
+            subLabel: "Opens the keyboard when the app starts on the home page",
+        },
+        clearButton: {
+            label: "Clear button in search bar",
+            subLabel: "Shows an × that empties the search field",
+        },
         furiganaCopy: {
             label: "Enable furigana copy",
             subLabel: "Double-click the furigana above a word to copy its reading",

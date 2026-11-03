@@ -157,6 +157,14 @@ export default {
     },
     general: {
         focusSearch: "Focar a barra de pesquisa depois de pesquisar",
+        focusOnStart: {
+            label: "Focar a barra de pesquisa ao abrir",
+            subLabel: "Abre o teclado quando o app inicia na página inicial",
+        },
+        clearButton: {
+            label: "Botão de limpar na barra de pesquisa",
+            subLabel: "Mostra um × que esvazia o campo de pesquisa",
+        },
         furiganaCopy: {
             label: "Copiar furigana",
             subLabel: "Clique duas vezes no furigana acima de uma palavra para copiar a leitura",

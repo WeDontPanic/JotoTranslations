@@ -139,6 +139,14 @@ export default {
     },
     general: {
         focusSearch: "Keresősáv fókuszálása keresés után",
+        focusOnStart: {
+            label: "Keresősáv fókuszálása indításkor",
+            subLabel: "Megnyitja a billentyűzetet, ha az app a kezdőlapon indul",
+        },
+        clearButton: {
+            label: "Törlés gomb a keresősávban",
+            subLabel: "Megjelenít egy ×-et, amely kiüríti a keresőmezőt",
+        },
         furiganaCopy: {
             label: "Furigana másolása",
             subLabel: "Dupla kattintás egy szó feletti furiganára kimásolja az olvasatát",

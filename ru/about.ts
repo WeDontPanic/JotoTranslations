@@ -36,7 +36,7 @@ export default {
         },
         strokeOrder: {
             title: "Порядок черт кандзи",
-            text: "Данные о порядке черт взяты из <kanjivg>KanjiVG</kanjivg>, © 2009–2023 Ulrich Apel. Мы преобразуем их в SVG с помощью <fork>изменённой версии</fork> <original>kanjivg2svg</original> от Kim Ahlström, которая распространяется по той же лицензии.",
+            text: "Данные о порядке черт взяты из <kanjivg>KanjiVG</kanjivg>, © 2009–2026 Ulrich Apel. Мы преобразуем их в SVG с помощью <fork>изменённой версии</fork> <original>kanjivg2svg</original> от Kim Ahlström, которая распространяется по той же лицензии.",
         },
         jlpt: {
             title: "Уровни JLPT",

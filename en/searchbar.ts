@@ -11,6 +11,8 @@ export default {
         tools: "Other ways to search",
         camera: "Camera search",
         image: "Text from image",
+        clear: "Clear search",
+        cleared: "Search cleared",
     },
     types: {
         words: "Words",

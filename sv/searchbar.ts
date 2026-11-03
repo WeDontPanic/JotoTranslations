@@ -11,6 +11,8 @@ export default {
         tools: "Andra sätt att söka",
         camera: "Kamerasökning",
         image: "Text från bild",
+        clear: "Rensa sökningen",
+        cleared: "Sökningen rensad",
     },
     types: {
         words: "Ord",

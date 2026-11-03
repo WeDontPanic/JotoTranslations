@@ -38,7 +38,7 @@ export default {
         },
         strokeOrder: {
             title: "Streekvolgorde van kanji",
-            text: "De gegevens over de streekvolgorde komen van <kanjivg>KanjiVG</kanjivg>, © 2009–2023 Ulrich Apel. We zetten ze om naar SVG met een <fork>aangepaste versie</fork> van <original>kanjivg2svg</original> van Kim Ahlström, die onder dezelfde licentie valt.",
+            text: "De gegevens over de streekvolgorde komen van <kanjivg>KanjiVG</kanjivg>, © 2009–2026 Ulrich Apel. We zetten ze om naar SVG met een <fork>aangepaste versie</fork> van <original>kanjivg2svg</original> van Kim Ahlström, die onder dezelfde licentie valt.",
         },
         jlpt: {
             title: "JLPT-niveaus",

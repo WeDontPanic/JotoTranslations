@@ -37,7 +37,7 @@ export default {
         },
         strokeOrder: {
             title: "Strichfolge der Kanji",
-            text: "Die Daten zur Strichfolge stammen von <kanjivg>KanjiVG</kanjivg>, © 2009–2023 Ulrich Apel. Wir wandeln sie mit einer <fork>angepassten Version</fork> von <original>kanjivg2svg</original> von Kim Ahlström in SVG um, die unter derselben Lizenz steht.",
+            text: "Die Daten zur Strichfolge stammen von <kanjivg>KanjiVG</kanjivg>, © 2009–2026 Ulrich Apel. Wir wandeln sie mit einer <fork>angepassten Version</fork> von <original>kanjivg2svg</original> von Kim Ahlström in SVG um, die unter derselben Lizenz steht.",
         },
         jlpt: {
             title: "JLPT-Niveaus",

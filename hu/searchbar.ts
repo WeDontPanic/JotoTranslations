@@ -11,6 +11,8 @@ export default {
         tools: "További keresési módok",
         camera: "Kamerás keresés",
         image: "Szöveg képről",
+        clear: "Keresés törlése",
+        cleared: "Keresés törölve",
     },
     types: {
         words: "Szavak",

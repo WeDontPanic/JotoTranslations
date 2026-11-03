@@ -138,6 +138,14 @@ export default {
     },
     general: {
         focusSearch: "Suchleiste nach der Suche fokussieren",
+        focusOnStart: {
+            label: "Suchleiste beim Start fokussieren",
+            subLabel: "Öffnet die Tastatur, wenn die App auf der Startseite startet",
+        },
+        clearButton: {
+            label: "Leeren-Knopf in der Suchleiste",
+            subLabel: "Zeigt ein ×, das das Suchfeld leert",
+        },
         furiganaCopy: {
             label: "Furigana kopieren",
             subLabel: "Doppelklick auf die Furigana über einem Wort kopiert seine Lesung",

@@ -11,6 +11,8 @@ export default {
         tools: "Autres moyens de recherche",
         camera: "Recherche par caméra",
         image: "Texte depuis une image",
+        clear: "Effacer la recherche",
+        cleared: "Recherche effacée",
     },
     types: {
         words: "Mots",

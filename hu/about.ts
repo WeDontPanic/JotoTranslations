@@ -38,7 +38,7 @@ export default {
         },
         strokeOrder: {
             title: "A kandzsik vonássorrendje",
-            text: "A vonássorrend adatai a <kanjivg>KanjiVG</kanjivg>-ből származnak, © 2009–2023 Ulrich Apel. SVG-vé Kim Ahlström <original>kanjivg2svg</original> eszközének <fork>módosított változatával</fork> alakítjuk őket, amely ugyanazt a licencet használja.",
+            text: "A vonássorrend adatai a <kanjivg>KanjiVG</kanjivg>-ből származnak, © 2009–2026 Ulrich Apel. SVG-vé Kim Ahlström <original>kanjivg2svg</original> eszközének <fork>módosított változatával</fork> alakítjuk őket, amely ugyanazt a licencet használja.",
         },
         jlpt: {
             title: "JLPT-szintek",

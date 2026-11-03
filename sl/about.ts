@@ -37,7 +37,7 @@ export default {
         },
         strokeOrder: {
             title: "Vrstni red potez kandžijev",
-            text: "Podatki o vrstnem redu potez prihajajo iz projekta <kanjivg>KanjiVG</kanjivg>, © 2009–2023 Ulrich Apel. V SVG jih pretvarjamo s <fork>prilagojeno različico</fork> orodja <original>kanjivg2svg</original> avtorja Kima Ahlströma, ki uporablja isto licenco.",
+            text: "Podatki o vrstnem redu potez prihajajo iz projekta <kanjivg>KanjiVG</kanjivg>, © 2009–2026 Ulrich Apel. V SVG jih pretvarjamo s <fork>prilagojeno različico</fork> orodja <original>kanjivg2svg</original> avtorja Kima Ahlströma, ki uporablja isto licenco.",
         },
         jlpt: {
             title: "Stopnje JLPT",
