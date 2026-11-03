@@ -11,6 +11,8 @@ export default {
         tools: "Drugi načini iskanja",
         camera: "Iskanje s kamero",
         image: "Besedilo iz slike",
+        clear: "Počisti iskanje",
+        cleared: "Iskanje počiščeno",
     },
     types: {
         words: "Besede",

@@ -146,6 +146,14 @@ export default {
     },
     general: {
         focusSearch: "Revenir à la barre de recherche après une recherche",
+        focusOnStart: {
+            label: "Barre de recherche active au démarrage",
+            subLabel: "Ouvre le clavier quand l’application démarre sur la page d’accueil",
+        },
+        clearButton: {
+            label: "Bouton d’effacement dans la barre de recherche",
+            subLabel: "Affiche un × qui vide le champ de recherche",
+        },
         furiganaCopy: {
             label: "Copier les furigana",
             subLabel: "Double-cliquez sur les furigana au-dessus d’un mot pour copier sa lecture",

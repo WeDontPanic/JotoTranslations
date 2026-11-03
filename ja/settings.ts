@@ -137,6 +137,14 @@ export default {
     },
     general: {
         focusSearch: "検索後に検索バーにフォーカス",
+        focusOnStart: {
+            label: "起動時に検索バーにフォーカス",
+            subLabel: "アプリがホーム画面で起動したときにキーボードを開きます",
+        },
+        clearButton: {
+            label: "検索バーのクリアボタン",
+            subLabel: "検索欄を空にする×を表示します",
+        },
         furiganaCopy: {
             label: "ふりがなのコピー",
             subLabel: "単語の上のふりがなをダブルクリックすると、読みをコピーします",

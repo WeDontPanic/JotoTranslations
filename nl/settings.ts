@@ -137,6 +137,14 @@ export default {
     },
     general: {
         focusSearch: "Zoekbalk na het zoeken selecteren",
+        focusOnStart: {
+            label: "Zoekbalk selecteren bij het starten",
+            subLabel: "Opent het toetsenbord als de app op de startpagina opent",
+        },
+        clearButton: {
+            label: "Wisknop in de zoekbalk",
+            subLabel: "Toont een × dat het zoekveld leegmaakt",
+        },
         furiganaCopy: {
             label: "Furigana kopiëren",
             subLabel: "Dubbelklik op de furigana boven een woord om de lezing te kopiëren",

@@ -11,6 +11,8 @@ export default {
         tools: "ほかの検索方法",
         camera: "カメラ検索",
         image: "画像から文字を読む",
+        clear: "検索をクリア",
+        cleared: "検索をクリアしました",
     },
     types: {
         words: "単語",

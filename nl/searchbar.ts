@@ -11,6 +11,8 @@ export default {
         tools: "Andere manieren om te zoeken",
         camera: "Zoeken met de camera",
         image: "Tekst uit afbeelding",
+        clear: "Zoekopdracht wissen",
+        cleared: "Zoekopdracht gewist",
     },
     types: {
         words: "Woorden",

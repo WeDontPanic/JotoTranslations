@@ -37,7 +37,7 @@ export default {
         },
         strokeOrder: {
             title: "Ordre des traits des kanji",
-            text: "Les données d’ordre des traits proviennent de <kanjivg>KanjiVG</kanjivg>, © 2009–2023 Ulrich Apel. Nous les convertissons en SVG avec une <fork>version modifiée</fork> de <original>kanjivg2svg</original> de Kim Ahlström, sous la même licence.",
+            text: "Les données d’ordre des traits proviennent de <kanjivg>KanjiVG</kanjivg>, © 2009–2026 Ulrich Apel. Nous les convertissons en SVG avec une <fork>version modifiée</fork> de <original>kanjivg2svg</original> de Kim Ahlström, sous la même licence.",
         },
         jlpt: {
             title: "Niveaux JLPT",

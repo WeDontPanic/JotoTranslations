@@ -36,7 +36,7 @@ export default {
         },
         strokeOrder: {
             title: "Kanjins streckordning",
-            text: "Streckordningsdata kommer från <kanjivg>KanjiVG</kanjivg>, © 2009–2023 Ulrich Apel. Vi konverterar dem till SVG med en <fork>modifierad version</fork> av <original>kanjivg2svg</original> av Kim Ahlström, som använder samma licens.",
+            text: "Streckordningsdata kommer från <kanjivg>KanjiVG</kanjivg>, © 2009–2026 Ulrich Apel. Vi konverterar dem till SVG med en <fork>modifierad version</fork> av <original>kanjivg2svg</original> av Kim Ahlström, som använder samma licens.",
         },
         jlpt: {
             title: "JLPT-nivåer",

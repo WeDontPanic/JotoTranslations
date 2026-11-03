@@ -36,7 +36,7 @@ export default {
         },
         strokeOrder: {
             title: "Kanji stroke order",
-            text: "Stroke order data comes from <kanjivg>KanjiVG</kanjivg>, © 2009–2023 Ulrich Apel. We convert it to SVG with a <fork>modified version</fork> of <original>kanjivg2svg</original> by Kim Ahlström, which uses the same license.",
+            text: "Stroke order data comes from <kanjivg>KanjiVG</kanjivg>, © 2009–2026 Ulrich Apel. We convert it to SVG with a <fork>modified version</fork> of <original>kanjivg2svg</original> by Kim Ahlström, which uses the same license.",
         },
         jlpt: {
             title: "JLPT levels",

@@ -137,6 +137,14 @@ export default {
     },
     general: {
         focusSearch: "Fokusera sökfältet efter sökning",
+        focusOnStart: {
+            label: "Fokusera sökfältet vid start",
+            subLabel: "Öppnar tangentbordet när appen startar på startsidan",
+        },
+        clearButton: {
+            label: "Rensknapp i sökfältet",
+            subLabel: "Visar ett × som tömmer sökfältet",
+        },
         furiganaCopy: {
             label: "Kopiera furigana",
             subLabel: "Dubbelklicka på furiganan ovanför ett ord för att kopiera dess läsning",

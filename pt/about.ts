@@ -39,7 +39,7 @@ export default {
         },
         strokeOrder: {
             title: "Ordem dos traços dos kanji",
-            text: "Os dados da ordem dos traços vêm do <kanjivg>KanjiVG</kanjivg>, © 2009–2023 Ulrich Apel. Nós os convertemos para SVG com uma <fork>versão modificada</fork> do <original>kanjivg2svg</original> de Kim Ahlström, que usa a mesma licença.",
+            text: "Os dados da ordem dos traços vêm do <kanjivg>KanjiVG</kanjivg>, © 2009–2026 Ulrich Apel. Nós os convertemos para SVG com uma <fork>versão modificada</fork> do <original>kanjivg2svg</original> de Kim Ahlström, que usa a mesma licença.",
         },
         jlpt: {
             title: "Níveis do JLPT",

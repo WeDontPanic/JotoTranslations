@@ -11,6 +11,8 @@ export default {
         tools: "Outras formas de pesquisar",
         camera: "Pesquisa com a câmera",
         image: "Texto de imagem",
+        clear: "Limpar pesquisa",
+        cleared: "Pesquisa limpa",
     },
     types: {
         words: "Palavras",

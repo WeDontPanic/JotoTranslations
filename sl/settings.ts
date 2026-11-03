@@ -152,6 +152,14 @@ export default {
     },
     general: {
         focusSearch: "Po iskanju ostani v iskalni vrstici",
+        focusOnStart: {
+            label: "Iskalna vrstica ob zagonu",
+            subLabel: "Odpre tipkovnico, ko se aplikacija zažene na začetni strani",
+        },
+        clearButton: {
+            label: "Gumb za brisanje v iskalni vrstici",
+            subLabel: "Prikaže ×, ki izprazni iskalno polje",
+        },
         furiganaCopy: {
             label: "Kopiranje furigane",
             subLabel: "Dvoklik na furigano nad besedo kopira njeno branje",

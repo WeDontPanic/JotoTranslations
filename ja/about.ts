@@ -37,7 +37,7 @@ export default {
         },
         strokeOrder: {
             title: "漢字の筆順",
-            text: "筆順のデータは<kanjivg>KanjiVG</kanjivg>（© 2009–2023 Ulrich Apel）のものです。Kim Ahlströmによる<original>kanjivg2svg</original>の<fork>改変版</fork>でSVGに変換しています。改変版も同じライセンスです。",
+            text: "筆順のデータは<kanjivg>KanjiVG</kanjivg>（© 2009–2026 Ulrich Apel）のものです。Kim Ahlströmによる<original>kanjivg2svg</original>の<fork>改変版</fork>でSVGに変換しています。改変版も同じライセンスです。",
         },
         jlpt: {
             title: "JLPTのレベル",
