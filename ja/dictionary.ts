@@ -662,7 +662,7 @@ export default {
     name: {
         copy: "{{name}}をコピー",
         copied: "名前をクリップボードにコピーしました",
-        fullName: "フルネーム",
+        fullName: "ローマ字表記",
         sex: "性別",
         origin: "名前の種類",
     },

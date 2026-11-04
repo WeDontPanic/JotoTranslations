@@ -7,7 +7,7 @@ export default {
         title: "Sprachsuche",
         language: "Sprache",
         japanese: "Japanisch",
-        start: "Zuhören starten",
+        start: "Spracheingabe starten",
         stop: "Zuhören beenden",
         engine: {
             device: "Erkannt auf deinem Handy",
@@ -43,7 +43,8 @@ export default {
         pad: {
             label: "Zeichenfläche",
             placeholder: "Hier schreiben",
-            hint: "Schreib ein Wort oder Kanji mit einem Finger. Die Vorschläge erscheinen darüber. Lieber tippen? Wechsle zu Radikale.",
+            hint:
+                "Schreib ein Wort oder Kanji mit einem Finger. Die Vorschläge erscheinen darüber. Lieber tippen? Wechsle zu „Radikale“.",
         },
         candidates: {
             label: "Erkannt",
@@ -62,7 +63,7 @@ export default {
         model: {
             intro: "Für die Handschrift wird einmalig ein Modell von Google geladen (etwa {{size}}). Danach geht sie offline.",
             download: "Laden ({{size}})",
-            loading: "Handschrift wird geladen (etwa {{size}}) … Du kannst schon schreiben.",
+            loading: "Das Modell für die Handschrift wird geladen (etwa {{size}}) … Du kannst schon schreiben.",
             ready: "Handschrift ist bereit",
             failed: "Der Download hat nicht geklappt. Prüf deine Verbindung.",
             retry: "Erneut versuchen",

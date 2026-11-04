@@ -8,7 +8,7 @@ export default {
         labelDegraded: "Nicht erreichbar",
         nameDegraded: "Nicht erreichbar. Zeigen, was ohne Internet geht",
         labelAlways: "Offline-Modus",
-        nameAlways: "Offline-Modus ist an. Zeigen, was geht und wie du das Netzwerk erlaubst",
+        nameAlways: "Offline-Modus ist an. Zeigen, was geht und wie du ihn ausschaltest",
     },
     announce: {
         offline: "Du bist offline. Die Wortsuche funktioniert auf diesem Gerät.",
@@ -62,7 +62,7 @@ export default {
         reload: "Online neu laden",
         reloading: "Lädt neu …",
         reloadOffline: "Online neu laden (braucht Internet)",
-        unreachable: "Jotoba ist nicht erreichbar. Die Ergebnisse sind weiter von diesem Gerät.",
+        unreachable: "Jotoba ist nicht erreichbar. Die Ergebnisse kommen weiter aus dem Wörterbuch auf diesem Gerät.",
         noTypos: "Die Offline-Suche korrigiert keine Tippfehler.",
         getPack: "{{language}} offline laden",
     },
@@ -95,7 +95,7 @@ export default {
         names: { title: "Die Namenssuche braucht Internet" },
         backOnline: "Die Ergebnisse erscheinen hier, sobald du wieder online bist.",
         language: {
-            title: "Offline gibt es Bedeutungen nur auf Englisch",
+            title: "Diese Sprache ist offline nicht verfügbar",
             text: "Bedeutungen auf {{language}} sind nicht auf diesem Gerät.",
         },
         reader: {
@@ -110,7 +110,7 @@ export default {
             title: "Die Offline-Suche hat zu lange gedauert",
             text: "Versuch es noch einmal oder suche etwas Kürzeres.",
         },
-        alwaysOffline: "Der Offline-Modus ist an. Erlaube das Netzwerk auf der Offline-Seite, um hier zu suchen.",
+        alwaysOffline: "Der Offline-Modus ist an. Schalte ihn unter „Offline-Wörterbuch“ aus, um hier zu suchen.",
     },
     btn: {
         download: "Herunterladen",
@@ -125,7 +125,7 @@ export default {
         continue: "Fortsetzen",
         delete: "Löschen",
         later: "Nicht jetzt",
-        allowNetwork: "Netzwerk erlauben",
+        allowNetwork: "Offline-Modus ausschalten",
     },
     update: {
         title: "Update für das Offline-Wörterbuch",
@@ -164,7 +164,7 @@ export default {
         yours: "Suchsprache",
         bundle: "5 Sprachen in einem Paket · {{size}}",
         needsBase: "Lade zuerst oben das Wörterbuch.",
-        waitBase: "Geht, sobald das Wörterbuch fertig ist.",
+        waitBase: "Geht, sobald das Wörterbuch heruntergeladen ist.",
         updateBase: "Aktualisiere zuerst das Wörterbuch, um Sprachen hinzuzufügen.",
         repairBase: "Lade zuerst das Wörterbuch neu.",
         offlineBase: "Sobald du online bist, lädst du zuerst das Wörterbuch, dann Sprachen.",
@@ -227,7 +227,7 @@ export default {
     },
     delete: {
         title: "Offline-Wörterbuch löschen?",
-        text: "Ohne Internet suchst du erst wieder, wenn du es neu herunterlädst ({{size}}).",
+        text: "Bis du es wieder herunterlädst ({{size}}), brauchst du zum Suchen Internet.",
         packsList: "Die Sprachpakete ({{languages}}) werden mitgelöscht.",
         titlePack: "Sprachpaket löschen?",
         textPack: "Offline gibt es dann keine Bedeutungen auf {{language}}, bis du es wieder lädst ({{size}}). Englisch bleibt.",

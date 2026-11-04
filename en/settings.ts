@@ -161,7 +161,8 @@ export default {
         },
         voiceDevice: {
             label: "Voice input on the device",
-            subLabel: "Offline, once the language is downloaded below; until then Android recognizes online",
+            subLabel:
+                "Works offline once the language below is downloaded. Until then, Android uses its online speech service.",
             install: "Download Japanese for offline use",
             installing: "Android is downloading Japanese…",
             installed: "Japanese is available offline.",
@@ -415,8 +416,9 @@ export default {
         necessary: {
             label: "Necessary storage",
             subLabel:
-                "Settings, bookmarks without an account, keyboard shortcuts, sign-in and this choice. Jotoba can't work without them.",
-            subLabelLocal: "Settings, bookmarks, keyboard shortcuts and this choice. Jotoba can't work without them.",
+                "Stores your settings, bookmarks without an account, keyboard shortcuts, sign-in status and this choice for your next visit.",
+            subLabelLocal:
+                "Stores your settings, bookmarks, keyboard shortcuts and this choice, so they're still there on your next visit.",
             badge: "Always on",
         },
         comfort: {
@@ -438,7 +440,7 @@ export default {
             turnedOff: "Camera search turned off",
             labelBoth: "Text recognition (camera and handwriting)",
             subLabelBoth:
-                "Recognizes text on this device with Google ML Kit, which sends anonymous usage data to Google. Handwriting downloads its model from Google once.",
+                "Recognizes text on this device with Google ML Kit, which sends anonymous usage data to Google. The handwriting model is downloaded from Google once.",
         },
         image: {
             label: "Text from image",

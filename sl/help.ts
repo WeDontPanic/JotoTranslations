@@ -178,7 +178,7 @@ export default {
         },
         names: {
             title: "Imena",
-            text: "Rezultati imen pokažejo branje, prečrkovanje in, kjer je znano, spol in izvor imena.",
+            text: "Rezultati imen pokažejo branje, prečrkovanje in, kjer je znano, spol in vrsto imena.",
         },
         sharing: {
             title: "Strani s podrobnostmi in povezave",
@@ -298,7 +298,8 @@ export default {
             chip: "Brez povezave se na vrhu zaslona prikaže „Brez povezave“. Tapnite ga, da vidite, kaj trenutno deluje.",
             results:
                 "Rezultati takrat prihajajo iz vaše naprave in so označeni kot rezultati brez povezave. Njihov vrstni red se lahko razlikuje od tistega s povezavo, tipkarske napake pa se ne popravljajo.",
-            english: "Brez povezave so pomeni zaenkrat samo v angleščini.",
+            english:
+                "Angleški pomeni so vedno vključeni. Za nekatere jezike lahko prenesete jezikovni paket z njihovimi pomeni.",
         },
         updates: {
             title: "Posodobitve in prostor",

@@ -5,7 +5,8 @@ export default {
     title: "Über uns",
     description: "Wer Jotoba macht und woher Wörterbuchdaten, Beispielsätze, Audio und Strichfolgen stammen.",
     heading: "Über Jotoba",
-    intro: "Jotoba ist ein kostenloses Japanisch-Wörterbuch für Wörter, Kanji, Beispielsätze und Namen. Es baut auf Ressourcen auf, die viele Menschen kostenlos teilen. Diese Seite nennt sie und die Menschen hinter Jotoba.",
+    intro:
+        "Jotoba ist ein kostenloses Japanisch-Wörterbuch für Wörter, Kanji, Beispielsätze und Namen. Es baut auf Daten auf, die viele Menschen frei teilen. Hier erfährst du, woher sie kommen und wer hinter Jotoba steht.",
     team: {
         title: "Wer Jotoba macht",
         roles: {

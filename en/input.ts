@@ -61,7 +61,7 @@ export default {
         model: {
             intro: "Handwriting needs a one-time download from Google (about {{size}}). After that it works offline.",
             download: "Download ({{size}})",
-            loading: "Downloading handwriting (about {{size}})… You can already write.",
+            loading: "Downloading the handwriting model (about {{size}})… You can already write.",
             ready: "Handwriting is ready",
             failed: "The download didn't work. Check your connection.",
             retry: "Try again",

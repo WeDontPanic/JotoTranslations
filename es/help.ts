@@ -177,7 +177,8 @@ export default {
         },
         names: {
             title: "Nombres",
-            text: "Los resultados de nombres muestran la lectura, una transcripción y, si se conocen, el género y el origen del nombre.",
+            text:
+                "Los resultados de nombres muestran la lectura, una transcripción y, si se conocen, el género y el tipo de nombre.",
         },
         sharing: {
             title: "Páginas de detalles y enlaces",
@@ -298,7 +299,8 @@ export default {
             chip: "Sin conexión, aparece «Sin conexión» en la parte superior de la pantalla. Tócalo para ver qué funciona en ese momento.",
             results:
                 "Los resultados vienen entonces de tu dispositivo y se marcan como resultados sin conexión. Su orden puede ser distinto del de en línea, y los errores ortográficos no se corrigen.",
-            english: "Por ahora, sin conexión los significados solo están en inglés.",
+            english:
+                "Los significados en inglés siempre están incluidos. Para algunos idiomas puedes descargar un paquete de idioma con sus significados.",
         },
         updates: {
             title: "Actualizaciones y almacenamiento",

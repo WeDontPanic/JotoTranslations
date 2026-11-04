@@ -49,6 +49,7 @@ export default {
         removed: "Borttaget från {{list}}.",
         listCreated: "Listan ”{{list}}” har skapats",
         savedTo: "Sparat i ”{{list}}”",
+        keptIn: "Tillagd i ”{{list}}”, men den här webbläsaren kan inte spara det. Det finns kvar tills du laddar om.",
         labelAdded: "Etiketten {{name}} har lagts till i {{list}}",
         labelRemoved: "Etiketten {{name}} har tagits bort från {{list}}",
         labelCreated: "Etiketten {{name}} har skapats och lagts till i {{list}}",
@@ -242,6 +243,10 @@ export default {
             signUp: "Skapa konto",
             signIn: "Logga in",
         },
+    },
+    storage: {
+        notSaved:
+            "Dina bokmärken och anteckningar kan inte sparas i den här webbläsaren. De finns kvar tills du laddar om sidan.",
     },
     colors: {
         green: "Grön",

@@ -659,7 +659,7 @@ export default {
     name: {
         copy: "Kopiraj {{name}}",
         copied: "Ime je kopirano v odložišče",
-        fullName: "Polno ime",
+        fullName: "Prečrkovanje",
         sex: "Spol",
         origin: "Vrsta imena",
     },

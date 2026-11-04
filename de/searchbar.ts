@@ -127,6 +127,7 @@ export default {
             removeLast: "Letztes Radikal entfernen",
         },
         announce: {
+            kanjiAdded: "{{kanji}} zur Suche hinzugefügt",
             cleared: "Auswahl aufgehoben",
             noKanji: "Keine Kanji gefunden",
             kanjiFound: { one: "{{count}} Kanji gefunden", other: "{{count}} Kanji gefunden" },

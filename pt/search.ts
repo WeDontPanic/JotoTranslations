@@ -286,6 +286,8 @@ export default {
             rateLimited: "Relatos demais em pouco tempo. Tente de novo em alguns minutos.",
             rejected: "Não foi possível enviar o relato. Confira suas respostas e tente de novo.",
             queueFull: "Há relatos demais esperando para ser enviados. Tente de novo mais tarde.",
+            notStored:
+                "Este dispositivo não consegue guardar o relato, então ele não pode ser enviado depois. Tente de novo quando estiver online.",
             sent: "Obrigado, seu relato foi enviado",
             queued: "Relato salvo neste aparelho. Ele será enviado assim que for possível.",
             offline: "Você está offline. O relato será enviado assim que você voltar a ficar online.",

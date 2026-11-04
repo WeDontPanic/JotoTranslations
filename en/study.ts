@@ -37,8 +37,8 @@ export default {
             other: "New cards are introduced with up to {{perDay}} a day.",
         },
         pace: {
-            one: "Up to {{perDay}} new cards a day, all cards are started in about {{count}} day.",
-            other: "Up to {{perDay}} new cards a day, all cards are started in about {{count}} days.",
+            one: "Up to {{perDay}} new cards a day. You'll have studied every card once in about {{count}} day.",
+            other: "Up to {{perDay}} new cards a day. You'll have studied every card once in about {{count}} days.",
         },
         skipped: {
             one: "{{count}} kanji or name isn't included yet.",

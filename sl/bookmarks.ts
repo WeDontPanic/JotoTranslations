@@ -59,6 +59,7 @@ export default {
         removed: "Odstranjeno s seznama {{list}}.",
         listCreated: "Seznam „{{list}}“ je ustvarjen",
         savedTo: "Shranjeno na seznam „{{list}}“",
+        keptIn: "Dodano na seznam „{{list}}“, vendar ga ta brskalnik ne more shraniti. Ohrani se, dokler ne osvežite.",
         labelAdded: "Oznaka {{name}} dodana na seznamu {{list}}",
         labelRemoved: "Oznaka {{name}} odstranjena s seznama {{list}}",
         labelCreated: "Oznaka {{name}} ustvarjena in dodana na seznamu {{list}}",
@@ -270,6 +271,9 @@ export default {
             signUp: "Registracija",
             signIn: "Prijava",
         },
+    },
+    storage: {
+        notSaved: "Vaših zaznamkov in opomb v tem brskalniku ni mogoče shraniti. Ohranijo se, dokler ne osvežite strani.",
     },
     colors: {
         green: "Zelena",

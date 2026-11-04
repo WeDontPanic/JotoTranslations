@@ -662,7 +662,7 @@ export default {
     name: {
         copy: "{{name}} kopieren",
         copied: "Name in die Zwischenablage kopiert",
-        fullName: "Vollständiger Name",
+        fullName: "Umschrift",
         sex: "Geschlecht",
         origin: "Art des Namens",
     },

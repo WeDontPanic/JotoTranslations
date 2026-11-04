@@ -8,7 +8,7 @@ export default {
         labelDegraded: "Inaccesible",
         nameDegraded: "Inaccesible. Ver qué funciona sin internet",
         labelAlways: "Modo sin conexión",
-        nameAlways: "El modo sin conexión está activado. Mostrar qué funciona y cómo permitir la red",
+        nameAlways: "El modo sin conexión está activado. Mostrar qué funciona y cómo desactivarlo",
     },
     announce: {
         offline: "No tienes conexión. La búsqueda de palabras funciona en este dispositivo.",
@@ -95,7 +95,7 @@ export default {
         names: { title: "La búsqueda de nombres necesita internet" },
         backOnline: "Los resultados aparecerán aquí cuando vuelvas a tener conexión.",
         language: {
-            title: "Sin conexión, los significados solo están en inglés",
+            title: "Este idioma no está disponible sin conexión",
             text: "Los significados en {{language}} no están en este dispositivo.",
         },
         reader: {
@@ -110,7 +110,7 @@ export default {
             title: "La búsqueda sin conexión ha tardado demasiado",
             text: "Inténtalo de nuevo o busca algo más corto.",
         },
-        alwaysOffline: "El modo sin conexión está activado. Permite la red en la página sin conexión para buscar aquí.",
+        alwaysOffline: "El modo sin conexión está activado. Desactívalo en «Diccionario sin conexión» para buscar aquí.",
     },
     btn: {
         download: "Descargar",
@@ -125,7 +125,7 @@ export default {
         continue: "Continuar",
         delete: "Borrar",
         later: "Ahora no",
-        allowNetwork: "Permitir red",
+        allowNetwork: "Desactivar el modo sin conexión",
     },
     update: {
         title: "Actualización del diccionario sin conexión",
