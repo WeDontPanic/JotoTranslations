@@ -177,7 +177,8 @@ export default {
         },
         names: {
             title: "Nomes",
-            text: "Os resultados de nomes mostram a leitura, uma transcrição e, quando conhecidos, o gênero e a origem do nome.",
+            text:
+                "Os resultados de nomes mostram a leitura, uma transcrição e, quando conhecidos, o gênero e o tipo de nome.",
         },
         sharing: {
             title: "Páginas de detalhes e links",
@@ -297,7 +298,8 @@ export default {
             chip: "Sem conexão, “Offline” aparece no topo da tela. Toque para ver o que funciona agora.",
             results:
                 "Os resultados passam a vir do seu aparelho e são marcados como resultados offline. A ordem pode ser diferente da online, e erros de digitação não são corrigidos.",
-            english: "Por enquanto, os significados offline estão só em inglês.",
+            english:
+                "Os significados em inglês sempre estão incluídos. Para alguns idiomas, você pode baixar um pacote de idioma com os significados deles.",
         },
         updates: {
             title: "Atualizações e espaço",

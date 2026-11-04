@@ -247,6 +247,8 @@ export default {
             rateLimited: "För många rapporter på kort tid. Försök igen om några minuter.",
             rejected: "Det gick inte att skicka rapporten. Kontrollera dina svar och försök igen.",
             queueFull: "För många rapporter väntar på att skickas. Försök igen senare.",
+            notStored:
+                "Den här enheten kan inte spara rapporten, så den kan inte skickas senare. Försök igen när du är online.",
             sent: "Tack, din rapport har skickats",
             queued: "Rapporten har sparats på den här enheten. Den skickas när rapportering är tillgänglig.",
             offline: "Du är offline. Rapporten skickas när du är online igen.",

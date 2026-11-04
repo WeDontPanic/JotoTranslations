@@ -57,6 +57,7 @@ export default {
         removed: "Removido de {{list}}.",
         listCreated: "Lista “{{list}}” criada",
         savedTo: "Salvo em “{{list}}”",
+        keptIn: "Adicionado a “{{list}}”, mas este navegador não consegue salvar. Fica guardado até você recarregar.",
         labelAdded: "Etiqueta {{name}} adicionada a {{list}}",
         labelRemoved: "Etiqueta {{name}} removida de {{list}}",
         labelCreated: "Etiqueta {{name}} criada e adicionada a {{list}}",
@@ -271,6 +272,10 @@ export default {
             signUp: "Criar conta",
             signIn: "Entrar",
         },
+    },
+    storage: {
+        notSaved:
+            "Seus favoritos e notas não podem ser salvos neste navegador. Eles ficam guardados até você recarregar a página.",
     },
     colors: {
         green: "Verde",

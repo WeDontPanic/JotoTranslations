@@ -8,7 +8,7 @@ export default {
         labelDegraded: "Onåbar",
         nameDegraded: "Onåbar. Visa vad som fungerar utan internet",
         labelAlways: "Offlineläge",
-        nameAlways: "Offlineläget är på. Visa vad som fungerar och hur du tillåter nätverket",
+        nameAlways: "Offlineläget är på. Visa vad som fungerar och hur du stänger av det",
     },
     announce: {
         offline: "Du är offline. Ordsökning fungerar på den här enheten.",
@@ -95,7 +95,7 @@ export default {
         names: { title: "Namnsökning kräver internet" },
         backOnline: "Resultaten visas här när du är online igen.",
         language: {
-            title: "Offlinebetydelser finns bara på engelska",
+            title: "Det här språket är inte tillgängligt offline",
             text: "Betydelser på {{language}} finns inte på den här enheten.",
         },
         reader: {
@@ -110,7 +110,7 @@ export default {
             title: "Offlinesökningen tog för lång tid",
             text: "Försök igen eller sök efter något kortare.",
         },
-        alwaysOffline: "Offlineläget är på. Tillåt nätverket på offlinesidan för att söka här.",
+        alwaysOffline: "Offlineläget är på. Stäng av det under ”Offlineordbok” för att söka här.",
     },
     btn: {
         download: "Ladda ned",
@@ -125,7 +125,7 @@ export default {
         continue: "Fortsätt",
         delete: "Radera",
         later: "Inte nu",
-        allowNetwork: "Tillåt nätverk",
+        allowNetwork: "Stäng av offlineläget",
     },
     update: {
         title: "Uppdatering av offlineordboken",

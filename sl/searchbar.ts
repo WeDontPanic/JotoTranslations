@@ -159,6 +159,7 @@ export default {
             removeLast: "Odstrani zadnji radikal",
         },
         announce: {
+            kanjiAdded: "{{kanji}} dodan v iskanje",
             cleared: "Izbira počiščena",
             noKanji: "Ni najdenih kandžijev",
             kanjiFound: {

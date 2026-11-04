@@ -661,7 +661,7 @@ export default {
     name: {
         copy: "{{name}} kopiëren",
         copied: "Naam gekopieerd naar het klembord",
-        fullName: "Volledige naam",
+        fullName: "Transcriptie",
         sex: "Geslacht",
         origin: "Soort naam",
     },

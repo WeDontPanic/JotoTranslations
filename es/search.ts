@@ -286,6 +286,8 @@ export default {
             rateLimited: "Demasiados informes en poco tiempo. Vuelve a intentarlo dentro de unos minutos.",
             rejected: "No se pudo enviar el informe. Revisa tus respuestas y vuelve a intentarlo.",
             queueFull: "Hay demasiados informes pendientes de envío. Inténtalo más tarde.",
+            notStored:
+                "Este dispositivo no puede guardar el informe, así que no se puede enviar más tarde. Inténtalo de nuevo cuando tengas conexión.",
             sent: "Gracias, tu informe se ha enviado",
             queued: "Informe guardado en este dispositivo. Se enviará en cuanto se puedan enviar informes.",
             offline: "No tienes conexión. El informe se enviará cuando vuelvas a estar en línea.",

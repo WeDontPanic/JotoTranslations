@@ -256,6 +256,8 @@ export default {
             rateLimited: "Túl sok jelentés rövid idő alatt. Próbáld újra néhány perc múlva.",
             rejected: "Nem sikerült elküldeni a jelentést. Ellenőrizd a válaszaidat, és próbáld újra.",
             queueFull: "Túl sok jelentés vár küldésre. Próbáld újra később.",
+            notStored:
+                "Ez az eszköz nem tudja tárolni a jelentést, ezért később sem küldhető el. Próbáld újra, amikor újra online vagy.",
             sent: "Köszönjük, elküldtük a jelentésedet",
             queued: "Jelentés mentve ezen az eszközön. Elküldjük, amint a jelentéstétel elérhető lesz.",
             offline: "Offline vagy. A jelentést elküldjük, amint újra online vagy.",

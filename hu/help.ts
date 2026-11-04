@@ -177,7 +177,7 @@ export default {
         },
         names: {
             title: "Nevek",
-            text: "A névtalálatok mutatják az olvasatot, egy átírást, és ha ismert, a név nemét és eredetét.",
+            text: "A névtalálatok mutatják az olvasatot, egy átírást, és ha ismert, a név nemét és típusát.",
         },
         sharing: {
             title: "Részletes oldalak és linkek",
@@ -297,7 +297,8 @@ export default {
             chip: "Kapcsolat nélkül a képernyő tetején megjelenik az Offline felirat. Koppints rá, hogy lásd, mi működik éppen.",
             results:
                 "A találatok ilyenkor az eszközödről származnak, és offline találatként vannak jelölve. A sorrendjük eltérhet az online sorrendtől, és az elírásokat nem javítja.",
-            english: "Offline egyelőre csak angol jelentések vannak.",
+            english:
+                "Az angol jelentések mindig benne vannak. Néhány nyelvhez letölthetsz egy nyelvi csomagot a jelentéseivel.",
         },
         updates: {
             title: "Frissítések és tárhely",

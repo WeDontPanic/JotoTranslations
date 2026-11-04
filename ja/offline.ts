@@ -8,7 +8,7 @@ export default {
         labelDegraded: "接続できません",
         nameDegraded: "接続できません。インターネットなしで使える機能を表示",
         labelAlways: "オフラインモード",
-        nameAlways: "オフラインモードがオンです。使える機能とネットワークの許可方法を表示",
+        nameAlways: "オフラインモードがオンです。使える機能とオフにする方法を表示",
     },
     announce: {
         offline: "オフラインです。単語検索はこの端末で使えます。",
@@ -94,7 +94,7 @@ export default {
         names: { title: "名前検索にはインターネット接続が必要です" },
         backOnline: "オンラインに戻ると、ここに結果が表示されます。",
         language: {
-            title: "オフラインでは意味は英語のみです",
+            title: "この言語はオフラインで使えません",
             text: "{{language}}の意味はこの端末にありません。",
         },
         reader: {
@@ -109,7 +109,7 @@ export default {
             title: "オフライン検索に時間がかかりすぎました",
             text: "もう一度試すか、短い語句で検索してください。",
         },
-        alwaysOffline: "オフラインモードがオンです。ここで検索するには、オフラインのページでネットワークを許可してください。",
+        alwaysOffline: "オフラインモードがオンです。ここで検索するには、「オフライン辞書」でオフにしてください。",
     },
     btn: {
         download: "ダウンロード",
@@ -124,7 +124,7 @@ export default {
         continue: "再開",
         delete: "削除",
         later: "後で",
-        allowNetwork: "ネットワークを許可",
+        allowNetwork: "オフラインモードをオフにする",
     },
     update: {
         title: "オフライン辞書の更新",

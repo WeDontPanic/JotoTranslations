@@ -669,7 +669,7 @@ export default {
     name: {
         copy: "Copiar {{name}}",
         copied: "Nome copiado para a área de transferência",
-        fullName: "Nome completo",
+        fullName: "Transcrição",
         sex: "Sexo",
         origin: "Tipo de nome",
     },

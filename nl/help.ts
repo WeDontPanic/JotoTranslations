@@ -176,7 +176,7 @@ export default {
         },
         names: {
             title: "Namen",
-            text: "Naamresultaten tonen de lezing, een transcriptie en, waar bekend, het geslacht en de herkomst van de naam.",
+            text: "Naamresultaten tonen de lezing, een transcriptie en, waar bekend, het geslacht en de soort naam.",
         },
         sharing: {
             title: "Detailpagina’s en links",
@@ -296,7 +296,8 @@ export default {
             chip: "Zonder verbinding verschijnt “Offline” boven in het scherm. Tik erop om te zien wat nu werkt.",
             results:
                 "De resultaten komen dan van je apparaat en zijn gemarkeerd als offline resultaten. De volgorde kan anders zijn dan online, en spelfouten worden niet gecorrigeerd.",
-            english: "Offline zijn de betekenissen voorlopig alleen in het Engels.",
+            english:
+                "Engelse betekenissen zitten er altijd in. Voor sommige talen kun je een taalpakket met hun betekenissen downloaden.",
         },
         updates: {
             title: "Updates en opslag",

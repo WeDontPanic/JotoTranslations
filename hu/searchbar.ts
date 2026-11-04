@@ -127,6 +127,7 @@ export default {
             removeLast: "Utolsó gyök eltávolítása",
         },
         announce: {
+            kanjiAdded: "{{kanji}} hozzáadva a kereséshez",
             cleared: "Kijelölés törölve",
             noKanji: "Nincs találat kandzsira",
             kanjiFound: { one: "{{count}} kandzsi található", other: "{{count}} kandzsi található" },

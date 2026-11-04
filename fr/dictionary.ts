@@ -666,8 +666,8 @@ export default {
     name: {
         copy: "Copier {{name}}",
         copied: "Nom copié dans le presse-papiers",
-        fullName: "Nom complet",
+        fullName: "Transcription",
         sex: "Sexe",
-        origin: "Origine du nom",
+        origin: "Type de nom",
     },
 } satisfies PartialDict<typeof en>;

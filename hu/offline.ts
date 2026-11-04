@@ -8,7 +8,7 @@ export default {
         labelDegraded: "Nem elérhető",
         nameDegraded: "Nem elérhető. Mutasd, mi működik internet nélkül",
         labelAlways: "Offline mód",
-        nameAlways: "Az offline mód be van kapcsolva. Mutasd, mi működik és hogyan engedélyezheted a hálózatot",
+        nameAlways: "Az offline mód be van kapcsolva. Mutasd, mi működik és hogyan kapcsolhatod ki",
     },
     announce: {
         offline: "Offline vagy. A szókeresés ezen az eszközön működik.",
@@ -95,7 +95,7 @@ export default {
         names: { title: "A névkereséshez internet kell" },
         backOnline: "A találatok itt jelennek meg, amint újra online vagy.",
         language: {
-            title: "Offline csak angol jelentések vannak",
+            title: "Ez a nyelv offline nem érhető el",
             text: "Ezen az eszközön nincsenek {{language}} nyelvű jelentések.",
         },
         reader: {
@@ -110,7 +110,7 @@ export default {
             title: "Az offline keresés túl sokáig tartott",
             text: "Próbáld újra, vagy keress valami rövidebbre.",
         },
-        alwaysOffline: "Az offline mód be van kapcsolva. Engedélyezd a hálózatot az offline oldalon, hogy itt kereshess.",
+        alwaysOffline: "Az offline mód be van kapcsolva. Kapcsold ki az „Offline szótár” oldalon, hogy itt kereshess.",
     },
     btn: {
         download: "Letöltés",
@@ -125,7 +125,7 @@ export default {
         continue: "Folytatás",
         delete: "Törlés",
         later: "Most nem",
-        allowNetwork: "Hálózat engedélyezése",
+        allowNetwork: "Offline mód kikapcsolása",
     },
     update: {
         title: "Frissítés az offline szótárhoz",

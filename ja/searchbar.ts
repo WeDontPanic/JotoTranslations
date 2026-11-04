@@ -123,6 +123,7 @@ export default {
             removeLast: "最後の部首を削除",
         },
         announce: {
+            kanjiAdded: "{{kanji}}を検索に追加しました",
             cleared: "選択を解除しました",
             noKanji: "漢字が見つかりませんでした",
             kanjiFound: { other: "漢字が{{count}}字見つかりました" },

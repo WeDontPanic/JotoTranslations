@@ -10,7 +10,7 @@ export default {
         labelDegraded: "Unreachable",
         nameDegraded: "Unreachable. Show what works without internet",
         labelAlways: "Offline mode",
-        nameAlways: "Offline mode is on. Show what works and how to allow the network",
+        nameAlways: "Offline mode is on. Show what works and how to turn it off",
     },
     announce: {
         offline: "You're offline. Word search works on this device.",
@@ -65,7 +65,7 @@ export default {
         reload: "Reload online",
         reloading: "Reloading…",
         reloadOffline: "Reload online (needs internet)",
-        unreachable: "Jotoba can't be reached. The results are still from this device.",
+        unreachable: "Jotoba can't be reached. The results still come from the dictionary on this device.",
         noTypos: "Offline search doesn't correct spelling mistakes.",
         getPack: "Get {{language}} offline",
     },
@@ -98,7 +98,7 @@ export default {
         names: { title: "Name search needs internet" },
         backOnline: "Results appear here once you're back online.",
         language: {
-            title: "Offline meanings are in English only",
+            title: "This language isn't available offline",
             text: "Meanings in {{language}} aren't on this device.",
         },
         reader: {
@@ -113,7 +113,7 @@ export default {
             title: "The offline search took too long",
             text: "Try again or search for something shorter.",
         },
-        alwaysOffline: "Offline mode is on. Allow the network on the offline page to search here.",
+        alwaysOffline: "Offline mode is on. Turn it off under Offline dictionary to search here.",
     },
     btn: {
         download: "Download",
@@ -128,7 +128,7 @@ export default {
         continue: "Continue",
         delete: "Delete",
         later: "Not now",
-        allowNetwork: "Allow network",
+        allowNetwork: "Turn off offline mode",
     },
     update: {
         title: "Update for the offline dictionary",
@@ -230,7 +230,7 @@ export default {
     },
     delete: {
         title: "Delete the offline dictionary?",
-        text: "Search without internet stops until you download it again ({{size}}).",
+        text: "You'll need internet to search until you download it again ({{size}}).",
         packsList: "The language packs ({{languages}}) are deleted too.",
         titlePack: "Delete language pack?",
         textPack: "Offline meanings in {{language}} stop until you download it again ({{size}}). English stays.",

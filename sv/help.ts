@@ -176,7 +176,7 @@ export default {
         },
         names: {
             title: "Namn",
-            text: "Namnresultat visar läsningen, en transkription och, om det är känt, namnets kön och ursprung.",
+            text: "Namnresultat visar läsningen, en transkription och, om det är känt, namnets kön och typ.",
         },
         sharing: {
             title: "Detaljsidor och länkar",
@@ -296,7 +296,8 @@ export default {
             chip: "Utan anslutning visas Offline högst upp på skärmen. Tryck på det för att se vad som fungerar just nu.",
             results:
                 "Resultaten kommer då från din enhet och markeras som offlineresultat. Ordningen kan skilja sig från online, och stavfel rättas inte.",
-            english: "Än så länge finns offlinebetydelserna bara på engelska.",
+            english:
+                "Engelska betydelser finns alltid med. För vissa språk kan du ladda ner ett språkpaket med deras betydelser.",
         },
         updates: {
             title: "Uppdateringar och lagring",

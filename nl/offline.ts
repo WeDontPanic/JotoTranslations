@@ -8,7 +8,7 @@ export default {
         labelDegraded: "Onbereikbaar",
         nameDegraded: "Onbereikbaar. Tonen wat zonder internet werkt",
         labelAlways: "Offlinemodus",
-        nameAlways: "Offlinemodus staat aan. Laat zien wat werkt en hoe je het netwerk toestaat",
+        nameAlways: "Offlinemodus staat aan. Laat zien wat werkt en hoe je hem uitzet",
     },
     announce: {
         offline: "Je bent offline. Woorden zoeken werkt op dit apparaat.",
@@ -95,7 +95,7 @@ export default {
         names: { title: "Namen zoeken heeft internet nodig" },
         backOnline: "Resultaten verschijnen hier zodra je weer online bent.",
         language: {
-            title: "Offline zijn de betekenissen alleen in het Engels",
+            title: "Deze taal is offline niet beschikbaar",
             text: "Betekenissen in het {{language}} staan niet op dit apparaat.",
         },
         reader: {
@@ -110,7 +110,7 @@ export default {
             title: "Offline zoeken duurde te lang",
             text: "Probeer het opnieuw of zoek naar iets korters.",
         },
-        alwaysOffline: "De offlinemodus staat aan. Sta het netwerk toe op de offlinepagina om hier te zoeken.",
+        alwaysOffline: "De offlinemodus staat aan. Zet hem uit onder “Offline woordenboek” om hier te zoeken.",
     },
     btn: {
         download: "Downloaden",
@@ -125,7 +125,7 @@ export default {
         continue: "Doorgaan",
         delete: "Verwijderen",
         later: "Niet nu",
-        allowNetwork: "Netwerk toestaan",
+        allowNetwork: "Offlinemodus uitzetten",
     },
     update: {
         title: "Update voor het offline woordenboek",

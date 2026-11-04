@@ -8,7 +8,7 @@ export default {
         labelDegraded: "Nedosegljivo",
         nameDegraded: "Nedosegljivo. Prikaži, kaj deluje brez interneta",
         labelAlways: "Način brez povezave",
-        nameAlways: "Način brez povezave je vklopljen. Pokaži, kaj deluje in kako dovolite omrežje",
+        nameAlways: "Način brez povezave je vklopljen. Pokaži, kaj deluje in kako ga izklopite",
     },
     announce: {
         offline: "Niste povezani. Iskanje besed deluje v tej napravi.",
@@ -95,7 +95,7 @@ export default {
         names: { title: "Iskanje imen potrebuje internet" },
         backOnline: "Rezultati se prikažejo tukaj, ko boste spet povezani.",
         language: {
-            title: "Brez povezave so pomeni samo v angleščini",
+            title: "Ta jezik brez povezave ni na voljo",
             text: "Pomenov v tem jeziku ni v tej napravi: {{language}}.",
         },
         reader: {
@@ -110,7 +110,7 @@ export default {
             title: "Iskanje brez povezave je trajalo predolgo",
             text: "Poskusite znova ali poiščite nekaj krajšega.",
         },
-        alwaysOffline: "Način brez povezave je vklopljen. Za iskanje tukaj dovolite omrežje na strani brez povezave.",
+        alwaysOffline: "Način brez povezave je vklopljen. Za iskanje tukaj ga izklopite v „Slovar brez povezave“.",
     },
     btn: {
         download: "Prenesi",
@@ -125,7 +125,7 @@ export default {
         continue: "Nadaljuj",
         delete: "Izbriši",
         later: "Ne zdaj",
-        allowNetwork: "Dovoli omrežje",
+        allowNetwork: "Izklopi način brez povezave",
     },
     update: {
         title: "Posodobitev slovarja brez povezave",

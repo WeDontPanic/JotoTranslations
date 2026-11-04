@@ -58,6 +58,8 @@ export default {
         removed: "Retiré de {{list}}.",
         listCreated: "Liste « {{list}} » créée",
         savedTo: "Enregistré dans « {{list}} »",
+        keptIn:
+            "Ajouté à « {{list}} », mais ce navigateur ne peut pas l’enregistrer. Il est conservé jusqu’au rechargement.",
         labelAdded: "Étiquette {{name}} ajoutée à {{list}}",
         labelRemoved: "Étiquette {{name}} retirée de {{list}}",
         labelCreated: "Étiquette {{name}} créée et ajoutée à {{list}}",
@@ -266,6 +268,10 @@ export default {
             signUp: "S’inscrire",
             signIn: "Se connecter",
         },
+    },
+    storage: {
+        notSaved:
+            "Vos favoris et notes ne peuvent pas être enregistrés dans ce navigateur. Ils sont conservés jusqu’au rechargement de la page.",
     },
     colors: {
         green: "Vert",

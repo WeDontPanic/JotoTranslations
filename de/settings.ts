@@ -104,7 +104,7 @@ export default {
             label: "Ziel-Behaltensrate",
             subLabel: {
                 "85": "Entspannt: weniger Wiederholungen, du vergisst etwas öfter.",
-                "90": "Ausgewogen (empfohlen): Du weißt etwa 9 von 10 Karten, wenn sie dran sind.",
+                "90": "Ausgewogen (empfohlen): Du beantwortest etwa 9 von 10 Karten richtig, wenn sie dran sind.",
                 "95": "Gründlich: etwa doppelt so viele Wiederholungen, du vergisst seltener.",
             },
         },
@@ -164,7 +164,8 @@ export default {
         },
         voiceDevice: {
             label: "Spracheingabe auf dem Gerät",
-            subLabel: "Offline, sobald die Sprache unten geladen ist; bis dahin erkennt Android online",
+            subLabel:
+                "Funktioniert offline, sobald die Sprache unten geladen ist. Bis dahin nutzt Android seinen Online-Sprachdienst.",
             install: "Japanisch offline laden",
             installing: "Android lädt Japanisch herunter …",
             installed: "Japanisch ist offline verfügbar.",
@@ -421,8 +422,9 @@ export default {
         necessary: {
             label: "Notwendiger Speicher",
             subLabel:
-                "Einstellungen, Lesezeichen ohne Konto, Tastenkürzel, Anmeldung und diese Auswahl. Ohne sie funktioniert Jotoba nicht.",
-            subLabelLocal: "Einstellungen, Lesezeichen, Tastenkürzel und diese Auswahl. Ohne sie funktioniert Jotoba nicht.",
+                "Speichert Einstellungen, Lesezeichen ohne Konto, Tastenkürzel, den Anmeldestatus und diese Auswahl für deinen nächsten Besuch.",
+            subLabelLocal:
+                "Speichert deine Einstellungen, Lesezeichen, Tastenkürzel und diese Auswahl, damit sie beim nächsten Besuch noch da sind.",
             badge: "Immer an",
         },
         comfort: {
@@ -444,7 +446,7 @@ export default {
             turnedOff: "Kamera-Suche ausgeschaltet",
             labelBoth: "Texterkennung (Kamera und Handschrift)",
             subLabelBoth:
-                "Erkennt Text auf diesem Gerät mit Google ML Kit, das anonyme Nutzungsdaten an Google sendet. Die Handschrift lädt ihr Modell einmalig von Google.",
+                "Erkennt Text auf diesem Gerät mit Google ML Kit, das anonyme Nutzungsdaten an Google sendet. Das Modell für die Handschrift kommt einmalig von Google.",
         },
         image: {
             label: "Text aus Bild",

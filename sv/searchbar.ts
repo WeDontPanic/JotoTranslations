@@ -126,6 +126,7 @@ export default {
             removeLast: "Ta bort senaste radikalen",
         },
         announce: {
+            kanjiAdded: "{{kanji}} har lagts till i sökningen",
             cleared: "Urvalet har rensats",
             noKanji: "Inga kanji hittades",
             kanjiFound: { one: "{{count}} kanji hittades", other: "{{count}} kanji hittades" },

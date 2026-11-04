@@ -661,8 +661,8 @@ export default {
     name: {
         copy: "{{name}} másolása",
         copied: "Név a vágólapra másolva",
-        fullName: "Teljes név",
+        fullName: "Átírás",
         sex: "Nem",
-        origin: "A név eredete",
+        origin: "A név típusa",
     },
 } satisfies PartialDict<typeof en>;

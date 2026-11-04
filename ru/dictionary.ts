@@ -672,7 +672,7 @@ export default {
     name: {
         copy: "Копировать {{name}}",
         copied: "Имя скопировано в буфер обмена",
-        fullName: "Полное имя",
+        fullName: "Транскрипция",
         sex: "Пол",
         origin: "Тип имени",
     },

@@ -649,8 +649,8 @@ export default {
     name: {
         copy: "Kopiera {{name}}",
         copied: "Namnet har kopierats till urklipp",
-        fullName: "Fullständigt namn",
+        fullName: "Transkription",
         sex: "Kön",
-        origin: "Namnets ursprung",
+        origin: "Namntyp",
     },
 } satisfies PartialDict<typeof en>;

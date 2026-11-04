@@ -134,6 +134,7 @@ export default {
             removeLast: "Laatste radicaal verwijderen",
         },
         announce: {
+            kanjiAdded: "{{kanji}} toegevoegd aan de zoekopdracht",
             cleared: "Selectie gewist",
             noKanji: "Geen kanji gevonden",
             kanjiFound: { one: "{{count}} kanji gevonden", other: "{{count}} kanji gevonden" },

@@ -29,8 +29,8 @@ export default {
         cards: { one: "{{count}} Karte", other: "{{count}} Karten" },
         kept: "Dein Fortschritt bleibt erhalten.",
         added: {
-            one: "Fügt {{count}} neue Karte hinzu, nach und nach eingeführt.",
-            other: "Fügt {{count}} neue Karten hinzu, nach und nach eingeführt.",
+            one: "{{count}} neue Karte kommt hinzu.",
+            other: "{{count}} neue Karten kommen hinzu. Du lernst sie nach und nach.",
         },
         chooseOne: "Wähle mindestens eine Art.",
         paceSettings: {
@@ -38,8 +38,8 @@ export default {
             other: "Neue Karten kommen mit bis zu {{perDay}} am Tag dazu.",
         },
         pace: {
-            one: "Bis zu {{perDay}} neue Karten am Tag, alle Karten sind nach etwa {{count}} Tag begonnen.",
-            other: "Bis zu {{perDay}} neue Karten am Tag, alle Karten sind nach etwa {{count}} Tagen begonnen.",
+            one: "Bis zu {{perDay}} neue Karten am Tag. Nach etwa {{count}} Tag hast du jede Karte einmal gelernt.",
+            other: "Bis zu {{perDay}} neue Karten am Tag. Nach etwa {{count}} Tagen hast du jede Karte einmal gelernt.",
         },
         skipped: {
             one: "{{count}} Kanji oder Name ist noch nicht dabei.",
@@ -98,7 +98,7 @@ export default {
                 one: "Mit 2 Runden am Tag bist du in etwa einem Tag wieder auf Stand. Bis dahin pausieren neue Karten.",
                 other: "Mit 2 Runden am Tag bist du in etwa {{count}} Tagen wieder auf Stand. Bis dahin pausieren neue Karten.",
             },
-            order: "Zuerst kommen die Karten, die du am ehesten noch weißt.",
+            order: "Zuerst kommen die Karten, an die du dich am ehesten noch erinnerst.",
         },
         tricky: {
             text: { one: "{{count}} Wort vergisst du immer wieder.", other: "{{count}} Wörter vergisst du immer wieder." },
