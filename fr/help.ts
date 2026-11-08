@@ -177,7 +177,8 @@ export default {
         },
         names: {
             title: "Noms",
-            text: "Les résultats de noms affichent la lecture, une transcription et, s’ils sont connus, le genre et l’origine du nom.",
+            text:
+                "Les résultats de noms affichent la lecture, une transcription et, s’ils sont connus, le genre et le type de nom.",
         },
         sharing: {
             title: "Pages de détails et liens",
@@ -298,7 +299,8 @@ export default {
             chip: "Sans connexion, « Hors ligne » apparaît en haut de l’écran. Touchez-le pour voir ce qui fonctionne en ce moment.",
             results:
                 "Les résultats proviennent alors de votre appareil et sont marqués comme résultats hors ligne. Leur ordre peut différer de celui en ligne, et les fautes de frappe ne sont pas corrigées.",
-            english: "Pour l’instant, les sens hors ligne sont uniquement en anglais.",
+            english:
+                "Les sens en anglais sont toujours inclus. Pour certaines langues, vous pouvez télécharger un pack de langue avec leurs sens.",
         },
         updates: {
             title: "Mises à jour et stockage",

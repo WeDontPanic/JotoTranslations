@@ -57,6 +57,7 @@ export default {
         removed: "Quitado de {{list}}.",
         listCreated: "Lista «{{list}}» creada",
         savedTo: "Guardado en «{{list}}»",
+        keptIn: "Añadido a «{{list}}», pero este navegador no puede guardarlo. Se conserva hasta que recargues.",
         labelAdded: "Etiqueta {{name}} añadida a {{list}}",
         labelRemoved: "Etiqueta {{name}} quitada de {{list}}",
         labelCreated: "Etiqueta {{name}} creada y añadida a {{list}}",
@@ -264,6 +265,10 @@ export default {
             signUp: "Registrarse",
             signIn: "Iniciar sesión",
         },
+    },
+    storage: {
+        notSaved:
+            "Tus marcadores y notas no se pueden guardar en este navegador. Se conservan hasta que recargues la página.",
     },
     colors: {
         green: "Verde",

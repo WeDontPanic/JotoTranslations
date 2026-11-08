@@ -283,6 +283,8 @@ export default {
             rateLimited: "Trop de signalements en peu de temps. Réessayez dans quelques minutes.",
             rejected: "Impossible d’envoyer le signalement. Vérifiez vos réponses et réessayez.",
             queueFull: "Trop de signalements sont en attente d’envoi. Réessayez plus tard.",
+            notStored:
+                "Cet appareil ne peut pas enregistrer le signalement, il ne pourra donc pas être envoyé plus tard. Réessayez une fois en ligne.",
             sent: "Merci, votre signalement a été envoyé",
             queued: "Signalement enregistré sur cet appareil. Il sera envoyé dès que les signalements seront disponibles.",
             offline: "Vous êtes hors ligne. Le signalement sera envoyé dès que vous serez de nouveau en ligne.",

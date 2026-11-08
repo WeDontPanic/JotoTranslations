@@ -123,6 +123,7 @@ export default {
             removeLast: "Remove last radical",
         },
         announce: {
+            kanjiAdded: "{{kanji}} added to search",
             cleared: "Selection cleared",
             noKanji: "No kanji found",
             kanjiFound: { one: "{{count}} kanji found", other: "{{count}} kanji found" },

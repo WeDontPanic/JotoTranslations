@@ -175,7 +175,7 @@ export default {
         },
         names: {
             title: "Names",
-            text: "Name results show the reading, a transcription and, where known, the gender and origin of the name.",
+            text: "Name results show the reading, a transcription and, where known, the gender and type of the name.",
         },
         sharing: {
             title: "Details pages and links",
@@ -206,7 +206,7 @@ export default {
     },
     bookmarks: {
         title: "Save words and adjust Jotoba",
-        lead: "Two places in the menu make Jotoba fit the way you study.",
+        lead: "Bookmarks and Settings in the menu make Jotoba fit the way you study.",
         bookmarks: {
             title: "Bookmarks",
             text: "Save words and sentences to your own lists and add notes to them. Without an account they stay in this browser, with an account they are synced to every device you sign in on. Use the bookmark button on a details page and find your lists under <link>{{menu}}</link> in the menu.",
@@ -239,7 +239,8 @@ export default {
         },
         stages: {
             title: "Stages and memory",
-            text: "Each word is in the stage of its weakest kind you've started, and New until you start one: Learning while its memory span is under a week, Familiar up to two months, Mastered after that.",
+            text:
+                "A word's stage follows its weakest card type you've started. Until then it's New, then Learning while its memory span is under a week, Familiar up to two months and Mastered after that.",
             memory: "Memory: how likely you are to know the card right now. It sinks a little every day until you review it.",
             span: "Memory span: how many days it takes until you'd only know the card 9 times out of 10. Every review you get right makes it longer.",
             retention:
@@ -295,7 +296,8 @@ export default {
             chip: "Without a connection, Offline appears at the top of the screen. Tap it to see what works right now.",
             results:
                 "Results then come from your device and are marked as offline results. Their order can differ from online, and spelling mistakes aren't corrected.",
-            english: "For now, offline meanings are in English only.",
+            english:
+                "English meanings are always included. For some languages you can download a language pack with their meanings.",
         },
         updates: {
             title: "Updates and storage",

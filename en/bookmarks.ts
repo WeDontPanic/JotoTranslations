@@ -48,6 +48,7 @@ export default {
         removed: "Removed from {{list}}.",
         listCreated: "List “{{list}}” created",
         savedTo: "Saved to “{{list}}”",
+        keptIn: "Added to “{{list}}”, but this browser can't save it. It's kept until you reload.",
         labelAdded: "Label {{name}} added to {{list}}",
         labelRemoved: "Label {{name}} removed from {{list}}",
         labelCreated: "Label {{name}} created and added to {{list}}",
@@ -235,6 +236,9 @@ export default {
             signUp: "Sign up",
             signIn: "Sign in",
         },
+    },
+    storage: {
+        notSaved: "Your bookmarks and notes can't be saved in this browser. They're kept until you reload the page.",
     },
     colors: {
         green: "Green",

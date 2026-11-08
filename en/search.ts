@@ -250,6 +250,7 @@ export default {
             rateLimited: "Too many reports in a short time. Try again in a few minutes.",
             rejected: "Couldn't send the report. Check your answers and try again.",
             queueFull: "Too many reports are waiting to be sent. Try again later.",
+            notStored: "This device can't store the report, so it can't be sent later. Try again once you're online.",
             sent: "Thanks, your report was sent",
             queued: "Report saved on this device. It will be sent once reporting is available.",
             offline: "You are offline. The report will be sent once you are back online.",

@@ -247,6 +247,8 @@ export default {
             rateLimited: "Te veel meldingen in korte tijd. Probeer het over een paar minuten opnieuw.",
             rejected: "De melding kon niet worden verstuurd. Controleer je antwoorden en probeer het opnieuw.",
             queueFull: "Er wachten te veel meldingen om verstuurd te worden. Probeer het later opnieuw.",
+            notStored:
+                "Dit apparaat kan de melding niet opslaan, dus die kan later niet worden verstuurd. Probeer het opnieuw zodra je online bent.",
             sent: "Bedankt, je melding is verstuurd",
             queued: "Melding opgeslagen op dit apparaat. Ze wordt verstuurd zodra melden weer mogelijk is.",
             offline: "Je bent offline. De melding wordt verstuurd zodra je weer online bent.",

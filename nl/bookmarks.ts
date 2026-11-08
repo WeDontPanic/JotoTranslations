@@ -49,6 +49,8 @@ export default {
         removed: "Verwijderd uit {{list}}.",
         listCreated: "Lijst “{{list}}” gemaakt",
         savedTo: "Opgeslagen in “{{list}}”",
+        keptIn:
+            "Toegevoegd aan “{{list}}”, maar deze browser kan het niet opslaan. Het blijft bewaard tot je opnieuw laadt.",
         labelAdded: "Label {{name}} toegevoegd aan {{list}}",
         labelRemoved: "Label {{name}} verwijderd uit {{list}}",
         labelCreated: "Label {{name}} gemaakt en toegevoegd aan {{list}}",
@@ -245,6 +247,10 @@ export default {
             signUp: "Registreren",
             signIn: "Inloggen",
         },
+    },
+    storage: {
+        notSaved:
+            "Je bladwijzers en notities kunnen in deze browser niet worden opgeslagen. Ze blijven bewaard tot je de pagina opnieuw laadt.",
     },
     colors: {
         green: "Groen",

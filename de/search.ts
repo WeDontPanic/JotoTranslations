@@ -248,6 +248,8 @@ export default {
             rateLimited: "Zu viele Meldungen in kurzer Zeit. Versuche es in ein paar Minuten erneut.",
             rejected: "Die Meldung konnte nicht gesendet werden. Prüfe deine Angaben und versuche es erneut.",
             queueFull: "Zu viele Meldungen warten auf das Senden. Versuche es später erneut.",
+            notStored:
+                "Dieses Gerät kann die Meldung nicht speichern, deshalb kann sie nicht später gesendet werden. Versuche es erneut, sobald du online bist.",
             sent: "Danke, deine Meldung wurde gesendet",
             queued: "Meldung auf diesem Gerät gespeichert. Sie wird gesendet, sobald Meldungen möglich sind.",
             offline: "Du bist offline. Die Meldung wird gesendet, sobald du wieder online bist.",

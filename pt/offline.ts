@@ -8,7 +8,7 @@ export default {
         labelDegraded: "Inacessível",
         nameDegraded: "Inacessível. Mostrar o que funciona sem internet",
         labelAlways: "Modo offline",
-        nameAlways: "O modo offline está ativado. Mostrar o que funciona e como permitir a rede",
+        nameAlways: "O modo offline está ativado. Mostrar o que funciona e como desativá-lo",
     },
     announce: {
         offline: "Você está offline. A pesquisa de palavras funciona neste aparelho.",
@@ -95,7 +95,7 @@ export default {
         names: { title: "A pesquisa de nomes precisa de internet" },
         backOnline: "Os resultados aparecem aqui assim que você voltar a ficar online.",
         language: {
-            title: "Offline, os significados estão só em inglês",
+            title: "Este idioma não está disponível offline",
             text: "Os significados em {{language}} não estão neste aparelho.",
         },
         reader: {
@@ -110,7 +110,7 @@ export default {
             title: "A pesquisa offline demorou demais",
             text: "Tente de novo ou pesquise algo mais curto.",
         },
-        alwaysOffline: "O modo offline está ativado. Permita a rede na página offline para pesquisar aqui.",
+        alwaysOffline: "O modo offline está ativado. Desative-o em “Dicionário offline” para pesquisar aqui.",
     },
     btn: {
         download: "Baixar",
@@ -125,7 +125,7 @@ export default {
         continue: "Continuar",
         delete: "Apagar",
         later: "Agora não",
-        allowNetwork: "Permitir rede",
+        allowNetwork: "Desativar o modo offline",
     },
     update: {
         title: "Atualização do dicionário offline",

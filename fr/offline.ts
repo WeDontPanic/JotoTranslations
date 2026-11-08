@@ -8,7 +8,7 @@ export default {
         labelDegraded: "Injoignable",
         nameDegraded: "Injoignable. Voir ce qui fonctionne sans Internet",
         labelAlways: "Mode hors ligne",
-        nameAlways: "Le mode hors ligne est activé. Afficher ce qui fonctionne et comment autoriser le réseau",
+        nameAlways: "Le mode hors ligne est activé. Afficher ce qui fonctionne et comment le désactiver",
     },
     announce: {
         offline: "Vous êtes hors ligne. La recherche de mots fonctionne sur cet appareil.",
@@ -95,7 +95,7 @@ export default {
         names: { title: "La recherche de noms nécessite Internet" },
         backOnline: "Les résultats s’afficheront ici dès que vous serez de nouveau en ligne.",
         language: {
-            title: "Hors ligne, les sens sont uniquement en anglais",
+            title: "Cette langue n’est pas disponible hors ligne",
             text: "Les sens en {{language}} ne sont pas sur cet appareil.",
         },
         reader: {
@@ -110,7 +110,7 @@ export default {
             title: "La recherche hors ligne a pris trop de temps",
             text: "Réessayez ou cherchez quelque chose de plus court.",
         },
-        alwaysOffline: "Le mode hors ligne est activé. Autorisez le réseau sur la page hors ligne pour chercher ici.",
+        alwaysOffline: "Le mode hors ligne est activé. Désactivez-le dans « Dictionnaire hors ligne » pour chercher ici.",
     },
     btn: {
         download: "Télécharger",
@@ -125,7 +125,7 @@ export default {
         continue: "Reprendre",
         delete: "Supprimer",
         later: "Pas maintenant",
-        allowNetwork: "Autoriser le réseau",
+        allowNetwork: "Désactiver le mode hors ligne",
     },
     update: {
         title: "Mise à jour du dictionnaire hors ligne",

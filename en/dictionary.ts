@@ -690,8 +690,8 @@ export default {
     name: {
         copy: "Copy {{name}}",
         copied: "Name copied to clipboard",
-        fullName: "Full name",
+        fullName: "Transcription",
         sex: "Sex",
-        origin: "Name origin",
+        origin: "Name type",
     },
 } as const satisfies Dict;

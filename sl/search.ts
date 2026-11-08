@@ -298,6 +298,8 @@ export default {
             rateLimited: "Preveč prijav v kratkem času. Poskusite znova čez nekaj minut.",
             rejected: "Prijave ni bilo mogoče poslati. Preverite odgovore in poskusite znova.",
             queueFull: "Na pošiljanje čaka preveč prijav. Poskusite pozneje.",
+            notStored:
+                "Ta naprava prijave ne more shraniti, zato je ni mogoče poslati pozneje. Poskusite znova, ko boste povezani.",
             sent: "Hvala, vaša prijava je poslana",
             queued: "Prijava je shranjena v tej napravi. Poslana bo, ko bo prijavljanje na voljo.",
             offline: "Niste povezani. Prijava bo poslana, ko boste spet povezani.",

@@ -168,7 +168,8 @@ export default {
         },
         kanji: {
             title: "Kanji",
-            text: "Spiele die Strichfolge ab, gehe sie Schritt für Schritt durch oder ändere ihr Tempo. Wähle das große Kanji aus, um seine Bestandteile zu sehen. Komposita sind nach Lesung gruppiert, und eine Lesung auszuwählen listet die Wörter, die sie nutzen. Radikal, Bestandteile und ähnliche Kanji sind Links, du kannst also weiterstöbern. Lesungen auf Chinesisch, Koreanisch und Vietnamesisch lassen sich ebenfalls anzeigen.",
+            text:
+                "Spiele die Strichfolge ab, gehe sie Schritt für Schritt durch oder ändere ihr Tempo. Wähle das große Kanji aus, um seine Bestandteile zu sehen. Komposita sind nach Lesung gruppiert. Wählst du eine Lesung aus, siehst du die Wörter, die sie verwenden. Radikal, Bestandteile und ähnliche Kanji sind verlinkt, sodass du weiterstöbern kannst. Lesungen auf Chinesisch, Koreanisch und Vietnamesisch lassen sich ebenfalls anzeigen.",
         },
         sentences: {
             title: "Sätze",
@@ -176,7 +177,8 @@ export default {
         },
         names: {
             title: "Namen",
-            text: "Namensergebnisse zeigen die Lesung, eine Umschrift und, wo bekannt, das Geschlecht und die Herkunft des Namens.",
+            text:
+                "Namensergebnisse zeigen die Lesung, eine Umschrift und, wo bekannt, das Geschlecht und die Art des Namens.",
         },
         sharing: {
             title: "Detailseiten und Links",
@@ -207,7 +209,7 @@ export default {
     },
     bookmarks: {
         title: "Wörter speichern und Jotoba anpassen",
-        lead: "Zwei Stellen im Menü passen Jotoba an die Art an, wie du lernst.",
+        lead: "Mit „Lesezeichen“ und „Einstellungen“ im Menü passt du Jotoba an deine Art zu lernen an.",
         bookmarks: {
             title: "Lesezeichen",
             text: "Speichere Wörter und Sätze in eigenen Listen und füge Notizen hinzu. Ohne Konto bleiben sie in diesem Browser, mit Konto werden sie mit jedem Gerät synchronisiert, auf dem du dich anmeldest. Nutze den Lesezeichen-Button auf einer Detailseite und finde deine Listen unter <link>{{menu}}</link> im Menü.",
@@ -236,13 +238,16 @@ export default {
         rating: {
             title: "Eine Karte bewerten",
             text: "Überleg dir die Antwort und deck sie dann auf. Wähle „Nochmal“, wenn du sie nicht wusstest, sonst „Gewusst“. Sei ehrlich: Die Zeit auf den Buttons zeigt, wann die Karte wiederkommt. Vergessene Karten kommen ein paar Karten später in derselben Runde wieder. Ein neues Wort, das du schon kanntest, bekommt „Kannte ich schon“.",
-            fine: "<link>{{setting}}</link> ergänzt „Schwer“ und „Leicht“. „Schwer“ zählt als gewusst.",
+            fine: "<link>{{setting}}</link> ergänzt „Mit Mühe“ und „Leicht“. „Mit Mühe“ zählt als gewusst.",
         },
         stages: {
             title: "Stufen und Erinnerung",
-            text: "Jedes Wort steht in der Stufe seiner schwächsten begonnenen Art, bis zur ersten auf „Neu“: „Am Lernen“, solange die Merkdauer unter einer Woche liegt, „Sitzt“ bis zu zwei Monaten, danach „Gemeistert“.",
-            memory: "Erinnerung: wie wahrscheinlich du die Karte gerade weißt. Sie sinkt jeden Tag etwas, bis du die Karte wiederholst.",
-            span: "Merkdauer: wie viele Tage es dauert, bis du die Karte nur noch 9 von 10 Mal weißt. Jede richtige Wiederholung macht sie länger.",
+            text:
+                "Die Stufe eines Wortes richtet sich nach seiner schwächsten Kartenart, die du schon begonnen hast. Bis dahin steht es auf „Neu“, dann auf „Am Lernen“, solange die Merkdauer unter einer Woche liegt, auf „Sitzt“ bis zu zwei Monaten und danach auf „Gemeistert“.",
+            memory:
+                "Erinnerung: wie wahrscheinlich du dich gerade an die Antwort erinnerst. Sie sinkt jeden Tag etwas, bis du die Karte wiederholst.",
+            span:
+                "Merkdauer: nach wie vielen Tagen du dich nur noch zu 90 % an die Antwort erinnerst. Jede richtige Wiederholung verlängert sie.",
             retention:
                 "<link>{{setting}}</link>: Karten kommen wieder, wenn deine Erinnerung an sie auf diesen Wert sinkt. Höher heißt mehr Wiederholungen.",
         },
@@ -254,7 +259,7 @@ export default {
             waiting: "Lesungs- und Abrufkarten warten, bis du die vorige Art an einem früheren Tag gewusst hast.",
             limit: "Neue Karten enden beim Tageslimit der Liste.",
             backlog:
-                "Warten mehr Wiederholungen, als zwei Runden schaffen, pausieren neue Karten, bis du aufgeholt hast. Zuerst kommen die Karten, die du am ehesten noch weißt. Für einen Tag kannst du neue Karten trotzdem zulassen.",
+                "Stehen mehr Wiederholungen an, als du in zwei Runden schaffst, pausieren neue Karten, bis du aufgeholt hast. Zuerst kommen die Karten, an die du dich am ehesten noch erinnerst. Für einen Tag kannst du neue Karten trotzdem zulassen.",
         },
         practice: {
             title: "Wenn nichts fällig ist",
@@ -296,7 +301,8 @@ export default {
             chip: "Ohne Verbindung erscheint oben „Offline“. Tipp darauf, um zu sehen, was gerade geht.",
             results:
                 "Die Ergebnisse kommen dann von deinem Gerät und sind als Offline-Ergebnisse markiert. Die Reihenfolge kann online anders sein, und Tippfehler werden nicht korrigiert.",
-            english: "Offline gibt es die Bedeutungen vorerst nur auf Englisch.",
+            english:
+                "Englische Bedeutungen sind immer dabei. Für einige Sprachen kannst du ein Sprachpaket mit ihren Bedeutungen herunterladen.",
         },
         updates: {
             title: "Updates und Speicher",

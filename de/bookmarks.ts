@@ -49,6 +49,8 @@ export default {
         removed: "Aus {{list}} entfernt.",
         listCreated: "Liste „{{list}}“ erstellt",
         savedTo: "In „{{list}}“ gemerkt",
+        keptIn:
+            "Zu „{{list}}“ hinzugefügt, aber dieser Browser kann es nicht speichern. Es bleibt bis zum Neuladen erhalten.",
         labelAdded: "Label {{name}} zu {{list}} hinzugefügt",
         labelRemoved: "Label {{name}} aus {{list}} entfernt",
         labelCreated: "Label {{name}} erstellt und zu {{list}} hinzugefügt",
@@ -246,6 +248,10 @@ export default {
             signUp: "Registrieren",
             signIn: "Anmelden",
         },
+    },
+    storage: {
+        notSaved:
+            "Deine Lesezeichen und Notizen können in diesem Browser nicht gespeichert werden. Sie bleiben bis zum Neuladen der Seite erhalten.",
     },
     colors: {
         green: "Grün",

@@ -49,6 +49,7 @@ export default {
         removed: "{{list}}から削除しました。",
         listCreated: "リスト「{{list}}」を作成しました",
         savedTo: "「{{list}}」に保存しました",
+        keptIn: "「{{list}}」に追加しましたが、このブラウザでは保存できません。再読み込みするまで保持されます。",
         labelAdded: "ラベル「{{name}}」を{{list}}に追加しました",
         labelRemoved: "ラベル「{{name}}」を{{list}}から外しました",
         labelCreated: "ラベル「{{name}}」を作成し、{{list}}に追加しました",
@@ -238,6 +239,9 @@ export default {
             signUp: "新規登録",
             signIn: "ログイン",
         },
+    },
+    storage: {
+        notSaved: "このブラウザではブックマークとメモを保存できません。ページを再読み込みするまで保持されます。",
     },
     colors: {
         green: "緑",

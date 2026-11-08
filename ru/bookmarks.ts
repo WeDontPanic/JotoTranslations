@@ -59,6 +59,7 @@ export default {
         removed: "Удалено из {{list}}.",
         listCreated: "Список «{{list}}» создан",
         savedTo: "Сохранено в «{{list}}»",
+        keptIn: "Добавлено в «{{list}}», но этот браузер не может это сохранить. Сохранится до перезагрузки.",
         labelAdded: "Метка {{name}} добавлена в {{list}}",
         labelRemoved: "Метка {{name}} удалена из {{list}}",
         labelCreated: "Метка {{name}} создана и добавлена в {{list}}",
@@ -269,6 +270,9 @@ export default {
             signUp: "Регистрация",
             signIn: "Войти",
         },
+    },
+    storage: {
+        notSaved: "В этом браузере нельзя сохранить закладки и заметки. Они сохранятся до перезагрузки страницы.",
     },
     colors: {
         green: "Зелёный",

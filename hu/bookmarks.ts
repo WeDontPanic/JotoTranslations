@@ -52,6 +52,7 @@ export default {
         removed: "Eltávolítva innen: {{list}}.",
         listCreated: "„{{list}}” lista létrehozva",
         savedTo: "Mentve ide: „{{list}}”",
+        keptIn: "Hozzáadva ide: „{{list}}”, de ez a böngésző nem tudja menteni. Újratöltésig megmarad.",
         labelAdded: "{{name}} címke hozzáadva ehhez: {{list}}",
         labelRemoved: "{{name}} címke eltávolítva innen: {{list}}",
         labelCreated: "{{name}} címke létrehozva és hozzáadva ehhez: {{list}}",
@@ -245,6 +246,9 @@ export default {
             signUp: "Regisztráció",
             signIn: "Bejelentkezés",
         },
+    },
+    storage: {
+        notSaved: "Ebben a böngészőben nem menthetők a könyvjelzőid és jegyzeteid. Az oldal újratöltéséig megmaradnak.",
     },
     colors: {
         green: "Zöld",

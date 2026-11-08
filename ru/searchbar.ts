@@ -160,6 +160,7 @@ export default {
             removeLast: "Убрать последний ключ",
         },
         announce: {
+            kanjiAdded: "{{kanji}} добавлен в поиск",
             cleared: "Выбор сброшен",
             noKanji: "Кандзи не найдены",
             kanjiFound: {
