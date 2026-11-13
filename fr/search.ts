@@ -312,16 +312,19 @@ export default {
         notFound: {
             word: "Ce mot n’existe pas",
             sentence: "Cette phrase n’existe pas",
+            name: "Ce nom n’existe pas",
         },
         notFoundText: "Le lien est peut-être cassé, ou l’entrée a été supprimée.",
         loadFailed: {
             word: "Impossible de charger le mot",
             sentence: "Impossible de charger la phrase",
+            name: "Impossible de charger le nom",
         },
         /** The app's offline dictionary has no answer for this page */
         offline: {
             word: "Ce mot ne figure pas dans le dictionnaire hors ligne",
             sentence: "Cette phrase nécessite Internet",
+            name: "Ce nom ne figure pas dans le dictionnaire hors ligne",
             text: "Elle se chargera dès que vous serez de nouveau en ligne.",
             back: "Retour",
         },

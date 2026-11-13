@@ -276,15 +276,18 @@ export default {
         notFound: {
             word: "Dit woord bestaat niet",
             sentence: "Deze zin bestaat niet",
+            name: "Deze naam bestaat niet",
         },
         notFoundText: "De link werkt misschien niet meer, of het item is verwijderd.",
         loadFailed: {
             word: "Het woord kon niet worden geladen",
             sentence: "De zin kon niet worden geladen",
+            name: "De naam kon niet worden geladen",
         },
         offline: {
             word: "Dit woord staat niet in het offline woordenboek",
             sentence: "Deze zin heeft internet nodig",
+            name: "Deze naam staat niet in het offline woordenboek",
             text: "Het laadt zodra je weer online bent.",
             back: "Terug",
         },

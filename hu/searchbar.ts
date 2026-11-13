@@ -184,6 +184,7 @@ export default {
             description: "A Jotoba ingyenes, többnyelvű japán szótár szavakhoz, kandzsikhoz, példamondatokhoz és nevekhez.",
             heading: "<hidden>Jotoba: </hidden>Ingyenes, többnyelvű japán szótár",
             help: "Súgó és keresési tippek",
+            browse: "Böngészés JLPT-szint szerint",
         },
         notFound: {
             title: "Nem található",

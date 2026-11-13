@@ -272,16 +272,19 @@ export default {
         notFound: {
             word: "この単語は存在しません",
             sentence: "この例文は存在しません",
+            name: "この名前は存在しません",
         },
         notFoundText: "リンクが壊れているか、項目が削除された可能性があります。",
         loadFailed: {
             word: "単語を読み込めませんでした",
             sentence: "例文を読み込めませんでした",
+            name: "名前を読み込めませんでした",
         },
         /** The app's offline dictionary has no answer for this page */
         offline: {
             word: "この単語はオフライン辞書にありません",
             sentence: "この例文にはインターネット接続が必要です",
+            name: "この名前はオフライン辞書にありません",
             text: "オンラインに戻ると表示されます。",
             back: "戻る",
         },

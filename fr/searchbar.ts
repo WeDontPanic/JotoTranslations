@@ -198,6 +198,7 @@ export default {
                 "Jotoba est un dictionnaire japonais multilingue et gratuit pour les mots, les kanji, les phrases d’exemple et les noms.",
             heading: "<hidden>Jotoba : </hidden>Dictionnaire japonais multilingue et gratuit",
             help: "Aide et astuces de recherche",
+            browse: "Parcourir par niveau JLPT",
         },
         notFound: {
             title: "Introuvable",
