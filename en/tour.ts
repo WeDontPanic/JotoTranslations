@@ -5,15 +5,23 @@ export default {
         search: {
             title: "Search in any direction",
             description:
-                "Type English, Japanese, kana or romaji. Suggestions appear as you type, and #tags like #n5 narrow down the results.",
+                "Type English, Japanese, kana or romaji. Suggestions appear as you type, and #tags like #n5 narrow down the results. Try it with 猫 (cat).",
             descriptionVoice:
-                "Type English, Japanese, kana or romaji, or tap the microphone to search by voice. Suggestions appear as you type, and #tags like #n5 narrow down the results.",
+                "Type English, Japanese, kana or romaji, or tap the microphone to search by voice. Suggestions appear as you type, and #tags like #n5 narrow down the results. Try it with 猫 (cat).",
             shortcut: "Jump to the search bar",
         },
-        type: {
-            title: "Choose what to search",
-            description: "The menu next to the search field switches between words, kanji, example sentences and names.",
-            shortcut: "Switch on results pages",
+        details: {
+            title: "Every word has its own page",
+            description: "Select a word to open its page with all meanings, its kanji, example sentences and conjugations.",
+            descriptionStatic:
+                "Select a word in the results to open its page with all meanings, its kanji, example sentences and conjugations.",
+        },
+        bookmark: {
+            title: "Keep words for later",
+            description:
+                "The bookmark button saves a word to a list. ⋮ has conjugations, example sentences and a link to share.",
+            descriptionMenu:
+                "Open ⋮ next to a word to bookmark it, see its conjugations, find example sentences or copy a link.",
         },
         radicals: {
             title: "Find kanji by their parts",
@@ -24,28 +32,40 @@ export default {
             description:
                 "Search a full Japanese sentence and Jotoba splits it into words. Select a word to see its dictionary form and how it was conjugated.",
         },
-        wordMenu: {
-            title: "More on every result",
+        type: {
+            title: "Choose what to search",
             description:
-                "Open ⋮ next to a word for conjugations, example sentences, a link to share and its details page, where you can bookmark it.",
+                "The menu next to the search field switches between words, kanji, example sentences and names. Here are the kanji of 猫.",
+            descriptionStatic:
+                "The menu next to the search field switches between words, kanji, example sentences and names.",
+            shortcut: "Switch on results pages",
         },
         settings: {
-            title: "Settings and help",
+            title: "Bookmarks, settings and help",
             description:
-                "The menu holds your bookmarks, settings, news and the help page, where you can read about every feature and restart this tour. Try the language settings right here, changes apply right away.",
+                "Open the menu for your bookmarks, settings, news and the help page, where you can restart this tour. Try the language settings right here, changes apply right away.",
             descriptionSearchOnly:
-                "The menu holds your bookmarks, settings, news and the help page, where you can read about every feature and restart this tour. Try the search language right here, changes apply right away.",
+                "Open the menu for your bookmarks, settings, news and the help page, where you can restart this tour. Try the search language right here, changes apply right away.",
         },
+    },
+    menuHint: {
+        text: "Words you bookmark are kept in Bookmarks. You can also study each list as flashcards there.",
+        done: "Done",
     },
     languages: {
         group: "Languages",
     },
     progress: "{{current}} of {{total}}",
     announce: "Step {{current}} of {{total}}. {{title}}. {{description}}",
+    announceResumed: "Back in the tour. Step {{current}} of {{total}}.",
     close: "Close tour",
     back: "Back",
     next: "Next",
     done: "Done",
+    searchExample: "Search {{query}}",
+    searching: "Searching…",
+    loading: "Loading…",
+    openMenu: "Open menu",
     preview: {
         types: {
             words: "Words",
@@ -56,10 +76,10 @@ export default {
         gloss: "to eat",
         form: "past, polite",
         wordMenu: {
+            bookmark: "Bookmark",
             conjugations: "Conjugations",
             sentenceSearch: "Sentence search",
             copyLink: "Copy link",
-            details: "Details",
         },
     },
 } as const satisfies Dict;

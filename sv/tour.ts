@@ -6,15 +6,24 @@ export default {
         search: {
             title: "Sök åt alla håll",
             description:
-                "Skriv på engelska, japanska, kana eller romaji. Förslag visas medan du skriver, och #taggar som #n5 begränsar resultaten.",
+                "Skriv på engelska, japanska, kana eller romaji. Förslag visas medan du skriver, och #taggar som #n5 begränsar resultaten. Testa med 猫 (katt).",
             descriptionVoice:
-                "Skriv på engelska, japanska, kana eller romaji, eller tryck på mikrofonen för att söka med rösten. Förslag visas medan du skriver, och #taggar som #n5 begränsar resultaten.",
+                "Skriv på engelska, japanska, kana eller romaji, eller tryck på mikrofonen för att söka med rösten. Förslag visas medan du skriver, och #taggar som #n5 begränsar resultaten. Testa med 猫 (katt).",
             shortcut: "Hoppa till sökfältet",
         },
-        type: {
-            title: "Välj vad du vill söka",
-            description: "Menyn bredvid sökfältet växlar mellan ord, kanji, exempelmeningar och namn.",
-            shortcut: "Byt på resultatsidor",
+        details: {
+            title: "Varje ord har en egen sida",
+            description:
+                "Välj ett ord för att öppna dess sida med alla betydelser, dess kanji, exempelmeningar och böjningar.",
+            descriptionStatic:
+                "Välj ett ord bland resultaten för att öppna dess sida med alla betydelser, dess kanji, exempelmeningar och böjningar.",
+        },
+        bookmark: {
+            title: "Spara ord till senare",
+            description:
+                "Bokmärkesknappen sparar ett ord i en lista. Under ⋮ finns böjningar, exempelmeningar och en länk att dela.",
+            descriptionMenu:
+                "Öppna ⋮ bredvid ett ord för att bokmärka det, se dess böjningar, hitta exempelmeningar eller kopiera en länk.",
         },
         radicals: {
             title: "Hitta kanji via deras delar",
@@ -26,28 +35,38 @@ export default {
             description:
                 "Sök på en hel japansk mening så delar Jotoba upp den i ord. Välj ett ord för att se dess grundform och hur det har böjts.",
         },
-        wordMenu: {
-            title: "Mer om varje resultat",
-            description:
-                "Öppna ⋮ bredvid ett ord för böjningar, exempelmeningar, en länk att dela och detaljsidan, där du kan bokmärka det.",
+        type: {
+            title: "Välj vad du vill söka",
+            description: "Menyn bredvid sökfältet växlar mellan ord, kanji, exempelmeningar och namn. Här är kanjin i 猫.",
+            descriptionStatic: "Menyn bredvid sökfältet växlar mellan ord, kanji, exempelmeningar och namn.",
+            shortcut: "Byt på resultatsidor",
         },
         settings: {
-            title: "Inställningar och hjälp",
+            title: "Bokmärken, inställningar och hjälp",
             description:
-                "I menyn finns dina bokmärken, inställningar, nyheter och hjälpsidan, där du kan läsa om alla funktioner och starta rundturen igen. Prova språkinställningarna här, ändringarna gäller direkt.",
+                "Öppna menyn för dina bokmärken, inställningarna, nyheterna och hjälpsidan, där du kan starta om den här rundturen. Testa språkinställningarna direkt här, ändringar gäller med en gång.",
             descriptionSearchOnly:
-                "I menyn finns dina bokmärken, inställningar, nyheter och hjälpsidan, där du kan läsa om alla funktioner och starta rundturen igen. Prova sökspråket här, ändringarna gäller direkt.",
+                "Öppna menyn för dina bokmärken, inställningarna, nyheterna och hjälpsidan, där du kan starta om den här rundturen. Testa sökspråket direkt här, ändringar gäller med en gång.",
         },
+    },
+    menuHint: {
+        text: "Ord du bokmärker hamnar under Bokmärken. Där kan du också plugga varje lista med flashcards.",
+        done: "Klar",
     },
     languages: {
         group: "Språk",
     },
     progress: "{{current}} av {{total}}",
     announce: "Steg {{current}} av {{total}}. {{title}}. {{description}}",
+    announceResumed: "Tillbaka i rundturen. Steg {{current}} av {{total}}.",
     close: "Stäng rundturen",
     back: "Tillbaka",
     next: "Nästa",
     done: "Klar",
+    searchExample: "Sök {{query}}",
+    searching: "Söker…",
+    loading: "Laddar…",
+    openMenu: "Öppna menyn",
     preview: {
         types: {
             words: "Ord",
@@ -58,10 +77,10 @@ export default {
         gloss: "äta",
         form: "dåtid, artig",
         wordMenu: {
+            bookmark: "Bokmärk",
             conjugations: "Böjningar",
             sentenceSearch: "Meningssökning",
             copyLink: "Kopiera länk",
-            details: "Detaljer",
         },
     },
 } satisfies PartialDict<typeof en>;

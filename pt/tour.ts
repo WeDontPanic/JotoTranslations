@@ -6,15 +6,24 @@ export default {
         search: {
             title: "Pesquise em qualquer direção",
             description:
-                "Digite em inglês, japonês, kana ou romaji. As sugestões aparecem enquanto você digita, e hashtags como #n5 filtram os resultados.",
+                "Digite em inglês, japonês, kana ou romaji. As sugestões aparecem enquanto você digita, e hashtags como #n5 filtram os resultados. Experimente com 猫 (gato).",
             descriptionVoice:
-                "Digite em inglês, japonês, kana ou romaji, ou toque no microfone para pesquisar por voz. As sugestões aparecem enquanto você digita, e hashtags como #n5 filtram os resultados.",
+                "Digite em inglês, japonês, kana ou romaji, ou toque no microfone para pesquisar por voz. As sugestões aparecem enquanto você digita, e hashtags como #n5 filtram os resultados. Experimente com 猫 (gato).",
             shortcut: "Ir para a barra de pesquisa",
         },
-        type: {
-            title: "Escolha o que pesquisar",
-            description: "O menu ao lado do campo de pesquisa alterna entre palavras, kanji, frases de exemplo e nomes.",
-            shortcut: "Alternar nas páginas de resultados",
+        details: {
+            title: "Cada palavra tem sua própria página",
+            description:
+                "Selecione uma palavra para abrir a página dela com todos os significados, os kanji, frases de exemplo e conjugações.",
+            descriptionStatic:
+                "Selecione uma palavra nos resultados para abrir a página dela com todos os significados, os kanji, frases de exemplo e conjugações.",
+        },
+        bookmark: {
+            title: "Guarde palavras para depois",
+            description:
+                "O botão de favorito salva uma palavra em uma lista. Em ⋮ você encontra conjugações, frases de exemplo e um link para compartilhar.",
+            descriptionMenu:
+                "Abra ⋮ ao lado de uma palavra para salvá-la, ver as conjugações, encontrar frases de exemplo ou copiar um link.",
         },
         radicals: {
             title: "Encontre kanji pelas partes",
@@ -26,28 +35,40 @@ export default {
             description:
                 "Pesquise uma frase inteira em japonês e o Jotoba a divide em palavras. Selecione uma palavra para ver a forma de dicionário e como ela foi conjugada.",
         },
-        wordMenu: {
-            title: "Mais sobre cada resultado",
+        type: {
+            title: "Escolha o que pesquisar",
             description:
-                "Abra ⋮ ao lado de uma palavra para ver conjugações, frases de exemplo, um link para compartilhar e a página de detalhes, onde você pode salvá-la nos favoritos.",
+                "O menu ao lado do campo de pesquisa alterna entre palavras, kanji, frases de exemplo e nomes. Aqui estão os kanji de 猫.",
+            descriptionStatic:
+                "O menu ao lado do campo de pesquisa alterna entre palavras, kanji, frases de exemplo e nomes.",
+            shortcut: "Alternar nas páginas de resultados",
         },
         settings: {
-            title: "Configurações e ajuda",
+            title: "Favoritos, configurações e ajuda",
             description:
-                "No menu ficam seus favoritos, as configurações, as novidades e a página de ajuda, onde você pode ler sobre cada recurso e refazer este tour. Experimente as configurações de idioma aqui mesmo, as alterações valem na hora.",
+                "Abra o menu para ver seus favoritos, as configurações, as novidades e a página de ajuda, onde você pode reiniciar este tour. Teste as configurações de idioma aqui mesmo, as mudanças valem na hora.",
             descriptionSearchOnly:
-                "No menu ficam seus favoritos, as configurações, as novidades e a página de ajuda, onde você pode ler sobre cada recurso e refazer este tour. Experimente o idioma de pesquisa aqui mesmo, as alterações valem na hora.",
+                "Abra o menu para ver seus favoritos, as configurações, as novidades e a página de ajuda, onde você pode reiniciar este tour. Teste o idioma de busca aqui mesmo, as mudanças valem na hora.",
         },
+    },
+    menuHint: {
+        text: "As palavras que você salva ficam em Favoritos. Lá você também pode estudar cada lista com flashcards.",
+        done: "Pronto",
     },
     languages: {
         group: "Idiomas",
     },
     progress: "{{current}} de {{total}}",
     announce: "Passo {{current}} de {{total}}. {{title}}. {{description}}",
+    announceResumed: "De volta ao tour. Passo {{current}} de {{total}}.",
     close: "Fechar tour",
     back: "Voltar",
     next: "Próximo",
     done: "Concluir",
+    searchExample: "Buscar {{query}}",
+    searching: "Buscando…",
+    loading: "Carregando…",
+    openMenu: "Abrir menu",
     preview: {
         types: {
             words: "Palavras",
@@ -58,10 +79,10 @@ export default {
         gloss: "comer",
         form: "passado, forma polida",
         wordMenu: {
+            bookmark: "Salvar",
             conjugations: "Conjugações",
             sentenceSearch: "Pesquisa de frases",
             copyLink: "Copiar link",
-            details: "Detalhes",
         },
     },
 } satisfies PartialDict<typeof en>;
