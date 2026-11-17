@@ -191,6 +191,7 @@ export default {
             description: "Jotoba is een gratis meertalig Japans woordenboek voor woorden, kanji, voorbeeldzinnen en namen.",
             heading: "<hidden>Jotoba: </hidden>Gratis meertalig Japans woordenboek",
             help: "Hulp & zoektips",
+            browse: "Bladeren per JLPT-niveau",
         },
         notFound: {
             title: "Niet gevonden",

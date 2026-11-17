@@ -185,6 +185,7 @@ export default {
                 "Jotoba ist ein kostenloses, mehrsprachiges Japanisch-Wörterbuch für Wörter, Kanji, Beispielsätze und Namen.",
             heading: "<hidden>Jotoba: </hidden>Kostenloses mehrsprachiges Japanisch-Wörterbuch",
             help: "Hilfe und Suchtipps",
+            browse: "Nach JLPT-Stufe stöbern",
         },
         notFound: {
             title: "Nicht gefunden",

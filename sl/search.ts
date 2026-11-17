@@ -327,15 +327,18 @@ export default {
         notFound: {
             word: "Ta beseda ne obstaja",
             sentence: "Ta stavek ne obstaja",
+            name: "To ime ne obstaja",
         },
         notFoundText: "Povezava morda ne deluje ali pa je bil vnos odstranjen.",
         loadFailed: {
             word: "Besede ni bilo mogoče naložiti",
             sentence: "Stavka ni bilo mogoče naložiti",
+            name: "Imena ni bilo mogoče naložiti",
         },
         offline: {
             word: "Te besede ni v slovarju brez povezave",
             sentence: "Ta stavek potrebuje internet",
+            name: "Tega imena ni v slovarju brez povezave",
             text: "Naloži se, ko boste spet povezani.",
             back: "Nazaj",
         },

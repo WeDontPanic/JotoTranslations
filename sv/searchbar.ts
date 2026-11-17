@@ -183,6 +183,7 @@ export default {
             description: "Jotoba är en gratis flerspråkig japansk ordbok för ord, kanji, exempelmeningar och namn.",
             heading: "<hidden>Jotoba: </hidden>Gratis flerspråkig japansk ordbok",
             help: "Hjälp och söktips",
+            browse: "Bläddra efter JLPT-nivå",
         },
         notFound: {
             title: "Hittades inte",

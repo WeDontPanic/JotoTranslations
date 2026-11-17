@@ -180,6 +180,7 @@ export default {
             description: "Jotoba is a free multilingual Japanese dictionary for words, kanji, example sentences and names.",
             heading: "<hidden>Jotoba: </hidden>Free multilingual Japanese dictionary",
             help: "Help & search tips",
+            browse: "Browse by JLPT level",
         },
         notFound: {
             title: "Not found",

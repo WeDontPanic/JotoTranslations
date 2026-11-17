@@ -277,16 +277,19 @@ export default {
         notFound: {
             word: "Dieses Wort gibt es nicht",
             sentence: "Diesen Satz gibt es nicht",
+            name: "Diesen Namen gibt es nicht",
         },
         notFoundText: "Der Link ist vielleicht fehlerhaft oder der Eintrag wurde entfernt.",
         loadFailed: {
             word: "Das Wort konnte nicht geladen werden",
             sentence: "Der Satz konnte nicht geladen werden",
+            name: "Der Name konnte nicht geladen werden",
         },
         /** The app's offline dictionary has no answer for this page */
         offline: {
             word: "Dieses Wort fehlt im Offline-Wörterbuch",
             sentence: "Dieser Satz braucht Internet",
+            name: "Dieser Name fehlt im Offline-Wörterbuch",
             text: "Wird geladen, sobald du wieder online bist.",
             back: "Zurück",
         },

@@ -276,15 +276,18 @@ export default {
         notFound: {
             word: "Det här ordet finns inte",
             sentence: "Den här meningen finns inte",
+            name: "Det här namnet finns inte",
         },
         notFoundText: "Länken kan vara trasig eller så har posten tagits bort.",
         loadFailed: {
             word: "Det gick inte att ladda ordet",
             sentence: "Det gick inte att ladda meningen",
+            name: "Det gick inte att ladda namnet",
         },
         offline: {
             word: "Det här ordet finns inte i offlineordboken",
             sentence: "Den här meningen kräver internet",
+            name: "Det här namnet finns inte i offlineordboken",
             text: "Den laddas när du är online igen.",
             back: "Gå tillbaka",
         },

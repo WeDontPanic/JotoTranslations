@@ -278,16 +278,19 @@ export default {
         notFound: {
             word: "This word doesn't exist",
             sentence: "This sentence doesn't exist",
+            name: "This name doesn't exist",
         },
         notFoundText: "The link may be broken or the entry was removed.",
         loadFailed: {
             word: "Couldn't load the word",
             sentence: "Couldn't load the sentence",
+            name: "Couldn't load the name",
         },
         /** The app's offline dictionary has no answer for this page */
         offline: {
             word: "This word isn't in the offline dictionary",
             sentence: "This sentence needs internet",
+            name: "This name isn't in the offline dictionary",
             text: "It loads once you're back online.",
             back: "Go back",
         },

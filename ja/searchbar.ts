@@ -180,6 +180,7 @@ export default {
             description: "Jotobaは、単語・漢字・例文・名前を調べられる、無料の多言語対応日本語辞書です。",
             heading: "<hidden>Jotoba：</hidden>無料の多言語対応日本語辞書",
             help: "ヘルプと検索のヒント",
+            browse: "JLPTレベル別に見る",
         },
         notFound: {
             title: "ページが見つかりません",

@@ -315,15 +315,18 @@ export default {
         notFound: {
             word: "Esta palavra não existe",
             sentence: "Esta frase não existe",
+            name: "Este nome não existe",
         },
         notFoundText: "O link pode estar quebrado ou a entrada foi removida.",
         loadFailed: {
             word: "Não foi possível carregar a palavra",
             sentence: "Não foi possível carregar a frase",
+            name: "Não foi possível carregar o nome",
         },
         offline: {
             word: "Esta palavra não está no dicionário offline",
             sentence: "Esta frase precisa de internet",
+            name: "Este nome não está no dicionário offline",
             text: "Ela carrega assim que você voltar a ficar online.",
             back: "Voltar",
         },

@@ -285,15 +285,18 @@ export default {
         notFound: {
             word: "Ez a szó nem létezik",
             sentence: "Ez a mondat nem létezik",
+            name: "Ez a név nem létezik",
         },
         notFoundText: "Lehet, hogy hibás a link, vagy a bejegyzést eltávolították.",
         loadFailed: {
             word: "Nem sikerült betölteni a szót",
             sentence: "Nem sikerült betölteni a mondatot",
+            name: "Nem sikerült betölteni a nevet",
         },
         offline: {
             word: "Ez a szó nincs benne az offline szótárban",
             sentence: "Ehhez a mondathoz internet kell",
+            name: "Ez a név nincs benne az offline szótárban",
             text: "Betöltődik, amint újra online vagy.",
             back: "Vissza",
         },
