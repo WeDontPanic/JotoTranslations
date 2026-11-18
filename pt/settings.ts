@@ -4,13 +4,6 @@ import type { PartialDict } from "../types";
 export default {
     title: "Configurações",
     description: "Idioma de pesquisa, aparência e outras configurações do Jotoba.",
-    syncHint: {
-        account: "As alterações são salvas automaticamente e sincronizadas com a sua conta.",
-        browser:
-            "As alterações são salvas automaticamente neste navegador. Entre na sua conta para usá-las em todos os seus aparelhos.",
-        local: "As alterações são salvas automaticamente neste navegador.",
-        localApp: "As alterações são salvas automaticamente neste aparelho.",
-    },
     sectionNav: "Seções das configurações",
     sections: {
         language: { title: "Idioma" },
@@ -86,6 +79,10 @@ export default {
         },
         furigana: "Mostrar furigana nas frases",
         hideTranslation: "Ocultar traduções das frases",
+        filterButton: {
+            label: "Botão de filtro acima dos resultados",
+            subLabel: "Filtra os resultados de palavras sem digitar hashtags",
+        },
     },
     kanji: {
         otherReadings: {

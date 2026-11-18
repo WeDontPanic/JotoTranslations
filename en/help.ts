@@ -99,11 +99,11 @@ export default {
         },
         jlpt: {
             title: "Filter by JLPT level",
-            text: "#n5 to #n1 limit words, kanji and sentences to one level of the Japanese-Language Proficiency Test, with N5 as the easiest. #jlpt5 to #jlpt1 work as well.",
+            text: "#n5 to #n1 limit words to a level of the Japanese-Language Proficiency Test, with N5 as the easiest; kanji and sentences when the level is searched on its own. #jlpt5 to #jlpt1 work as well.",
         },
         all: {
             title: "All filter hashtags",
-            text: "Most filters apply to word searches. Select a hashtag to list every word that has it.",
+            text: "Most filters apply to word searches, name searches have none. Select a hashtag to list the words that have it, up to 1000.",
         },
         list: "{{group}} hashtags",
         showAll: {
@@ -239,8 +239,7 @@ export default {
         },
         stages: {
             title: "Stages and memory",
-            text:
-                "A word's stage follows its weakest card type you've started. Until then it's New, then Learning while its memory span is under a week, Familiar up to two months and Mastered after that.",
+            text: "A word's stage follows its weakest card type you've started. Until then it's New, then Learning while its memory span is under a week, Familiar up to two months and Mastered after that.",
             memory: "Memory: how likely you are to know the card right now. It sinks a little every day until you review it.",
             span: "Memory span: how many days it takes until you'd only know the card 9 times out of 10. Every review you get right makes it longer.",
             retention:

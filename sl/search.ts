@@ -226,6 +226,79 @@ export default {
         numberText: "<query></query> je <value></value>",
     },
 
+    /** Filters of word searches: a button above the results and its sheet; filters are hashtags in the query */
+    topicLink: "Odpri stran s temo",
+    filters: {
+        button: "Filter",
+        /** Name of the button for screen readers while filters are active */
+        buttonActive: {
+            one: "Filter, {{count}} aktiven",
+            two: "Filter, {{count}} aktivna",
+            few: "Filter, {{count}} aktivni",
+            other: "Filter, {{count}} aktivnih",
+        },
+        title: "Filter",
+        clear: "Počisti filtre",
+        remove: "Odstrani filter: {{name}}",
+        all: "Vse",
+        jlpt: "Stopnja JLPT",
+        wordClass: "Besedna vrsta",
+        verbClasses: {
+            godan: "Godan",
+            ichidan: "Ichidan",
+            suru: "Suru",
+        },
+        transitivities: {
+            transitive: "Prehodno",
+            intransitive: "Neprehodno",
+        },
+        tags: {
+            irregularIchidan: "Glagol godan na -iru/-eru",
+            katakana: "Katakana",
+            wasei: "Wasei-eigo",
+        },
+        groups: {
+            verb: "Glagol",
+            register: "Slog in register",
+            old: "Staro in redko",
+            sayings: "Reki in vrste besed",
+            names: "Imena, stvari in miti",
+            writing: "Zapis",
+            field: "Področja",
+        },
+        modes: {
+            one: "samo en",
+            all: "vsi morajo veljati",
+            any: "eden ali več",
+        },
+        suggested: "V teh zadetkih",
+        find: "Poiščite filter, npr. vljudno, sleng",
+        noMatch: "Noben drug filter se ne ujema. <link>Vsi ključniki v pomoči</link>",
+        moreTags: { one: "+ še {{count}}", two: "+ še {{count}}", few: "+ še {{count}}", other: "+ še {{count}}" },
+        noEffect: "{{name}} · brez učinka",
+        onlyOneLevel: "Hkrati deluje le ena raven JLPT.",
+        fieldNoEffect: "{{name}} filtrira le samostojno, brez iskalnega besedila in drugih filtrov.",
+        removeTag: "Odstrani {{name}}",
+        openAsList: "Odpri kot seznam",
+        empty: "Nobena beseda ne ustreza vsem izbranim filtrom.",
+        /** Announced when "Verb" is chosen and its groups appear */
+        verbGroupsShown: "Zdaj lahko izberete glagolski razred in prehodnost.",
+        /** Word class of a verb class typed without #verb, e.g. "Verb (from Godan)" */
+        hashtags: "Filtri se v iskanje dodajo kot ključniki (#tags).",
+        /** Closes the sheet; the count is known when all results fit on one page */
+        show: "Prikaži rezultate",
+        showCount: {
+            one: "Prikaži {{count}} besedo",
+            two: "Prikaži {{count}} besedi",
+            few: "Prikaži {{count}} besede",
+            other: "Prikaži {{count}} besed",
+        },
+        showNone: "Ni besed",
+        alsoRemoved: "Odstranjeno tudi: {{names}}",
+        needsOne: "Iskanje potrebuje besedo ali filter.",
+        undo: "Razveljavi",
+    },
+
     reader: {
         title: "Bralnik stavkov",
         words: "Besede stavka",

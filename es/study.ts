@@ -13,6 +13,7 @@ export default {
         meaning: { name: "Significado", example: "食べる → comer", question: "¿Qué significa?" },
         reading: { name: "Lectura", example: "食べる → たべる", question: "¿Cómo se lee?" },
         recall: { name: "Evocación", example: "comer → 食べる", question: "¿Cómo se dice en japonés?" },
+        write: { name: "Escritura", example: "たべる, comer → escribir 食", question: "Escríbelo en kanji." },
         sentence: { question: "¿Qué significa la oración?" },
     },
     stages: {
@@ -348,6 +349,17 @@ export default {
         },
         senseSeparator: "; ",
         recallRule: "Cuenta si sabrías decirlo. No hace falta que sepas escribir los kanji.",
+        writeRule: "Cuenta como sabida si escribiste todos los kanji sin que se mostrara ningún trazo.",
+        writing: {
+            slots: "Kanji para escribir",
+            slot: "Kanji {{step}} de {{count}}",
+            written: "{{kanji}}, escrito",
+            open: "Por escribir",
+            given: "{{kana}}, dado",
+            dontKnow: "No lo sé",
+            paper: "Escribe la palabra en papel y luego muestra la respuesta.",
+            loading: "Cargando los trazos…",
+        },
         note: "Tu nota",
         openInDictionary: "Abrir en el diccionario",
         newTab: "(se abre en una pestaña nueva)",
@@ -368,6 +380,7 @@ export default {
         easyLabel: "Fácil, próximo repaso {{interval}}",
         knownLabel: "Ya lo conocía, próximo repaso {{interval}}",
         previous: "elegido antes",
+        suggested: "sugerido",
         thisRound: "esta ronda",
         thisRoundLong: "en esta ronda",
         hints: {

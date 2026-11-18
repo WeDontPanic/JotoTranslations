@@ -183,6 +183,75 @@ export default {
         numberText: "<query></query> is <value></value>",
     },
 
+    /** Filters of word searches: a button above the results and its sheet; filters are hashtags in the query */
+    /** Link on a search for a hashtag that has a topic page */
+    topicLink: "Open topic page",
+    filters: {
+        button: "Filter",
+        /** Name of the button for screen readers while filters are active */
+        buttonActive: { one: "Filter, {{count}} active", other: "Filter, {{count}} active" },
+        title: "Filter",
+        clear: "Clear filters",
+        remove: "Remove filter: {{name}}",
+        all: "All",
+        jlpt: "JLPT level",
+        wordClass: "Word class",
+        verbClasses: {
+            godan: "Godan",
+            ichidan: "Ichidan",
+            suru: "Suru",
+        },
+        transitivities: {
+            transitive: "Transitive",
+            intransitive: "Intransitive",
+        },
+        /** Names of filters that have no text in the dictionary data */
+        tags: {
+            irregularIchidan: "Godan verb ending in -iru/-eru",
+            katakana: "Katakana",
+            wasei: "Wasei-eigo",
+        },
+        /** Group titles of the filter panel */
+        groups: {
+            verb: "Verb",
+            register: "Style and register",
+            old: "Old and rare",
+            sayings: "Sayings and word types",
+            names: "Names, things and myths",
+            writing: "Spelling",
+            field: "Fields",
+        },
+        /** How the filters of a group combine, next to its title */
+        modes: {
+            one: "only one",
+            all: "all must apply",
+            any: "one or more",
+        },
+        /** Filters found in the words shown */
+        suggested: "In these results",
+        find: "Find a filter, e.g. polite, slang",
+        noMatch: "No other filter matches. <link>All hashtags in the help</link>",
+        /** Chip that shows the rest of the word classes on phones */
+        moreTags: { one: "+ {{count}} more", other: "+ {{count}} more" },
+        /** Announced when "Verb" is chosen and its tags appear */
+        verbGroupsShown: "Verb classes and transitivity can be chosen now.",
+        /** Chip of a typed tag the server ignores */
+        noEffect: "{{name}} · no effect",
+        onlyOneLevel: "Only one JLPT level works at a time.",
+        fieldNoEffect: "{{name}} only filters on its own, without search text or other filters.",
+        removeTag: "Remove {{name}}",
+        openAsList: "Open as list",
+        hashtags: "Filters are added to your search as #tags.",
+        /** Closes the sheet; the count is known when all results fit on one page */
+        show: "Show results",
+        showCount: { one: "Show {{count}} word", other: "Show {{count}} words" },
+        showNone: "No words",
+        alsoRemoved: "Also removed: {{names}}",
+        /** Status line of the sheet while the last filter of a search without text can't be removed */
+        needsOne: "A search needs a word or a filter.",
+        undo: "Undo",
+        empty: "No words match all the chosen filters.",
+    },
     reader: {
         title: "Sentence reader",
         words: "Sentence words",

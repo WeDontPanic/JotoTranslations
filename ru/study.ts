@@ -13,6 +13,7 @@ export default {
         meaning: { name: "Значение", example: "食べる → есть", question: "Что это значит?" },
         reading: { name: "Чтение", example: "食べる → たべる", question: "Как это читается?" },
         recall: { name: "Припоминание", example: "есть → 食べる", question: "Как это по-японски?" },
+        write: { name: "Написание", example: "たべる, есть → напишите 食", question: "Напишите кандзи." },
         sentence: { question: "Что значит это предложение?" },
     },
     stages: {
@@ -390,6 +391,17 @@ export default {
         },
         senseSeparator: "; ",
         recallRule: "Засчитывается, если вы могли бы это сказать. Уметь писать кандзи не нужно.",
+        writeRule: "Засчитывается, если вы написали все кандзи и ни одна черта не была показана.",
+        writing: {
+            slots: "Кандзи для написания",
+            slot: "Кандзи {{step}} из {{count}}",
+            written: "{{kanji}}, написан",
+            open: "Нужно написать",
+            given: "{{kana}}, дано",
+            dontKnow: "Не знаю",
+            paper: "Напишите слово на бумаге, затем покажите ответ.",
+            loading: "Загрузка черт…",
+        },
         note: "Ваша заметка",
         openInDictionary: "Открыть в словаре",
         newTab: "(откроется в новой вкладке)",
@@ -410,6 +422,7 @@ export default {
         easyLabel: "Легко, следующее повторение {{interval}}",
         knownLabel: "Уже знаю, следующее повторение {{interval}}",
         previous: "выбрано ранее",
+        suggested: "рекомендовано",
         thisRound: "этот раунд",
         thisRoundLong: "в этом раунде",
         hints: {

@@ -25,6 +25,7 @@ export default {
             example: "comer → 食べる",
             question: "Como se diz em japonês?",
         },
+        write: { name: "Escrita", example: "たべる, comer → escrever 食", question: "Escreva em kanji." },
         sentence: { question: "O que significa a frase?" },
     },
     stages: {
@@ -387,6 +388,17 @@ export default {
         },
         senseSeparator: "; ",
         recallRule: "Conta se você conseguiria dizer. Não precisa saber escrever os kanji.",
+        writeRule: "Conte como acerto se você escreveu todos os kanji sem que nenhum traço fosse mostrado.",
+        writing: {
+            slots: "Kanji para escrever",
+            slot: "Kanji {{step}} de {{count}}",
+            written: "{{kanji}}, escrito",
+            open: "Falta escrever",
+            given: "{{kana}}, dado",
+            dontKnow: "Não sei",
+            paper: "Escreva a palavra no papel e depois mostre a resposta.",
+            loading: "Carregando os traços…",
+        },
         note: "Sua nota",
         openInDictionary: "Abrir no dicionário",
         newTab: "(abre em uma nova aba)",
@@ -407,6 +419,7 @@ export default {
         easyLabel: "Fácil, próxima revisão {{interval}}",
         knownLabel: "Já sabia, próxima revisão {{interval}}",
         previous: "escolhido antes",
+        suggested: "sugerido",
         thisRound: "nesta rodada",
         thisRoundLong: "nesta rodada",
         hints: {

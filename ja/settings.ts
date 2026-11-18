@@ -4,12 +4,6 @@ import type { PartialDict } from "../types";
 export default {
     title: "設定",
     description: "Jotobaの検索言語、表示などの設定。",
-    syncHint: {
-        account: "変更は自動で保存され、アカウントに同期されます。",
-        browser: "変更はこのブラウザに自動で保存されます。ログインすると、すべての端末で使えます。",
-        local: "変更はこのブラウザに自動で保存されます。",
-        localApp: "変更はこの端末に自動で保存されます。",
-    },
     sectionNav: "設定の項目",
     sections: {
         language: { title: "言語" },
@@ -81,6 +75,10 @@ export default {
         },
         furigana: "例文にふりがなを表示",
         hideTranslation: "例文の訳を隠す",
+        filterButton: {
+            label: "検索結果の上に絞り込みボタンを表示",
+            subLabel: "ハッシュタグを入力せずに単語の検索結果を絞り込めます",
+        },
     },
     kanji: {
         otherReadings: {

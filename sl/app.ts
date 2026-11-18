@@ -27,6 +27,7 @@ export default {
             contributors: "Seznam vseh sodelujočih najdete na strani <link>O nas</link>.",
         },
         links: {
+            topics: "Seznami besed",
             title: "Povezave",
             androidApp: "Aplikacija za Android",
             about: "O nas",

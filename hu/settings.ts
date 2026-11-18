@@ -4,13 +4,6 @@ import type { PartialDict } from "../types";
 export default {
     title: "Beállítások",
     description: "A Jotoba keresési nyelve, megjelenése és egyéb beállításai.",
-    syncHint: {
-        account: "A módosítások automatikusan mentődnek, és szinkronizálódnak a fiókoddal.",
-        browser:
-            "A módosítások automatikusan mentődnek ebben a böngészőben. Jelentkezz be, hogy minden eszközödön használhasd őket.",
-        local: "A módosítások automatikusan mentődnek ebben a böngészőben.",
-        localApp: "A módosítások automatikusan mentődnek ezen az eszközön.",
-    },
     sectionNav: "Beállítások részei",
     sections: {
         language: { title: "Nyelv" },
@@ -82,6 +75,10 @@ export default {
         },
         furigana: "Furigana a mondatokban",
         hideTranslation: "Mondatfordítások elrejtése",
+        filterButton: {
+            label: "Szűrőgomb a találatok felett",
+            subLabel: "Szótalálatok szűrése hashtagek beírása nélkül",
+        },
     },
     kanji: {
         otherReadings: {

@@ -100,11 +100,11 @@ export default {
         },
         jlpt: {
             title: "Filtre por nível do JLPT",
-            text: "#n5 a #n1 limitam palavras, kanji e frases a um nível do Japanese-Language Proficiency Test, sendo o N5 o mais fácil. #jlpt5 a #jlpt1 também funcionam.",
+            text: "#n5 a #n1 limitam as palavras a um nível do Japanese-Language Proficiency Test, sendo o N5 o mais fácil; os kanji e as frases quando pesquisa só o nível. #jlpt5 a #jlpt1 também funcionam.",
         },
         all: {
             title: "Todas as hashtags de filtro",
-            text: "A maioria dos filtros vale para a pesquisa de palavras. Selecione uma hashtag para listar todas as palavras que a têm.",
+            text: "A maioria dos filtros vale para a pesquisa de palavras; a de nomes não tem nenhum. Selecione uma hashtag para listar as palavras que a têm, até 1000.",
         },
         list: "Hashtags: {{group}}",
         showAll: {
@@ -177,8 +177,7 @@ export default {
         },
         names: {
             title: "Nomes",
-            text:
-                "Os resultados de nomes mostram a leitura, uma transcrição e, quando conhecidos, o gênero e o tipo de nome.",
+            text: "Os resultados de nomes mostram a leitura, uma transcrição e, quando conhecidos, o gênero e o tipo de nome.",
         },
         sharing: {
             title: "Páginas de detalhes e links",

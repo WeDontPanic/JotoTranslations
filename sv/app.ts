@@ -27,6 +27,7 @@ export default {
             contributors: "Alla som har bidragit hittar du på vår <link>Om oss-sida</link>.",
         },
         links: {
+            topics: "Ordlistor",
             title: "Länkar",
             androidApp: "Android-app",
             about: "Om oss",

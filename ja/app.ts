@@ -27,6 +27,7 @@ export default {
             contributors: "すべての貢献者の一覧は<link>Jotobaについて</link>のページをご覧ください。",
         },
         links: {
+            topics: "単語リスト",
             title: "リンク",
             androidApp: "Androidアプリ",
             about: "Jotobaについて",

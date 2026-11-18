@@ -27,6 +27,7 @@ export default {
             contributors: "Alle bijdragers vind je op onze <link>Over ons-pagina</link>.",
         },
         links: {
+            topics: "Woordenlijsten",
             title: "Links",
             androidApp: "Android-app",
             about: "Over ons",

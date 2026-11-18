@@ -13,6 +13,7 @@ export default {
         meaning: { name: "Betydelse", example: "食べる → äta", question: "Vad betyder det?" },
         reading: { name: "Läsning", example: "食べる → たべる", question: "Hur läses det?" },
         recall: { name: "Minnas", example: "äta → 食べる", question: "Vad heter det på japanska?" },
+        write: { name: "Skriva", example: "たべる, äta → skriv 食", question: "Skriv kanjit." },
         sentence: { question: "Vad betyder det?" },
     },
     stages: {
@@ -296,6 +297,17 @@ export default {
         moreMeanings: { one: "+{{count}} betydelse till", other: "+{{count}} betydelser till" },
         senseSeparator: "; ",
         recallRule: "Räknas om du kunde säga det. Du behöver inte kunna skriva kanjit.",
+        writeRule: "Räkna det som rätt om du skrev varje kanji utan att något streck visades.",
+        writing: {
+            slots: "Kanji att skriva",
+            slot: "Kanji {{step}} av {{count}}",
+            written: "{{kanji}}, skrivet",
+            open: "Att skriva",
+            given: "{{kana}}, behöver inte skrivas",
+            dontKnow: "Jag vet inte",
+            paper: "Skriv ordet på papper och visa sedan svaret.",
+            loading: "Laddar strecken…",
+        },
         note: "Din anteckning",
         openInDictionary: "Öppna i ordboken",
         newTab: "(öppnas i en ny flik)",
@@ -316,6 +328,7 @@ export default {
         easyLabel: "Lätt, nästa repetition {{interval}}",
         knownLabel: "Kunde det redan, nästa repetition {{interval}}",
         previous: "valt tidigare",
+        suggested: "föreslaget",
         thisRound: "i omgången",
         thisRoundLong: "i den här omgången",
         hints: {

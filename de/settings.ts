@@ -4,13 +4,6 @@ import type { PartialDict } from "../types";
 export default {
     title: "Einstellungen",
     description: "Suchsprache, Darstellung und weitere Einstellungen von Jotoba.",
-    syncHint: {
-        account: "Änderungen werden automatisch gespeichert und mit deinem Konto synchronisiert.",
-        browser:
-            "Änderungen werden automatisch in diesem Browser gespeichert. Melde dich an, um sie auf all deinen Geräten zu nutzen.",
-        local: "Änderungen werden automatisch in diesem Browser gespeichert.",
-        localApp: "Änderungen werden automatisch auf diesem Gerät gespeichert.",
-    },
     sectionNav: "Abschnitte der Einstellungen",
     sections: {
         language: { title: "Sprache" },
@@ -82,6 +75,10 @@ export default {
         },
         furigana: "Furigana in Sätzen anzeigen",
         hideTranslation: "Satzübersetzungen ausblenden",
+        filterButton: {
+            label: "Filter-Knopf über den Ergebnissen",
+            subLabel: "Wortergebnisse filtern, ohne Hashtags zu tippen",
+        },
     },
     kanji: {
         otherReadings: {

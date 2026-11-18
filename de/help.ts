@@ -100,11 +100,11 @@ export default {
         },
         jlpt: {
             title: "Nach JLPT-Niveau filtern",
-            text: "#n5 bis #n1 beschränken Wörter, Kanji und Sätze auf ein Niveau des Japanese-Language Proficiency Test, N5 ist das leichteste. #jlpt5 bis #jlpt1 funktionieren ebenso.",
+            text: "#n5 bis #n1 beschränken Wörter auf ein Niveau des Japanese-Language Proficiency Test, N5 ist das leichteste; Kanji und Sätze, wenn du nur nach dem Niveau suchst. #jlpt5 bis #jlpt1 funktionieren ebenso.",
         },
         all: {
             title: "Alle Filter-Hashtags",
-            text: "Die meisten Filter gelten für die Wortsuche. Wähle einen Hashtag aus, um alle Wörter zu sehen, die ihn haben.",
+            text: "Die meisten Filter gelten für die Wortsuche, die Namenssuche hat keine. Wähle einen Hashtag aus, um die Wörter zu sehen, die ihn haben, bis zu 1000.",
         },
         list: "Hashtags: {{group}}",
         showAll: {
@@ -168,8 +168,7 @@ export default {
         },
         kanji: {
             title: "Kanji",
-            text:
-                "Spiele die Strichfolge ab, gehe sie Schritt für Schritt durch oder ändere ihr Tempo. Wähle das große Kanji aus, um seine Bestandteile zu sehen. Komposita sind nach Lesung gruppiert. Wählst du eine Lesung aus, siehst du die Wörter, die sie verwenden. Radikal, Bestandteile und ähnliche Kanji sind verlinkt, sodass du weiterstöbern kannst. Lesungen auf Chinesisch, Koreanisch und Vietnamesisch lassen sich ebenfalls anzeigen.",
+            text: "Spiele die Strichfolge ab, gehe sie Schritt für Schritt durch oder ändere ihr Tempo. Wähle das große Kanji aus, um seine Bestandteile zu sehen. Komposita sind nach Lesung gruppiert. Wählst du eine Lesung aus, siehst du die Wörter, die sie verwenden. Radikal, Bestandteile und ähnliche Kanji sind verlinkt, sodass du weiterstöbern kannst. Lesungen auf Chinesisch, Koreanisch und Vietnamesisch lassen sich ebenfalls anzeigen.",
         },
         sentences: {
             title: "Sätze",
@@ -177,8 +176,7 @@ export default {
         },
         names: {
             title: "Namen",
-            text:
-                "Namensergebnisse zeigen die Lesung, eine Umschrift und, wo bekannt, das Geschlecht und die Art des Namens.",
+            text: "Namensergebnisse zeigen die Lesung, eine Umschrift und, wo bekannt, das Geschlecht und die Art des Namens.",
         },
         sharing: {
             title: "Detailseiten und Links",
@@ -242,12 +240,9 @@ export default {
         },
         stages: {
             title: "Stufen und Erinnerung",
-            text:
-                "Die Stufe eines Wortes richtet sich nach seiner schwächsten Kartenart, die du schon begonnen hast. Bis dahin steht es auf „Neu“, dann auf „Am Lernen“, solange die Merkdauer unter einer Woche liegt, auf „Sitzt“ bis zu zwei Monaten und danach auf „Gemeistert“.",
-            memory:
-                "Erinnerung: wie wahrscheinlich du dich gerade an die Antwort erinnerst. Sie sinkt jeden Tag etwas, bis du die Karte wiederholst.",
-            span:
-                "Merkdauer: nach wie vielen Tagen du dich nur noch zu 90 % an die Antwort erinnerst. Jede richtige Wiederholung verlängert sie.",
+            text: "Die Stufe eines Wortes richtet sich nach seiner schwächsten Kartenart, die du schon begonnen hast. Bis dahin steht es auf „Neu“, dann auf „Am Lernen“, solange die Merkdauer unter einer Woche liegt, auf „Sitzt“ bis zu zwei Monaten und danach auf „Gemeistert“.",
+            memory: "Erinnerung: wie wahrscheinlich du dich gerade an die Antwort erinnerst. Sie sinkt jeden Tag etwas, bis du die Karte wiederholst.",
+            span: "Merkdauer: nach wie vielen Tagen du dich nur noch zu 90 % an die Antwort erinnerst. Jede richtige Wiederholung verlängert sie.",
             retention:
                 "<link>{{setting}}</link>: Karten kommen wieder, wenn deine Erinnerung an sie auf diesen Wert sinkt. Höher heißt mehr Wiederholungen.",
         },

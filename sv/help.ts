@@ -100,11 +100,11 @@ export default {
         },
         jlpt: {
             title: "Filtrera efter JLPT-nivå",
-            text: "#n5 till #n1 begränsar ord, kanji och meningar till en nivå av Japanese-Language Proficiency Test, där N5 är lättast. #jlpt5 till #jlpt1 fungerar också.",
+            text: "#n5 till #n1 begränsar ord till en nivå av Japanese-Language Proficiency Test, där N5 är lättast; kanji och meningar när du söker på bara nivån. #jlpt5 till #jlpt1 fungerar också.",
         },
         all: {
             title: "Alla filterhashtaggar",
-            text: "De flesta filter gäller ordsökningar. Välj en hashtagg för att lista alla ord som har den.",
+            text: "De flesta filter gäller ordsökningar, namnsökningar har inga. Välj en hashtagg för att lista orden som har den, upp till 1000.",
         },
         list: "Hashtaggar: {{group}}",
         showAll: {
