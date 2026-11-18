@@ -4,12 +4,6 @@ import type { PartialDict } from "../types";
 export default {
     title: "Instellingen",
     description: "Zoektaal, weergave en andere instellingen van Jotoba.",
-    syncHint: {
-        account: "Wijzigingen worden automatisch opgeslagen en met je account gesynchroniseerd.",
-        browser: "Wijzigingen worden automatisch in deze browser opgeslagen. Log in om ze op al je apparaten te gebruiken.",
-        local: "Wijzigingen worden automatisch in deze browser opgeslagen.",
-        localApp: "Wijzigingen worden automatisch op dit apparaat opgeslagen.",
-    },
     sectionNav: "Onderdelen van de instellingen",
     sections: {
         language: { title: "Taal" },

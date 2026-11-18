@@ -3,12 +3,6 @@ import type { Dict } from "../types";
 export default {
     title: "Settings",
     description: "Search language, appearance and other settings of Jotoba.",
-    syncHint: {
-        account: "Changes are saved automatically and synced to your account.",
-        browser: "Changes are saved automatically in this browser. Sign in to use them on all your devices.",
-        local: "Changes are saved automatically in this browser.",
-        localApp: "Changes are saved automatically on this device.",
-    },
     sectionNav: "Settings sections",
     sections: {
         language: { title: "Language" },

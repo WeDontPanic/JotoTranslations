@@ -4,13 +4,6 @@ import type { PartialDict } from "../types";
 export default {
     title: "Paramètres",
     description: "Langue de recherche, apparence et autres paramètres de Jotoba.",
-    syncHint: {
-        account: "Les modifications sont enregistrées automatiquement et synchronisées avec votre compte.",
-        browser:
-            "Les modifications sont enregistrées automatiquement dans ce navigateur. Connectez-vous pour les retrouver sur tous vos appareils.",
-        local: "Les modifications sont enregistrées automatiquement dans ce navigateur.",
-        localApp: "Les modifications sont enregistrées automatiquement sur cet appareil.",
-    },
     sectionNav: "Sections des paramètres",
     sections: {
         language: { title: "Langue" },

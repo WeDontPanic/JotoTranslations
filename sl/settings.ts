@@ -4,13 +4,6 @@ import type { PartialDict } from "../types";
 export default {
     title: "Nastavitve",
     description: "Jezik iskanja, videz in druge nastavitve Jotobe.",
-    syncHint: {
-        account: "Spremembe se samodejno shranijo in sinhronizirajo z vašim računom.",
-        browser:
-            "Spremembe se samodejno shranijo v tem brskalniku. Prijavite se, da jih boste lahko uporabljali v vseh svojih napravah.",
-        local: "Spremembe se samodejno shranijo v tem brskalniku.",
-        localApp: "Spremembe se samodejno shranijo v tej napravi.",
-    },
     sectionNav: "Razdelki nastavitev",
     sections: {
         language: { title: "Jezik" },
