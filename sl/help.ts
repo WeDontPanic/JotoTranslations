@@ -100,11 +100,11 @@ export default {
         },
         jlpt: {
             title: "Filtrirajte po stopnji JLPT",
-            text: "#n5 do #n1 omejijo besede, kandžije in stavke na eno stopnjo japonskega jezikovnega izpita (Japanese-Language Proficiency Test), pri čemer je N5 najlažja. Delujejo tudi #jlpt5 do #jlpt1.",
+            text: "#n5 do #n1 omejijo besede na eno stopnjo japonskega jezikovnega izpita (Japanese-Language Proficiency Test), pri čemer je N5 najlažja; kandžije in stavke, kadar iščete samo stopnjo. Delujejo tudi #jlpt5 do #jlpt1.",
         },
         all: {
             title: "Vsi ključniki za filtriranje",
-            text: "Večina filtrov velja za iskanje besed. Izberite ključnik, da se prikažejo vse besede, ki ga imajo.",
+            text: "Večina filtrov velja za iskanje besed, iskanje imen jih nima. Izberite ključnik, da se prikažejo besede, ki ga imajo, največ 1000.",
         },
         list: "Ključniki: {{group}}",
         showAll: {

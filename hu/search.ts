@@ -201,8 +201,6 @@ export default {
         all: "Összes",
         jlpt: "JLPT-szint",
         wordClass: "Szófaj",
-        verbClass: "Igeosztály",
-        transitivity: "Tárgyasság",
         verbClasses: {
             godan: "Godan",
             ichidan: "Ichidan",
@@ -212,13 +210,38 @@ export default {
             transitive: "Tárgyas",
             intransitive: "Tárgyatlan",
         },
+        tags: {
+            irregularIchidan: "-iru/-eru végű godan ige",
+            katakana: "Katakana",
+            wasei: "Wasei-eigo",
+        },
+        groups: {
+            verb: "Ige",
+            register: "Stílus és regiszter",
+            old: "Régi és ritka",
+            sayings: "Szólások és szótípusok",
+            names: "Nevek, dolgok és mítoszok",
+            writing: "Írásmód",
+            field: "Szakterületek",
+        },
+        modes: {
+            one: "csak egy",
+            all: "mindnek teljesülnie kell",
+            any: "egy vagy több",
+        },
+        suggested: "Ezekben a találatokban",
+        find: "Szűrő keresése, pl. udvarias, szleng",
+        noMatch: "Más szűrő nem illik. <link>Minden hashtag a súgóban</link>",
+        moreTags: { one: "+ {{count}} további", other: "+ {{count}} további" },
+        noEffect: "{{name}} · nincs hatása",
+        onlyOneLevel: "Egyszerre csak egy JLPT-szint működik.",
+        fieldNoEffect: "{{name}} csak önmagában szűr, keresett szöveg és más szűrők nélkül.",
+        removeTag: "{{name}} eltávolítása",
+        openAsList: "Megnyitás listaként",
+        empty: "Egy szó sem felel meg az összes kiválasztott szűrőnek.",
         /** Announced when "Verb" is chosen and its groups appear */
         verbGroupsShown: "Most már kiválaszthatod az igeosztályt és a tárgyasságot.",
         /** Word class of a verb class typed without #verb, e.g. "Verb (from Godan)" */
-        impliedVerb: "Ige ({{name}} alapján)",
-        more: "További szűrők",
-        find: "Szűrő keresése (szleng, közmondás…)",
-        noMatch: "Nincs ilyen szűrő.",
         hashtags: "A szűrők hashtagként (#tags) kerülnek a keresésedbe.",
         /** Closes the sheet; the count is known when all results fit on one page */
         show: "Találatok megjelenítése",
@@ -227,7 +250,6 @@ export default {
         alsoRemoved: "Szintén eltávolítva: {{names}}",
         needsOne: "A kereséshez kell egy szó vagy egy szűrő.",
         undo: "Visszavonás",
-        empty: "Egy szó sem felel meg ezeknek a szűrőknek.",
     },
 
     reader: {

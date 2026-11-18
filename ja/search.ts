@@ -189,8 +189,6 @@ export default {
         all: "すべて",
         jlpt: "JLPTのレベル",
         wordClass: "品詞",
-        verbClass: "動詞の種類",
-        transitivity: "自動詞・他動詞",
         verbClasses: {
             godan: "五段",
             ichidan: "一段",
@@ -200,13 +198,38 @@ export default {
             transitive: "他動詞",
             intransitive: "自動詞",
         },
+        tags: {
+            irregularIchidan: "-iru/-eruで終わる五段動詞",
+            katakana: "カタカナ",
+            wasei: "和製英語",
+        },
+        groups: {
+            verb: "動詞",
+            register: "文体・位相",
+            old: "古語・まれな語",
+            sayings: "ことわざ・語の種類",
+            names: "名前・事物・神話",
+            writing: "表記",
+            field: "分野",
+        },
+        modes: {
+            one: "1つだけ",
+            all: "すべて満たす",
+            any: "1つ以上",
+        },
+        suggested: "この結果に含まれるもの",
+        find: "フィルターを検索（例：丁寧、スラング）",
+        noMatch: "ほかに一致するフィルターはありません。<link>ヘルプのハッシュタグ一覧</link>",
+        moreTags: { other: "ほか{{count}}件" },
+        noEffect: "{{name}}・無効",
+        onlyOneLevel: "JLPTレベルは一度に1つだけ有効です。",
+        fieldNoEffect: "{{name}}は語句やほかのフィルターなしで単独で使うときだけ絞り込みます。",
+        removeTag: "{{name}}を外す",
+        openAsList: "一覧で開く",
+        empty: "選んだフィルターすべてに合う単語はありません。",
         /** Announced when "Verb" is chosen and its groups appear */
         verbGroupsShown: "動詞の種類と自動詞・他動詞を選べるようになりました。",
         /** Word class of a verb class typed without #verb, e.g. "Verb (from Godan)" */
-        impliedVerb: "動詞（{{name}}による）",
-        more: "その他の絞り込み",
-        find: "絞り込みを探す（俗語、ことわざ…）",
-        noMatch: "該当する絞り込みはありません。",
         hashtags: "絞り込みはハッシュタグ（#tags）として検索に追加されます。",
         /** Closes the sheet; the count is known when all results fit on one page */
         show: "結果を表示",
@@ -215,7 +238,6 @@ export default {
         alsoRemoved: "あわせて解除：{{names}}",
         needsOne: "検索には単語かフィルターが1つ必要です。",
         undo: "元に戻す",
-        empty: "この絞り込みに合う単語はありません。",
     },
 
     reader: {

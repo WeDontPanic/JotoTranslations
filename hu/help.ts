@@ -100,11 +100,11 @@ export default {
         },
         jlpt: {
             title: "Szűrés JLPT-szint szerint",
-            text: "A #n5–#n1 a szavakat, kandzsikat és mondatokat a japán nyelvvizsga (Japanese-Language Proficiency Test) egy szintjére szűkíti; az N5 a legkönnyebb. A #jlpt5–#jlpt1 is működik.",
+            text: "A #n5–#n1 a szavakat a japán nyelvvizsga (Japanese-Language Proficiency Test) egy szintjére szűkíti, az N5 a legkönnyebb; a kandzsikat és mondatokat akkor, ha csak a szintre keresel. A #jlpt5–#jlpt1 is működik.",
         },
         all: {
             title: "Az összes szűrő hashtag",
-            text: "A legtöbb szűrő szókeresésre vonatkozik. Válassz ki egy hashtaget, hogy kilistázd az összes szót, amelyhez tartozik.",
+            text: "A legtöbb szűrő szókeresésre vonatkozik, a névkeresésnek nincs szűrője. Válassz ki egy hashtaget, hogy kilistázd a hozzá tartozó szavakat, legfeljebb 1000-et.",
         },
         list: "Hashtagek: {{group}}",
         showAll: {

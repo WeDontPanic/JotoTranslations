@@ -196,8 +196,6 @@ export default {
         all: "All",
         jlpt: "JLPT level",
         wordClass: "Word class",
-        verbClass: "Verb class",
-        transitivity: "Transitivity",
         verbClasses: {
             godan: "Godan",
             ichidan: "Ichidan",
@@ -207,13 +205,42 @@ export default {
             transitive: "Transitive",
             intransitive: "Intransitive",
         },
-        /** Announced when "Verb" is chosen and its groups appear */
-        verbGroupsShown: "Verb class and transitivity can be chosen now.",
-        /** Word class of a verb class typed without #verb, e.g. "Verb (from Godan)" */
-        impliedVerb: "Verb (from {{name}})",
-        more: "More filters",
-        find: "Find a filter (slang, proverb…)",
-        noMatch: "No filter found.",
+        /** Names of filters that have no text in the dictionary data */
+        tags: {
+            irregularIchidan: "Godan verb ending in -iru/-eru",
+            katakana: "Katakana",
+            wasei: "Wasei-eigo",
+        },
+        /** Group titles of the filter panel */
+        groups: {
+            verb: "Verb",
+            register: "Style and register",
+            old: "Old and rare",
+            sayings: "Sayings and word types",
+            names: "Names, things and myths",
+            writing: "Spelling",
+            field: "Fields",
+        },
+        /** How the filters of a group combine, next to its title */
+        modes: {
+            one: "only one",
+            all: "all must apply",
+            any: "one or more",
+        },
+        /** Filters found in the words shown */
+        suggested: "In these results",
+        find: "Find a filter, e.g. polite, slang",
+        noMatch: "No other filter matches. <link>All hashtags in the help</link>",
+        /** Chip that shows the rest of the word classes on phones */
+        moreTags: { one: "+ {{count}} more", other: "+ {{count}} more" },
+        /** Announced when "Verb" is chosen and its tags appear */
+        verbGroupsShown: "Verb classes and transitivity can be chosen now.",
+        /** Chip of a typed tag the server ignores */
+        noEffect: "{{name}} · no effect",
+        onlyOneLevel: "Only one JLPT level works at a time.",
+        fieldNoEffect: "{{name}} only filters on its own, without search text or other filters.",
+        removeTag: "Remove {{name}}",
+        openAsList: "Open as list",
         hashtags: "Filters are added to your search as #tags.",
         /** Closes the sheet; the count is known when all results fit on one page */
         show: "Show results",
@@ -223,7 +250,7 @@ export default {
         /** Status line of the sheet while the last filter of a search without text can't be removed */
         needsOne: "A search needs a word or a filter.",
         undo: "Undo",
-        empty: "No words match these filters.",
+        empty: "No words match all the chosen filters.",
     },
     reader: {
         title: "Sentence reader",

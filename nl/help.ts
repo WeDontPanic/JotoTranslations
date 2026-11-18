@@ -100,11 +100,11 @@ export default {
         },
         jlpt: {
             title: "Filteren op JLPT-niveau",
-            text: "#n5 tot #n1 beperken woorden, kanji en zinnen tot één niveau van de Japanese-Language Proficiency Test, waarbij N5 het makkelijkst is. #jlpt5 tot #jlpt1 werken ook.",
+            text: "#n5 tot #n1 beperken woorden tot een niveau van de Japanese-Language Proficiency Test, waarbij N5 het makkelijkst is; kanji en zinnen als je alleen op het niveau zoekt. #jlpt5 tot #jlpt1 werken ook.",
         },
         all: {
             title: "Alle filterhashtags",
-            text: "De meeste filters gelden voor het zoeken naar woorden. Kies een hashtag om alle woorden te zien die hem hebben.",
+            text: "De meeste filters gelden voor het zoeken naar woorden, zoeken naar namen heeft er geen. Kies een hashtag om de woorden te zien die hem hebben, tot 1000.",
         },
         list: "Hashtags: {{group}}",
         showAll: {

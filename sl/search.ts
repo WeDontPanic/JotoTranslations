@@ -243,8 +243,6 @@ export default {
         all: "Vse",
         jlpt: "Stopnja JLPT",
         wordClass: "Besedna vrsta",
-        verbClass: "Glagolski razred",
-        transitivity: "Prehodnost",
         verbClasses: {
             godan: "Godan",
             ichidan: "Ichidan",
@@ -254,13 +252,38 @@ export default {
             transitive: "Prehodno",
             intransitive: "Neprehodno",
         },
+        tags: {
+            irregularIchidan: "Glagol godan na -iru/-eru",
+            katakana: "Katakana",
+            wasei: "Wasei-eigo",
+        },
+        groups: {
+            verb: "Glagol",
+            register: "Slog in register",
+            old: "Staro in redko",
+            sayings: "Reki in vrste besed",
+            names: "Imena, stvari in miti",
+            writing: "Zapis",
+            field: "Področja",
+        },
+        modes: {
+            one: "samo en",
+            all: "vsi morajo veljati",
+            any: "eden ali več",
+        },
+        suggested: "V teh zadetkih",
+        find: "Poiščite filter, npr. vljudno, sleng",
+        noMatch: "Noben drug filter se ne ujema. <link>Vsi ključniki v pomoči</link>",
+        moreTags: { one: "+ še {{count}}", two: "+ še {{count}}", few: "+ še {{count}}", other: "+ še {{count}}" },
+        noEffect: "{{name}} · brez učinka",
+        onlyOneLevel: "Hkrati deluje le ena raven JLPT.",
+        fieldNoEffect: "{{name}} filtrira le samostojno, brez iskalnega besedila in drugih filtrov.",
+        removeTag: "Odstrani {{name}}",
+        openAsList: "Odpri kot seznam",
+        empty: "Nobena beseda ne ustreza vsem izbranim filtrom.",
         /** Announced when "Verb" is chosen and its groups appear */
         verbGroupsShown: "Zdaj lahko izberete glagolski razred in prehodnost.",
         /** Word class of a verb class typed without #verb, e.g. "Verb (from Godan)" */
-        impliedVerb: "Glagol (iz filtra {{name}})",
-        more: "Več filtrov",
-        find: "Poiščite filter (sleng, pregovor …)",
-        noMatch: "Filtra nismo našli.",
         hashtags: "Filtri se v iskanje dodajo kot ključniki (#tags).",
         /** Closes the sheet; the count is known when all results fit on one page */
         show: "Prikaži rezultate",
@@ -274,7 +297,6 @@ export default {
         alsoRemoved: "Odstranjeno tudi: {{names}}",
         needsOne: "Iskanje potrebuje besedo ali filter.",
         undo: "Razveljavi",
-        empty: "Nobena beseda se ne ujema s temi filtri.",
     },
 
     reader: {
