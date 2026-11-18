@@ -267,6 +267,11 @@ export default {
                 many: "{{count}} entradas são kanji ou nomes e serão ignoradas.",
                 other: "{{count}} entradas são kanji ou nomes e serão ignoradas.",
             },
+            restricted: {
+                one: "Uma frase não pode ser exportada por motivos de licença e será ignorada.",
+                many: "{{count}} frases não podem ser exportadas por motivos de licença e serão ignoradas.",
+                other: "{{count}} frases não podem ser exportadas por motivos de licença e serão ignoradas.",
+            },
             cards: "Cartões",
             always: "Sempre incluídos: japonês → significado e significado → japonês.",
             alwaysSentences: "As frases recebem um cartão: japonês → tradução.",
