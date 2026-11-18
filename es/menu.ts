@@ -25,7 +25,6 @@ export default {
         news: "Noticias",
         help: "Ayuda y recorrido",
         components: "Componentes",
-        apiTest: "Prueba de API",
         about: "Acerca de",
         licenses: "Licencias de código abierto",
         privacy: "Política de privacidad",

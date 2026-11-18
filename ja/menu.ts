@@ -25,7 +25,6 @@ export default {
         news: "ニュース",
         help: "ヘルプとツアー",
         components: "コンポーネント",
-        apiTest: "APIテスト",
         about: "Jotobaについて",
         licenses: "オープンソースライセンス",
         privacy: "プライバシーポリシー",

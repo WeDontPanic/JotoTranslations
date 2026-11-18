@@ -25,7 +25,6 @@ export default {
         news: "Новости",
         help: "Справка и тур",
         components: "Компоненты",
-        apiTest: "Тест API",
         about: "О проекте",
         licenses: "Лицензии открытого ПО",
         privacy: "Политика конфиденциальности",

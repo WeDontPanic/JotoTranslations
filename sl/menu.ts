@@ -25,7 +25,6 @@ export default {
         news: "Novice",
         help: "Pomoč in ogled",
         components: "Komponente",
-        apiTest: "Preizkus API-ja",
         about: "O nas",
         licenses: "Odprtokodne licence",
         privacy: "Politika zasebnosti",

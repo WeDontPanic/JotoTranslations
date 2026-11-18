@@ -25,7 +25,6 @@ export default {
         news: "Nieuws",
         help: "Hulp & rondleiding",
         components: "Componenten",
-        apiTest: "API-test",
         about: "Over ons",
         licenses: "Opensourcelicenties",
         privacy: "Privacyverklaring",

@@ -25,7 +25,6 @@ export default {
         news: "Hírek",
         help: "Súgó és bemutató",
         components: "Komponensek",
-        apiTest: "API-teszt",
         about: "Rólunk",
         licenses: "Nyílt forráskódú licencek",
         privacy: "Adatvédelmi tájékoztató",

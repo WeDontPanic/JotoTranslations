@@ -25,7 +25,6 @@ export default {
         news: "Nyheter",
         help: "Hjälp och rundtur",
         components: "Komponenter",
-        apiTest: "API-test",
         about: "Om oss",
         licenses: "Licenser för öppen källkod",
         privacy: "Integritetspolicy",
