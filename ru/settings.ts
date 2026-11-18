@@ -87,6 +87,10 @@ export default {
         },
         furigana: "Фуригана в предложениях",
         hideTranslation: "Скрывать перевод предложений",
+        filterButton: {
+            label: "Кнопка фильтра над результатами",
+            subLabel: "Фильтровать результаты по словам без ввода хештегов",
+        },
     },
     kanji: {
         otherReadings: {

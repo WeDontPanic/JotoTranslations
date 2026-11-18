@@ -27,6 +27,7 @@ export default {
             contributors: "Список всех участников — на странице <link>О проекте</link>.",
         },
         links: {
+            topics: "Списки слов",
             title: "Ссылки",
             androidApp: "Приложение для Android",
             about: "О проекте",

@@ -20,6 +20,7 @@ export default {
         settings: "Settings",
         history: "Recent searches",
         offline: "Offline dictionary",
+        topics: "Word lists by topic",
         news: "News",
         help: "Help & tour",
         components: "Components",

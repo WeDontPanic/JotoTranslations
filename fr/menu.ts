@@ -21,6 +21,7 @@ export default {
         settings: "Paramètres",
         history: "Recherches récentes",
         offline: "Dictionnaire hors ligne",
+        topics: "Listes de mots par thème",
         news: "Actualités",
         help: "Aide et visite guidée",
         components: "Composants",

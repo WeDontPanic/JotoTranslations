@@ -86,6 +86,10 @@ export default {
         },
         furigana: "Mostrar furigana nas frases",
         hideTranslation: "Ocultar traduções das frases",
+        filterButton: {
+            label: "Botão de filtro acima dos resultados",
+            subLabel: "Filtra os resultados de palavras sem digitar hashtags",
+        },
     },
     kanji: {
         otherReadings: {

@@ -21,6 +21,7 @@ export default {
         settings: "Ajustes",
         history: "Búsquedas recientes",
         offline: "Diccionario sin conexión",
+        topics: "Listas de palabras por tema",
         news: "Noticias",
         help: "Ayuda y recorrido",
         components: "Componentes",

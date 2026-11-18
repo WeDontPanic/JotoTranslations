@@ -81,6 +81,10 @@ export default {
         },
         furigana: "Furigana in zinnen tonen",
         hideTranslation: "Vertalingen van zinnen verbergen",
+        filterButton: {
+            label: "Filterknop boven de resultaten",
+            subLabel: "Woordresultaten filteren zonder hashtags te typen",
+        },
     },
     kanji: {
         otherReadings: {

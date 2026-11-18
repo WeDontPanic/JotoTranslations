@@ -27,6 +27,7 @@ export default {
             contributors: "Az összes közreműködőt megtalálod a <link>Rólunk oldalon</link>.",
         },
         links: {
+            topics: "Szólisták",
             title: "Linkek",
             androidApp: "Android-app",
             about: "Rólunk",

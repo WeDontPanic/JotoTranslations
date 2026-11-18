@@ -21,6 +21,7 @@ export default {
         settings: "Inställningar",
         history: "Senaste sökningar",
         offline: "Offlineordbok",
+        topics: "Ordlistor efter tema",
         news: "Nyheter",
         help: "Hjälp och rundtur",
         components: "Komponenter",

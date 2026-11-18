@@ -13,6 +13,7 @@ export default {
         meaning: { name: "Jelentés", example: "食べる → eszik", question: "Mit jelent?" },
         reading: { name: "Olvasat", example: "食べる → たべる", question: "Hogyan kell olvasni?" },
         recall: { name: "Felidézés", example: "eszik → 食べる", question: "Hogy mondják japánul?" },
+        write: { name: "Írás", example: "たべる, eszik → írd le: 食", question: "Írd le a kandzsit." },
         sentence: { question: "Mit jelent?" },
     },
     stages: {
@@ -300,6 +301,17 @@ export default {
         moreMeanings: { one: "+{{count}} további jelentés", other: "+{{count}} további jelentés" },
         senseSeparator: "; ",
         recallRule: "Számít, ha ki tudtad mondani. A kandzsit nem kell tudnod leírni.",
+        writeRule: "Akkor számít tudottnak, ha minden kandzsit leírtál anélkül, hogy egyetlen vonás is megjelent volna.",
+        writing: {
+            slots: "Leírandó kandzsik",
+            slot: "{{step}}. kandzsi / {{count}}",
+            written: "{{kanji}}, leírva",
+            open: "Leírandó",
+            given: "{{kana}}, megadva",
+            dontKnow: "Nem tudom",
+            paper: "Írd le a szót papírra, aztán mutasd meg a választ.",
+            loading: "Vonások betöltése…",
+        },
         note: "A jegyzeted",
         openInDictionary: "Megnyitás a szótárban",
         newTab: "(új lapon nyílik meg)",
@@ -320,6 +332,7 @@ export default {
         easyLabel: "Könnyű, következő ismétlés {{interval}}",
         knownLabel: "Már tudtam, következő ismétlés {{interval}}",
         previous: "korábban választva",
+        suggested: "javasolt",
         thisRound: "ebben a körben",
         thisRoundLong: "ebben a körben",
         hints: {

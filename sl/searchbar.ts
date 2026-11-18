@@ -226,7 +226,6 @@ export default {
             description: "Jotoba je brezplačen večjezični japonski slovar besed, kandžijev, primerov stavkov in imen.",
             heading: "<hidden>Jotoba: </hidden>Brezplačen večjezični japonski slovar",
             help: "Pomoč in nasveti za iskanje",
-            browse: "Brskanje po ravneh JLPT",
         },
         notFound: {
             title: "Ni najdeno",

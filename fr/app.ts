@@ -27,6 +27,7 @@ export default {
             contributors: "Retrouvez tous les contributeurs sur notre <link>page À propos</link>.",
         },
         links: {
+            topics: "Listes de mots",
             title: "Liens",
             androidApp: "Application Android",
             about: "À propos",

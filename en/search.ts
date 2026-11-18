@@ -183,6 +183,48 @@ export default {
         numberText: "<query></query> is <value></value>",
     },
 
+    /** Filters of word searches: a button above the results and its sheet; filters are hashtags in the query */
+    /** Link on a search for a hashtag that has a topic page */
+    topicLink: "Open topic page",
+    filters: {
+        button: "Filter",
+        /** Name of the button for screen readers while filters are active */
+        buttonActive: { one: "Filter, {{count}} active", other: "Filter, {{count}} active" },
+        title: "Filter",
+        clear: "Clear filters",
+        remove: "Remove filter: {{name}}",
+        all: "All",
+        jlpt: "JLPT level",
+        wordClass: "Word class",
+        verbClass: "Verb class",
+        transitivity: "Transitivity",
+        verbClasses: {
+            godan: "Godan",
+            ichidan: "Ichidan",
+            suru: "Suru",
+        },
+        transitivities: {
+            transitive: "Transitive",
+            intransitive: "Intransitive",
+        },
+        /** Announced when "Verb" is chosen and its groups appear */
+        verbGroupsShown: "Verb class and transitivity can be chosen now.",
+        /** Word class of a verb class typed without #verb, e.g. "Verb (from Godan)" */
+        impliedVerb: "Verb (from {{name}})",
+        more: "More filters",
+        find: "Find a filter (slang, proverb…)",
+        noMatch: "No filter found.",
+        hashtags: "Filters are added to your search as #tags.",
+        /** Closes the sheet; the count is known when all results fit on one page */
+        show: "Show results",
+        showCount: { one: "Show {{count}} word", other: "Show {{count}} words" },
+        showNone: "No words",
+        alsoRemoved: "Also removed: {{names}}",
+        /** Status line of the sheet while the last filter of a search without text can't be removed */
+        needsOne: "A search needs a word or a filter.",
+        undo: "Undo",
+        empty: "No words match these filters.",
+    },
     reader: {
         title: "Sentence reader",
         words: "Sentence words",

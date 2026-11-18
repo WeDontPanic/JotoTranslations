@@ -21,6 +21,7 @@ export default {
         settings: "Настройки",
         history: "Недавние запросы",
         offline: "Офлайн-словарь",
+        topics: "Списки слов по темам",
         news: "Новости",
         help: "Справка и тур",
         components: "Компоненты",

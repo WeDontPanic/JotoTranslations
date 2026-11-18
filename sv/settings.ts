@@ -81,6 +81,10 @@ export default {
         },
         furigana: "Visa furigana i meningar",
         hideTranslation: "Dölj översättningar av meningar",
+        filterButton: {
+            label: "Filterknapp ovanför resultaten",
+            subLabel: "Filtrera ordresultat utan att skriva hashtaggar",
+        },
     },
     kanji: {
         otherReadings: {

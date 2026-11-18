@@ -189,6 +189,47 @@ export default {
         numberText: "<query></query> értéke: <value></value>",
     },
 
+    /** Filters of word searches: a button above the results and its sheet; filters are hashtags in the query */
+    topicLink: "Témaoldal megnyitása",
+    filters: {
+        button: "Szűrő",
+        /** Name of the button for screen readers while filters are active */
+        buttonActive: { one: "Szűrő, {{count}} aktív", other: "Szűrő, {{count}} aktív" },
+        title: "Szűrő",
+        clear: "Szűrők törlése",
+        remove: "Szűrő eltávolítása: {{name}}",
+        all: "Összes",
+        jlpt: "JLPT-szint",
+        wordClass: "Szófaj",
+        verbClass: "Igeosztály",
+        transitivity: "Tárgyasság",
+        verbClasses: {
+            godan: "Godan",
+            ichidan: "Ichidan",
+            suru: "Suru",
+        },
+        transitivities: {
+            transitive: "Tárgyas",
+            intransitive: "Tárgyatlan",
+        },
+        /** Announced when "Verb" is chosen and its groups appear */
+        verbGroupsShown: "Most már kiválaszthatod az igeosztályt és a tárgyasságot.",
+        /** Word class of a verb class typed without #verb, e.g. "Verb (from Godan)" */
+        impliedVerb: "Ige ({{name}} alapján)",
+        more: "További szűrők",
+        find: "Szűrő keresése (szleng, közmondás…)",
+        noMatch: "Nincs ilyen szűrő.",
+        hashtags: "A szűrők hashtagként (#tags) kerülnek a keresésedbe.",
+        /** Closes the sheet; the count is known when all results fit on one page */
+        show: "Találatok megjelenítése",
+        showCount: { one: "{{count}} szó megjelenítése", other: "{{count}} szó megjelenítése" },
+        showNone: "Nincs szó",
+        alsoRemoved: "Szintén eltávolítva: {{names}}",
+        needsOne: "A kereséshez kell egy szó vagy egy szűrő.",
+        undo: "Visszavonás",
+        empty: "Egy szó sem felel meg ezeknek a szűrőknek.",
+    },
+
     reader: {
         title: "Mondatolvasó",
         words: "A mondat szavai",

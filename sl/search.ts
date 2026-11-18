@@ -226,6 +226,57 @@ export default {
         numberText: "<query></query> je <value></value>",
     },
 
+    /** Filters of word searches: a button above the results and its sheet; filters are hashtags in the query */
+    topicLink: "Odpri stran s temo",
+    filters: {
+        button: "Filter",
+        /** Name of the button for screen readers while filters are active */
+        buttonActive: {
+            one: "Filter, {{count}} aktiven",
+            two: "Filter, {{count}} aktivna",
+            few: "Filter, {{count}} aktivni",
+            other: "Filter, {{count}} aktivnih",
+        },
+        title: "Filter",
+        clear: "Počisti filtre",
+        remove: "Odstrani filter: {{name}}",
+        all: "Vse",
+        jlpt: "Stopnja JLPT",
+        wordClass: "Besedna vrsta",
+        verbClass: "Glagolski razred",
+        transitivity: "Prehodnost",
+        verbClasses: {
+            godan: "Godan",
+            ichidan: "Ichidan",
+            suru: "Suru",
+        },
+        transitivities: {
+            transitive: "Prehodno",
+            intransitive: "Neprehodno",
+        },
+        /** Announced when "Verb" is chosen and its groups appear */
+        verbGroupsShown: "Zdaj lahko izberete glagolski razred in prehodnost.",
+        /** Word class of a verb class typed without #verb, e.g. "Verb (from Godan)" */
+        impliedVerb: "Glagol (iz filtra {{name}})",
+        more: "Več filtrov",
+        find: "Poiščite filter (sleng, pregovor …)",
+        noMatch: "Filtra nismo našli.",
+        hashtags: "Filtri se v iskanje dodajo kot ključniki (#tags).",
+        /** Closes the sheet; the count is known when all results fit on one page */
+        show: "Prikaži rezultate",
+        showCount: {
+            one: "Prikaži {{count}} besedo",
+            two: "Prikaži {{count}} besedi",
+            few: "Prikaži {{count}} besede",
+            other: "Prikaži {{count}} besed",
+        },
+        showNone: "Ni besed",
+        alsoRemoved: "Odstranjeno tudi: {{names}}",
+        needsOne: "Iskanje potrebuje besedo ali filter.",
+        undo: "Razveljavi",
+        empty: "Nobena beseda se ne ujema s temi filtri.",
+    },
+
     reader: {
         title: "Bralnik stavkov",
         words: "Besede stavka",

@@ -21,6 +21,7 @@ export default {
         settings: "設定",
         history: "最近の検索",
         offline: "オフライン辞書",
+        topics: "テーマ別単語リスト",
         news: "ニュース",
         help: "ヘルプとツアー",
         components: "コンポーネント",

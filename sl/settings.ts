@@ -87,6 +87,10 @@ export default {
         },
         furigana: "Prikaži furigano v stavkih",
         hideTranslation: "Skrij prevode stavkov",
+        filterButton: {
+            label: "Gumb za filtre nad rezultati",
+            subLabel: "Filtriranje rezultatov besed brez vnašanja ključnikov",
+        },
     },
     kanji: {
         otherReadings: {

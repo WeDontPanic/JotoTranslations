@@ -13,6 +13,7 @@ export default {
         meaning: { name: "意味", example: "食べる → to eat", question: "意味は？" },
         reading: { name: "読み", example: "食べる → たべる", question: "読み方は？" },
         recall: { name: "想起", example: "to eat → 食べる", question: "日本語で？" },
+        write: { name: "書き", example: "たべる、to eat → 食を書く", question: "漢字で書くと？" },
         sentence: { question: "この文の意味は？" },
     },
     stages: {
@@ -291,6 +292,17 @@ export default {
         answer: "答え",
         moreMeanings: { one: "ほか{{count}}件の意味", other: "ほか{{count}}件の意味" },
         recallRule: "言えれば正解です。漢字を書ける必要はありません。",
+        writeRule: "画を一度も表示せずにすべての漢字を書けたら正解です。",
+        writing: {
+            slots: "書く漢字",
+            slot: "{{count}}字中{{step}}字目",
+            written: "{{kanji}}（書き済み）",
+            open: "未記入",
+            given: "{{kana}}（記入不要）",
+            dontKnow: "わからない",
+            paper: "紙に単語を書いてから、答えを見てください。",
+            loading: "筆順を読み込み中…",
+        },
         note: "メモ",
         openInDictionary: "辞書で開く",
         newTab: "（新しいタブで開きます）",
@@ -311,6 +323,7 @@ export default {
         easyLabel: "簡単（次回は{{interval}}）",
         knownLabel: "もう知っている（次回は{{interval}}）",
         previous: "前回の選択",
+        suggested: "おすすめ",
         thisRound: "このラウンド",
         thisRoundLong: "このラウンド中",
         hints: {

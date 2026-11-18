@@ -21,6 +21,7 @@ export default {
         settings: "Instellingen",
         history: "Recente zoekopdrachten",
         offline: "Offline woordenboek",
+        topics: "Woordenlijsten per thema",
         news: "Nieuws",
         help: "Hulp & rondleiding",
         components: "Componenten",

@@ -21,6 +21,7 @@ export default {
         settings: "Nastavitve",
         history: "Nedavna iskanja",
         offline: "Slovar brez povezave",
+        topics: "Seznami besed po temah",
         news: "Novice",
         help: "Pomoč in ogled",
         components: "Komponente",

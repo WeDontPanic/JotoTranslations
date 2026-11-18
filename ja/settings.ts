@@ -81,6 +81,10 @@ export default {
         },
         furigana: "例文にふりがなを表示",
         hideTranslation: "例文の訳を隠す",
+        filterButton: {
+            label: "検索結果の上に絞り込みボタンを表示",
+            subLabel: "ハッシュタグを入力せずに単語の検索結果を絞り込めます",
+        },
     },
     kanji: {
         otherReadings: {

@@ -13,6 +13,7 @@ export default {
         meaning: { name: "Pomen", example: "食べる → jesti", question: "Kaj pomeni?" },
         reading: { name: "Branje", example: "食べる → たべる", question: "Kako se bere?" },
         recall: { name: "Priklic", example: "jesti → 食べる", question: "Kako se reče po japonsko?" },
+        write: { name: "Pisanje", example: "たべる, jesti → napišite 食", question: "Napišite kandžije." },
         sentence: { question: "Kaj pomeni ta stavek?" },
     },
     stages: {
@@ -390,6 +391,17 @@ export default {
         },
         senseSeparator: "; ",
         recallRule: "Šteje, če bi to znali povedati. Kandžijev vam ni treba znati napisati.",
+        writeRule: "Štejte kot znano, če ste napisali vse kandžije, ne da bi se prikazala katera koli poteza.",
+        writing: {
+            slots: "Kandžiji za pisanje",
+            slot: "Kandži {{step}} od {{count}}",
+            written: "{{kanji}}, napisan",
+            open: "Še ni napisan",
+            given: "{{kana}}, podano",
+            dontKnow: "Ne vem",
+            paper: "Napišite besedo na papir, nato prikažite odgovor.",
+            loading: "Nalaganje potez …",
+        },
         note: "Vaša opomba",
         openInDictionary: "Odpri v slovarju",
         newTab: "(odpre se v novem zavihku)",
@@ -410,6 +422,7 @@ export default {
         easyLabel: "Lahko, naslednje ponavljanje {{interval}}",
         knownLabel: "Že znano, naslednje ponavljanje {{interval}}",
         previous: "prej izbrano",
+        suggested: "predlagano",
         thisRound: "ta krog",
         thisRoundLong: "v tem krogu",
         hints: {

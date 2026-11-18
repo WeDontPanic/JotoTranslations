@@ -177,6 +177,47 @@ export default {
         numberText: "<query></query>は<value></value>です",
     },
 
+    /** Filters of word searches: a button above the results and its sheet; filters are hashtags in the query */
+    topicLink: "テーマページを開く",
+    filters: {
+        button: "絞り込み",
+        /** Name of the button for screen readers while filters are active */
+        buttonActive: { other: "絞り込み、{{count}}件適用中" },
+        title: "絞り込み",
+        clear: "絞り込みを解除",
+        remove: "絞り込みを解除：{{name}}",
+        all: "すべて",
+        jlpt: "JLPTのレベル",
+        wordClass: "品詞",
+        verbClass: "動詞の種類",
+        transitivity: "自動詞・他動詞",
+        verbClasses: {
+            godan: "五段",
+            ichidan: "一段",
+            suru: "する",
+        },
+        transitivities: {
+            transitive: "他動詞",
+            intransitive: "自動詞",
+        },
+        /** Announced when "Verb" is chosen and its groups appear */
+        verbGroupsShown: "動詞の種類と自動詞・他動詞を選べるようになりました。",
+        /** Word class of a verb class typed without #verb, e.g. "Verb (from Godan)" */
+        impliedVerb: "動詞（{{name}}による）",
+        more: "その他の絞り込み",
+        find: "絞り込みを探す（俗語、ことわざ…）",
+        noMatch: "該当する絞り込みはありません。",
+        hashtags: "絞り込みはハッシュタグ（#tags）として検索に追加されます。",
+        /** Closes the sheet; the count is known when all results fit on one page */
+        show: "結果を表示",
+        showCount: { other: "{{count}}語を表示" },
+        showNone: "該当する単語なし",
+        alsoRemoved: "あわせて解除：{{names}}",
+        needsOne: "検索には単語かフィルターが1つ必要です。",
+        undo: "元に戻す",
+        empty: "この絞り込みに合う単語はありません。",
+    },
+
     reader: {
         title: "文の解析",
         words: "文の単語",

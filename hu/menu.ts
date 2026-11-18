@@ -21,6 +21,7 @@ export default {
         settings: "Beállítások",
         history: "Legutóbbi keresések",
         offline: "Offline szótár",
+        topics: "Szólisták témák szerint",
         news: "Hírek",
         help: "Súgó és bemutató",
         components: "Komponensek",

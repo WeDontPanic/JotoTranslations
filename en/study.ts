@@ -12,6 +12,7 @@ export default {
         meaning: { name: "Meaning", example: "食べる → to eat", question: "What does it mean?" },
         reading: { name: "Reading", example: "食べる → たべる", question: "How is it read?" },
         recall: { name: "Recall", example: "to eat → 食べる", question: "What's the Japanese?" },
+        write: { name: "Write", example: "たべる, to eat → write 食", question: "Write the kanji." },
         sentence: { question: "What does it mean?" },
     },
     stages: {
@@ -295,6 +296,18 @@ export default {
         moreMeanings: { one: "+{{count}} more meaning", other: "+{{count}} more meanings" },
         senseSeparator: "; ",
         recallRule: "Counts if you could say it. You don't need to be able to write the kanji.",
+        writeRule: "Count it as known if you wrote every kanji without a stroke being shown.",
+        /** Writing cards: the word's kanji are written one after another */
+        writing: {
+            slots: "Kanji to write",
+            slot: "Kanji {{step}} of {{count}}",
+            written: "{{kanji}}, written",
+            open: "To write",
+            given: "{{kana}}, given",
+            dontKnow: "I don't know",
+            paper: "Write the word on paper, then show the answer.",
+            loading: "Loading the strokes…",
+        },
         note: "Your note",
         openInDictionary: "Open in dictionary",
         newTab: "(opens in a new tab)",
@@ -315,6 +328,8 @@ export default {
         easyLabel: "Easy, next review {{interval}}",
         knownLabel: "Knew it already, next review {{interval}}",
         previous: "chosen before",
+        /** Grade the writing check suggests */
+        suggested: "suggested",
         thisRound: "this round",
         thisRoundLong: "in this round",
         hints: {

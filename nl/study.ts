@@ -13,6 +13,7 @@ export default {
         meaning: { name: "Betekenis", example: "食べる → eten", question: "Wat betekent het?" },
         reading: { name: "Lezing", example: "食べる → たべる", question: "Hoe lees je het?" },
         recall: { name: "Oproepen", example: "eten → 食べる", question: "Hoe zeg je het in het Japans?" },
+        write: { name: "Schrijven", example: "たべる, eten → schrijf 食", question: "Schrijf de kanji." },
         sentence: { question: "Wat betekent de zin?" },
     },
     stages: {
@@ -300,6 +301,17 @@ export default {
         moreMeanings: { one: "+{{count}} andere betekenis", other: "+{{count}} andere betekenissen" },
         senseSeparator: "; ",
         recallRule: "Telt als je het kon zeggen. Je hoeft de kanji niet te kunnen schrijven.",
+        writeRule: "Tel het als geweten als je elke kanji hebt geschreven zonder dat er een streek werd getoond.",
+        writing: {
+            slots: "Te schrijven kanji",
+            slot: "Kanji {{step}} van {{count}}",
+            written: "{{kanji}}, geschreven",
+            open: "Nog te schrijven",
+            given: "{{kana}}, gegeven",
+            dontKnow: "Weet ik niet",
+            paper: "Schrijf het woord op papier en toon dan het antwoord.",
+            loading: "Streken laden…",
+        },
         note: "Je notitie",
         openInDictionary: "In woordenboek openen",
         newTab: "(opent in een nieuw tabblad)",
@@ -320,6 +332,7 @@ export default {
         easyLabel: "Makkelijk, volgende herhaling {{interval}}",
         knownLabel: "Kende ik al, volgende herhaling {{interval}}",
         previous: "eerder gekozen",
+        suggested: "voorgesteld",
         thisRound: "deze ronde",
         thisRoundLong: "in deze ronde",
         hints: {

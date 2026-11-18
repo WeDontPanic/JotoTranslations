@@ -82,6 +82,10 @@ export default {
         },
         furigana: "Furigana a mondatokban",
         hideTranslation: "Mondatfordítások elrejtése",
+        filterButton: {
+            label: "Szűrőgomb a találatok felett",
+            subLabel: "Szótalálatok szűrése hashtagek beírása nélkül",
+        },
     },
     kanji: {
         otherReadings: {

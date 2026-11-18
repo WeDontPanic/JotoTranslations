@@ -21,6 +21,7 @@ export default {
         settings: "Einstellungen",
         history: "Letzte Suchen",
         offline: "Offline-Wörterbuch",
+        topics: "Wortlisten nach Thema",
         news: "News",
         help: "Hilfe & Tour",
         components: "Komponenten",
