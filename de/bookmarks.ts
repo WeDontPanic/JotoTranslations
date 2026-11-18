@@ -239,6 +239,10 @@ export default {
                 one: "Ein Eintrag ist ein Kanji oder Name und wird übersprungen.",
                 other: "{{count}} Einträge sind Kanji oder Namen und werden übersprungen.",
             },
+            restricted: {
+                one: "Ein Satz darf aus Lizenzgründen nicht exportiert werden und wird übersprungen.",
+                other: "{{count}} Sätze dürfen aus Lizenzgründen nicht exportiert werden und werden übersprungen.",
+            },
             cards: "Karten",
             always: "Immer dabei: Japanisch → Bedeutung und Bedeutung → Japanisch.",
             alwaysSentences: "Sätze bekommen eine Karte: Japanisch → Übersetzung.",

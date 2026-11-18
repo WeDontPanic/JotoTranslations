@@ -237,6 +237,10 @@ export default {
                 one: "Egy bejegyzés kandzsi vagy név, ezért kimarad.",
                 other: "{{count}} bejegyzés kandzsi vagy név, ezért kimarad.",
             },
+            restricted: {
+                one: "Egy mondat licencfeltételek miatt nem exportálható, ezért kimarad.",
+                other: "{{count}} mondat licencfeltételek miatt nem exportálható, ezért kimarad.",
+            },
             cards: "Kártyák",
             always: "Mindig benne van: japán → jelentés és jelentés → japán.",
             alwaysSentences: "A mondatok egy kártyát kapnak: japán → fordítás.",

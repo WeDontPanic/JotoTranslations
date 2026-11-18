@@ -271,6 +271,12 @@ export default {
                 few: "{{count}} vnosi so kandžiji ali imena in bodo izpuščeni.",
                 other: "{{count}} vnosov je kandžijev ali imen in bodo izpuščeni.",
             },
+            restricted: {
+                one: "{{count}} stavka zaradi licence ni dovoljeno izvoziti in bo izpuščen.",
+                two: "{{count}} stavkov zaradi licence ni dovoljeno izvoziti in bosta izpuščena.",
+                few: "{{count}} stavkov zaradi licence ni dovoljeno izvoziti in bodo izpuščeni.",
+                other: "{{count}} stavkov zaradi licence ni dovoljeno izvoziti in bodo izpuščeni.",
+            },
             cards: "Kartice",
             always: "Vedno vključeno: japonščina → pomen in pomen → japonščina.",
             alwaysSentences: "Stavki dobijo eno kartico: japonščina → prevod.",

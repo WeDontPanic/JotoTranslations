@@ -260,6 +260,11 @@ export default {
                 many: "{{count}} entradas son kanji o nombres y se omiten.",
                 other: "{{count}} entradas son kanji o nombres y se omiten.",
             },
+            restricted: {
+                one: "Una oración no se puede exportar por motivos de licencia y se omite.",
+                many: "{{count}} oraciones no se pueden exportar por motivos de licencia y se omiten.",
+                other: "{{count}} oraciones no se pueden exportar por motivos de licencia y se omiten.",
+            },
             cards: "Tarjetas",
             always: "Siempre incluidas: japonés → significado y significado → japonés.",
             alwaysSentences: "Las oraciones reciben una tarjeta: japonés → traducción.",

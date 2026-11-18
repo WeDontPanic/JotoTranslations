@@ -238,6 +238,10 @@ export default {
                 one: "Eén item is een kanji of naam en wordt overgeslagen.",
                 other: "{{count}} items zijn kanji of namen en worden overgeslagen.",
             },
+            restricted: {
+                one: "Eén zin mag om licentieredenen niet worden geëxporteerd en wordt overgeslagen.",
+                other: "{{count}} zinnen mogen om licentieredenen niet worden geëxporteerd en worden overgeslagen.",
+            },
             cards: "Kaarten",
             always: "Altijd inbegrepen: Japans → betekenis en betekenis → Japans.",
             alwaysSentences: "Zinnen krijgen één kaart: Japans → vertaling.",

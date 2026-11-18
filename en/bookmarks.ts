@@ -228,6 +228,10 @@ export default {
                 one: "One entry is a kanji or name and is skipped.",
                 other: "{{count}} entries are kanji or names and are skipped.",
             },
+            restricted: {
+                one: "One sentence may not be exported for license reasons and is skipped.",
+                other: "{{count}} sentences may not be exported for license reasons and are skipped.",
+            },
             cards: "Cards",
             always: "Always included: Japanese → meaning and meaning → Japanese.",
             alwaysSentences: "Sentences get one card: Japanese → translation.",

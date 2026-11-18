@@ -234,6 +234,10 @@ export default {
                 one: "En post är en kanji eller ett namn och hoppas över.",
                 other: "{{count}} poster är kanji eller namn och hoppas över.",
             },
+            restricted: {
+                one: "En mening får inte exporteras av licensskäl och hoppas över.",
+                other: "{{count}} meningar får inte exporteras av licensskäl och hoppas över.",
+            },
             cards: "Kort",
             always: "Alltid med: japanska → betydelse och betydelse → japanska.",
             alwaysSentences: "Meningar får ett kort: japanska → översättning.",

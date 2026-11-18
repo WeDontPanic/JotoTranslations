@@ -226,6 +226,9 @@ export default {
             skipped: {
                 other: "漢字または人名の{{count}}件の項目はスキップされます。",
             },
+            restricted: {
+                other: "ライセンス上の理由でエクスポートできない例文が{{count}}件あり、スキップされます。",
+            },
             cards: "カード",
             always: "常に含まれます：日本語 → 意味、意味 → 日本語。",
             alwaysSentences: "例文には1枚のカードが作られます：日本語 → 翻訳。",
