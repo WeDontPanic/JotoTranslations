@@ -315,7 +315,7 @@ export default {
                 sentences: "Frases",
             },
             privacy: "Para exportar, a lista com notas e etiquetas vai para o servidor do Jotoba. Nada fica salvo lá.",
-            tooMany: "Esta lista tem {{count}} palavras e frases, e uma exportação aceita no máximo {{max}}. Divida-a em listas menores.",
+            tooMany: "Esta lista tem {{count}} entradas para o Anki, e uma exportação aceita no máximo {{max}}. Divida-a em listas menores.",
             offline: "A exportação precisa de conexão com a internet. Verifique a conexão e tente de novo.",
             timeout: "A exportação demorou demais. Tente de novo, talvez sem gravações.",
             tooLarge: "Com notas e etiquetas, a lista é grande demais para uma exportação. Divida-a em listas menores.",

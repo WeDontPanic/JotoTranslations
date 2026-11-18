@@ -281,7 +281,7 @@ export default {
                 sentences: "Mondatok",
             },
             privacy: "Az exportáláshoz a lista a jegyzetekkel és címkékkel együtt a Jotoba szerverére kerül. Ott semmi sem tárolódik.",
-            tooMany: "Ez a lista {{count}} szót és mondatot tartalmaz, egy exportálás legfeljebb {{max}} bejegyzést vesz fel. Oszd fel kisebb listákra.",
+            tooMany: "Ez a lista {{count}} bejegyzést tartalmaz az Anki számára, egy exportálás legfeljebb {{max}} bejegyzést vesz fel. Oszd fel kisebb listákra.",
             offline: "Az exportáláshoz internetkapcsolat kell. Ellenőrizd, és próbáld újra.",
             timeout: "Az exportálás túl sokáig tartott. Próbáld újra, esetleg felvételek nélkül.",
             tooLarge: "A lista a jegyzetekkel és címkékkel együtt túl nagy egy exportáláshoz. Oszd fel kisebb listákra.",

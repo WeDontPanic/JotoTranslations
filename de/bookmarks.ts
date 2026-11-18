@@ -283,7 +283,7 @@ export default {
                 sentences: "Sätze",
             },
             privacy: "Für den Export geht die Liste mit Notizen und Labels an den Jotoba-Server. Dort wird nichts gespeichert.",
-            tooMany: "Diese Liste hat {{count}} Wörter und Sätze, ein Export nimmt höchstens {{max}}. Teil sie in kleinere Listen auf.",
+            tooMany: "Diese Liste hat {{count}} Einträge für Anki, ein Export nimmt höchstens {{max}}. Teil sie in kleinere Listen auf.",
             offline: "Der Export braucht eine Internetverbindung. Prüf sie und versuch es noch einmal.",
             timeout: "Der Export hat zu lange gedauert. Versuch es noch einmal, eventuell ohne Aufnahmen.",
             tooLarge: "Die Liste ist mit Notizen und Labels zu groß für einen Export. Teil sie in kleinere Listen auf.",

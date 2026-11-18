@@ -323,7 +323,7 @@ export default {
                 sentences: "Stavki",
             },
             privacy: "Za izvoz gre seznam z opombami in oznakami na strežnik Jotoba. Tam se nič ne shrani.",
-            tooMany: "Ta seznam ima {{count}} besed in stavkov, en izvoz jih sprejme največ {{max}}. Razdeli ga na manjše sezname.",
+            tooMany: "Ta seznam ima {{count}} vnosov za Anki, en izvoz jih sprejme največ {{max}}. Razdeli ga na manjše sezname.",
             offline: "Izvoz potrebuje internetno povezavo. Preveri jo in poskusi znova.",
             timeout: "Izvoz je trajal predolgo. Poskusi znova, morda brez posnetkov.",
             tooLarge: "Z opombami in oznakami je seznam prevelik za en izvoz. Razdeli ga na manjše sezname.",

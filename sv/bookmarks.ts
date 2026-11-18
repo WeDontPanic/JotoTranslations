@@ -278,7 +278,7 @@ export default {
                 sentences: "Meningar",
             },
             privacy: "För exporten skickas listan med anteckningar och etiketter till Jotobas server. Där sparas ingenting.",
-            tooMany: "Den här listan har {{count}} ord och meningar, en export tar högst {{max}}. Dela upp den i mindre listor.",
+            tooMany: "Den här listan har {{count}} poster för Anki, en export tar högst {{max}}. Dela upp den i mindre listor.",
             offline: "Exporten behöver en internetanslutning. Kontrollera den och försök igen.",
             timeout: "Exporten tog för lång tid. Försök igen, kanske utan inspelningar.",
             tooLarge: "Med anteckningar och etiketter är listan för stor för en export. Dela upp den i mindre listor.",

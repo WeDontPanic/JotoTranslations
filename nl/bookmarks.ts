@@ -282,7 +282,7 @@ export default {
                 sentences: "Zinnen",
             },
             privacy: "Voor de export gaat de lijst met notities en labels naar de server van Jotoba. Daar wordt niets bewaard.",
-            tooMany: "Deze lijst heeft {{count}} woorden en zinnen, een export neemt er hoogstens {{max}}. Verdeel hem in kleinere lijsten.",
+            tooMany: "Deze lijst heeft {{count}} items voor Anki, een export neemt er hoogstens {{max}}. Verdeel hem in kleinere lijsten.",
             offline: "De export heeft een internetverbinding nodig. Controleer die en probeer het opnieuw.",
             timeout: "De export duurde te lang. Probeer het opnieuw, eventueel zonder opnames.",
             tooLarge: "Met notities en labels is de lijst te groot voor één export. Verdeel hem in kleinere lijsten.",

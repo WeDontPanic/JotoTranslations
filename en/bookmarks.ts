@@ -275,7 +275,7 @@ export default {
                 sentences: "Sentences",
             },
             privacy: "For the export, the list with its notes and labels goes to the Jotoba server. Nothing is stored there.",
-            tooMany: "This list has {{count}} words and sentences, an export takes at most {{max}}. Split it into smaller lists.",
+            tooMany: "This list has {{count}} entries for Anki, an export takes at most {{max}}. Split it into smaller lists.",
             offline: "The export needs a connection to the internet. Check it and try again.",
             timeout: "The export took too long. Try again, maybe without recordings.",
             tooLarge: "The list is too large for one export with its notes and labels. Split it into smaller lists.",

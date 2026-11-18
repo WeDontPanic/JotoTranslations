@@ -311,7 +311,7 @@ export default {
                 sentences: "Phrases",
             },
             privacy: "Pour l’export, la liste avec ses notes et ses étiquettes est envoyée au serveur de Jotoba. Rien n’y est conservé.",
-            tooMany: "Cette liste contient {{count}} mots et phrases, un export en accepte au plus {{max}}. Divisez-la en listes plus petites.",
+            tooMany: "Cette liste contient {{count}} entrées pour Anki, un export en accepte au plus {{max}}. Divisez-la en listes plus petites.",
             offline: "L’export nécessite une connexion à Internet. Vérifiez-la et réessayez.",
             timeout: "L’export a pris trop de temps. Réessayez, éventuellement sans enregistrements.",
             tooLarge: "Avec ses notes et ses étiquettes, la liste est trop grande pour un seul export. Divisez-la en listes plus petites.",
