@@ -33,6 +33,11 @@ export default {
             label: "Visa engelska först",
             needs: "Kräver ”Visa alltid engelska resultat”",
         },
+        englishBeside: {
+            label: "Visa engelska bredvid ditt språk",
+            subLabel: "I två kolumner från surfplattans bredd",
+            needs: "Kräver ”Visa alltid engelska resultat”",
+        },
         names: {
             "en-US": "Engelska",
             "de-DE": "Tyska",

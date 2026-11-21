@@ -33,6 +33,11 @@ export default {
             label: "英語を先に表示",
             needs: "「常に英語の結果を表示」が必要です",
         },
+        englishBeside: {
+            label: "英語を自分の言語の横に表示",
+            subLabel: "タブレット以上の幅では2列で表示します",
+            needs: "「常に英語の結果を表示」が必要です",
+        },
         names: {
             "en-US": "英語",
             "de-DE": "ドイツ語",

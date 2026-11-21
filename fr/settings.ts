@@ -33,6 +33,11 @@ export default {
             label: "Afficher l’anglais en premier",
             needs: "Nécessite « Toujours afficher les résultats en anglais »",
         },
+        englishBeside: {
+            label: "Afficher l’anglais à côté de ta langue",
+            subLabel: "Sur deux colonnes à partir de la largeur d’une tablette",
+            needs: "Nécessite « Toujours afficher les résultats en anglais »",
+        },
         names: {
             "en-US": "Anglais",
             "de-DE": "Allemand",

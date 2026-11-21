@@ -32,6 +32,11 @@ export default {
             label: "Show English first",
             needs: "Needs “Always show English results”",
         },
+        englishBeside: {
+            label: "Show English beside your language",
+            subLabel: "In two columns from tablet width",
+            needs: "Needs “Always show English results”",
+        },
         names: {
             "en-US": "English",
             "de-DE": "German",

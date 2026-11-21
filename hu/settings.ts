@@ -33,6 +33,11 @@ export default {
             label: "Angol találatok elöl",
             needs: "Ehhez kell: „Mindig angol találatok is”",
         },
+        englishBeside: {
+            label: "Angol a saját nyelved mellett",
+            subLabel: "Táblagép szélességétől két oszlopban",
+            needs: "Ehhez kell: „Mindig angol találatok is”",
+        },
         names: {
             "en-US": "Angol",
             "de-DE": "Német",

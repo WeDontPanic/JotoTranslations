@@ -33,6 +33,11 @@ export default {
             label: "Engels eerst tonen",
             needs: "Vereist “Altijd Engelse resultaten tonen”",
         },
+        englishBeside: {
+            label: "Engels naast je eigen taal tonen",
+            subLabel: "In twee kolommen vanaf tabletbreedte",
+            needs: "Vereist “Altijd Engelse resultaten tonen”",
+        },
         names: {
             "en-US": "Engels",
             "de-DE": "Duits",
