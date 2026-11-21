@@ -26,7 +26,6 @@ export default {
             contributors: "Check out our <link>About Page</link> for a list of all contributors.",
         },
         links: {
-            topics: "Word lists",
             title: "Links",
             androidApp: "Android App",
             about: "About Page",
