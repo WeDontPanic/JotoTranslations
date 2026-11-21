@@ -11,6 +11,12 @@ export default {
                 "Typ Engels, Japans, kana of romaji, of tik op de microfoon om met je stem te zoeken. Tijdens het typen verschijnen suggesties, en hashtags zoals #n5 verfijnen de resultaten. Probeer het met 猫 (kat).",
             shortcut: "Naar de zoekbalk springen",
         },
+        density: {
+            title: "Kies hoe de resultaten eruitzien",
+            description: "Compact toont meer woorden op één scherm. Probeer beide, de resultaten veranderen meteen.",
+            descriptionStatic:
+                "Compact toont meer woorden op één scherm. Je keuze geldt voor alle resultaten en is te wijzigen in de instellingen.",
+        },
         details: {
             title: "Elk woord heeft een eigen pagina",
             description:
@@ -53,6 +59,11 @@ export default {
     menuHint: {
         text: "Woorden die je bewaart, staan bij Bladwijzers. Daar kun je elke lijst ook met flashcards leren.",
         done: "Klaar",
+    },
+    density: {
+        group: "Weergave van de resultaten",
+        default: "Normaal",
+        compact: "Compact",
     },
     languages: {
         group: "Talen",

@@ -11,6 +11,12 @@ export default {
                 "Vnesite angleščino, japonščino, kano ali romadži ali pa se dotaknite mikrofona za glasovno iskanje. Predlogi se prikažejo že med tipkanjem, ključniki, kot je #n5, pa zožijo rezultate. Preizkusite z 猫 (mačka).",
             shortcut: "Skok v iskalno vrstico",
         },
+        density: {
+            title: "Izberite prikaz zadetkov",
+            description: "Strnjeni prikaz pokaže več besed na enem zaslonu. Preizkusite oba, zadetki se spremenijo takoj.",
+            descriptionStatic:
+                "Strnjeni prikaz pokaže več besed na enem zaslonu. Izbira velja za vse zadetke, spremenite jo lahko v nastavitvah.",
+        },
         details: {
             title: "Vsaka beseda ima svojo stran",
             description:
@@ -53,6 +59,11 @@ export default {
     menuHint: {
         text: "Besede, ki jih zaznamujete, so v Zaznamkih. Tam lahko vsak seznam tudi učite s karticami.",
         done: "Končano",
+    },
+    density: {
+        group: "Prikaz zadetkov",
+        default: "Običajno",
+        compact: "Strnjeno",
     },
     languages: {
         group: "Jeziki",

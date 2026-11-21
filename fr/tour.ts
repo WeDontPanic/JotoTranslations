@@ -11,6 +11,13 @@ export default {
                 "Tapez en anglais, en japonais, en kana ou en rōmaji, ou touchez le micro pour chercher à la voix. Des suggestions apparaissent pendant la saisie, et des #tags comme #n5 affinent les résultats. Essaie avec 猫 (chat).",
             shortcut: "Aller à la barre de recherche",
         },
+        density: {
+            title: "Choisissez l’affichage des résultats",
+            description:
+                "Le mode compact affiche plus de mots sur un écran. Essayez les deux, les résultats changent tout de suite.",
+            descriptionStatic:
+                "Le mode compact affiche plus de mots sur un écran. Votre choix vaut pour tous les résultats et se modifie dans les paramètres.",
+        },
         details: {
             title: "Chaque mot a sa propre page",
             description:
@@ -54,6 +61,11 @@ export default {
     menuHint: {
         text: "Les mots que tu ajoutes aux favoris se trouvent dans Favoris. Tu peux aussi y réviser chaque liste avec des cartes.",
         done: "Terminé",
+    },
+    density: {
+        group: "Affichage des résultats",
+        default: "Normal",
+        compact: "Compact",
     },
     languages: {
         group: "Langues",
