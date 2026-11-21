@@ -11,6 +11,12 @@ export default {
                 "Digite em inglês, japonês, kana ou romaji, ou toque no microfone para pesquisar por voz. As sugestões aparecem enquanto você digita, e hashtags como #n5 filtram os resultados. Experimente com 猫 (gato).",
             shortcut: "Ir para a barra de pesquisa",
         },
+        density: {
+            title: "Escolha como os resultados aparecem",
+            description: "Compacto mostra mais palavras em uma tela. Experimente os dois, os resultados mudam na hora.",
+            descriptionStatic:
+                "Compacto mostra mais palavras em uma tela. Sua escolha vale para todos os resultados e pode ser alterada nas configurações.",
+        },
         details: {
             title: "Cada palavra tem sua própria página",
             description:
@@ -54,6 +60,11 @@ export default {
     menuHint: {
         text: "As palavras que você salva ficam em Favoritos. Lá você também pode estudar cada lista com flashcards.",
         done: "Pronto",
+    },
+    density: {
+        group: "Visualização dos resultados",
+        default: "Normal",
+        compact: "Compacto",
     },
     languages: {
         group: "Idiomas",

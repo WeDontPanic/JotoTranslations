@@ -10,6 +10,12 @@ export default {
                 "Type English, Japanese, kana or romaji, or tap the microphone to search by voice. Suggestions appear as you type, and #tags like #n5 narrow down the results. Try it with 猫 (cat).",
             shortcut: "Jump to the search bar",
         },
+        density: {
+            title: "Choose how results look",
+            description: "Compact fits more words on one screen. Try both and see the results change right away.",
+            descriptionStatic:
+                "Compact fits more words on one screen. Your choice applies to all results and can be changed in the settings.",
+        },
         details: {
             title: "Every word has its own page",
             description: "Select a word to open its page with all meanings, its kanji, example sentences and conjugations.",
@@ -51,6 +57,11 @@ export default {
     menuHint: {
         text: "Words you bookmark are kept in Bookmarks. You can also study each list as flashcards there.",
         done: "Done",
+    },
+    density: {
+        group: "Results view",
+        default: "Normal",
+        compact: "Compact",
     },
     languages: {
         group: "Languages",

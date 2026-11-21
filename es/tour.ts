@@ -11,6 +11,12 @@ export default {
                 "Escribe en inglés, en japonés, en kana o en romaji, o toca el micrófono para buscar por voz. Las sugerencias aparecen mientras escribes, y hashtags como #n5 acotan los resultados. Pruébalo con 猫 (gato).",
             shortcut: "Ir a la barra de búsqueda",
         },
+        density: {
+            title: "Elige cómo se ven los resultados",
+            description: "Compacto muestra más palabras en una pantalla. Prueba ambos, los resultados cambian al instante.",
+            descriptionStatic:
+                "Compacto muestra más palabras en una pantalla. Tu elección vale para todos los resultados y puedes cambiarla en los ajustes.",
+        },
         details: {
             title: "Cada palabra tiene su propia página",
             description:
@@ -54,6 +60,11 @@ export default {
     menuHint: {
         text: "Las palabras que guardas están en Marcadores. Allí también puedes estudiar cada lista con tarjetas.",
         done: "Listo",
+    },
+    density: {
+        group: "Vista de los resultados",
+        default: "Normal",
+        compact: "Compacto",
     },
     languages: {
         group: "Idiomas",

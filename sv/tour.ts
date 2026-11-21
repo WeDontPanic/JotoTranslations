@@ -11,6 +11,12 @@ export default {
                 "Skriv på engelska, japanska, kana eller romaji, eller tryck på mikrofonen för att söka med rösten. Förslag visas medan du skriver, och #taggar som #n5 begränsar resultaten. Testa med 猫 (katt).",
             shortcut: "Hoppa till sökfältet",
         },
+        density: {
+            title: "Välj hur resultaten ser ut",
+            description: "Kompakt visar fler ord på en skärm. Prova båda, resultaten ändras direkt.",
+            descriptionStatic:
+                "Kompakt visar fler ord på en skärm. Ditt val gäller alla resultat och kan ändras i inställningarna.",
+        },
         details: {
             title: "Varje ord har en egen sida",
             description:
@@ -52,6 +58,11 @@ export default {
     menuHint: {
         text: "Ord du bokmärker hamnar under Bokmärken. Där kan du också plugga varje lista med flashcards.",
         done: "Klar",
+    },
+    density: {
+        group: "Visning av resultaten",
+        default: "Normal",
+        compact: "Kompakt",
     },
     languages: {
         group: "Språk",

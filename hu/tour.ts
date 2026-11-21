@@ -11,6 +11,13 @@ export default {
                 "Írj angolul, japánul, kanával vagy rómadzsival, vagy koppints a mikrofonra a hangalapú kereséshez. Gépelés közben javaslatok jelennek meg, a hashtagek, például a #n5, pedig szűkítik a találatokat. Próbáld ki a 猫 (macska) szóval.",
             shortcut: "Ugrás a keresősávra",
         },
+        density: {
+            title: "Válaszd ki a találatok nézetét",
+            description:
+                "A tömör nézet több szót mutat egy képernyőn. Próbáld ki mindkettőt, a találatok azonnal megváltoznak.",
+            descriptionStatic:
+                "A tömör nézet több szót mutat egy képernyőn. A választásod minden találatra érvényes, és a beállításokban módosíthatod.",
+        },
         details: {
             title: "Minden szónak saját oldala van",
             description:
@@ -54,6 +61,11 @@ export default {
     menuHint: {
         text: "A könyvjelzővel mentett szavakat a Könyvjelzők között találod. Ott minden listát szókártyákkal is tanulhatsz.",
         done: "Kész",
+    },
+    density: {
+        group: "Találatok nézete",
+        default: "Normál",
+        compact: "Tömör",
     },
     languages: {
         group: "Nyelvek",

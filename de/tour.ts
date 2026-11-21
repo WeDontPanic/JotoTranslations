@@ -11,6 +11,13 @@ export default {
                 "Gib Englisch, Japanisch, Kana oder Romaji ein oder tippe aufs Mikrofon, um per Sprache zu suchen. Schon beim Tippen erscheinen Vorschläge, und Hashtags wie #n5 grenzen die Ergebnisse ein. Probier es mit 猫 (Katze) aus.",
             shortcut: "Zur Suchleiste springen",
         },
+        density: {
+            title: "Wähle die Ansicht",
+            description:
+                "Kompakt zeigt mehr Wörter auf einem Bildschirm. Probier beides, die Ergebnisse ändern sich sofort.",
+            descriptionStatic:
+                "Kompakt zeigt mehr Wörter auf einem Bildschirm. Die Wahl gilt für alle Ergebnisse und lässt sich in den Einstellungen ändern.",
+        },
         details: {
             title: "Jedes Wort hat eine eigene Seite",
             description:
@@ -53,6 +60,11 @@ export default {
     menuHint: {
         text: "Wörter, die du als Lesezeichen speicherst, findest du unter Lesezeichen. Dort kannst du jede Liste auch mit Karteikarten lernen.",
         done: "Fertig",
+    },
+    density: {
+        group: "Ansicht der Ergebnisse",
+        default: "Normal",
+        compact: "Kompakt",
     },
     languages: {
         group: "Sprachen",
