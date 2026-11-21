@@ -33,6 +33,11 @@ export default {
             label: "Visa engelska först",
             needs: "Kräver ”Visa alltid engelska resultat”",
         },
+        englishBeside: {
+            label: "Visa engelska bredvid ditt språk",
+            subLabel: "I två kolumner från surfplattans bredd",
+            needs: "Kräver ”Visa alltid engelska resultat”",
+        },
         names: {
             "en-US": "Engelska",
             "de-DE": "Tyska",
@@ -51,6 +56,10 @@ export default {
         auto: "System",
         light: "Ljust",
         dark: "Mörkt",
+    },
+    density: {
+        label: "Kompakta resultat",
+        subLabel: "Fler poster per skärm: mindre uppslagsord, betydelser närmare varandra, korta märken och ikonknappar",
     },
     results: {
         customize: {

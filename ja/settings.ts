@@ -33,6 +33,11 @@ export default {
             label: "英語を先に表示",
             needs: "「常に英語の結果を表示」が必要です",
         },
+        englishBeside: {
+            label: "英語を自分の言語の横に表示",
+            subLabel: "タブレット以上の幅では2列で表示します",
+            needs: "「常に英語の結果を表示」が必要です",
+        },
         names: {
             "en-US": "英語",
             "de-DE": "ドイツ語",
@@ -51,6 +56,10 @@ export default {
         auto: "自動",
         light: "ライト",
         dark: "ダーク",
+    },
+    density: {
+        label: "コンパクトな検索結果",
+        subLabel: "1画面により多くの項目を表示します。見出し語を小さくし、意味の間隔を詰め、マークとボタンを短くします",
     },
     results: {
         customize: {

@@ -33,6 +33,11 @@ export default {
             label: "Mostrar primero el inglés",
             needs: "Requiere «Mostrar siempre resultados en inglés»",
         },
+        englishBeside: {
+            label: "Mostrar el inglés junto a tu idioma",
+            subLabel: "En dos columnas a partir del ancho de una tableta",
+            needs: "Requiere «Mostrar siempre resultados en inglés»",
+        },
         names: {
             "en-US": "Inglés",
             "de-DE": "Alemán",
@@ -51,6 +56,10 @@ export default {
         auto: "Sistema",
         light: "Claro",
         dark: "Oscuro",
+    },
+    density: {
+        label: "Resultados compactos",
+        subLabel: "Más entradas por pantalla: palabras más pequeñas, significados más juntos, etiquetas cortas y botones de icono",
     },
     results: {
         customize: {

@@ -33,6 +33,11 @@ export default {
             label: "Englisch zuerst anzeigen",
             needs: "Benötigt „Englische Ergebnisse immer anzeigen“",
         },
+        englishBeside: {
+            label: "Englisch neben deiner Sprache anzeigen",
+            subLabel: "Ab Tablet-Breite in zwei Spalten",
+            needs: "Benötigt „Englische Ergebnisse immer anzeigen“",
+        },
         names: {
             "en-US": "Englisch",
             "de-DE": "Deutsch",
@@ -51,6 +56,10 @@ export default {
         auto: "System",
         light: "Hell",
         dark: "Dunkel",
+    },
+    density: {
+        label: "Kompakte Ergebnisse",
+        subLabel: "Mehr Einträge pro Bildschirm: kleinere Stichwörter, engere Bedeutungen, kurze Marker und Symbol-Schaltflächen",
     },
     results: {
         customize: {

@@ -33,6 +33,11 @@ export default {
             label: "Najprej prikaži angleščino",
             needs: "Zahteva „Vedno prikaži angleške rezultate“",
         },
+        englishBeside: {
+            label: "Prikaži angleščino ob svojem jeziku",
+            subLabel: "V dveh stolpcih od širine tablice naprej",
+            needs: "Zahteva „Vedno prikaži angleške rezultate“",
+        },
         names: {
             "en-US": "Angleščina",
             "de-DE": "Nemščina",
@@ -51,6 +56,10 @@ export default {
         auto: "Sistemska",
         light: "Svetla",
         dark: "Temna",
+    },
+    density: {
+        label: "Strnjeni zadetki",
+        subLabel: "Več vnosov na zaslonu: manjše iztočnice, pomeni bližje skupaj, kratke oznake in gumbi z ikonami",
     },
     results: {
         customize: {
