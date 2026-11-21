@@ -52,6 +52,10 @@ export default {
         light: "Claro",
         dark: "Escuro",
     },
+    density: {
+        label: "Resultados compactos",
+        subLabel: "Mais entradas por tela: palavras menores, significados mais próximos, selos curtos e botões de ícone",
+    },
     results: {
         customize: {
             label: "Personalizar resultados",

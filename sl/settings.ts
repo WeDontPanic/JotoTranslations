@@ -52,6 +52,10 @@ export default {
         light: "Svetla",
         dark: "Temna",
     },
+    density: {
+        label: "Strnjeni zadetki",
+        subLabel: "Več vnosov na zaslonu: manjše iztočnice, pomeni bližje skupaj, kratke oznake in gumbi z ikonami",
+    },
     results: {
         customize: {
             label: "Prilagodi rezultate",

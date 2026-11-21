@@ -52,6 +52,10 @@ export default {
         light: "Ljust",
         dark: "Mörkt",
     },
+    density: {
+        label: "Kompakta resultat",
+        subLabel: "Fler poster per skärm: mindre uppslagsord, betydelser närmare varandra, korta märken och ikonknappar",
+    },
     results: {
         customize: {
             label: "Anpassa resultat",

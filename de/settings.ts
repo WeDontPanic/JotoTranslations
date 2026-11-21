@@ -52,6 +52,10 @@ export default {
         light: "Hell",
         dark: "Dunkel",
     },
+    density: {
+        label: "Kompakte Ergebnisse",
+        subLabel: "Mehr Einträge pro Bildschirm: kleinere Stichwörter, engere Bedeutungen, kurze Marker und Symbol-Schaltflächen",
+    },
     results: {
         customize: {
             label: "Ergebnisse anpassen",

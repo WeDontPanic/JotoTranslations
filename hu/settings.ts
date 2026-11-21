@@ -52,6 +52,10 @@ export default {
         light: "Világos",
         dark: "Sötét",
     },
+    density: {
+        label: "Tömör találatok",
+        subLabel: "Több bejegyzés egy képernyőn: kisebb címszavak, közelebbi jelentések, rövid jelölések és ikongombok",
+    },
     results: {
         customize: {
             label: "Találatok testreszabása",

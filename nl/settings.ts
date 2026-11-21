@@ -52,6 +52,10 @@ export default {
         light: "Licht",
         dark: "Donker",
     },
+    density: {
+        label: "Compacte resultaten",
+        subLabel: "Meer items per scherm: kleinere trefwoorden, betekenissen dichter bij elkaar, korte labels en pictogramknoppen",
+    },
     results: {
         customize: {
             label: "Resultaten aanpassen",

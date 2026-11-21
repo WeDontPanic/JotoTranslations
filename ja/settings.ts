@@ -52,6 +52,10 @@ export default {
         light: "ライト",
         dark: "ダーク",
     },
+    density: {
+        label: "コンパクトな検索結果",
+        subLabel: "1画面により多くの項目を表示します。見出し語を小さくし、意味の間隔を詰め、マークとボタンを短くします",
+    },
     results: {
         customize: {
             label: "検索結果をカスタマイズ",

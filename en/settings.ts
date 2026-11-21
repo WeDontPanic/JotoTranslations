@@ -51,6 +51,10 @@ export default {
         light: "Light",
         dark: "Dark",
     },
+    density: {
+        label: "Compact results",
+        subLabel: "More entries per screen: smaller headwords, meanings closer together, short badges and icon buttons",
+    },
     results: {
         customize: {
             label: "Customize results",
