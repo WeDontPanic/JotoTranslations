@@ -11,11 +11,11 @@ export default {
                 "Escribe en inglés, en japonés, en kana o en romaji, o toca el micrófono para buscar por voz. Las sugerencias aparecen mientras escribes, y hashtags como #n5 acotan los resultados. Pruébalo con 猫 (gato).",
             shortcut: "Ir a la barra de búsqueda",
         },
-        density: {
-            title: "Elige cómo se ven los resultados",
-            description: "Compacto muestra más palabras en una pantalla. Prueba ambos, los resultados cambian al instante.",
+        customize: {
+            title: "Configura tus resultados",
+            description: "Elige el idioma de los significados y una vista compacta. Los resultados cambian al instante.",
             descriptionStatic:
-                "Compacto muestra más palabras en una pantalla. Tu elección vale para todos los resultados y puedes cambiarla en los ajustes.",
+                "Elige el idioma de los significados y una vista compacta. Tu elección vale para todos los resultados y puedes cambiarla en los ajustes.",
         },
         details: {
             title: "Cada palabra tiene su propia página",
@@ -52,19 +52,19 @@ export default {
         settings: {
             title: "Marcadores, ajustes y ayuda",
             description:
-                "Abre el menú para ver tus marcadores, los ajustes, las noticias y la página de ayuda, donde puedes reiniciar este recorrido. Prueba aquí mismo los ajustes de idioma, los cambios se aplican al instante.",
-            descriptionSearchOnly:
-                "Abre el menú para ver tus marcadores, los ajustes, las noticias y la página de ayuda, donde puedes reiniciar este recorrido. Prueba aquí mismo el idioma de búsqueda, los cambios se aplican al instante.",
+                "Abre el menú para tus marcadores, las noticias y la ayuda, donde puedes repetir este recorrido. Ahí también están los ajustes, con todo lo que acabas de configurar. Cambia el idioma de la app aquí mismo.",
+            descriptionNoLanguage:
+                "Abre el menú para tus marcadores, las noticias y la ayuda, donde puedes repetir este recorrido. Ahí también están los ajustes, con todo lo que acabas de configurar.",
         },
     },
     menuHint: {
         text: "Las palabras que guardas están en Marcadores. Allí también puedes estudiar cada lista con tarjetas.",
         done: "Listo",
     },
-    density: {
-        group: "Vista de los resultados",
-        default: "Normal",
-        compact: "Compacto",
+    customize: {
+        group: "Ajustes de los resultados",
+        updated: "Resultados actualizados.",
+        englishLocked: "Siempre activado mientras el idioma de búsqueda sea el inglés.",
     },
     languages: {
         group: "Idiomas",

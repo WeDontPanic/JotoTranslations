@@ -35,7 +35,7 @@ export default {
         },
         englishBeside: {
             label: "英語を自分の言語の横に表示",
-            subLabel: "タブレット以上の幅では2列で表示します",
+            subLabel: "選択した言語と英語を2列で表示します",
             needs: "「常に英語の結果を表示」が必要です",
         },
         names: {

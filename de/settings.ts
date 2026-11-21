@@ -35,7 +35,7 @@ export default {
         },
         englishBeside: {
             label: "Englisch neben deiner Sprache anzeigen",
-            subLabel: "Ab Tablet-Breite in zwei Spalten",
+            subLabel: "Deine Sprache und Englisch in zwei Spalten",
             needs: "Benötigt „Englische Ergebnisse immer anzeigen“",
         },
         names: {

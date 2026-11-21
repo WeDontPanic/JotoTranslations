@@ -34,7 +34,7 @@ export default {
         },
         englishBeside: {
             label: "Show English beside your language",
-            subLabel: "In two columns from tablet width",
+            subLabel: "Your language and English in two columns",
             needs: "Needs “Always show English results”",
         },
         names: {

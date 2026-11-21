@@ -11,11 +11,11 @@ export default {
                 "Skriv på engelska, japanska, kana eller romaji, eller tryck på mikrofonen för att söka med rösten. Förslag visas medan du skriver, och #taggar som #n5 begränsar resultaten. Testa med 猫 (katt).",
             shortcut: "Hoppa till sökfältet",
         },
-        density: {
-            title: "Välj hur resultaten ser ut",
-            description: "Kompakt visar fler ord på en skärm. Prova båda, resultaten ändras direkt.",
+        customize: {
+            title: "Ställ in dina resultat",
+            description: "Välj språk för betydelserna och en kompakt visning. Resultaten ändras direkt.",
             descriptionStatic:
-                "Kompakt visar fler ord på en skärm. Ditt val gäller alla resultat och kan ändras i inställningarna.",
+                "Välj språk för betydelserna och en kompakt visning. Ditt val gäller alla resultat och kan ändras i inställningarna.",
         },
         details: {
             title: "Varje ord har en egen sida",
@@ -50,19 +50,19 @@ export default {
         settings: {
             title: "Bokmärken, inställningar och hjälp",
             description:
-                "Öppna menyn för dina bokmärken, inställningarna, nyheterna och hjälpsidan, där du kan starta om den här rundturen. Testa språkinställningarna direkt här, ändringar gäller med en gång.",
-            descriptionSearchOnly:
-                "Öppna menyn för dina bokmärken, inställningarna, nyheterna och hjälpsidan, där du kan starta om den här rundturen. Testa sökspråket direkt här, ändringar gäller med en gång.",
+                "Öppna menyn för dina bokmärken, nyheter och hjälpen, där du kan starta om den här rundturen. Där finns också inställningarna med allt du just har ställt in. Byt appens språk direkt här.",
+            descriptionNoLanguage:
+                "Öppna menyn för dina bokmärken, nyheter och hjälpen, där du kan starta om den här rundturen. Där finns också inställningarna med allt du just har ställt in.",
         },
     },
     menuHint: {
         text: "Ord du bokmärker hamnar under Bokmärken. Där kan du också plugga varje lista med flashcards.",
         done: "Klar",
     },
-    density: {
-        group: "Visning av resultaten",
-        default: "Normal",
-        compact: "Kompakt",
+    customize: {
+        group: "Inställningar för resultaten",
+        updated: "Resultaten är uppdaterade.",
+        englishLocked: "Alltid på så länge engelska är sökspråket.",
     },
     languages: {
         group: "Språk",

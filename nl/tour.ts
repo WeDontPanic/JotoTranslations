@@ -11,11 +11,11 @@ export default {
                 "Typ Engels, Japans, kana of romaji, of tik op de microfoon om met je stem te zoeken. Tijdens het typen verschijnen suggesties, en hashtags zoals #n5 verfijnen de resultaten. Probeer het met 猫 (kat).",
             shortcut: "Naar de zoekbalk springen",
         },
-        density: {
-            title: "Kies hoe de resultaten eruitzien",
-            description: "Compact toont meer woorden op één scherm. Probeer beide, de resultaten veranderen meteen.",
+        customize: {
+            title: "Stel je resultaten in",
+            description: "Kies de taal van de betekenissen en een compacte weergave. De resultaten veranderen meteen.",
             descriptionStatic:
-                "Compact toont meer woorden op één scherm. Je keuze geldt voor alle resultaten en is te wijzigen in de instellingen.",
+                "Kies de taal van de betekenissen en een compacte weergave. Je keuze geldt voor alle resultaten en is te wijzigen in de instellingen.",
         },
         details: {
             title: "Elk woord heeft een eigen pagina",
@@ -51,19 +51,19 @@ export default {
         settings: {
             title: "Bladwijzers, instellingen en hulp",
             description:
-                "Open het menu voor je bladwijzers, de instellingen, het nieuws en de hulppagina, waar je deze rondleiding opnieuw kunt starten. Probeer de taalinstellingen meteen hier, wijzigingen gelden direct.",
-            descriptionSearchOnly:
-                "Open het menu voor je bladwijzers, de instellingen, het nieuws en de hulppagina, waar je deze rondleiding opnieuw kunt starten. Probeer de zoektaal meteen hier, wijzigingen gelden direct.",
+                "Open het menu voor je bladwijzers, het nieuws en de hulp, waar je deze rondleiding opnieuw kunt starten. Daar staan ook de instellingen, met alles wat je net hebt ingesteld. Wissel hier meteen de taal van de app.",
+            descriptionNoLanguage:
+                "Open het menu voor je bladwijzers, het nieuws en de hulp, waar je deze rondleiding opnieuw kunt starten. Daar staan ook de instellingen, met alles wat je net hebt ingesteld.",
         },
     },
     menuHint: {
         text: "Woorden die je bewaart, staan bij Bladwijzers. Daar kun je elke lijst ook met flashcards leren.",
         done: "Klaar",
     },
-    density: {
-        group: "Weergave van de resultaten",
-        default: "Normaal",
-        compact: "Compact",
+    customize: {
+        group: "Instellingen van de resultaten",
+        updated: "Resultaten bijgewerkt.",
+        englishLocked: "Altijd aan zolang Engels de zoektaal is.",
     },
     languages: {
         group: "Talen",
