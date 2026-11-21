@@ -35,7 +35,7 @@ export default {
         },
         englishBeside: {
             label: "Mostrar el inglés junto a tu idioma",
-            subLabel: "En dos columnas a partir del ancho de una tableta",
+            subLabel: "Tu idioma y el inglés en dos columnas",
             needs: "Requiere «Mostrar siempre resultados en inglés»",
         },
         names: {

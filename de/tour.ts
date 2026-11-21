@@ -11,12 +11,11 @@ export default {
                 "Gib Englisch, Japanisch, Kana oder Romaji ein oder tippe aufs Mikrofon, um per Sprache zu suchen. Schon beim Tippen erscheinen Vorschläge, und Hashtags wie #n5 grenzen die Ergebnisse ein. Probier es mit 猫 (Katze) aus.",
             shortcut: "Zur Suchleiste springen",
         },
-        density: {
-            title: "Wähle die Ansicht",
-            description:
-                "Kompakt zeigt mehr Wörter auf einem Bildschirm. Probier beides, die Ergebnisse ändern sich sofort.",
+        customize: {
+            title: "Richte deine Ergebnisse ein",
+            description: "Wähle die Sprache der Bedeutungen und eine kompakte Ansicht. Die Ergebnisse ändern sich sofort.",
             descriptionStatic:
-                "Kompakt zeigt mehr Wörter auf einem Bildschirm. Die Wahl gilt für alle Ergebnisse und lässt sich in den Einstellungen ändern.",
+                "Wähle die Sprache der Bedeutungen und eine kompakte Ansicht. Deine Wahl gilt für alle Ergebnisse und lässt sich in den Einstellungen ändern.",
         },
         details: {
             title: "Jedes Wort hat eine eigene Seite",
@@ -52,19 +51,19 @@ export default {
         settings: {
             title: "Lesezeichen, Einstellungen und Hilfe",
             description:
-                "Öffne das Menü für deine Lesezeichen, die Einstellungen, News und die Hilfeseite, auf der du diese Tour neu starten kannst. Die Spracheinstellungen kannst du gleich hier ausprobieren, Änderungen wirken sofort.",
-            descriptionSearchOnly:
-                "Öffne das Menü für deine Lesezeichen, die Einstellungen, News und die Hilfeseite, auf der du diese Tour neu starten kannst. Die Suchsprache kannst du gleich hier ausprobieren, Änderungen wirken sofort.",
+                "Öffne das Menü für deine Lesezeichen, News und die Hilfe, wo du diese Tour neu starten kannst. Dort findest du auch die Einstellungen mit allem, was du gerade eingerichtet hast. Die App-Sprache kannst du gleich hier wechseln.",
+            descriptionNoLanguage:
+                "Öffne das Menü für deine Lesezeichen, News und die Hilfe, wo du diese Tour neu starten kannst. Dort findest du auch die Einstellungen mit allem, was du gerade eingerichtet hast.",
         },
     },
     menuHint: {
         text: "Wörter, die du als Lesezeichen speicherst, findest du unter Lesezeichen. Dort kannst du jede Liste auch mit Karteikarten lernen.",
         done: "Fertig",
     },
-    density: {
-        group: "Ansicht der Ergebnisse",
-        default: "Normal",
-        compact: "Kompakt",
+    customize: {
+        group: "Einstellungen der Ergebnisse",
+        updated: "Ergebnisse aktualisiert.",
+        englishLocked: "Immer an, solange Englisch die Suchsprache ist.",
     },
     languages: {
         group: "Sprachen",

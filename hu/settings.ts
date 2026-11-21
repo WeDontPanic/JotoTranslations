@@ -35,7 +35,7 @@ export default {
         },
         englishBeside: {
             label: "Angol a saját nyelved mellett",
-            subLabel: "Táblagép szélességétől két oszlopban",
+            subLabel: "A saját nyelved és az angol két oszlopban",
             needs: "Ehhez kell: „Mindig angol találatok is”",
         },
         names: {

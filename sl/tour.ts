@@ -11,11 +11,11 @@ export default {
                 "Vnesite angleščino, japonščino, kano ali romadži ali pa se dotaknite mikrofona za glasovno iskanje. Predlogi se prikažejo že med tipkanjem, ključniki, kot je #n5, pa zožijo rezultate. Preizkusite z 猫 (mačka).",
             shortcut: "Skok v iskalno vrstico",
         },
-        density: {
-            title: "Izberite prikaz zadetkov",
-            description: "Strnjeni prikaz pokaže več besed na enem zaslonu. Preizkusite oba, zadetki se spremenijo takoj.",
+        customize: {
+            title: "Nastavite zadetke",
+            description: "Izberite jezik pomenov in strnjeni prikaz. Zadetki se spremenijo takoj.",
             descriptionStatic:
-                "Strnjeni prikaz pokaže več besed na enem zaslonu. Izbira velja za vse zadetke, spremenite jo lahko v nastavitvah.",
+                "Izberite jezik pomenov in strnjeni prikaz. Izbira velja za vse zadetke, spremenite jo lahko v nastavitvah.",
         },
         details: {
             title: "Vsaka beseda ima svojo stran",
@@ -51,19 +51,19 @@ export default {
         settings: {
             title: "Zaznamki, nastavitve in pomoč",
             description:
-                "Odprite meni za zaznamke, nastavitve, novice in stran s pomočjo, kjer lahko ta ogled začnete znova. Jezikovne nastavitve preizkusite kar tukaj, spremembe veljajo takoj.",
-            descriptionSearchOnly:
-                "Odprite meni za zaznamke, nastavitve, novice in stran s pomočjo, kjer lahko ta ogled začnete znova. Jezik iskanja preizkusite kar tukaj, spremembe veljajo takoj.",
+                "Odprite meni za zaznamke, novice in pomoč, kjer lahko ta ogled začnete znova. Tam so tudi nastavitve z vsem, kar ste pravkar nastavili. Jezik aplikacije lahko zamenjate kar tukaj.",
+            descriptionNoLanguage:
+                "Odprite meni za zaznamke, novice in pomoč, kjer lahko ta ogled začnete znova. Tam so tudi nastavitve z vsem, kar ste pravkar nastavili.",
         },
     },
     menuHint: {
         text: "Besede, ki jih zaznamujete, so v Zaznamkih. Tam lahko vsak seznam tudi učite s karticami.",
         done: "Končano",
     },
-    density: {
-        group: "Prikaz zadetkov",
-        default: "Običajno",
-        compact: "Strnjeno",
+    customize: {
+        group: "Nastavitve zadetkov",
+        updated: "Zadetki so posodobljeni.",
+        englishLocked: "Vedno vklopljeno, dokler je jezik iskanja angleščina.",
     },
     languages: {
         group: "Jeziki",

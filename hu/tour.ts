@@ -11,12 +11,11 @@ export default {
                 "Írj angolul, japánul, kanával vagy rómadzsival, vagy koppints a mikrofonra a hangalapú kereséshez. Gépelés közben javaslatok jelennek meg, a hashtagek, például a #n5, pedig szűkítik a találatokat. Próbáld ki a 猫 (macska) szóval.",
             shortcut: "Ugrás a keresősávra",
         },
-        density: {
-            title: "Válaszd ki a találatok nézetét",
-            description:
-                "A tömör nézet több szót mutat egy képernyőn. Próbáld ki mindkettőt, a találatok azonnal megváltoznak.",
+        customize: {
+            title: "Állítsd be a találatokat",
+            description: "Válaszd ki a jelentések nyelvét és a tömör nézetet. A találatok azonnal megváltoznak.",
             descriptionStatic:
-                "A tömör nézet több szót mutat egy képernyőn. A választásod minden találatra érvényes, és a beállításokban módosíthatod.",
+                "Válaszd ki a jelentések nyelvét és a tömör nézetet. A választásod minden találatra érvényes, és a beállításokban módosíthatod.",
         },
         details: {
             title: "Minden szónak saját oldala van",
@@ -53,19 +52,19 @@ export default {
         settings: {
             title: "Könyvjelzők, beállítások és súgó",
             description:
-                "Nyisd meg a menüt a könyvjelzőidért, a beállításokért, a hírekért és a súgóért, ahol újraindíthatod ezt a bemutatót. A nyelvi beállításokat itt is kipróbálhatod, a változások azonnal érvénybe lépnek.",
-            descriptionSearchOnly:
-                "Nyisd meg a menüt a könyvjelzőidért, a beállításokért, a hírekért és a súgóért, ahol újraindíthatod ezt a bemutatót. A keresési nyelvet itt is kipróbálhatod, a változások azonnal érvénybe lépnek.",
+                "Nyisd meg a menüt a könyvjelzőidhez, a hírekhez és a súgóhoz, ahol újraindíthatod ezt a bemutatót. Ott vannak a beállítások is mindazzal, amit most beállítottál. Az alkalmazás nyelvét rögtön itt is átállíthatod.",
+            descriptionNoLanguage:
+                "Nyisd meg a menüt a könyvjelzőidhez, a hírekhez és a súgóhoz, ahol újraindíthatod ezt a bemutatót. Ott vannak a beállítások is mindazzal, amit most beállítottál.",
         },
     },
     menuHint: {
         text: "A könyvjelzővel mentett szavakat a Könyvjelzők között találod. Ott minden listát szókártyákkal is tanulhatsz.",
         done: "Kész",
     },
-    density: {
-        group: "Találatok nézete",
-        default: "Normál",
-        compact: "Tömör",
+    customize: {
+        group: "Találatok beállításai",
+        updated: "A találatok frissültek.",
+        englishLocked: "Mindig be van kapcsolva, amíg az angol a keresés nyelve.",
     },
     languages: {
         group: "Nyelvek",

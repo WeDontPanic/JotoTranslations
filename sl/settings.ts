@@ -35,7 +35,7 @@ export default {
         },
         englishBeside: {
             label: "Prikaži angleščino ob svojem jeziku",
-            subLabel: "V dveh stolpcih od širine tablice naprej",
+            subLabel: "Vaš jezik in angleščina v dveh stolpcih",
             needs: "Zahteva „Vedno prikaži angleške rezultate“",
         },
         names: {

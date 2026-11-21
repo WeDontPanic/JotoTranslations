@@ -35,7 +35,7 @@ export default {
         },
         englishBeside: {
             label: "Visa engelska bredvid ditt språk",
-            subLabel: "I två kolumner från surfplattans bredd",
+            subLabel: "Ditt språk och engelska i två kolumner",
             needs: "Kräver ”Visa alltid engelska resultat”",
         },
         names: {

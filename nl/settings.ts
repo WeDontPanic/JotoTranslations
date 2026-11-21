@@ -35,7 +35,7 @@ export default {
         },
         englishBeside: {
             label: "Engels naast je eigen taal tonen",
-            subLabel: "In twee kolommen vanaf tabletbreedte",
+            subLabel: "Je eigen taal en Engels in twee kolommen",
             needs: "Vereist “Altijd Engelse resultaten tonen”",
         },
         names: {

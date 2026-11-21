@@ -11,11 +11,11 @@ export default {
                 "Digite em inglês, japonês, kana ou romaji, ou toque no microfone para pesquisar por voz. As sugestões aparecem enquanto você digita, e hashtags como #n5 filtram os resultados. Experimente com 猫 (gato).",
             shortcut: "Ir para a barra de pesquisa",
         },
-        density: {
-            title: "Escolha como os resultados aparecem",
-            description: "Compacto mostra mais palavras em uma tela. Experimente os dois, os resultados mudam na hora.",
+        customize: {
+            title: "Configure seus resultados",
+            description: "Escolha o idioma dos significados e uma visualização compacta. Os resultados mudam na hora.",
             descriptionStatic:
-                "Compacto mostra mais palavras em uma tela. Sua escolha vale para todos os resultados e pode ser alterada nas configurações.",
+                "Escolha o idioma dos significados e uma visualização compacta. Sua escolha vale para todos os resultados e pode ser alterada nas configurações.",
         },
         details: {
             title: "Cada palavra tem sua própria página",
@@ -52,19 +52,19 @@ export default {
         settings: {
             title: "Favoritos, configurações e ajuda",
             description:
-                "Abra o menu para ver seus favoritos, as configurações, as novidades e a página de ajuda, onde você pode reiniciar este tour. Teste as configurações de idioma aqui mesmo, as mudanças valem na hora.",
-            descriptionSearchOnly:
-                "Abra o menu para ver seus favoritos, as configurações, as novidades e a página de ajuda, onde você pode reiniciar este tour. Teste o idioma de busca aqui mesmo, as mudanças valem na hora.",
+                "Abra o menu para seus favoritos, as notícias e a ajuda, onde você pode reiniciar este tour. As configurações também estão lá, com tudo o que você acabou de ajustar. Troque o idioma do app aqui mesmo.",
+            descriptionNoLanguage:
+                "Abra o menu para seus favoritos, as notícias e a ajuda, onde você pode reiniciar este tour. As configurações também estão lá, com tudo o que você acabou de ajustar.",
         },
     },
     menuHint: {
         text: "As palavras que você salva ficam em Favoritos. Lá você também pode estudar cada lista com flashcards.",
         done: "Pronto",
     },
-    density: {
-        group: "Visualização dos resultados",
-        default: "Normal",
-        compact: "Compacto",
+    customize: {
+        group: "Configurações dos resultados",
+        updated: "Resultados atualizados.",
+        englishLocked: "Sempre ativado enquanto o inglês for o idioma de busca.",
     },
     languages: {
         group: "Idiomas",

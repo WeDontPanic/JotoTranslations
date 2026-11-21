@@ -6,17 +6,17 @@ export default {
         search: {
             title: "Chercher dans les deux sens",
             description:
-                "Tapez en anglais, en japonais, en kana ou en rōmaji. Des suggestions apparaissent pendant la saisie, et des #tags comme #n5 affinent les résultats. Essaie avec 猫 (chat).",
+                "Tapez en anglais, en japonais, en kana ou en rōmaji. Des suggestions apparaissent pendant la saisie, et des #tags comme #n5 affinent les résultats. Essayez avec 猫 (chat).",
             descriptionVoice:
-                "Tapez en anglais, en japonais, en kana ou en rōmaji, ou touchez le micro pour chercher à la voix. Des suggestions apparaissent pendant la saisie, et des #tags comme #n5 affinent les résultats. Essaie avec 猫 (chat).",
+                "Tapez en anglais, en japonais, en kana ou en rōmaji, ou touchez le micro pour chercher à la voix. Des suggestions apparaissent pendant la saisie, et des #tags comme #n5 affinent les résultats. Essayez avec 猫 (chat).",
             shortcut: "Aller à la barre de recherche",
         },
-        density: {
-            title: "Choisissez l’affichage des résultats",
+        customize: {
+            title: "Réglez vos résultats",
             description:
-                "Le mode compact affiche plus de mots sur un écran. Essayez les deux, les résultats changent tout de suite.",
+                "Choisissez la langue des significations et un affichage compact. Les résultats changent tout de suite.",
             descriptionStatic:
-                "Le mode compact affiche plus de mots sur un écran. Votre choix vaut pour tous les résultats et se modifie dans les paramètres.",
+                "Choisissez la langue des significations et un affichage compact. Vos choix valent pour tous les résultats et se modifient dans les paramètres.",
         },
         details: {
             title: "Chaque mot a sa propre page",
@@ -53,19 +53,19 @@ export default {
         settings: {
             title: "Favoris, paramètres et aide",
             description:
-                "Ouvre le menu pour tes favoris, les paramètres, les actualités et la page d’aide, où tu peux relancer cette visite. Essaie les paramètres de langue ici même, les changements s’appliquent tout de suite.",
-            descriptionSearchOnly:
-                "Ouvre le menu pour tes favoris, les paramètres, les actualités et la page d’aide, où tu peux relancer cette visite. Essaie la langue de recherche ici même, les changements s’appliquent tout de suite.",
+                "Ouvrez le menu pour vos favoris, les actualités et l’aide, où vous pouvez relancer cette visite. Les paramètres s’y trouvent aussi, avec tout ce que vous venez de régler. Changez la langue de l’application ici même.",
+            descriptionNoLanguage:
+                "Ouvrez le menu pour vos favoris, les actualités et l’aide, où vous pouvez relancer cette visite. Les paramètres s’y trouvent aussi, avec tout ce que vous venez de régler.",
         },
     },
     menuHint: {
-        text: "Les mots que tu ajoutes aux favoris se trouvent dans Favoris. Tu peux aussi y réviser chaque liste avec des cartes.",
+        text: "Les mots que vous ajoutez aux favoris se trouvent dans Favoris. Vous pouvez aussi y réviser chaque liste avec des cartes.",
         done: "Terminé",
     },
-    density: {
-        group: "Affichage des résultats",
-        default: "Normal",
-        compact: "Compact",
+    customize: {
+        group: "Réglages des résultats",
+        updated: "Résultats mis à jour.",
+        englishLocked: "Toujours activé tant que l’anglais est la langue de recherche.",
     },
     languages: {
         group: "Langues",
